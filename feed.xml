@@ -9,7 +9,7 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Sun, 01 Jan 2023 12:26:59 GMT</pubDate>
+    <pubDate>Sun, 01 Jan 2023 14:57:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -89,9 +89,9 @@
       
       <category domain="http://www.uncoverman.com/tags/Plugin/">Plugin</category>
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-4.html#disqus_thread</comments>
@@ -172,9 +172,9 @@
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-2.html#disqus_thread</comments>
@@ -228,11 +228,11 @@
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
+      <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
-      
-      <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
       
       
       <comments>http://www.uncoverman.com/weekly-1.html#disqus_thread</comments>

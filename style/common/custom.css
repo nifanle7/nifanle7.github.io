@@ -22,6 +22,11 @@ article strong{
   font-weight: 500
 }
 
+/* 文章图片最大高度 */
+.post-page .post-content img {
+  max-height: 1000px;
+}
+
 /* 涉及tag的代码片段背景 */
 .tag:not(body){
   background-color: transparent;
@@ -75,10 +80,10 @@ pre[class*=language-]::after {
 }
 
 /* 页脚 */
-:root body > footer {
+/* :root body > footer {
   margin: 0;
   background: #F2CA44;
-}
+} */
 
 
 /* 文章结束后的按钮移动端隐藏 */
