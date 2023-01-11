@@ -9,8 +9,34 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Sun, 08 Jan 2023 15:13:48 GMT</pubDate>
+    <pubDate>Wed, 11 Jan 2023 12:46:32 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>macOS终端生成文件树方法</title>
+      <link>http://www.uncoverman.com/get-file-tree-on-macOS.html</link>
+      <guid>http://www.uncoverman.com/get-file-tree-on-macOS.html</guid>
+      <pubDate>Tue, 10 Jan 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;在 Github 上浏览项目，或者观看一些开发教程时，会看到字符格式的文件夹目录结构，很清晰。方法简单的，使用 &lt;code&gt;tree&lt;/code&gt; 命令就能实现。&lt;/p&gt;
+&lt;p&gt;第一步，打开终端，使用 Homebrew 安装 &lt;code&gt;tree&lt;/code&gt;。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;brew install t</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/macOS/">macOS</category>
+      
+      
+      <comments>http://www.uncoverman.com/get-file-tree-on-macOS.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2022 年总结——拧一拧人生发条</title>
@@ -532,31 +558,6 @@
       
       
       <comments>http://www.uncoverman.com/the-way-of-reading-pdf-on-iphone.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>我的 2021</title>
-      <link>http://www.uncoverman.com/my-2021.html</link>
-      <guid>http://www.uncoverman.com/my-2021.html</guid>
-      <pubDate>Sun, 30 Jan 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h2 id=&quot;经历&quot;&gt;&lt;a href=&quot;#经历&quot; class=&quot;headerlink&quot; title=&quot;经历&quot;&gt;&lt;/a&gt;经历&lt;/h2&gt;&lt;p&gt;没想到我的 2021 年，以两周的咳嗽作为尾声结束了。在医院看病，总结一下我的 2021 年。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;工作上，从工业互联网转向了金融科技，从解决方案专家转向了敏捷项目管理&lt;/strong&gt;。新环境、新领域、新挑战。为了更好地做好新工作，</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/Summary/">Summary</category>
-      
-      
-      <comments>http://www.uncoverman.com/my-2021.html#disqus_thread</comments>
       
     </item>
     

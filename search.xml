@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>macOS终端生成文件树方法</title>
+      <link href="//get-file-tree-on-macOS.html"/>
+      <url>//get-file-tree-on-macOS.html</url>
+      
+        <content type="html"><![CDATA[<p>在 Github 上浏览项目，或者观看一些开发教程时，会看到字符格式的文件夹目录结构，很清晰。方法简单的，使用 <code>tree</code> 命令就能实现。</p><p>第一步，打开终端，使用 Homebrew 安装 <code>tree</code>。</p><pre><code class="line-numbers language-shell">brew install tree</code></pre><p>第二步，终端切换到指定文件下，使用 <code>tree</code> 命令，如果加了 <code>-L 1</code> 的参数，代表只展示一级目录，不加参数默认展示所有文件列表。</p><pre><code class="line-numbers language-shell">cd Desktoptree -L 1</code></pre><p>效果如下：</p><pre><code class="line-numbers language-shell">.├── db.json├── node_modules├── package.json├── public├── scaffolds├── source└── themes</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> macOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2022 年总结——拧一拧人生发条</title>
       <link href="//2022-summary.html"/>
       <url>//2022-summary.html</url>
