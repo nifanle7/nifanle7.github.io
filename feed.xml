@@ -87,7 +87,15 @@
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
+      <category domain="http://www.uncoverman.com/tags/iOS/">iOS</category>
+      
+      <category domain="http://www.uncoverman.com/tags/macOS/">macOS</category>
+      
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Windows/">Windows</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Eink/">Eink</category>
       
       
       <comments>http://www.uncoverman.com/tools-2022.html#disqus_thread</comments>
