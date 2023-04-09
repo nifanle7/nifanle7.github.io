@@ -88,6 +88,11 @@ pre[class*=language-]::after {
 
 /* 文章结束后的按钮移动端隐藏 */
 @media screen and (max-width: 770px){
+
+  body{
+    font-size: 0.9em;
+  }
+
   .jump-container.is-flex.is-justify-content-space-between.my-6{
     display: none !important;
   }
@@ -108,7 +113,7 @@ pre[class*=language-]::after {
     line-height: 2.1;
   }
 
-  footer span{
+  footer span, footer div{
     font-size: 0.85em;
   }
 
