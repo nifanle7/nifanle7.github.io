@@ -9,8 +9,34 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Sun, 09 Apr 2023 16:38:50 GMT</pubDate>
+    <pubDate>Mon, 29 May 2023 10:44:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Obsidian中Markdown导出PDF</title>
+      <link>http://www.uncoverman.com/export-pdf-in-obsidian.html</link>
+      <guid>http://www.uncoverman.com/export-pdf-in-obsidian.html</guid>
+      <pubDate>Sun, 28 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/05/29/xzFhe5tgjScD7fR.png&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
+&lt;p&gt;工作中会需要导出 PDF 给其他人，特别是现在大家都用微信协作，PDF 不会像 Word、PPT 一样文字和样式错位。&lt;/p&gt;
+&lt;p&gt;Obsidian 导出 PDF 有 &lt;a href=&quot;https://forum-zh.ob</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/Obsidian/">Obsidian</category>
+      
+      
+      <comments>http://www.uncoverman.com/export-pdf-in-obsidian.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>macOS 本地生成 AI 图片</title>
@@ -541,31 +567,6 @@
       
       
       <comments>http://www.uncoverman.com/part-of-russia-banks-are-banned-from-swift.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>个人博客建站历程</title>
-      <link>http://www.uncoverman.com/my-blog-building-experience.html</link>
-      <guid>http://www.uncoverman.com/my-blog-building-experience.html</guid>
-      <pubDate>Thu, 10 Feb 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;我的个人博客在 2014 年基于 WordPress 搭建。当时什么都不懂，凭着瞎折腾的热情，根据网上的教程，买阿里云的域名、备案，买阿里云的服务器，一步步地在服务器上安装 PHP、数据库等一整套工具，失败过 N 次，终于搭建成功。当时发文章，主力还是用的 WordPress 的编辑器。&lt;/p&gt;
-&lt;p&gt;随着 Markdown 的习惯养成，后来博文就全部用 Markdown 的方式保存下来，并</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/Blog/">Blog</category>
-      
-      
-      <comments>http://www.uncoverman.com/my-blog-building-experience.html#disqus_thread</comments>
       
     </item>
     

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Obsidian中Markdown导出PDF</title>
+      <link href="//export-pdf-in-obsidian.html"/>
+      <url>//export-pdf-in-obsidian.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://vip2.loli.io/2023/05/29/xzFhe5tgjScD7fR.png" alt="Banner"></p><p>工作中会需要导出 PDF 给其他人，特别是现在大家都用微信协作，PDF 不会像 Word、PPT 一样文字和样式错位。</p><p>Obsidian 导出 PDF 有 <a href="https://forum-zh.obsidian.md/t/topic/9844">多种方案</a>，我选择默认导出 PDF 的功能，支持双链图片，只是默认样式太丑了。所以专门写一个打印的 CSS 代码片段，满足个性化需求。</p><pre><code class="line-numbers language-css">/* 文件名可以命名为 print.css */@media print {    /* 页边距 */    @page {    margin: 0.3in;    }        body, p, li{    /* 行间距 */    line-height: 1.8;    /* 字体 */    font-family: Avenir next, -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;    /* 段后间距 */    padding-bottom: 3px;    }        /* callouts行间距 */    div.callout-title-inner{    line-height: 1.8;    }        /* 首行缩进 */    p{    text-indent: 2em;    }        /* 标题居中 */    h1,h2{    text-align: center;    }        /* 标题防页面截断、标题段落间距 */    h1, h2, h3, h4, h5, h6 {    page-break-after: avoid;    padding: 8px 0 ;    }          img {    display:block;    margin: 1em 0    }        a img {    border: none    }        /* 表格居中 */    table {    margin: 1px;    width: 100%;    border-collapse: collapse;    }        /* 表格文字居中 */    table,tr,th,td{    text-align: center !important;    }}</code></pre><p>效果如下。不过需要注意的是，不同人用同一个代码片段可能效果会有些差异，因为它跟使用的 Obsdian 主题也有关系。如果某些设置不生效，可以加上 <code>!important</code> 试一下。</p><p><img src="https://vip2.loli.io/2023/05/29/kFA1vWchi2DLRdn.png" alt="样例"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>macOS 本地生成 AI 图片</title>
       <link href="//generate-ai-image-with-stable-diffusion-on-macos.html"/>
       <url>//generate-ai-image-with-stable-diffusion-on-macos.html</url>

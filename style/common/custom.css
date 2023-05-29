@@ -203,6 +203,12 @@ pre[class*=language-]::after {
     text-align: center;
   }
 
+  /* .post-content h2>.headerlink{
+    background-image: linear-gradient(rgb(255, 255, 255) 60%, rgb(255, 177, 27) 40%);
+    padding: 2px, 13px;
+
+  } */
+
   .post-content h3{
     font-size: 1.05em;
     white-space: normal;
