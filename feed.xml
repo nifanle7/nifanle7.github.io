@@ -9,8 +9,37 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Thu, 15 Jun 2023 03:31:25 GMT</pubDate>
+    <pubDate>Sun, 02 Jul 2023 08:10:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关键对话实践</title>
+      <link>http://www.uncoverman.com/key-conversation-practice.html</link>
+      <guid>http://www.uncoverman.com/key-conversation-practice.html</guid>
+      <pubDate>Sat, 01 Jul 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/RC8g1eqmLQ7jbXx.jpg&quot; alt=&quot;对话&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在敏捷转型过程中，往往需要与关键人进行关键对话。关键对话的引导好坏，直接影响转型的结果，是敏捷教练的一项重要软技能。&lt;/p&gt;
+&lt;p&gt;那么，如何进行关键对话呢？可以分三个步骤：准备对话、开展对话和结束对话。&lt;/p&gt;
+&lt;h2 id=&quot;准备</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/">敏捷</category>
+      
+      <category domain="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7%E6%95%99%E7%BB%83/">敏捷教练</category>
+      
+      
+      <comments>http://www.uncoverman.com/key-conversation-practice.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>敏捷教练推广实践遇到阻力怎么办</title>
@@ -542,33 +571,6 @@
       
       
       <comments>http://www.uncoverman.com/obsidian-confetti.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Markdown 图片批量上传图床</title>
-      <link>http://www.uncoverman.com/upload-images-of-markdown-files-and-save-links.html</link>
-      <guid>http://www.uncoverman.com/upload-images-of-markdown-files-and-save-links.html</guid>
-      <pubDate>Sat, 26 Feb 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;平时记笔记时，我习惯使用 Markdown 语法，图片都是放在本地。写作时，在编辑器里复制粘贴一下，就自动生成了一个本地的相对路径链接，不依赖网络，比较符合自身的需求。&lt;/p&gt;
-&lt;p&gt;不过发布博客时，由于目前的静态博客是基于 Github 的，图片都上传到 G</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/Python/">Python</category>
-      
-      <category domain="http://www.uncoverman.com/tags/Markdown/">Markdown</category>
-      
-      
-      <comments>http://www.uncoverman.com/upload-images-of-markdown-files-and-save-links.html#disqus_thread</comments>
       
     </item>
     
