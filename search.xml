@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>2023与2022年体检报告对比</title>
+      <link href="//health-report-2023-vs-2022.html"/>
+      <url>//health-report-2023-vs-2022.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg" alt="image20230821150039.jpeg"></p><p>公司每年会有一次体检。近两年确实不比年轻，指标不好得更多了，毛病一大堆。:(</p><h2 id="变好"><a href="#变好" class="headerlink" title="变好"></a>变好</h2><p>唯一的好消息是，C14 转阴。因为去年 C14 测出阳性以后，判定为幽门螺杆菌，具有一定传染性。为了不影响家里的大人小孩，专门去医院开方，吃了两周左右的药，就好了。过程的副作用是经常要上洗手间，把毒素排出体外。</p><h2 id="变化不大"><a href="#变化不大" class="headerlink" title="变化不大"></a>变化不大</h2><p>1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。<br>2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。<br>3、双眼有近视弧形斑，需要避免过度用眼，特别是晚上关灯以后继续玩手机。</p><h2 id="变差"><a href="#变差" class="headerlink" title="变差"></a>变差</h2><p>血脂进一步多数指标变差。去年血脂类指标已经开始有好几项超标了，今年超得更多了，还是需要清淡饮食，多运动。==老话讲的好，管住嘴，迈开腿。==</p><p><img src="https://vip2.loli.io/2023/08/21/SfLhGFRkaBpPdO9.png" alt="image20230821144324.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Health </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关键对话实践</title>
       <link href="//key-conversation-practice.html"/>
       <url>//key-conversation-practice.html</url>
@@ -444,7 +469,7 @@
       <link href="//add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html"/>
       <url>//add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html</url>
       
-        <content type="html"><![CDATA[<p><img src="https://vip2.loli.io/2022/04/30/HzgQaybEldXkjoh.png" alt="https_cover"><br>Chrome、Safari 等浏览器开始对没有开启 HTTPS 的站点报不安全的访问页面了，而且听说在阿里云对于托管了域名的客户可以免费申请证书，于是趁着五一把博客的 HTTPS 证书加上了。</p><p>在网上搜索了一下，<strong>Github 托管自定义域名加阿里云免费 HTTPS 证书的成套解决方案并没看到，于是记录一下。</strong>不复杂，三步走。</p><p>1、在阿里云上购买 HTTPS 证书，费用为 0。</p><p><img src="https://vip1.loli.io/2022/04/30/4HUZf7osNpMrLwX.jpg" alt="aliyun_https_1"></p><p><img src="https://vip2.loli.io/2022/04/30/NOsuPiKMRILF2fT.jpg" alt="aliyun_https_2"></p><p>2、在阿里云上申请 HTTPS 证书。</p><p><img src="https://vip1.loli.io/2022/04/30/zTStr4JfaNcQ6iU.jpg" alt="aliyun_https_3"></p><p><img src="https://vip1.loli.io/2022/04/30/OkKVRZuiAXam1Ec.jpg" alt="aliyun_https_4"></p><p><img src="https://vip1.loli.io/2022/04/30/HSnLbD8yuVAtBPU.jpg" alt="aliyun_https_5"></p><p><img src="https://vip1.loli.io/2022/04/30/ePf1FqY8ncAiuwX.jpg" alt="aliyun_https_6"></p><p>3、在 Github 上开启强制访问 HTTPS，这样访问博客的时候就可以在浏览器上看到一个🔐「小锁」图标了。<strong>之前在网上搜索资料的时候，还以为要到 CloudFlare 上再做一些反向代理的设置，看起来很复杂。其实不用，只要打一个勾</strong>， <a href="https://weibo.com/1299070523/G51NBhTxN">Github 自定义域名会自动安装 SSL 证书了✌️</a> 。</p><p><img src="https://vip2.loli.io/2022/04/30/sW8a2wXeuxEh7tI.jpg" alt="aliyun_https_7"></p><p>参考链接：</p><ul><li><a href="https://developer.aliyun.com/article/875508">2022 阿里云免费 SSL 证书申请全过程（图文详解）</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://vip2.loli.io/2022/04/30/HzgQaybEldXkjoh.png" alt="https_cover"><br>Chrome、Safari 等浏览器开始对没有开启 HTTPS 的站点报不安全的访问页面了，而且听说在阿里云对于托管了域名的客户可以免费申请证书，于是趁着五一把博客的 HTTPS 证书加上了。</p><p>在网上搜索了一下，<strong>Github 托管自定义域名加阿里云免费 HTTPS 证书的成套解决方案并没看到，于是记录一下。</strong>不复杂，四步走。</p><p>1、在阿里云上购买 HTTPS 证书，费用为 0。</p><p><img src="https://vip1.loli.io/2022/04/30/4HUZf7osNpMrLwX.jpg" alt="aliyun_https_1"></p><p><img src="https://vip2.loli.io/2022/04/30/NOsuPiKMRILF2fT.jpg" alt="aliyun_https_2"></p><p>2、在阿里云上申请 HTTPS 证书。</p><p><img src="https://vip1.loli.io/2022/04/30/zTStr4JfaNcQ6iU.jpg" alt="aliyun_https_3"></p><p><img src="https://vip1.loli.io/2022/04/30/OkKVRZuiAXam1Ec.jpg" alt="aliyun_https_4"></p><p><img src="https://vip1.loli.io/2022/04/30/HSnLbD8yuVAtBPU.jpg" alt="aliyun_https_5"></p><p><img src="https://vip1.loli.io/2022/04/30/ePf1FqY8ncAiuwX.jpg" alt="aliyun_https_6"></p><p>3、在主机工作台 - 域名绑定下开启强制 HTTPS，选择证书。</p><p><img src="https://vip2.loli.io/2023/07/31/IVDFeL68bCH3BEw.png" alt="aliyun_https_8.png"></p><p>4、在 Github 上开启强制访问 HTTPS，这样访问博客的时候就可以在浏览器上看到一个🔐「小锁」图标了。<strong>之前在网上搜索资料的时候，还以为要到 CloudFlare 上再做一些反向代理的设置，看起来很复杂。其实不用，只要打一个勾</strong>， <a href="https://weibo.com/1299070523/G51NBhTxN">Github 自定义域名会自动安装 SSL 证书了✌️</a> 。</p><p><img src="https://vip2.loli.io/2022/04/30/sW8a2wXeuxEh7tI.jpg" alt="aliyun_https_7"></p><p>参考链接：</p><ul><li><a href="https://developer.aliyun.com/article/875508">2022 阿里云免费 SSL 证书申请全过程（图文详解）</a></li></ul>]]></content>
       
       
       <categories>
