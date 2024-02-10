@@ -9,8 +9,33 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Mon, 21 Aug 2023 14:42:06 GMT</pubDate>
+    <pubDate>Sat, 10 Feb 2024 14:22:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Obsidian Diagrams 插件布局混乱处理方法</title>
+      <link>http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html</link>
+      <guid>http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html</guid>
+      <pubDate>Fri, 09 Feb 2024 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Diagrams 插件用于 Obsidian 中 Drawio 绘图，可以画各种架构图、流程图。几年前刚出来的时候，还&lt;a href=&quot;&quot;&gt;奔歌&lt;/a&gt;过，可惜这两年都没什么维护，虽然没有什么新的功能更新，但答题</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/Obsidian/">Obsidian</category>
+      
+      
+      <comments>http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2023与2022年体检报告对比</title>
@@ -541,34 +566,6 @@
       
       
       <comments>http://www.uncoverman.com/obsidian-beautification.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>中国支付清算系统</title>
-      <link>http://www.uncoverman.com/cnaps.html</link>
-      <guid>http://www.uncoverman.com/cnaps.html</guid>
-      <pubDate>Sat, 09 Apr 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;中国现代化支付系统，英文全称为 China National Advanced Payment System，缩写 CNAPS，目前已升级到了第二代。CNAPS 并不是单指某一个系统，而是一个由很多子系统组成的系统集：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;以清算账户管理系统为核心。&lt;/li&gt;
-&lt;li&gt;大额支付系统、小额支付系统、支票影像交换系统、网银互联系统为业务应用系统。&lt;/li&gt;
-&lt;li&gt;支付管理</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/FinTech/">FinTech</category>
-      
-      
-      <comments>http://www.uncoverman.com/cnaps.html#disqus_thread</comments>
       
     </item>
     
