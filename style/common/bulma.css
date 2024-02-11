@@ -347,14 +347,14 @@ optgroup,
 select,
 textarea {
   /* uncoverman */
-  font-family: Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Jetbrains Mono",  "Noto Sans SC", Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: monospace;
+  font-family: "Jetbrains Mono", monospace;
 }
 
 body {
@@ -10285,25 +10285,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .is-family-primary {
   /* uncoverman */
-  font-family: Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Jetbrains Mono",  "Noto Sans SC", Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 .is-family-secondary {
   /* uncoverman */
-  font-family: Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Jetbrains Mono",  "Noto Sans SC", Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 .is-family-sans-serif {
   /* uncoverman */
-  font-family: Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Jetbrains Mono",  "Noto Sans SC", Mulish, "Noto Serif SC", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 .is-family-monospace {
-  font-family: monospace !important;
+  font-family: "Jetbrains Mono",  monospace !important;
 }
 
 .is-family-code {
-  font-family: monospace !important;
+  font-family: "Jetbrains Mono",  monospace !important;
 }
 
 .is-block {
