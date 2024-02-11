@@ -196,7 +196,7 @@ pre[class*=language-]::after {
   display: none;
   }
 
-  article > div > section > article:nth-child(1) > section > p{
+  article > div > section > article> section > p{
     margin-bottom: 2px !important;
   }
 
