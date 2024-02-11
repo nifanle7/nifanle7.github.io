@@ -191,6 +191,12 @@ pre[class*=language-]::after {
 
 @media screen and (max-width: 520px){
 
+/* read more */
+.button.is-default.mt-2.has-text-weight-semibold{
+  display: none;
+}
+
+
   .content h1 {
     font-size: 1.18em;
   }
@@ -240,6 +246,8 @@ pre[class*=language-]::after {
   .rich-link-card .rich-link-image {
     padding-bottom: 50%; 
 }
+
+
 
 }
 
