@@ -192,10 +192,13 @@ pre[class*=language-]::after {
 @media screen and (max-width: 520px){
 
 /* read more */
-.button.is-default.mt-2.has-text-weight-semibold{
+  .button.is-default.mt-2.has-text-weight-semibold{
   display: none;
-}
+  }
 
+  article > div > section > article:nth-child(1) > section > p{
+    margin-bottom: 2px !important;
+  }
 
   .content h1 {
     font-size: 1.18em;
@@ -246,8 +249,6 @@ pre[class*=language-]::after {
   .rich-link-card .rich-link-image {
     padding-bottom: 50%; 
 }
-
-
 
 }
 
