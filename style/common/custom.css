@@ -79,6 +79,10 @@ pre[class*=language-]::after {
   padding-top: 20px;
 }
 
+/* 取消文章结束分割线 */
+.post-page .comment-container{
+  border-top-width: 0px !important;
+}
 
 /* 页脚 */
 /* :root body > footer {
