@@ -1,0 +1,208 @@
+<!DOCTYPE html><html class="appearance-light" lang="zh"><head><meta charset="UTF-8"><title>RAID技术如何保护数据</title><meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- twitter 卡片 --><meta name="twitter:card" content="“summary_large_image”"><meta name="twitter:creator" content="@SisyphusNee"><meta name="og:url" content="http://www.uncoverman.com/raid.html"><meta name="og:title" content="RAID技术如何保护数据"><meta name="og:image" content="https://vip2.loli.io/2022/02/26/G1UEtkhABd4Tajo.png"><!-- End twitter 卡片 -->
+<!-- Google Analytics --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-93563342-1', 'auto');
+ga('send', 'pageview');</script><!-- End Google Analytics -->
+<!-- Baidu Analytics --><script>var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?" + 'cb066a32a61bf1dcd440879ca8a5ce3e';
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();</script><!-- End Baidu Analytics --><link rel="icon" href="/media/avatar.jpg"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><link rel="stylesheet" href="/style/common/custom.css"><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><!-- uncoverman--><!-- link(rel='stylesheet', href= url_for('/style/themes/highlight-theme-light.css'))--><!-- script(src= url_for("/js/highlight.pack.js"))--><link rel="stylesheet" href="/style/prism.css"><script src="/js/prism.js"></script><meta name="description" content="
+RAID 的名称为磁盘阵列，它的作用，是在多块硬盘组成的系统中，牺牲一块至多块硬盘的容量，来对数据的存储提供一定的容错能力。
+基本的 RAID 级别有 RAID0、RAID1、RAID5、RAID6。根据他们的排列组合，可以衍生出 RAID1+0、RAID5+0 等多种用法。
+RAID 的关键技术首先，介绍一个基础概念，RAID 技术主要有以下三个关键技术：
+
+镜像：将数据复制到多个磁盘，保证冗余。
+条带：将数据分片，同时读写至不同硬盘，提高读写速度。
+冗余校验：通过存储奇偶校验信息等方式，实现了对数据的冗余保护，当发生磁盘故障，可根据校验信息恢复数据。
+
+RAID 级别RAID0（条带存储）假设有 2 块硬盘，RAID0 是将数据条带化，也就是切片，分别写入 2 块硬盘中。因此，RAID0 将提供非常优.."><meta name="generator" content="Hexo 5.4.2">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/feed.xml" title="夜航船夫" type="application/rss+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">夜航船夫</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">RAID技术如何保护数据</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0 is-hidden-mobile"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/tools">Tools</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet is-hidden-mobile"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/tools">Tools</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#RAID-%E7%9A%84%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF"><span class="toc-text">RAID 的关键技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#RAID-%E7%BA%A7%E5%88%AB"><span class="toc-text">RAID 级别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID0%EF%BC%88%E6%9D%A1%E5%B8%A6%E5%AD%98%E5%82%A8%EF%BC%89"><span class="toc-text">RAID0（条带存储）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID1%EF%BC%88%E9%95%9C%E5%83%8F%E5%AD%98%E5%82%A8%EF%BC%89"><span class="toc-text">RAID1（镜像存储）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID5%EF%BC%88%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E5%AD%98%E5%82%A8%EF%BC%89"><span class="toc-text">RAID5（奇偶校验存储）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID6"><span class="toc-text">RAID6</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID10"><span class="toc-text">RAID10</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID50"><span class="toc-text">RAID50</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RAID-%E7%BA%A7%E5%88%AB%E5%AF%B9%E6%AF%94%E6%80%BB%E7%BB%93"><span class="toc-text">RAID 级别对比总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%83%AD%E5%A4%87%E7%9B%98%E4%B8%8E%E5%86%B7%E5%A4%87%E7%9B%98"><span class="toc-text">热备盘与冷备盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="toc-text">实现方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Q-amp-A"><span class="toc-text">Q&amp;A</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%88%97%E8%A1%A8"><span class="toc-text">参考列表</span></a></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/IT"><i class="tag post-item-tag">IT</i></a><a href="/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91"><i class="tag post-item-tag">工业互联网</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">RAID技术如何保护数据</h1><time class="has-text-grey" datetime="2020-04-08T16:00:00.000Z">2020-04-09</time><article class="mt-2 post-content"><p><img src="https://vip2.loli.io/2022/02/26/G1UEtkhABd4Tajo.png" alt="RAID"></p>
+<p>RAID 的名称为磁盘阵列，它的作用，是在多块硬盘组成的系统中，牺牲一块至多块硬盘的容量，来对数据的存储提供一定的容错能力。</p>
+<p>基本的 RAID 级别有 RAID0、RAID1、RAID5、RAID6。根据他们的排列组合，可以衍生出 RAID1+0、RAID5+0 等多种用法。</p>
+<h2 id="RAID-的关键技术"><a href="#RAID-的关键技术" class="headerlink" title="RAID 的关键技术"></a>RAID 的关键技术</h2><p>首先，介绍一个基础概念，RAID 技术主要有以下三个关键技术：</p>
+<ul>
+<li>镜像：将数据复制到多个磁盘，保证冗余。</li>
+<li>条带：将数据分片，同时读写至不同硬盘，提高读写速度。</li>
+<li>冗余校验：通过存储奇偶校验信息等方式，实现了对数据的冗余保护，当发生磁盘故障，可根据校验信息恢复数据。</li>
+</ul>
+<h2 id="RAID-级别"><a href="#RAID-级别" class="headerlink" title="RAID 级别"></a>RAID 级别</h2><h3 id="RAID0（条带存储）"><a href="#RAID0（条带存储）" class="headerlink" title="RAID0（条带存储）"></a>RAID0（条带存储）</h3><p>假设有 2 块硬盘，RAID0 是将数据条带化，也就是切片，分别写入 2 块硬盘中。因此，RAID0 将提供非常优秀的读写性能。比如，读写一个 2G 的文件，在普通硬盘上，要以单盘的速度读取/写入 2G 的数据，而如果在 2 盘 RAID0 阵列中，每个盘只需读取/写入 1G 的数据，2 个盘可以并行读取/写入，因此理论的读写速度将是单块硬盘的 2 倍。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/z3n8tsQGiH7VvZr.jpg"></p>
+<p>但是严格的说，RAID0 没有冗余，只要阵列中有一块硬盘坏掉，由于这块硬盘保存着所有数据（每个文件）的某一部分，所有数据都将无法读取，整个阵列中的数据将宣告报废。</p>
+<p>因此，<strong>RAID0 的优点是读写速度快，缺点是没有冗余。</strong></p>
+<h3 id="RAID1（镜像存储）"><a href="#RAID1（镜像存储）" class="headerlink" title="RAID1（镜像存储）"></a>RAID1（镜像存储）</h3><p>RAID1 是最安全的阵列方案，但也是空间利用率最低的方案。RAID1 将所有数据原封不动复制一份，放于另一块硬盘中。如果用 2 块 1T 的硬盘组成 RAID1 阵列，可用空间甚至只有 1T。因为剩下的 1 块硬盘中的数据与第一块硬盘一模一样。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/irNkoRxvD3TOzJc.jpg"></p>
+<p>至于 RAID1 阵列组的性能，读取性能取决于阵列中最快的硬盘（谁读的快就用谁的数据，反正数据都一样），而写入性能则取决于阵列中最慢的硬盘（要等所有硬盘写入结束，才完成写入操作）。</p>
+<p>因此，<strong>RAID1 的优点是安全性高，但是空间利用率低，只有 50%。</strong></p>
+<h3 id="RAID5（奇偶校验存储）"><a href="#RAID5（奇偶校验存储）" class="headerlink" title="RAID5（奇偶校验存储）"></a>RAID5（奇偶校验存储）</h3><p>在谈 RAID5 之前，先来讲一下什么是奇偶校验。而在讲奇偶校验之前呢，我们又要讲一下什么是「异或」操作。</p>
+<p>在计算机中，用晶体管能实现的操作并不是人类世界中我们所认知的「加」「减」「乘」「除」，而是二进制的 0 和 1 的运算。那么「异或」操作呢，就是二进制世界中的一种操作。它的法则只有八个字：「相同为 0，相异为 1」。如下表：</p>
+<table>
+<thead>
+<tr>
+<th>A 值</th>
+<th>B 值</th>
+<th>异或 XOR 结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<p>这里的 A 与 B 值就代表了两个位，从中可以发现，A 与 B 一样时，异或结果为 0，A 与 B 不一样时，异或结果就是 1，而且知道异或结果和 A 与 B 中的任何一个数值，就可以反推出另一个数值。比如 A 为 1，异或结果为 1，那么 B 肯定为 0，如果异或结果为 0，那么B肯定为 1。这就是异或编码与校验的基本原理。</p>
+<p>知道了异或操作，我们就可以拿它来做点事情了。想一个问题，如果我想知道一个 01 串中有奇数还是偶数个 1，可以怎么做？对的，就是用异或。将这个 01 串每一位异或，如果最终答案是 1，那么这个 01 串中就有奇数个 1；如果最终是 0，则意味着有偶数个 1。那么这个最终结果呢，就是奇偶校验的值。</p>
+<p>RAID5 阵列需要存储时，至少需要 3 块硬盘，每块硬盘会多存部分的奇偶校验信息，当任意一块磁盘损坏，就可以通过对剩余硬盘的数据做 XOR 异或操作来恢复损坏硬盘中的数据。因此，RAID5 最多可以坏掉 1 块硬盘。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/Dx86t2CTGqzIuN5.jpg"></p>
+<p><strong>值得注意的是，有一种说法：RAID5 阵列在第一块盘坏掉后，重建时第二块盘坏掉的几率大于 70%。</strong></p>
+<p>这个说法不一定正确。</p>
+<p>假设 RAID5 的阵列由多块硬盘组成,运行 3 年了,每天 24 小时工作，运行这么久硬盘或多或少会有些成长坏道，如果一块硬盘坏了，更换了新硬盘，Rebuild 时,其他硬盘的成长坏道将导致 Rebuild 失败,故有「第二块盘坏掉的几率大于70%」一说，实质是疏于管理造成的。</p>
+<p>运维人员积极关注 RAID 的健康状况可解决此问题。通过抓取 RAID 阵列卡的日志，查看阵列的「巡读日志」和硬盘的「Midea Error」数量，及时更换存在隐患的硬盘，避免阵列损坏。</p>
+<p>当然，这个解释也不一定正确，需要使用者自行判断，信不过 RAID5 的话可以选择 RAID6。</p>
+<h3 id="RAID6"><a href="#RAID6" class="headerlink" title="RAID6"></a>RAID6</h3><p>RAID6 基于 RAID5 的基础上，根据伽罗华域的乘除法多产生了一份校验信息，因此需要至少 4 块硬盘，其中有 2 块存储冗余数据（比 RAID5 多了一块），同时允许最多 2 块硬盘坏掉。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/9GrjbHgviaVWuxt.jpg"></p>
+<p>RAID6 的读取性能与 RAID5 相似，而写入性能由于加入了基于伽罗华域的乘除法，计算相比 XOR 异或计算更为复杂，因此比起 RAID5 来说更是慢上加慢。</p>
+<h3 id="RAID10"><a href="#RAID10" class="headerlink" title="RAID10"></a>RAID10</h3><p>介绍完 RAID0 与 RAID1，大家或许会发现如果是单独使用，它们俩都有着巨大的不足。因此，就有两种结合性的 RAID 方案被提出：RAID0+1 与 RAID1+0，分别简称为 RAID01 和 RAID10。这两种方案都是同时吸取了 RAID0 的读写快速优点与 RAID1 的安全容错优点，但是 <strong>RAID10 由于可以在相同的性能/容量下提供比 RAID01 更好的容错安全性，因此RAID01 已经被弃用。</strong></p>
+<p>要具体了解为什么弃用 RAID01 而选择 RAID10，我们要先分别了解它俩的原理。其实很简单，RAID01 就是先条带后镜像。而 RAID10 则先镜像后条带。</p>
+<p>接下来我们假设拥有 10 块 1T 硬盘，来看看它们两个的安全性：</p>
+<p><strong>RAID01</strong>：ABCDE 硬盘组 RAID0 容量 5T，FGHIJ 硬盘组 RAID0 容量 5T，两组硬盘组 RAID1 容量 5T。在坏掉一块硬盘的情况下（假设 F 坏掉），FGHIJ 组成的 RAID0 阵列失效，整个 RAID1 阵列处于降级（不健康）状态；此时若ABCDE 中任意一块硬盘再坏掉，将导致 ABCDE 组成的 RAID0 阵列失效，整个 RAID1 阵列将完全失效，数据全部丢失。因此在一块硬盘失效，阵列恢复重建过程中的失败率为 5/9，超过了 50%。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/pDKJcOSI1eHbPfd.jpg"></p>
+<p><strong>RAID10</strong>：AB 硬盘组 RAID1 容量 1T，CD 组 RAID1 容量 1T……依此类推组成 5 个 RAID1，之后再将这 5 个 1T 阵列组成 RAID0，容量 5T。依然假设坏掉 F 盘，此时 F 所处的 RAID1 阵列（E、F）处于降级状态，而整个 RAID0 阵列依然健康（由于RAID0阵列没有容错机制，因此除了健康就是失效，没有降级状态）；如果第二块硬盘坏掉，只要不是E盘，整个RAID0 阵列就不会失效。因此 RAID10 在一块硬盘失效，阵列恢复重建过程中的失败率仅为 1/9，只有 RAID01 的五分之一。</p>
+<p><img src="https://vip2.loli.io/2022/02/26/TRCEcjpZVHgBfi8.jpg"></p>
+<h3 id="RAID50"><a href="#RAID50" class="headerlink" title="RAID50"></a>RAID50</h3><p>RAID10 是用 2 块硬盘组 RAID1，之后再组 RAID0；而 RAID50 就是用 3 块硬盘组成 RAID5 阵列，之后再用多个RAID5 阵列组成 RAID0。如图所示：</p>
+<p><img src="https://vip2.loli.io/2022/02/26/toj5ZuOeLlNivSq.jpg"></p>
+<p>RAID50 的限制是最少 6 块硬盘，同时硬盘的数量要是 3 的倍数。而它的空间利用率达到了 2/3，容错率也达到了 1/3，可谓是比较平衡的一种大量硬盘存储的解决方案了。</p>
+<h3 id="RAID-级别对比总结"><a href="#RAID-级别对比总结" class="headerlink" title="RAID 级别对比总结"></a>RAID 级别对比总结</h3><table>
+<thead>
+<tr>
+<th>RAID 级别</th>
+<th>RAID0</th>
+<th>RAID1</th>
+<th>RAID5</th>
+<th>RAID6</th>
+<th>RAID10</th>
+<th>RAID50</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>容错性</td>
+<td>无</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+</tr>
+<tr>
+<td>冗余类型</td>
+<td>无</td>
+<td>镜像</td>
+<td>校验</td>
+<td>校验</td>
+<td>镜像</td>
+<td>校验</td>
+</tr>
+<tr>
+<td>读性能</td>
+<td>高</td>
+<td>低</td>
+<td>高</td>
+<td>高</td>
+<td>中间</td>
+<td>高</td>
+</tr>
+<tr>
+<td>随机写性能</td>
+<td>高</td>
+<td>低</td>
+<td>低</td>
+<td>低</td>
+<td>中间</td>
+<td>中间</td>
+</tr>
+<tr>
+<td>连续写性能</td>
+<td>高</td>
+<td>低</td>
+<td>低</td>
+<td>低</td>
+<td>中间</td>
+<td>中间</td>
+</tr>
+<tr>
+<td>需要磁盘数</td>
+<td>≥2</td>
+<td>2N（N≥1）</td>
+<td>≥3</td>
+<td>≥4</td>
+<td>2N（N≥2）</td>
+<td>6N（N≥1）</td>
+</tr>
+<tr>
+<td>最大允许损坏磁盘数</td>
+<td>0</td>
+<td>N</td>
+<td>1</td>
+<td>2</td>
+<td>N</td>
+<td>2N</td>
+</tr>
+<tr>
+<td>可用容量</td>
+<td>100%</td>
+<td>50%</td>
+<td>＞66%</td>
+<td>＞50%</td>
+<td>50%</td>
+<td>＞66%</td>
+</tr>
+</tbody></table>
+<p><strong>总结：数据保护要求级别特别高的，建议使用 RAID10，常规的数据可以使用 RAID5，对于 RAID5 不信任，可以使用 RAID6。</strong></p>
+<h2 id="热备盘与冷备盘"><a href="#热备盘与冷备盘" class="headerlink" title="热备盘与冷备盘"></a>热备盘与冷备盘</h2><p>如果具有容错冗余能力的 RAID 阵列中坏掉了一块硬盘，RAID 阵列会如何自我进行恢复呢？</p>
+<p>以 2 盘的 RAID1 为例。假如坏掉了一块盘，RAID1 阵列将只有 1 块盘在正常运行，这时的 RAID1 阵列将处于降级（Degraded）状态，也就意味着当前阵列已无容错冗余能力，虽然还能继续运行，但是数据已经不安全，需要人为干预进行修复。只需要拔出坏掉的硬盘，换一块相同容量的、好的硬盘插上去，RAID1 阵列就会自动开始恢复重建过程。简单来说，就是将剩余 1 块盘中的数据重新拷贝到新换上的这块盘中。根据硬盘大小的不同，阵列恢复重建过程将从十几小时到几十小时不等。</p>
+<p>那么，换上的这块硬盘，不管是从抽屉里拿出来的还是去科技市场买了一块新的，都是通过人为操作插入到整个阵列里的。在出问题之前，这块盘就冷冷的躺在抽屉里而并不会通电，这块盘就叫冷备盘（Cold Spare）。</p>
+<p>那能不能让阵列自动找一块好的硬盘来替换掉坏掉的盘呢？当然可以。</p>
+<p>通过热备盘（Hot Spare）实现。简单来说，就是在建好 RAID 阵列后，再向其中插入 1 到多块与阵列中硬盘相同容量的盘，将其设置为 Hot Spare 模式。这些盘在阵列健康的时候就静静的呆在那，也不存数据，也没有读写访问。一旦阵列中有硬盘出问题，阵列处于 Degraded 状态时，RAID控制器会立即激活热备盘，开始阵列的恢复重建工作。</p>
+<p>配备热备盘的好处是当阵列出现问题时，可以第一时间启动恢复重建操作，而不必等操作人员发现之后再手动操作。这样就避免了阵列在（降级后，操作人员发现之前）的这段时间内「带病运行」，增加了数据的可靠性。当然，缺点就是又增加了成本。</p>
+<p>戴尔服务器 R740 的配置单里写着「硬盘4*6T（Raid5+1）」，指的就是有 4 块 6T 的硬盘。RAID5+1，是指 4 块硬盘其中 3 块做 RAID5，剩余 1 块做热备硬盘。</p>
+<blockquote>
+<p>注：有些材料写的 RAID51 与 RAID5+1 是不一样的，RAID51 是指 6 块以上硬盘，其中 3 块硬盘做成 RAID5，另外 3 块硬盘做这个 RAID5 的镜像。</p>
+</blockquote>
+<h2 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h2><p>RAID 阵列的实现分为硬实现和软实现，组成的阵列分别称为硬 RAID 和软 RAID。</p>
+<p>1、硬 RAID<br>硬实现是通过硬件（RAID 卡）插在服务器上，类似于单独插显卡，优点是配备了专门的 RAID 控制/处理芯片和 I/O 处理芯片以及阵列缓冲，不占用服务器的 CPU 资源，性能较好，有缓存的 RAID 卡还可以提高随机读写性能。缺点是不够灵活，用 RAID 卡组 RAID 后，如果不解除/撤销/取消，阵列中的硬盘直接挂载到别的电脑上是无法使用的。以及需要额外的硬件，成本较高。<a target="_blank" rel="noopener" href="https://www.v2ex.com/amp/t/606191">当阵列柜损坏，更换阵列柜型号需要谨慎，如果更换品牌更要再三确认。</a></p>
+<p>2、软 RAID<br>软 RAID 就是通过软件方式实现的 RAID，。磁盘数据的读写由 CPU 完成，系统可以识别出阵列中所有的硬盘。优点是使用灵活，拆下后可直接在其他电脑上使用，成本较低，操作简单。缺点是占用服务器 CPU 资源，性能较差。</p>
+<p>生产环境一般使用硬实现，性能更好，特别是针对 RAID5、RAID6等。</p>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><p>Q：<a target="_blank" rel="noopener" href="http://mtoou.info/1160.html">RAID10 和 RAID5 区别比较，利用率与安全的取舍？</a></p>
+<p>A：要求较高的空间利用率，对安全性要求不是特别高、大文件存储的系统采用 RAID5 比较好，值得注意的是 RAID5 重建，需要时间长，对于剩余的硬盘压力大，如果此时再损坏硬盘，就全军覆没了。相反，安全性要求很高，不计成本，小数据量频繁写入的系统采用 RAID10 的方式比较好。另外需要考虑的是，磁盘数量增加，对电源的要求上升，能耗也加大了，且服务器散热风扇的噪音也将增大。</p>
+<p>Q：不同大小的磁盘是否可以组 RAID？<br>A：可以，以最小容量的磁盘作为 RAID 的有效容量。</p>
+<p>Q：<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/338888334/answer/781935448">软件定义存储与传统磁盘阵列有哪些区别？</a><br>A：两者扩展性、兼容性、易用性不同。</p>
+<p><strong>最后，磁盘阵列主要解决的是冗余的问题，备份方案需要另外考虑。</strong></p>
+<h2 id="参考列表"><a href="#参考列表" class="headerlink" title="参考列表"></a>参考列表</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/O_2dQT0JhMGZI5QyUYLCow">小科普 | RAID磁盘阵列是个啥？</a></li>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/8bH9lzBsFCfUT4MbTd62uA">小科普 | RAID磁盘阵列还有什么玩法？</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/20131784/answer/90235520">RAID有哪几种？有什么区别？</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19613331">软 RAID 和硬 RAID 各有什么优劣？</a></li>
+</ul>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/skills-for-soulvoice-club-pt.html" title="以聆音 Club 为例科普一下 PT 的玩法"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">Previous: 以聆音 Club 为例科普一下 PT 的玩法</span></a><a class="button is-default" href="/ford-v-ferrari.html" title="极速车王"><span class="has-text-weight-semibold">Next: 极速车王</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script src="https://giscus.app/client.js" data-repo="nifanle7/nifanle7.github.io" data-repo-id="R_kgDOGKLSRA" data-category="General" data-category-id="DIC_kwDOGKLSRM4CdPOT" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="https://cdn.jsdelivr.net/gh/nifanle7/nifanle7.github.io@53288fd681ad0dd177db5c3174aaf3efd0635603/style/common/giscus-custom.css" data-lang="zh-CN" crossorigin="anonymous" async></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com/SisyphusNee"><i class="iconfont icon-twitter"></i></a><!-- Github--><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/feed.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/uncoverman"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--></section><p><span>Copyright ©</span><a href="/">夜航船夫</a><span> 2015-2024</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><a title="浙ICP备15005499号" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备15005499号</a></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>
