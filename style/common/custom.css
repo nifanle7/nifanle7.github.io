@@ -6,7 +6,7 @@
 body .tag.post-item-tag{
   color: rgb(255, 160, 0) !important;
   background-color: rgba(255,212,0,0.14) !important;
-  border-color: rgb(255, 160, 0) !important;
+  border-color: 0.5px solid rgb(255, 160, 0) !important;
 }
 
 .post-container .paginator .page-number.current, .post-container .paginator .extend.current{
