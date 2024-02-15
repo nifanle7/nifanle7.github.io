@@ -21,7 +21,9 @@
         
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Diagrams 插件用于 Obsidian 中 Drawio 绘图，可以画各种架构图、流程图。几年前刚出来的时候，还&lt;a href=&quot;&quot;&gt;奔歌&lt;/a&gt;过，可惜这两年都没什么维护，虽然没有什么新的功能更新，但大体</description>
+&lt;p&gt;Diagrams 插件用于 Obsidian 中 Drawio 绘图，可以画各种架构图、流程图。几年前刚出来的时候，还&lt;a href=&quot;&quot;&gt;奔歌&lt;/a&gt;过，可惜这两年都没什么维护，虽然没有什么新的功能更新，但大体能用。&lt;/p&gt;
+&lt;p&gt;然而，在 Obsidian 15 中，出现了一个致命问题，打开来以后布局混乱，没有办法直接使用。&lt;/p&gt;
+&lt;p&gt;研究了一下解决方案，说来也简单，只要在 &lt;code&gt;.obsidian/plugins/drawio-obsidian/&lt;/code&gt;把 &lt;a href=&quot;main.jshttps://www.alipan.com/s/hE6P36qwkTM&quot;&gt;main.js&lt;/a&gt; 替换一下即可。具体原理详见 &lt;a href=&quot;https://github.com/zapthedingbat/drawio-obsidian/issues/89&quot;&gt;Issues&lt;/a&gt;。&lt;/p&gt;</description>
         
       
       
@@ -47,7 +49,8 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;公司每年会有一次体检。近两年确实不比年轻，指标不好得更多了，毛病一大堆。:(&lt;/p&gt;
-&lt;h2 id=&quot;变好&quot;&gt;&lt;a href=&quot;#变好&quot; class=&quot;headerlink&quot; title=&quot;</description>
+&lt;h2 id=&quot;变好&quot;&gt;&lt;a href=&quot;#变好&quot; class=&quot;headerlink&quot; title=&quot;变好&quot;&gt;&lt;/a&gt;变好&lt;/h2&gt;&lt;p&gt;唯一的好消息是，C13 呼气试验转阴。因为去年 C13 呼气试验测出阳性以后，判定为幽门螺杆菌，具有一定传染性。为了不影响家里的大人小孩，专门去医院开方，吃了两周左右的药，就好了。过程的副作用是经常要上洗手间，把毒素排出体外。&lt;/p&gt;
+&lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。&lt;br&gt;2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。&lt;br&gt;3、双眼有近视</description>
         
       
       
@@ -74,7 +77,9 @@
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg&quot; alt=&quot;对话&quot;&gt;&lt;/p&gt;
 &lt;p&gt;在敏捷转型过程中，往往需要与关键人进行关键对话。关键对话的引导好坏，直接影响转型的结果，是敏捷教练的一项重要软技能。&lt;/p&gt;
 &lt;p&gt;那么，如何进行关键对话呢？可以分三个步骤：准备对话、开展对话和结束对话。&lt;/p&gt;
-&lt;h2 id=&quot;准备</description>
+&lt;h2 id=&quot;准备对话&quot;&gt;&lt;a href=&quot;#准备对话&quot; class=&quot;headerlink&quot; title=&quot;准备对话&quot;&gt;&lt;/a&gt;准备对话&lt;/h2&gt;&lt;p&gt;在准备对话时，教练首先要做的是选择话题。&lt;/p&gt;
+&lt;p&gt;关键对话中往往同时存在多个话题，需要聚焦话题，避免避重就轻，否则难以达到对话目标。&lt;strong&gt;话题分为内容层面、模式层面、关系层面，分别对应着就事论事，就事论行，就事论人，在准备过程中要明确所在的对话层次。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;举个例子，有人多次叫错你的名字，在不同层面处理对话方式不同：①维持在内容层面。有人叫错你的名字，马上纠正，立刻解决问题。②上升到模式层面。表达你的担忧，说他叫错你的</description>
         
       
       
@@ -104,7 +109,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;作为教练，如果你进到团队，团队很多人觉得你要推的实践没啥用，只是增加额外工作，你来团队的话必然会有诸多的阻力，你准备怎么开展你的工作?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;教练推广实践遇到阻力是</description>
+&lt;p&gt;教练推广实践遇到阻力是一个普遍要面对的问题，如何解决对教练是一个比较大的考验。个人觉得可以使用“与管理层建立连接”、“跟基层构建信任”、“用道具加速推广”、“选团队树立榜样”一整套组合拳进行推进。&lt;/p&gt;
+&lt;h2 id=&quot;与管理层建立连接&quot;&gt;&lt;a href=&quot;#与管理层建立连接&quot; class=&quot;headerlink&quot; title=&quot;与管理层建立连接&quot;&gt;&lt;/a&gt;与管理层建立连接&lt;/h2&gt;&lt;p&gt;教练作为外部人员，无职权影响力，那如何影响团队，关键需要管理层的支持，可以分三步走：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在实践推广之前，教练与管理层进行&lt;strong&gt;专题沟通&lt;/strong&gt;，说明要推行的实践内容以及带来的价值，一方</description>
         
       
       
@@ -130,7 +138,19 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/05/29/xzFhe5tgjScD7fR.png&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
 &lt;p&gt;工作中会需要导出 PDF 给其他人，特别是现在大家都用微信协作，PDF 不会像 Word、PPT 一样文字和样式错位。&lt;/p&gt;
-&lt;p&gt;Obsidian 导出 PDF 有 &lt;a href=&quot;https://forum-zh.ob</description>
+&lt;p&gt;Obsidian 导出 PDF 有 &lt;a href=&quot;https://forum-zh.obsidian.md/t/topic/9844&quot;&gt;多种方案&lt;/a&gt;，我选择默认导出 PDF 的功能，支持双链图片，只是默认样式太丑了。所以专门写一个打印的 CSS 代码片段，满足个性化需求。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;/* 文件名可以命名为 print.css */
+@media print {
+
+    /* 页边距 */
+    @page {
+    margin: 0.3in;
+    }
+    
+    body, p, li{
+    /* 行间距 */
+    line-height: 1.8;
+    /*</description>
         
       
       
@@ -156,7 +176,13 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/04/10/NpolvfPERitBjZ1.png&quot; alt=&quot;night-city-H.16.622945641.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;好消息，macOS 可以本地生成 AI 图片了！&lt;/p&gt;
-&lt;p&gt;日前，苹果公司发布了 &lt;a href=&quot;https://github.com/apple/ml-stable-dif</description>
+&lt;p&gt;日前，苹果公司发布了 &lt;a href=&quot;https://github.com/apple/ml-stable-diffusion&quot;&gt;Core ML Stable Diffusion 框架&lt;/a&gt;，可以在 macOS 上原生运行 Stable Diffusion，利用 AI 生成图片。目前市面上主流的 AI 图片服务都需要收费，订阅制而且有额度限制，对于轻度使用并不友好。现在可以通过本地运行的方式，免费生成 AI 图片，以后博客文章的 banner 不愁了。😁&lt;/p&gt;
+&lt;p&gt;不过，有两个前提：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apple 芯片的 Mac (M1 及后续)&lt;/li&gt;
+&lt;li&gt;macOS Ventura 13.1 以上&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;操作方法&quot;&gt;&lt;a href=&quot;#操作方法&quot; </description>
         
       
       
@@ -184,7 +210,17 @@
         
       <description>&lt;p&gt;在 Github 上浏览项目，或者观看一些开发教程时，会看到字符格式的文件夹目录结构，很清晰。方法简单的，使用 &lt;code&gt;tree&lt;/code&gt; 命令就能实现。&lt;/p&gt;
 &lt;p&gt;第一步，打开终端，使用 Homebrew 安装 &lt;code&gt;tree&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;brew install t</description>
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;brew install tree
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第二步，终端切换到指定文件下，使用 &lt;code&gt;tree&lt;/code&gt; 命令，如果加了 &lt;code&gt;-L 1&lt;/code&gt; 的参数，代表只展示一级目录，不加参数默认展示所有文件列表。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;cd Desktop
+tree -L 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;.
+├── db.json
+├── node_modules
+├── packag</description>
         
       
       
@@ -210,7 +246,8 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg&quot; alt=&quot;2022001.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2022 年结束了，很想总结点什么，蓦然回首，发现要说道的并不多，工作生活要么太细碎，要么有隐私，而且说到底，年份这个概念也只是个人造刻度。转念一想，拧一拧人生发条也未尝不可，不然人会生锈，你说是不？&lt;/p&gt;
-&lt;p</description>
+&lt;p&gt;在这一年里，我经历了 1 次为期一周的封控，感染了 1 次新冠。在此期间，我用烤箱做了 4 次烤鸡，烤鸡的技术倒是越来越娴熟，用的是下厨房 &lt;a href=&quot;https://www.xiachufang.com/recipe/106648142/&quot;&gt;完美烤鸡菜谱&lt;/a&gt;，把植物油和蜂蜜是否涂刷、烤制时间长短、铺底萝卜土豆大小、添加调料的不同等进行了尝试，仔细体会其产生的不同结果。话说，&lt;strong&gt;做菜还真是几分耕耘几分收获&lt;/strong&gt;，过程中哪一道工序遗漏或者分量不对，结果立马反映出来，谁都不可能靠运气做出一道又一道好吃的菜。&lt;/p&gt;
+&lt;p&gt;住的房子从去年开始在贝壳找房上挂，经过了</description>
         
       
       
@@ -240,7 +277,11 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/DqJNhLXQi5Soxfm.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;以下为个人常用的工具，并关联了之前写过的文章。既作软件工具的推荐，又作博客文章的索引。&lt;/p&gt;
-&lt;h2 id=&quot;macOS-系统&quot;&gt;&lt;a href=&quot;#macOS-系统&quot; class=&quot;headerlink&quot; title=&quot;macOS 系统&quot;&gt;&lt;/a&gt;</description>
+&lt;h2 id=&quot;macOS-系统&quot;&gt;&lt;a href=&quot;#macOS-系统&quot; class=&quot;headerlink&quot; title=&quot;macOS 系统&quot;&gt;&lt;/a&gt;macOS 系统&lt;/h2&gt;&lt;p&gt;效率及美化：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/e0471aa6672d&quot;&gt;Homebrew&lt;/a&gt; ：通过命令行管理软件，安装和卸载软件都很方便。习惯之后，到 Windows 上都快不适应了。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dwarvesf/hidden/releases/latest&quot;&gt;Hidden Bar&lt;/a&gt;：隐藏菜单栏的图标。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mowglii.com/itsycal/&quot;&gt;Ityscal&lt;</description>
         
       
       
@@ -272,7 +313,9 @@
       
         
         
-      <description>&lt;h2 id=&quot;遗忘&quot;&gt;&lt;a href=&quot;#遗忘&quot; class=&quot;headerlink&quot; title=&quot;遗忘&quot;&gt;&lt;/a&gt;遗忘&lt;/h2&gt;&lt;p&gt;朋友家刚休完产假，小宝宝 5 个月大。周末拎了 2 袋尿不湿和 1 袋水果去看望了一下。聊天时，聊到自己小宝宝一天睡几次，每次睡多久，睡眠情况怎么样，虽然才过去 1 年半，发现具体的细节却已有些想不起来了。还是要多拍照、拍视频、写文字记录，不然很容易遗忘。这也</description>
+      <description>&lt;h2 id=&quot;遗忘&quot;&gt;&lt;a href=&quot;#遗忘&quot; class=&quot;headerlink&quot; title=&quot;遗忘&quot;&gt;&lt;/a&gt;遗忘&lt;/h2&gt;&lt;p&gt;朋友家刚休完产假，小宝宝 5 个月大。周末拎了 2 袋尿不湿和 1 袋水果去看望了一下。聊天时，聊到自己小宝宝一天睡几次，每次睡多久，睡眠情况怎么样，虽然才过去 1 年半，发现具体的细节却已有些想不起来了。还是要多拍照、拍视频、写文字记录，不然很容易遗忘。这也是每周会写点东西的原因。&lt;/p&gt;
+&lt;h2 id=&quot;湊湊火锅&quot;&gt;&lt;a href=&quot;#湊湊火锅&quot; class=&quot;headerlink&quot; title=&quot;湊湊火锅&quot;&gt;&lt;/a&gt;湊湊火锅&lt;/h2&gt;&lt;p&gt;疯投圈最近聊了一期火锅的节目，中国目前火锅市场占有率第一的是海底捞，第二名是湊湊火锅。以前从没听说过第二名，没想到宁波已经开了 4 家分店。本周朋友聚会选了这个品牌，去尝试了一下，印象不错。&lt;/p&gt;
+&lt;p&gt;他们家的花胶鸡锅底是特色，鸡肉很鲜。第一次吃到芝士夹心的鱼豆腐，耳目一新。店里赠送的东西挺多的，有儿童餐、芒果沙冰、鸭血豆腐、冰淇淋。芒果沙冰可以无限续杯，很爽口。鸭血豆腐微辣，鸭血不是以往吃的那种软塌塌</description>
         
       
       
@@ -304,7 +347,10 @@
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png&quot; alt=&quot;pandoc&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Markdown 格式，只要接受了，就会爱上它。虽然会有标记符号在其中，但是不开预览模式，基本也能障碍阅读。&lt;/p&gt;
-&lt;p&gt;但是对于普通人来说，直接看 md 文件并不友好。这时，我们会考虑，能否把 md 文件导出成为 Word</description>
+&lt;p&gt;但是对于普通人来说，直接看 md 文件并不友好。这时，我们会考虑，能否把 md 文件导出成为 Word 格式？&lt;/p&gt;
+&lt;p&gt;当然可以。&lt;/p&gt;
+&lt;h2 id=&quot;Pandoc-软件&quot;&gt;&lt;a href=&quot;#Pandoc-软件&quot; class=&quot;headerlink&quot; title=&quot;Pandoc 软件&quot;&gt;&lt;/a&gt;Pandoc 软件&lt;/h2&gt;&lt;p&gt;Pandoc 的出现就是为了解决这个问题。它就是一把「瑞士军刀」，可以实现多种文本格式的相互转换，不仅可以把 md 文件导出为 Word，还可以导出为 PDF、ePub 甚至是 PPT，更多的格式转换可以查阅&lt;a href=&quot;https://www.pandoc.org/index.html&quot;&gt;官网&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;使用方法是下载安装 Pandoc，</description>
         
       
       
@@ -333,7 +379,12 @@
       <description>&lt;h2 id=&quot;佩洛西访台&quot;&gt;&lt;a href=&quot;#佩洛西访台&quot; class=&quot;headerlink&quot; title=&quot;佩洛西访台&quot;&gt;&lt;/a&gt;佩洛西访台&lt;/h2&gt;&lt;p&gt;本周国人最关心的政治事件要属「佩洛西窜访台湾」了。当时有两大悬念：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;佩洛西会不会在中国强烈反对下，一意孤行窜访台湾。&lt;/li&gt;
-&lt;li&gt;佩洛西如果访台，是否会发生军事冲突，甚至引发战争，毕竟有俄乌冲突的先例。&lt;</description>
+&lt;li&gt;佩洛西如果访台，是否会发生军事冲突，甚至引发战争，毕竟有俄乌冲突的先例。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;结果是，她为了所在政党今年的中期选举，仍有意挑起大陆和台湾的冲突。虽然在提前正式公布的行程里没有台湾，但还是在 8.2 晚上 10 点专机改变行程，降落了台湾，并于次日 17 点离开。&lt;/p&gt;
+&lt;p&gt;当天晚上，民意滔滔。微博甚至做了「战略性熔断」，大陆地区的人那关键的 1-2 小时里刷不出微博，抖音、B 站对佩洛西飞机行程的直播也中断了，避免民情发酵。大家都担心会打仗，个人甚至也有点希望发生一些冲突「以振国威」。&lt;/p&gt;
+&lt;p&gt;所幸，中国大陆还是很克制，并没有发动军事冲突，以军事演习和经济制裁收场。擦枪未走火，一度发绿的股市也回弹了。&lt;/p&gt;
+&lt;p&gt;经过这一次事件，</description>
         
       
       
@@ -359,7 +410,11 @@
       
         
         
-      <description>&lt;h2 id=&quot;乱翻书&quot;&gt;&lt;a href=&quot;#乱翻书&quot; class=&quot;headerlink&quot; title=&quot;乱翻书&quot;&gt;&lt;/a&gt;乱翻书&lt;/h2&gt;&lt;p&gt;本周重读了一下池建强的《 &lt;a href=&quot;https://book.douban.com/subject/25826578/&quot;&gt;MacTalk·人生元编程&lt;/a&gt; 》，很多年前看过，但是还是在重温的过程，发现有些 macOS 的操作技巧想法，跟自己的</description>
+      <description>&lt;h2 id=&quot;乱翻书&quot;&gt;&lt;a href=&quot;#乱翻书&quot; class=&quot;headerlink&quot; title=&quot;乱翻书&quot;&gt;&lt;/a&gt;乱翻书&lt;/h2&gt;&lt;p&gt;本周重读了一下池建强的《 &lt;a href=&quot;https://book.douban.com/subject/25826578/&quot;&gt;MacTalk·人生元编程&lt;/a&gt; 》，很多年前看过，但是还是在重温的过程，发现有些 macOS 的操作技巧想法，跟自己的现 在的用法不谋而合，有些开心。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Finder 中输入 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 可以显示隐藏文件。想恢复原来的设置，再输入一遍 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 即可。最早的时候，我都是在  Terminal 里输入命令行实现的。&lt;/li&gt;
+&lt;li&gt;触发角把左下角设置为「睡眠」，当我们暂时离开电脑时，顺手把鼠标滑到左下角，屏幕就变黑，比用快捷键更轻松。&lt;/li&gt;
+&lt;li&gt;在 Terminal 键入 &lt;co</description>
         
       
       
@@ -388,7 +443,15 @@
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/E7sbvKFRye3JQDg.png&quot; alt=&quot;刮擦示意图&quot;&gt;&lt;/p&gt;
 &lt;p&gt;早上开车，向左变道，刮擦到了前方直行车辆的左后方车漆。&lt;/p&gt;
 &lt;p&gt;我全责。&lt;/p&gt;
-&lt;p&gt;损失倒不到，我的车只是塑料挡泥板上有一道划痕，不需要维修，她的车油漆有一些划痕，但没有变形。毛估估，总体维修费用在 800 元以内。&lt;</description>
+&lt;p&gt;损失倒不到，我的车只是塑料挡泥板上有一道划痕，不需要维修，她的车油漆有一些划痕，但没有变形。毛估估，总体维修费用在 800 元以内。&lt;/p&gt;
+&lt;p&gt;由于 3 年来第一次出险，有点不知所措。而且不知道要赔对方多少。&lt;/p&gt;
+&lt;p&gt;在对方司机的指导下先打交警电话，再一起开车去理赔中心开《责任认定书》，定损。&lt;/p&gt;
+&lt;p&gt;理赔中心有保险公司人员驻点。定损出来需要 800 元，用我的交强险直接赔付，明年我的交强险涨 300 元左右，没有用到商业险，所以没有私了，还是划算的。&lt;/p&gt;
+&lt;p&gt;对方司机获得赔付后也很开心，因为正好可以把其他地方的车漆一起维修了。&lt;/p&gt;
+&lt;p&gt;要点总结如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行车出现小刮擦，不涉及人身伤害，如果大家能对赔偿达成一致，可以直接私了，不用跑理赔中心来来回回的。&lt;/li&gt;
+&lt;li&gt;如</description>
         
       
       
@@ -415,7 +478,12 @@
         
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/GjJ1hnsCgPWqBNe.jpg&quot; alt=&quot;明朝有封事，数问夜如何&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一首诗&quot;&gt;&lt;a href=&quot;#一首诗&quot; class=&quot;headerlink&quot; title=&quot;一首诗&quot;&gt;&lt;/a&gt;一首诗&lt;/h2&gt;&lt;p&gt;新买的 Boox Poke4S 屏保可以设为诗词，最近在上面看到一首杜甫的</description>
+&lt;h2 id=&quot;一首诗&quot;&gt;&lt;a href=&quot;#一首诗&quot; class=&quot;headerlink&quot; title=&quot;一首诗&quot;&gt;&lt;/a&gt;一首诗&lt;/h2&gt;&lt;p&gt;新买的 Boox Poke4S 屏保可以设为诗词，最近在上面看到一首杜甫的诗，挺喜欢的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;春宿左省&lt;br&gt;花隐掖垣暮，啾啾栖鸟过。&lt;br&gt;星临万户动，月傍九霄多。&lt;br&gt;不寝听金钥，因风想玉珂。&lt;br&gt;明朝有封事，数问夜如何。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好的诗可以传递情绪。想象一下，自己明天有一场重要的答辩，在紧张的准备之时，看到傍晚落霞余晖，栖鸟飞过，心生忐忑。随着夜晚到来，斗转星移，月色清凉，时睡时醒，迷迷糊糊问自己好几遍现在是晚上几点，为什么这个夜晚格外的长。&lt;/p&gt;
+&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工</description>
         
       
       
@@ -449,7 +517,12 @@
 &lt;p&gt;所谓储蓄，就是今天牺牲享受，明天享受牺牲。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;第一眼看到觉得好有道理。细细一品，觉得这个话只说对了一半。&lt;/p&gt;
-&lt;p&gt;国家和地方政府目</description>
+&lt;p&gt;国家和地方政府目前有巨额的债务，偿还债务一靠税收，二靠放水通胀。&lt;/p&gt;
+&lt;p&gt;在通胀时代的洪流下，个人如果只是储蓄，资产在无形之中被转移到了国家及其他投资人的手上，储蓄者就会一直在「牺牲享受」，但从来没机会「享受牺牲」。&lt;/p&gt;
+&lt;p&gt;最显著的例子就是这20多年来买房和没买房的群体差异。&lt;/p&gt;
+&lt;p&gt;「除了储蓄，不忘投资。」&lt;/p&gt;
+&lt;p&gt;至于如何投资，那就是另一个话题了。&lt;/p&gt;
+</description>
         
       
       
@@ -474,7 +547,10 @@
         
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/06/24/avDuFgpwIUyZjKA.jpg&quot; alt=&quot;macbook-pro-2021-banner&quot;&gt;&lt;/p&gt;
-&lt;p&gt;我在 2015 年的时候，24 期分期买了一台 2014 年官翻的 Macbook Pro，512G 硬盘，8G 内存。用到现在已经 8 年了，3 年前免费换过一次屏幕，看起来又是全新的。现在</description>
+&lt;p&gt;我在 2015 年的时候，24 期分期买了一台 2014 年官翻的 Macbook Pro，512G 硬盘，8G 内存。用到现在已经 8 年了，3 年前免费换过一次屏幕，看起来又是全新的。现在除了电池续航缩短到了 2 小时以外，其余一切正常，非常满意。&lt;/p&gt;
+&lt;p&gt;配置上 512G 的硬盘完全没有容量焦虑，不过 8G 内存偶尔会有卡顿。&lt;/p&gt;
+&lt;p&gt;毕竟笔记本已经这么多年，新系统升级已经不支持了，想使用 macOS 上的快捷指令和基于 M1 芯片的 iOS 应用。于是在去年开始就蠢蠢欲动想换电脑。&lt;/p&gt;
+&lt;p&gt;一直在等 M2 版的 Macbook Air，心里对它的预设是更便宜、更轻薄、更美观。可惜价格出来并不美丽，还迟迟未发售。6.18 期间，原本考虑官翻的 2021 版 14 寸 MacBook Pro，512G 硬盘，16G 内存，后来惊奇地发现拼多多上全新价格跟同等配</description>
         
       
       
@@ -499,7 +575,8 @@
         
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/05/28/bq4mvk8DOZx9LKh.png&quot; alt=&quot;banner&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot; title=&quot;使用场景&quot;&gt;&lt;/a&gt;使用场景&lt;/h2&gt;&lt;p&gt;好些年前，我有过这样一个设想：要是能在高德地图、百度地图 GIS 系统上给各</description>
+&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot; title=&quot;使用场景&quot;&gt;&lt;/a&gt;使用场景&lt;/h2&gt;&lt;p&gt;好些年前，我有过这样一个设想：要是能在高德地图、百度地图 GIS 系统上给各个地点写笔记该多好，可以应用于&lt;strong&gt;个人游记、美食地图、旅游攻略、心愿清单、出行足迹&lt;/strong&gt;等多种场景。如今 Github 上发布了一款 Obsidian 的地图插件，结合第三方的 GIS 源，&lt;strong&gt;完全可以打造私人地图卡片&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class=&quot;headerlink&quot; title=&quot;使用方法&quot;&gt;&lt;/a&gt;使用方法&lt;/h2&gt;&lt;p&gt;1、安装地图插件。插件名为： &lt;a href=&quot;https://github.com/esm7/obsidian-map-view&quot;&gt;obsidian-map-</description>
         
       
       
@@ -526,7 +603,11 @@
         
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/04/30/HzgQaybEldXkjoh.png&quot; alt=&quot;https_cover&quot;&gt;&lt;br&gt;Chrome、Safari 等浏览器开始对没有开启 HTTPS 的站点报不安全的访问页面了，而且听说在阿里云对于托管了域名的客户可以免费申请证书，于是趁着五一把博客的 HTTPS 证书加上了。&lt;/p&gt;
-&lt;p&gt;在网上搜索了一下</description>
+&lt;p&gt;在网上搜索了一下，&lt;strong&gt;Github 托管自定义域名加阿里云免费 HTTPS 证书的成套解决方案并没看到，于是记录一下。&lt;/strong&gt;不复杂，四步走。&lt;/p&gt;
+&lt;p&gt;1、在阿里云上购买 HTTPS 证书，费用为 0。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/4HUZf7osNpMrLwX.jpg&quot; alt=&quot;aliyun_https_1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/04/30/NOsuPiKMRILF2fT.jpg&quot; alt=&quot;aliyun_https_2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2</description>
         
       
       
@@ -553,7 +634,10 @@
       <description>&lt;p&gt;外貌党表示，好看是第一生产力。&lt;/p&gt;
 &lt;p&gt;因为非常喜欢 Obsidian ，之前在外观上做了很多探索，分享一下。&lt;/p&gt;
 &lt;p&gt;1、安装 Minimal 主题并启用，可配套 Minimal Theme Settings 修改主题颜色，配套 Style Settings 插件修改表格、标题等各元素样式。&lt;/p&gt;
-&lt;p&gt;2、隐藏不必要的页面元素，使页面更简洁，通过 Hider 插件实现。&lt;/</description>
+&lt;p&gt;2、隐藏不必要的页面元素，使页面更简洁，通过 Hider 插件实现。&lt;/p&gt;
+&lt;p&gt;3、自定义字体。通过 &lt;code&gt;font.css&lt;/code&gt; 代码片段实现。正文字体参考 Bear，选用 Avenir next。代码字体选用 Menlo。表格字体选用 Sarasa Mono Slab J，是更纱黑体的一种，配合 Advanced Table 插件，可以实现编辑模式下表格的中英文对齐。&lt;/p&gt;
+&lt;p&gt;4、设置左侧导航栏文件夹图标。通过 &lt;code&gt;folder-icons.css&lt;/code&gt; 代码片段，指定不同文件夹名前缀加不同的 emoji。这样的好处是本身文件夹命名不用加 emoji，以免出现路径上的异常。&lt;/p&gt;
+&lt;p&gt;5、设置标签小药丸效果。通过 &lt;</description>
         
       
       
