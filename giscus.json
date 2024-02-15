@@ -1,1 +1,0 @@
-{"origins":["https://giscus.app","https://giscus.vercel.app","https://www.uncoverman.com"],"originsRegex":["https://giscus-git-([A-z0-9]|-)*giscus\\.vercel\\.app","http://localhost:[0-9]+","https://www.uncoverman.com","https://www.uncoverman.com/*"],"defaultCommentOrder":"newest"}
