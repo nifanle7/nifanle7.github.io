@@ -5,6 +5,7 @@
 
 body .tag.post-item-tag{
   color: rgb(255, 160, 0) !important;
+  background-color: rgba(255,212,0,0.14) !important;
   border-color: rgb(255, 160, 0) !important;
 }
 
