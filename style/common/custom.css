@@ -140,7 +140,7 @@ pre[class*=language-]::after {
   }
 
   footer span, footer div{
-    font-size: 0.95em;
+    font-size: 0.9em;
   }
 
 }
