@@ -23,7 +23,8 @@
       <description>&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Diagrams 插件用于 Obsidian 中 Drawio 绘图，可以画各种架构图、流程图。几年前刚出来的时候，还&lt;a href=&quot;&quot;&gt;奔歌&lt;/a&gt;过，可惜这两年都没什么维护，虽然没有什么新的功能更新，但大体能用。&lt;/p&gt;
 &lt;p&gt;然而，在 Obsidian 15 中，出现了一个致命问题，打开来以后布局混乱，没有办法直接使用。&lt;/p&gt;
-&lt;p&gt;研究了一下解决方案，说来也简单，只要在 &lt;code&gt;.obsidian/plugins/drawio-obsidian/&lt;/code&gt;把 &lt;a href=&quot;main.jshttps://www.alipan.com/s/hE6P36qwkTM&quot;&gt;main.js&lt;/a&gt; 替换一下即可。具体原理详见 &lt;a href=&quot;https://github.com/zapthedingbat/drawio-obsidian/issues/89&quot;&gt;Issues&lt;/a&gt;。&lt;/p&gt;</description>
+&lt;p&gt;研究了一下解决方案，说来也简单，只要在 &lt;code&gt;.obsidian/plugins/drawio-obsidian/&lt;/code&gt;把 &lt;a href=&quot;main.jshttps://www.alipan.com/s/hE6P36qwkTM&quot;&gt;main.js&lt;/a&gt; 替换一下即可。具体原理详见 &lt;a href=&quot;https://github.com/zapthedingbat/drawio-obsidian/issues/89&quot;&gt;Issues&lt;/a&gt;。&lt;/p&gt;
+</description>
         
       
       
@@ -50,7 +51,9 @@
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;公司每年会有一次体检。近两年确实不比年轻，指标不好得更多了，毛病一大堆。:(&lt;/p&gt;
 &lt;h2 id=&quot;变好&quot;&gt;&lt;a href=&quot;#变好&quot; class=&quot;headerlink&quot; title=&quot;变好&quot;&gt;&lt;/a&gt;变好&lt;/h2&gt;&lt;p&gt;唯一的好消息是，C13 呼气试验转阴。因为去年 C13 呼气试验测出阳性以后，判定为幽门螺杆菌，具有一定传染性。为了不影响家里的大人小孩，专门去医院开方，吃了两周左右的药，就好了。过程的副作用是经常要上洗手间，把毒素排出体外。&lt;/p&gt;
-&lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。&lt;br&gt;2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。&lt;br&gt;3、双眼有近视</description>
+&lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。&lt;br&gt;2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。&lt;br&gt;3、双眼有近视弧形斑，需要避免过度用眼，特别是晚上关灯以后继续玩手机。&lt;/p&gt;
+&lt;h2 id=&quot;变差&quot;&gt;&lt;a href=&quot;#变差&quot; class=&quot;headerlink&quot; title=&quot;变差&quot;&gt;&lt;/a&gt;变差&lt;/h2&gt;&lt;p&gt;血脂进一步多数指标变差。去年血脂类指标已经开始有好几项超标了，今年超得更多了，还是需要清淡饮食，多运动。&lt;strong&gt;老话讲的好，管住嘴，迈开腿。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img s</description>
         
       
       
@@ -79,7 +82,9 @@
 &lt;p&gt;那么，如何进行关键对话呢？可以分三个步骤：准备对话、开展对话和结束对话。&lt;/p&gt;
 &lt;h2 id=&quot;准备对话&quot;&gt;&lt;a href=&quot;#准备对话&quot; class=&quot;headerlink&quot; title=&quot;准备对话&quot;&gt;&lt;/a&gt;准备对话&lt;/h2&gt;&lt;p&gt;在准备对话时，教练首先要做的是选择话题。&lt;/p&gt;
 &lt;p&gt;关键对话中往往同时存在多个话题，需要聚焦话题，避免避重就轻，否则难以达到对话目标。&lt;strong&gt;话题分为内容层面、模式层面、关系层面，分别对应着就事论事，就事论行，就事论人，在准备过程中要明确所在的对话层次。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;举个例子，有人多次叫错你的名字，在不同层面处理对话方式不同：①维持在内容层面。有人叫错你的名字，马上纠正，立刻解决问题。②上升到模式层面。表达你的担忧，说他叫错你的</description>
+&lt;p&gt;举个例子，有人多次叫错你的名字，在不同层面处理对话方式不同：①维持在内容层面。有人叫错你的名字，马上纠正，立刻解决问题。②上升到模式层面。表达你的担忧，说他叫错你的名字已经成了一种模式。③ 讨论关系层面。让他知道，你的名字是你身份中很重要的一部分。一位经常与你共事的同事不愿意花点时间学学怎么把你的名字念对，这让你觉得不受尊重。所以，关键对话前我们要确认好本次对话的话题及所在层次。&lt;/p&gt;
+&lt;p&gt;其次要确定对话的目标，需要预想好本次对话预期达到的结果，以及对话的几个选择方案。&lt;/p&gt;
+&lt;h2 id=&quot;开展对话&quot;&gt;&lt;a href=&quot;#开展对话&quot; class=&quot;h</description>
         
       
       
@@ -112,7 +117,9 @@
 &lt;p&gt;教练推广实践遇到阻力是一个普遍要面对的问题，如何解决对教练是一个比较大的考验。个人觉得可以使用“与管理层建立连接”、“跟基层构建信任”、“用道具加速推广”、“选团队树立榜样”一整套组合拳进行推进。&lt;/p&gt;
 &lt;h2 id=&quot;与管理层建立连接&quot;&gt;&lt;a href=&quot;#与管理层建立连接&quot; class=&quot;headerlink&quot; title=&quot;与管理层建立连接&quot;&gt;&lt;/a&gt;与管理层建立连接&lt;/h2&gt;&lt;p&gt;教练作为外部人员，无职权影响力，那如何影响团队，关键需要管理层的支持，可以分三步走：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;在实践推广之前，教练与管理层进行&lt;strong&gt;专题沟通&lt;/strong&gt;，说明要推行的实践内容以及带来的价值，一方</description>
+&lt;li&gt;在实践推广之前，教练与管理层进行&lt;strong&gt;专题沟通&lt;/strong&gt;，说明要推行的实践内容以及带来的价值，一方面以汇报的途径建立连接，另一方面听取管理层的反馈，大家对齐一下期望。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;邀请管理层参加相关活动&lt;/strong&gt;，比如启动会、培训、工作坊等，增加管理层的参与感，并让团队看到管理层的关注度。&lt;/li&gt;
+&lt;li&gt;将实践成果及不足通过回顾会议、研发管理平台线上数据、微信群&lt;strong&gt;阶段性报告&lt;/strong&gt;等方式高层进行展示，并获取管理层的进一步反馈。&lt;/li&gt;</description>
         
       
       
@@ -150,7 +157,15 @@
     body, p, li{
     /* 行间距 */
     line-height: 1.8;
-    /*</description>
+    /* 字体 */
+    font-family: Avenir next, -apple-system, &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    /* 段后间距 */
+    padding-bottom: 3px;
+    }
+    
+    /* callouts行间距 */
+    div.callout-title-inner{
+    </description>
         
       
       
@@ -182,7 +197,9 @@
 &lt;li&gt;Apple 芯片的 Mac (M1 及后续)&lt;/li&gt;
 &lt;li&gt;macOS Ventura 13.1 以上&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;操作方法&quot;&gt;&lt;a href=&quot;#操作方法&quot; </description>
+&lt;h2 id=&quot;操作方法&quot;&gt;&lt;a href=&quot;#操作方法&quot; class=&quot;headerlink&quot; title=&quot;操作方法&quot;&gt;&lt;/a&gt;操作方法&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;下载 &lt;a href=&quot;https://github.com/godly-devotion/MochiDiffusion/releases&quot;&gt;MochiDiffusion&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;到 &lt;a href=&quot;https://huggingface.co/coreml&quot;&gt;Core</description>
         
       
       
@@ -220,7 +237,13 @@ tree -L 1
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;.
 ├── db.json
 ├── node_modules
-├── packag</description>
+├── package.json
+├── public
+├── scaffolds
+├── source
+└── themes
+&lt;/code&gt;&lt;/pre&gt;
+</description>
         
       
       
@@ -247,7 +270,9 @@ tree -L 1
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg&quot; alt=&quot;2022001.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2022 年结束了，很想总结点什么，蓦然回首，发现要说道的并不多，工作生活要么太细碎，要么有隐私，而且说到底，年份这个概念也只是个人造刻度。转念一想，拧一拧人生发条也未尝不可，不然人会生锈，你说是不？&lt;/p&gt;
 &lt;p&gt;在这一年里，我经历了 1 次为期一周的封控，感染了 1 次新冠。在此期间，我用烤箱做了 4 次烤鸡，烤鸡的技术倒是越来越娴熟，用的是下厨房 &lt;a href=&quot;https://www.xiachufang.com/recipe/106648142/&quot;&gt;完美烤鸡菜谱&lt;/a&gt;，把植物油和蜂蜜是否涂刷、烤制时间长短、铺底萝卜土豆大小、添加调料的不同等进行了尝试，仔细体会其产生的不同结果。话说，&lt;strong&gt;做菜还真是几分耕耘几分收获&lt;/strong&gt;，过程中哪一道工序遗漏或者分量不对，结果立马反映出来，谁都不可能靠运气做出一道又一道好吃的菜。&lt;/p&gt;
-&lt;p&gt;住的房子从去年开始在贝壳找房上挂，经过了</description>
+&lt;p&gt;住的房子从去年开始在贝壳找房上挂，经过了 14 个月后卖了出去换新房，过渡阶段租房子住。1 个月内完成了卖房、卖房和租房的动作。关于房屋交易，也有了 3 次经验，想到了几个点记录一下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;买房时需要注意采光和得房率，现在政府对于开发商房屋的信息披露越来越完善，可以在政府 APP 上搜到开发商的所有备案图纸，也可以看到冬至日模拟日照时长、得房率计算、房屋价格，比如宁波地区可以用看「浙里办 - 看图买房」和「宁波住浙</description>
         
       
       
@@ -281,7 +306,11 @@ tree -L 1
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/e0471aa6672d&quot;&gt;Homebrew&lt;/a&gt; ：通过命令行管理软件，安装和卸载软件都很方便。习惯之后，到 Windows 上都快不适应了。&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/dwarvesf/hidden/releases/latest&quot;&gt;Hidden Bar&lt;/a&gt;：隐藏菜单栏的图标。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.mowglii.com/itsycal/&quot;&gt;Ityscal&lt;</description>
+&lt;li&gt;&lt;a href=&quot;https://www.mowglii.com/itsycal/&quot;&gt;Ityscal&lt;/a&gt; ：菜单栏日历。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yanue/V2rayU/releases&quot;&gt;VrayU&lt;/a&gt;：自由上网。&lt;/li&gt;
+&lt;li&gt;Quantumult X：M1、M2 芯片可以用 iOS 应用，自由上网。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.ankiweb.net/&quot;&gt;Anki&lt;/a&gt; ：记单词。&lt;/li&gt;
+</description>
         
       
       
@@ -315,7 +344,9 @@ tree -L 1
         
       <description>&lt;h2 id=&quot;遗忘&quot;&gt;&lt;a href=&quot;#遗忘&quot; class=&quot;headerlink&quot; title=&quot;遗忘&quot;&gt;&lt;/a&gt;遗忘&lt;/h2&gt;&lt;p&gt;朋友家刚休完产假，小宝宝 5 个月大。周末拎了 2 袋尿不湿和 1 袋水果去看望了一下。聊天时，聊到自己小宝宝一天睡几次，每次睡多久，睡眠情况怎么样，虽然才过去 1 年半，发现具体的细节却已有些想不起来了。还是要多拍照、拍视频、写文字记录，不然很容易遗忘。这也是每周会写点东西的原因。&lt;/p&gt;
 &lt;h2 id=&quot;湊湊火锅&quot;&gt;&lt;a href=&quot;#湊湊火锅&quot; class=&quot;headerlink&quot; title=&quot;湊湊火锅&quot;&gt;&lt;/a&gt;湊湊火锅&lt;/h2&gt;&lt;p&gt;疯投圈最近聊了一期火锅的节目，中国目前火锅市场占有率第一的是海底捞，第二名是湊湊火锅。以前从没听说过第二名，没想到宁波已经开了 4 家分店。本周朋友聚会选了这个品牌，去尝试了一下，印象不错。&lt;/p&gt;
-&lt;p&gt;他们家的花胶鸡锅底是特色，鸡肉很鲜。第一次吃到芝士夹心的鱼豆腐，耳目一新。店里赠送的东西挺多的，有儿童餐、芒果沙冰、鸭血豆腐、冰淇淋。芒果沙冰可以无限续杯，很爽口。鸭血豆腐微辣，鸭血不是以往吃的那种软塌塌</description>
+&lt;p&gt;他们家的花胶鸡锅底是特色，鸡肉很鲜。第一次吃到芝士夹心的鱼豆腐，耳目一新。店里赠送的东西挺多的，有儿童餐、芒果沙冰、鸭血豆腐、冰淇淋。芒果沙冰可以无限续杯，很爽口。鸭血豆腐微辣，鸭血不是以往吃的那种软塌塌的口感，是吃过最好吃的鸭血了。&lt;/p&gt;
+&lt;p&gt;只可惜我后来吃的有点多，消化不良了。😭&lt;/p&gt;
+&lt;h2 id=&quot;汽车蓄电池更换&quot;&gt;&lt;a href=&quot;#汽车蓄电池更换&quot; class=&quot;headerlink&quot; title=&quot;汽车蓄电池更换&quot;&gt;&lt;/a&gt;汽车蓄电池更换&lt;/h2&gt;&lt;p&gt;这几天车子启动点火有点费力，应该是汽车蓄电池寿命到了。上次保养时 4S 店就告诉我蓄电池还有 20% 的寿命，估计能用 3-</description>
         
       
       
@@ -350,7 +381,10 @@ tree -L 1
 &lt;p&gt;但是对于普通人来说，直接看 md 文件并不友好。这时，我们会考虑，能否把 md 文件导出成为 Word 格式？&lt;/p&gt;
 &lt;p&gt;当然可以。&lt;/p&gt;
 &lt;h2 id=&quot;Pandoc-软件&quot;&gt;&lt;a href=&quot;#Pandoc-软件&quot; class=&quot;headerlink&quot; title=&quot;Pandoc 软件&quot;&gt;&lt;/a&gt;Pandoc 软件&lt;/h2&gt;&lt;p&gt;Pandoc 的出现就是为了解决这个问题。它就是一把「瑞士军刀」，可以实现多种文本格式的相互转换，不仅可以把 md 文件导出为 Word，还可以导出为 PDF、ePub 甚至是 PPT，更多的格式转换可以查阅&lt;a href=&quot;https://www.pandoc.org/index.html&quot;&gt;官网&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;使用方法是下载安装 Pandoc，</description>
+&lt;p&gt;使用方法是下载安装 Pandoc，通过以下的一个命令行就能实现文件的转换。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;pandoc 文件名.md -s -o 文件名.docx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;Obsidian-集成-Pandoc&quot;&gt;&lt;a href=&quot;#Obsidian-集成-Pandoc&quot; class=&quot;headerlink&quot; title=&quot;O</description>
         
       
       
@@ -384,7 +418,8 @@ tree -L 1
 &lt;p&gt;结果是，她为了所在政党今年的中期选举，仍有意挑起大陆和台湾的冲突。虽然在提前正式公布的行程里没有台湾，但还是在 8.2 晚上 10 点专机改变行程，降落了台湾，并于次日 17 点离开。&lt;/p&gt;
 &lt;p&gt;当天晚上，民意滔滔。微博甚至做了「战略性熔断」，大陆地区的人那关键的 1-2 小时里刷不出微博，抖音、B 站对佩洛西飞机行程的直播也中断了，避免民情发酵。大家都担心会打仗，个人甚至也有点希望发生一些冲突「以振国威」。&lt;/p&gt;
 &lt;p&gt;所幸，中国大陆还是很克制，并没有发动军事冲突，以军事演习和经济制裁收场。擦枪未走火，一度发绿的股市也回弹了。&lt;/p&gt;
-&lt;p&gt;经过这一次事件，</description>
+&lt;p&gt;经过这一次事件，愈发感受到政治人物的自私，为了选举，就不惜挑拨远方两个地区的冲突，甚至引发他们的战争。&lt;strong&gt;对于他们而言，远方的战争都仅仅是手中的筹码，而不是一条条鲜活的生命。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;七夕礼物&quot;&gt;&lt;a href=&quot;#七夕礼物&quot; class=&quot;headerlink&quot; title=&quot;七夕礼物&quot;&gt;&lt;/a&gt;七夕礼物&lt;/h2&gt;&lt;p&gt;这个七夕，收到了媳妇送的礼物，Apple Wa</description>
         
       
       
@@ -393,9 +428,9 @@ tree -L 1
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
-      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
-      
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
       
       
       <comments>http://www.uncoverman.com/weekly-3.html#disqus_thread</comments>
@@ -414,7 +449,10 @@ tree -L 1
 &lt;ul&gt;
 &lt;li&gt;在 Finder 中输入 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 可以显示隐藏文件。想恢复原来的设置，再输入一遍 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 即可。最早的时候，我都是在  Terminal 里输入命令行实现的。&lt;/li&gt;
 &lt;li&gt;触发角把左下角设置为「睡眠」，当我们暂时离开电脑时，顺手把鼠标滑到左下角，屏幕就变黑，比用快捷键更轻松。&lt;/li&gt;
-&lt;li&gt;在 Terminal 键入 &lt;co</description>
+&lt;li&gt;在 Terminal 键入 &lt;code&gt;htop&lt;/code&gt;，可以看到一个更丰富的彩色的 &lt;code&gt;top&lt;/code&gt;，多个 CPU、内存统计、uptime，更详细的进程信息。&lt;/li&gt;
+&lt;li&gt;苹果默认的输入法中有一些小技巧。&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Option&lt;/code&gt;+&lt;code&gt;,&lt;/code&gt; 可以打出小于等于。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Option&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 可以</description>
         
       
       
@@ -451,7 +489,11 @@ tree -L 1
 &lt;p&gt;要点总结如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;行车出现小刮擦，不涉及人身伤害，如果大家能对赔偿达成一致，可以直接私了，不用跑理赔中心来来回回的。&lt;/li&gt;
-&lt;li&gt;如</description>
+&lt;li&gt;如果达不成一致，或者理赔额度超过 300 元，小于 2000 元，走交强险。&lt;/li&gt;
+&lt;li&gt;对方的车用交强险修，自己的车自己花钱修，不用到商业险，明年涨幅就不大。&lt;/li&gt;
+&lt;li&gt;定损时需要行驶证、驾驶证，而且双方都必须开车到场，&lt;strong&gt;即使一方已认全责&lt;/strong&gt;，否则可能白跑一趟。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         
       
       
@@ -483,7 +525,9 @@ tree -L 1
 &lt;p&gt;春宿左省&lt;br&gt;花隐掖垣暮，啾啾栖鸟过。&lt;br&gt;星临万户动，月傍九霄多。&lt;br&gt;不寝听金钥，因风想玉珂。&lt;br&gt;明朝有封事，数问夜如何。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;好的诗可以传递情绪。想象一下，自己明天有一场重要的答辩，在紧张的准备之时，看到傍晚落霞余晖，栖鸟飞过，心生忐忑。随着夜晚到来，斗转星移，月色清凉，时睡时醒，迷迷糊糊问自己好几遍现在是晚上几点，为什么这个夜晚格外的长。&lt;/p&gt;
-&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工</description>
+&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工具&lt;/h2&gt;&lt;p&gt;Raycast 是一款免费的启动器，颜值相比 Alfred 更加现代，与 macOS 系统功能及 app 软件结合较好。所以直接使用默认快捷键 &lt;code&gt;Option&lt;/code&gt; + &lt;code&gt;Space&lt;/code&gt; 替换了 Spotlight。&lt;/p&gt;
+&lt;p&gt;我最喜欢自带的窗口管理功能，使用 Rectangle 的预设快捷键。&lt;/p&gt;
+&lt;p&gt;主要用到的快捷键如下：&lt;/p</description>
         
       
       
@@ -494,9 +538,9 @@ tree -L 1
       
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
       
-      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
-      
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
       
       
       <comments>http://www.uncoverman.com/weekly-1.html#disqus_thread</comments>
@@ -550,7 +594,11 @@ tree -L 1
 &lt;p&gt;我在 2015 年的时候，24 期分期买了一台 2014 年官翻的 Macbook Pro，512G 硬盘，8G 内存。用到现在已经 8 年了，3 年前免费换过一次屏幕，看起来又是全新的。现在除了电池续航缩短到了 2 小时以外，其余一切正常，非常满意。&lt;/p&gt;
 &lt;p&gt;配置上 512G 的硬盘完全没有容量焦虑，不过 8G 内存偶尔会有卡顿。&lt;/p&gt;
 &lt;p&gt;毕竟笔记本已经这么多年，新系统升级已经不支持了，想使用 macOS 上的快捷指令和基于 M1 芯片的 iOS 应用。于是在去年开始就蠢蠢欲动想换电脑。&lt;/p&gt;
-&lt;p&gt;一直在等 M2 版的 Macbook Air，心里对它的预设是更便宜、更轻薄、更美观。可惜价格出来并不美丽，还迟迟未发售。6.18 期间，原本考虑官翻的 2021 版 14 寸 MacBook Pro，512G 硬盘，16G 内存，后来惊奇地发现拼多多上全新价格跟同等配</description>
+&lt;p&gt;一直在等 M2 版的 Macbook Air，心里对它的预设是更便宜、更轻薄、更美观。可惜价格出来并不美丽，还迟迟未发售。6.18 期间，原本考虑官翻的 2021 版 14 寸 MacBook Pro，512G 硬盘，16G 内存，后来惊奇地发现拼多多上全新价格跟同等配置的 Macbook Air 相近，自带 HDMI 接口开会可以少带个扩展坞，发货还不用等，于是就入手了。&lt;/p&gt;
+&lt;p&gt;原本不大喜欢刘海屏，实际使用发现没有什么影响，而且屏幕边框确实变窄了，真香。😬&lt;/p&gt;
+&lt;p&gt;可惜，点亮信仰的苹果 LOGO 灯没有了。🙁&lt;/p&gt;
+&lt;p&gt;话说回来，快捷指令和基于 M1 芯片的 iOS 应用，却都没什么场景可以用上。😂&lt;/p&gt;
+&lt;p&gt;供有购买计划的伙伴参考</description>
         
       
       
@@ -576,7 +624,10 @@ tree -L 1
         
       <description>&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/05/28/bq4mvk8DOZx9LKh.png&quot; alt=&quot;banner&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot; title=&quot;使用场景&quot;&gt;&lt;/a&gt;使用场景&lt;/h2&gt;&lt;p&gt;好些年前，我有过这样一个设想：要是能在高德地图、百度地图 GIS 系统上给各个地点写笔记该多好，可以应用于&lt;strong&gt;个人游记、美食地图、旅游攻略、心愿清单、出行足迹&lt;/strong&gt;等多种场景。如今 Github 上发布了一款 Obsidian 的地图插件，结合第三方的 GIS 源，&lt;strong&gt;完全可以打造私人地图卡片&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class=&quot;headerlink&quot; title=&quot;使用方法&quot;&gt;&lt;/a&gt;使用方法&lt;/h2&gt;&lt;p&gt;1、安装地图插件。插件名为： &lt;a href=&quot;https://github.com/esm7/obsidian-map-view&quot;&gt;obsidian-map-</description>
+&lt;h2 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class=&quot;headerlink&quot; title=&quot;使用方法&quot;&gt;&lt;/a&gt;使用方法&lt;/h2&gt;&lt;p&gt;1、安装地图插件。插件名为： &lt;a href=&quot;https://github.com/esm7/obsidian-map-view&quot;&gt;obsidian-map-view&lt;/a&gt; 。由于插件暂未上架官方插件市场，可以到 Github 上下载到本地的插件文件夹，或者可以通过 BART 安装。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/05/28/6HzJX9SkdAITcuL.jpg&quot; alt=&quot;BART_install_Obsidian_plugin&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2、在设置中启用插件。&lt;/p&gt;
+&lt;p&gt;3、在</description>
         
       
       
@@ -607,7 +658,9 @@ tree -L 1
 &lt;p&gt;1、在阿里云上购买 HTTPS 证书，费用为 0。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/4HUZf7osNpMrLwX.jpg&quot; alt=&quot;aliyun_https_1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/04/30/NOsuPiKMRILF2fT.jpg&quot; alt=&quot;aliyun_https_2&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2</description>
+&lt;p&gt;2、在阿里云上申请 HTTPS 证书。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/zTStr4JfaNcQ6iU.jpg&quot; alt=&quot;aliyun_https_3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/OkKVRZuiAXam1Ec.jpg&quot; alt=&quot;aliyun_https_4</description>
         
       
       
@@ -637,7 +690,9 @@ tree -L 1
 &lt;p&gt;2、隐藏不必要的页面元素，使页面更简洁，通过 Hider 插件实现。&lt;/p&gt;
 &lt;p&gt;3、自定义字体。通过 &lt;code&gt;font.css&lt;/code&gt; 代码片段实现。正文字体参考 Bear，选用 Avenir next。代码字体选用 Menlo。表格字体选用 Sarasa Mono Slab J，是更纱黑体的一种，配合 Advanced Table 插件，可以实现编辑模式下表格的中英文对齐。&lt;/p&gt;
 &lt;p&gt;4、设置左侧导航栏文件夹图标。通过 &lt;code&gt;folder-icons.css&lt;/code&gt; 代码片段，指定不同文件夹名前缀加不同的 emoji。这样的好处是本身文件夹命名不用加 emoji，以免出现路径上的异常。&lt;/p&gt;
-&lt;p&gt;5、设置标签小药丸效果。通过 &lt;</description>
+&lt;p&gt;5、设置标签小药丸效果。通过 &lt;code&gt;tag-pills.css&lt;/code&gt; 代码片段，指定不同标签不同颜色，默认为蓝色。&lt;/p&gt;
+&lt;p&gt;6、添加 Banner。Notion 风，美化用。Banner 图片存放在 &lt;code&gt;/template/media&lt;/code&gt; 路径下。个人喜欢在日记模板中添加 banner，每日自动生成，增强一下写日志的体验。&lt;/p&gt;
+&lt;p&gt;7、为链接增加小图标。使用 &lt;code&gt;externa</description>
         
       
       
