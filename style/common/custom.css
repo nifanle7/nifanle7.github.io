@@ -59,7 +59,7 @@ code{
   color: #5c5c5c;
 }
 
-/* 代码框优化 */
+/* 代码框模拟mac窗口 */
 pre[class*=language-]{
   border-radius: 5px;
 }
