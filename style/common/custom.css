@@ -1,3 +1,8 @@
+body .tag.post-item-tag{
+  color: rgb(255, 185, 0) !important;
+  border-color: rgb(255, 185, 0) !important;
+}
+
 
 /* 段落间距 */
 .content p:not(:last-child),
@@ -17,9 +22,15 @@
 
 /* 文章高亮 */
 article strong{
-	background: rgba(255,212,0,0.14);
+	background: rgba(255,212,0,0.14) ;
 	border-bottom: 1.5px solid rgb(255, 212, 0);
   font-weight: 500
+}
+
+/* 超链接样式 */
+.post-page .post-content a{
+  color: #4a4a4a !important;
+  border-bottom: 1.5px solid rgb(255, 212, 0);
 }
 
 /* 文章图片最大高度 */
@@ -95,7 +106,7 @@ pre[class*=language-]::after {
 @media screen and (max-width: 770px){
 
   body{
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 
   .jump-container.is-flex.is-justify-content-space-between.my-6{
@@ -119,7 +130,7 @@ pre[class*=language-]::after {
   }
 
   footer span, footer div{
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
 
 }
