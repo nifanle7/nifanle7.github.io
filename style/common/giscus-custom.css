@@ -44,12 +44,12 @@ main {
     --color-btn-primary-border: #1f232826;
     --color-btn-primary-shadow: 0 1px 0 #1f23281a;
     --color-btn-primary-inset-shadow: inset 0 1px 0 #ffffff08;
-    --color-btn-primary-hover-bg: #414141;
+    --color-btn-primary-hover-bg: #f6f8fa;
     --color-btn-primary-hover-border: #1f232826;
-    --color-btn-primary-selected-bg: #414141;
+    --color-btn-primary-selected-bg: #f6f8fa;
     --color-btn-primary-selected-shadow: inset 0 1px 0 #002d1133;
     --color-btn-primary-disabled-text: #d9d9d9;
-    --color-btn-primary-disabled-bg: #414141;
+    --color-btn-primary-disabled-bg: #f6f8fa;
     --color-btn-primary-disabled-border: #1f232826;
     --color-action-list-item-default-hover-bg: #d0d7de52;
     --color-segmented-control-bg: #eaeef2;
@@ -69,7 +69,7 @@ main {
     --color-accent-emphasis: #0969da;
     --color-accent-muted: #54aeff66;
     --color-accent-subtle: #ddf4ff;
-    --color-success-fg: #414141;
+    --color-success-fg: #f6f8fa;
     --color-attention-fg: #9a6700;
     --color-attention-muted: #d4a72c66;
     --color-attention-subtle: #fff8c5;
@@ -83,7 +83,21 @@ main {
     /*! Extensions from @primer/css/alerts/flash.scss */
     --color-social-reaction-bg-hover: var(--color-scale-gray-1);
     --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1)
+
 }
+
+main {
+    font-family: "Noto Serif SC", sans-serif;
+  }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Monaco", monospace;
+}
+
+
 
 main .pagination-loader-container {
     background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg)
@@ -93,6 +107,6 @@ main .gsc-loading-image {
     background-image: url(https://github.githubassets.com/images/mona-loading-default.gif)
 }
 
-.gsc-header, gsc-reactions-count{
+.gsc-header, .gsc-reactions-count{
     display: none;
 }

@@ -393,9 +393,9 @@ tree -L 1
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
-      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
-      
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
       
       
       <comments>http://www.uncoverman.com/weekly-3.html#disqus_thread</comments>
@@ -494,9 +494,9 @@ tree -L 1
       
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
       
-      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
-      
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
       
       
       <comments>http://www.uncoverman.com/weekly-1.html#disqus_thread</comments>
