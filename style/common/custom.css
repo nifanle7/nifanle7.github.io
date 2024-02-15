@@ -1,6 +1,15 @@
+/* 更改主题色 */
+:root body a:hover, :root body a:hover .iconfont {
+  color: rgb(255, 190, 0) !important;
+}
+
 body .tag.post-item-tag{
-  color: rgb(255, 185, 0) !important;
-  border-color: rgb(255, 185, 0) !important;
+  color: rgb(255, 160, 0) !important;
+  border-color: rgb(255, 160, 0) !important;
+}
+
+.post-container .paginator .page-number.current, .post-container .paginator .extend.current{
+  background: rgb(255, 160, 0) !important;
 }
 
 
@@ -106,7 +115,7 @@ pre[class*=language-]::after {
 @media screen and (max-width: 770px){
 
   body{
-    font-size: 0.95em;
+    font-size: 0.97em;
   }
 
   .jump-container.is-flex.is-justify-content-space-between.my-6{
@@ -217,7 +226,7 @@ pre[class*=language-]::after {
   }
 
   .content h1 {
-    font-size: 1.18em;
+    font-size: 1.14em;
   }
 
   .content h2 {
@@ -235,7 +244,7 @@ pre[class*=language-]::after {
   } */
 
   .post-content h3{
-    font-size: 1.05em;
+    font-size: 1.03em;
     white-space: normal;
     margin-top: 1.7em;
     margin-bottom: 1em;
