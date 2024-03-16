@@ -117,6 +117,14 @@ article strong{
   border-bottom: 1.5px solid rgb(255, 212, 0);
 }
 
+.post-page .post-content a[href^="#fn"]{
+  border-bottom: 0px;
+}
+
+#footnotelist{
+  font-size: 85%;
+}
+
 /* 文章图片最大高度 */
 .post-page .post-content img {
   max-height: 1000px;
