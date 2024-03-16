@@ -9,8 +9,40 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Sat, 10 Feb 2024 15:23:29 GMT</pubDate>
+    <pubDate>Sat, 16 Mar 2024 08:36:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>贷款核销</title>
+      <link>http://www.uncoverman.com/bank-assets-charge-off.html</link>
+      <guid>http://www.uncoverman.com/bank-assets-charge-off.html</guid>
+      <pubDate>Fri, 15 Mar 2024 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;贷款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
+&lt;p&gt;那么核销贷款，债务人是不是就不用还了？答案是否定的。&lt;strong&gt;所谓核销，就是账销案存&lt;/strong&gt;。银行账面已经没有这笔贷款了，但追索权还在，依然会进行清收。清收可由银行内部进行也可通过外包进行。那为什么要核销呢？&lt;/p&gt;
+&lt;p&gt;主要的原因在于所得税。&lt;strong&gt;税务局收取所得税不是按照银行向股东们提交的财务报表中的净利润来的，是按税务局自己的一套标准来收所得税&lt;/strong&gt;，简单地说，税务局对净利润的定义和上市公司财务报表中的净利润是有很多地方不一样的，这也是报表中递延所得税的来历。&lt;/p&gt;
+&lt;p&gt;换句话说，核销贷款是税务局认定银行真实损失的标准要求，税务局不认可银行自己提取的减值损失是真实的成本，而是认定这些减值损失变成真实的，才认定成本，可以从净利润中扣除，减少所得税。其实这也正常，&lt;strong&gt;不同的管理要求会对同样的指标有不同的数据口径要求&lt;/strong&gt;，比如上市公司提供财报用于对外公示，编制管报用于内部管理，编制税表给税务部门。&lt;/p&gt;
+&lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 年金融企业呆账核销管理办法（2017 年版）》。简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核销条件是，未能收回，并且追索 180 天以上，并且追索 6 次以上这个条件</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/FinTech/">FinTech</category>
+      
+      <category domain="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/">金融科技</category>
+      
+      <category domain="http://www.uncoverman.com/tags/%E9%93%B6%E8%A1%8C%E8%B5%84%E4%BA%A7/">银行资产</category>
+      
+      
+      <comments>http://www.uncoverman.com/bank-assets-charge-off.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Obsidian Diagrams 插件布局混乱处理方法</title>
@@ -673,38 +705,6 @@ tree -L 1
       
       
       <comments>http://www.uncoverman.com/add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Obsidian 美化方案</title>
-      <link>http://www.uncoverman.com/obsidian-beautification.html</link>
-      <guid>http://www.uncoverman.com/obsidian-beautification.html</guid>
-      <pubDate>Fri, 22 Apr 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;外貌党表示，好看是第一生产力。&lt;/p&gt;
-&lt;p&gt;因为非常喜欢 Obsidian ，之前在外观上做了很多探索，分享一下。&lt;/p&gt;
-&lt;p&gt;1、安装 Minimal 主题并启用，可配套 Minimal Theme Settings 修改主题颜色，配套 Style Settings 插件修改表格、标题等各元素样式。&lt;/p&gt;
-&lt;p&gt;2、隐藏不必要的页面元素，使页面更简洁，通过 Hider 插件实现。&lt;/p&gt;
-&lt;p&gt;3、自定义字体。通过 &lt;code&gt;font.css&lt;/code&gt; 代码片段实现。正文字体参考 Bear，选用 Avenir next。代码字体选用 Menlo。表格字体选用 Sarasa Mono Slab J，是更纱黑体的一种，配合 Advanced Table 插件，可以实现编辑模式下表格的中英文对齐。&lt;/p&gt;
-&lt;p&gt;4、设置左侧导航栏文件夹图标。通过 &lt;code&gt;folder-icons.css&lt;/code&gt; 代码片段，指定不同文件夹名前缀加不同的 emoji。这样的好处是本身文件夹命名不用加 emoji，以免出现路径上的异常。&lt;/p&gt;
-&lt;p&gt;5、设置标签小药丸效果。通过 &lt;code&gt;tag-pills.css&lt;/code&gt; 代码片段，指定不同标签不同颜色，默认为蓝色。&lt;/p&gt;
-&lt;p&gt;6、添加 Banner。Notion 风，美化用。Banner 图片存放在 &lt;code&gt;/template/media&lt;/code&gt; 路径下。个人喜欢在日记模板中添加 banner，每日自动生成，增强一下写日志的体验。&lt;/p&gt;
-&lt;p&gt;7、为链接增加小图标。使用 &lt;code&gt;externa</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/Obsidian/">Obsidian</category>
-      
-      
-      <comments>http://www.uncoverman.com/obsidian-beautification.html#disqus_thread</comments>
       
     </item>
     
