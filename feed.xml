@@ -315,9 +315,9 @@ tree -L 1
       
       <category domain="http://www.uncoverman.com/tags/Summary/">Summary</category>
       
-      <category domain="http://www.uncoverman.com/tags/%E6%8E%A8%E4%B9%A6/">推书</category>
-      
       <category domain="http://www.uncoverman.com/tags/%E6%92%AD%E5%AE%A2/">播客</category>
+      
+      <category domain="http://www.uncoverman.com/tags/%E6%8E%A8%E4%B9%A6/">推书</category>
       
       
       <comments>http://www.uncoverman.com/2022-summary.html#disqus_thread</comments>
@@ -391,9 +391,9 @@ tree -L 1
       
       <category domain="http://www.uncoverman.com/tags/Plugin/">Plugin</category>
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-4.html#disqus_thread</comments>
@@ -493,9 +493,9 @@ tree -L 1
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-2.html#disqus_thread</comments>
@@ -568,11 +568,11 @@ tree -L 1
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
+      <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
+      
       <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
       
       <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
-      <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
       
       
       <comments>http://www.uncoverman.com/weekly-1.html#disqus_thread</comments>
