@@ -96,7 +96,9 @@ pre{
   font-family: "Monaco", monospace;
 }
 
-
+main .gsc-comment{
+    line-height: 1.6rem;
+}
 
 main .pagination-loader-container {
     background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg)
