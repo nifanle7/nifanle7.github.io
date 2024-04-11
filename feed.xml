@@ -9,8 +9,41 @@
     <atom:link href="http://www.uncoverman.com/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记</description>
-    <pubDate>Sat, 16 Mar 2024 09:56:02 GMT</pubDate>
+    <pubDate>Thu, 11 Apr 2024 03:39:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>软件项目投产演练</title>
+      <link>http://www.uncoverman.com/software-production-drill.html</link>
+      <guid>http://www.uncoverman.com/software-production-drill.html</guid>
+      <pubDate>Wed, 10 Apr 2024 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg&quot; alt=&quot;software_production_drill_20240411.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;为什么要做软件项目投产演练？像银行科技系统有成百上千套，比如核心系统、核心中台、信贷系统、信贷中台、信贷额度系统、客户信息管理系统（ECIF）、支付中台、个人手机银行 、企业服务总线（ESB）等。各系统间关联度高，如果一起投产，可能会出现各种各样的异常场景，哪个系统先投产，哪个系统后投产，需要验证什么内容，极端情况下各系统回退版本要怎么应对，因此需要进行投产演练。对于特大型的软件项目，有可能一轮演练还不够，需要第二轮、第三轮甚至第四轮。&lt;/p&gt;
+&lt;p&gt;投产演练主要步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;编制投产演练方案&lt;/li&gt;
+&lt;li&gt;评审投产演练方案&lt;/li&gt;
+&lt;li&gt;实施投产演练方案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;编制投产演练方案&quot;&gt;&lt;a href=&quot;#编制投产演练方案&quot; class=&quot;headerlink&quot; title=&quot;编制投产演练方案&quot;&gt;&lt;/a&gt;编制投产演练方案&lt;/h2&gt;&lt;p&gt;投产演练方案应该包括演练环境、开始和结束时间、投产步骤和时序、执行人和复核人、回退方案、科技验证和业务验证案例等。&lt;/p&gt;
+&lt;p&gt;此投产演练方案可以由项目经理牵头</description>
+        
+      
+      
+      
+      
+      <category domain="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      <category domain="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/">金融科技</category>
+      
+      
+      <comments>http://www.uncoverman.com/software-production-drill.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>贷款核销</title>
@@ -446,9 +479,9 @@ tree -L 1
       <category domain="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-3.html#disqus_thread</comments>
@@ -550,9 +583,9 @@ tree -L 1
       
       <category domain="http://www.uncoverman.com/tags/Tools/">Tools</category>
       
-      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
-      
       <category domain="http://www.uncoverman.com/tags/Podcast/">Podcast</category>
+      
+      <category domain="http://www.uncoverman.com/tags/Weekly/">Weekly</category>
       
       
       <comments>http://www.uncoverman.com/weekly-1.html#disqus_thread</comments>
@@ -649,36 +682,6 @@ tree -L 1
       
       
       <comments>http://www.uncoverman.com/obsidian-map-view.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>博客开启免费的 HTTPS</title>
-      <link>http://www.uncoverman.com/add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html</link>
-      <guid>http://www.uncoverman.com/add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html</guid>
-      <pubDate>Fri, 29 Apr 2022 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/04/30/HzgQaybEldXkjoh.png&quot; alt=&quot;https_cover&quot;&gt;&lt;br&gt;Chrome、Safari 等浏览器开始对没有开启 HTTPS 的站点报不安全的访问页面了，而且听说在阿里云对于托管了域名的客户可以免费申请证书，于是趁着五一把博客的 HTTPS 证书加上了。&lt;/p&gt;
-&lt;p&gt;在网上搜索了一下，&lt;strong&gt;Github 托管自定义域名加阿里云免费 HTTPS 证书的成套解决方案并没看到，于是记录一下。&lt;/strong&gt;不复杂，四步走。&lt;/p&gt;
-&lt;p&gt;1、在阿里云上购买 HTTPS 证书，费用为 0。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/4HUZf7osNpMrLwX.jpg&quot; alt=&quot;aliyun_https_1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/04/30/NOsuPiKMRILF2fT.jpg&quot; alt=&quot;aliyun_https_2&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2、在阿里云上申请 HTTPS 证书。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/04/30/zTStr4JfaNcQ6iU.jpg&quot; alt=&quot;aliyun_</description>
-        
-      
-      
-      
-      
-      <category domain="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
-      
-      
-      <category domain="http://www.uncoverman.com/tags/Blog/">Blog</category>
-      
-      
-      <comments>http://www.uncoverman.com/add_ssl_for_blog_which_is_aliyun_domian_and_hosted_on_github.html#disqus_thread</comments>
       
     </item>
     
