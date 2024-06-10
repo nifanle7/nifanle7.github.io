@@ -1,0 +1,74 @@
+<!DOCTYPE html><html class="appearance-light" lang="zh"><head><meta charset="UTF-8"><title>Obsidian随机生成读书笔记</title><meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- twitter 卡片 --><meta name="twitter:card" content="“summary_large_image”"><meta name="twitter:creator" content="@SisyphusNee"><meta name="og:url" content="http://www.uncoverman.com/random-notes-in-obsidian.html"><meta name="og:title" content="Obsidian随机生成读书笔记"><meta name="og:image" content="https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png"><!-- End twitter 卡片 -->
+<!-- Google Analytics --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-93563342-1', 'auto');
+ga('send', 'pageview');</script><!-- End Google Analytics -->
+<!-- Baidu Analytics --><script>var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?" + 'cb066a32a61bf1dcd440879ca8a5ce3e';
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();</script><!-- End Baidu Analytics --><link rel="icon" href="/media/avatar.jpg"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><link rel="stylesheet" href="/style/common/custom.css"><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><!-- uncoverman--><!-- link(rel='stylesheet', href= url_for('/style/themes/highlight-theme-light.css'))--><!-- script(src= url_for("/js/highlight.pack.js"))--><link rel="stylesheet" href="/style/prism.css"><script src="/js/prism.js"></script><meta name="description" content="
+现在阅读，以多看和微信读书为主，在阅读过程中会做笔记。已经把这些笔记都变为 Markdown 文件统一用 Obsidian 管理起来，希望可以把其中标记出需要复习的内容，每天随机生成，便于复习巩固。
+Roam Research 有一个插件叫 Roam42，可以随机生成指定标签的笔记到新的笔记中，以便于复习。之前在推特上看 @Jiayuan 就是用这种方式管理笔记的，非常羡慕这个功能。
+后来经过摸索，发现 Dataview 可以在 Obsidian 中使用 JS 实现所有自己想要的效果，包括随机生成笔记复习这件事。我写了一个代码片段，可以随机生成 3 个带指定标签的读书笔记段落。
+
+具体代码块如下，term 表示标签名 #Quote，ranNum 表示随机数 3，可以根据自己的需要修改。将以下内容粘贴至笔记.."><meta name="generator" content="Hexo 5.4.2">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/feed.xml" title="夜航船夫" type="application/rss+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">夜航船夫</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Obsidian随机生成读书笔记</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">点击返回顶部</p></div></h3><aside class="is-flex-shrink-0 is-hidden-mobile"><h3 class="is-inline-block"><a href="/">首页</a></h3><h3 class="is-inline-block"><a href="/equipment">好物</a></h3><h3 class="is-inline-block"><a href="/tools">工具</a></h3><h3 class="is-inline-block"><a href="/about">关于</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-block"><a href="/">首页</a></h3><h3 class="is-block"><a href="/equipment">好物</a></h3><h3 class="is-block"><a href="/tools">工具</a></h3><h3 class="is-block"><a href="/about">关于</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile is-hidden"></div><div class="column is-9"><header class="my-4"><a href="/tags/Obsidian"><i class="tag post-item-tag">Obsidian</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">Obsidian随机生成读书笔记</h1><time class="has-text-grey" datetime="2021-09-30T16:00:00.000Z">2021-10-01</time><article class="mt-2 post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png" alt="Obsdian_Random_Note"></p>
+<p>现在阅读，以多看和微信读书为主，在阅读过程中会做笔记。已经把这些笔记都变为 Markdown 文件统一用 Obsidian 管理起来，希望可以把其中标记出需要复习的内容，每天随机生成，便于复习巩固。</p>
+<p>Roam Research 有一个插件叫 Roam42，可以随机生成指定标签的笔记到新的笔记中，以便于复习。之前在推特上看 <a target="_blank" rel="noopener" href="https://twitter.com/Tisoga">@Jiayuan</a> 就是用这种方式管理笔记的，非常羡慕这个功能。</p>
+<p>后来经过摸索，发现 Dataview 可以在 Obsidian 中使用 JS 实现所有自己想要的效果，包括随机生成笔记复习这件事。我写了一个代码片段，可以随机生成 3 个带指定标签的读书笔记段落。</p>
+<p><img src="https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg"></p>
+<p>具体代码块如下，<code>term</code> 表示标签名 <code>#Quote</code>，<code>ranNum</code> 表示随机数 3，可以根据自己的需要修改。将以下内容粘贴至笔记中，预览。拖动 Banner 可以重新生成随机笔记。</p>
+<pre><code class="line-numbers language-js">```dataviewjs
+//使用时修改关键词即可
+const term = "#Quote"
+const files = app.vault.getMarkdownFiles()
+const arr = files.map(async ( file) =&gt; {
+const content = await app.vault.cachedRead(file)
+const lines = content.split("\n").filter(line =&gt; line.contains(term))
+return lines
+})
+
+function generateArray (start, end) { return Array.from(new Array(end + 1).keys()).slice(start) }
+
+Promise.all(arr).then(values =&gt; {
+    //不包含本文件
+    let noteArr = values.flat().filter(note =&gt; !note.includes("const term ="))
+    //生成一个连续数值的数组
+    let arrNum = generateArray(0,noteArr.length-1)
+    let result = [ ]
+    let ranNum = 3
+    
+    for (let i = 0; i &lt; ranNum; i++) {
+        var ran = Math.floor(Math.random() * (arrNum.length - i))
+        result.push(arrNum[ran])
+        arrNum[ran] = arrNum[arrNum.length - i - 1]
+    }
+    
+    for(let i=0; i&lt; result.length;i++){
+        let j = result[i]
+        dv.paragraph(`${noteArr[j]}`)
+    }
+})
+</code></pre>
+<p>其他更多更详细的功能可以看知乎上的一个全面解读 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/373623264">Dataview 编写的教程</a> 。</p>
+<blockquote>
+<p>其他 Obsidian 文章</p>
+<ul>
+<li><a href="https://www.uncoverman.com/the-reason-for-choosing-obsidian.html">为什么喜欢用 Obsidian 做笔记</a></li>
+<li><a href="https://www.uncoverman.com/obsidian-beautification.html">Obsidian 美化方案</a></li>
+<li><a href="https://www.uncoverman.com/obsidian-image-grid-setting.html">Obsidian 图片分列显示</a></li>
+<li><a href="https://www.uncoverman.com/obsidian-confetti.html">Obsidian 输入时放礼花</a></li>
+<li><a href="https://www.uncoverman.com/obsidian-integrate-with-drawio.html">Obsidian 集成了 Drawio</a></li>
+<li><a href="https://www.uncoverman.com/excalidraw-plguin-in-obsidian-support-font-custom.html">Obsidian 的 Excalidraw 插件自定义中文字体</a></li>
+<li><a href="https://www.uncoverman.com/obsidian-map-view.html">Obsidian 在地图上做笔记</a></li>
+</ul>
+</blockquote>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/read-about-story-start-on-saghalien.html" title="风雪夜，不归人——《奇想天动》书评"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">上一页: 风雪夜，不归人——《奇想天动》书评</span></a><a class="button is-default" href="/good-night.html" title="深夜漫步——读《天黑以后》"><span class="has-text-weight-semibold">下一页: 深夜漫步——读《天黑以后》</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script src="https://giscus.app/client.js" data-repo="nifanle7/nifanle7.github.io" data-repo-id="R_kgDOGKLSRA" data-category="General" data-category-id="DIC_kwDOGKLSRM4CdPOT" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="https://cdn.jsdelivr.net/gh/nifanle7/nifanle7.github.io@53288fd681ad0dd177db5c3174aaf3efd0635603/style/common/giscus-custom.css" data-lang="zh-CN" crossorigin="anonymous" async></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com/SisyphusNee"><i class="iconfont icon-twitter"></i></a><!-- Github--><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/feed.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/uncoverman"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--></section><p><span>Copyright ©</span><a href="/">夜航船夫</a><span> 2015-2024</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><a title="浙ICP备15005499号" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备15005499号</a></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>

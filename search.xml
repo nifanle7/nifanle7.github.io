@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>博客多图自动单行排版</title>
+      <link href="//blog-pictures-display-in-one-row.html"/>
+      <url>//blog-pictures-display-in-one-row.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>技术方案来自木木木木木的<a href="https://immmmm.com/about-images-gird/">多图排版</a>，CSS 代码如下，<code>.post-content</code> 根据博客实际类调整：</p><pre><code class="line-numbers language-css">.post-content p:has(&gt; img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}.post-content p:has(&gt; img:nth-child(3)){column-count:3;}.post-content p:has(&gt; img:nth-child(4)){column-count:4;}.post-content p:has(&gt; img:nth-child(5)){column-count:5;}.post-content p:has(&gt; img:nth-child(6)){column-count:4;}.post-content p:has(&gt; img:nth-child(2)) img{display:inherit;}.post-content p:has(&gt; img:nth-child(6)) img{margin-bottom:8px;}</code></pre><p>一行两图效果</p><p><img src="https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg"><img src="https://vip2.loli.io/2022/07/18/GjJ1hnsCgPWqBNe.jpg"></p><p>两行三图效果</p><p><img src="https://vip1.loli.io/2022/02/26/DgYmJuhGzrn5aOe.jpg"></p><p><img src="https://vip1.loli.io/2022/02/26/gqwS2yeujm3TflK.jpg"><img src="https://vip1.loli.io/2022/02/05/mep5Qx6Jah3RS4l.jpg"></p><p>需要排版在同一行的多个图片 markdown 语法不换行，在<code>&lt;p&gt;</code>里不产生<code>&lt;br&gt;</code>标签。</p><pre><code class="line-numbers language-markdown">![](https://vip1.loli.io/2022/02/26/DgYmJuhGzrn5aOe.jpg)![](https://vip1.loli.io/2022/02/26/gqwS2yeujm3TflK.jpg)![](https://vip1.loli.io/2022/02/05/mep5Qx6Jah3RS4l.jpg)</code></pre><p>如果以上方法没生效， 可能解析 markkdown 语法设置没有开启严格换行，导致每一个换行都会解析成<code>&lt;br&gt;</code>。如果是 Hexo，需要在根目录的<code>_config.yml</code>增加一个解析配置。</p><pre><code class="line-numbers language-yaml">marked:  gfm: true  breaks: false #Enable GFM line breaks. This option requires the gfm option to be true.</code></pre><p>这个图片排版方案有一个缺点，或者叫特性。如果图片比例不一样，会有高低差，这个时候不适合放在同一行，不过已经基本满足需求了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件项目投产演练</title>
       <link href="//software-production-drill.html"/>
       <url>//software-production-drill.html</url>
@@ -1006,7 +1031,7 @@
       <link href="//2021-discovery-party-in-suzhou.html"/>
       <url>//2021-discovery-party-in-suzhou.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>常混的论坛，要举办一次聚会，可能会遇见 20 多个陌生人，上一次还是十年前，去还是不去？</p><p>在三、四年前装修时，见了太多陌生人，被坑了太多次，以至于不愿和陌生人沟通。如今越来越少有这样的冲动，和一群陌生人面基，更别说是早上 4 点多出发坐三个小时的高铁去苏州。所幸我相信了自己冲动的感觉，果断报名了论坛聚会，甚至专门为此做了一个 PPT，度过了愉快的一天。</p><p>聚会形式是到场后由版主给每人打印一个标签贴在身上，标注了论坛 ID、入坛时间、从事职业。每半小时一次主题分享，可以用 PPT，也可以用白板，分享提前报名。分享过后可以自由交流。分享的主题包括文创产品键盘的客制化、红酒品鉴、骑行知识、基金理财、川藏线骑行、笔记软件分享等。</p><p>同时，预约了烧烤师傅来持续做烧烤，当作午饭了。由于氛围挺好的，大家还会带酒、咖啡豆、咖啡机、电纸书、定向音箱等设备供食用或把玩。整个过程很热烈。</p><p>最近我比较喜欢研究 Obsidian 笔记软件，于是也自告奋勇到现场做了分享，反响不错。</p><p>回来路上无事，剪了个 <a href="https://b23.tv/pSwfWz">视频</a> 。</p><p>又长又短的一天，也随之结束了。</p><p><img src="https://vip1.loli.io/2022/02/26/DgYmJuhGzrn5aOe.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/CAWLrKJFtzsN7mh.jpg" alt="图片"><br><img src="https://vip2.loli.io/2022/02/26/TcBsHK1JrDVoGYz.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/uPtd6182li7INBs.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/IQgCB6MlAs8Uh4z.jpg" alt="图片"></p><p><img src="https://vip2.loli.io/2022/02/26/GdOMoJIBxcTv5wA.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/gqwS2yeujm3TflK.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/1SbGfXFek73CNME.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/uf1hzNUodeVZaKT.jpg" alt="图片"></p><p><img src="https://vip2.loli.io/2022/02/26/peau59QSi6Fdnbs.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/IUzVtPNQAyxsDdC.jpg" alt="图片"></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>常混的论坛，要举办一次聚会，可能会遇见 20 多个陌生人，上一次还是十年前，去还是不去？</p><p>在三、四年前装修时，见了太多陌生人，被坑了太多次，以至于不愿和陌生人沟通。如今越来越少有这样的冲动，和一群陌生人面基，更别说是早上 4 点多出发坐三个小时的高铁去苏州。所幸我相信了自己冲动的感觉，果断报名了论坛聚会，甚至专门为此做了一个 PPT，度过了愉快的一天。</p><p>聚会形式是到场后由版主给每人打印一个标签贴在身上，标注了论坛 ID、入坛时间、从事职业。每半小时一次主题分享，可以用 PPT，也可以用白板，分享提前报名。分享过后可以自由交流。分享的主题包括文创产品键盘的客制化、红酒品鉴、骑行知识、基金理财、川藏线骑行、笔记软件分享等。</p><p>同时，预约了烧烤师傅来持续做烧烤，当作午饭了。由于氛围挺好的，大家还会带酒、咖啡豆、咖啡机、电纸书、定向音箱等设备供食用或把玩。整个过程很热烈。</p><p>最近我比较喜欢研究 Obsidian 笔记软件，于是也自告奋勇到现场做了分享，反响不错。</p><p>回来路上无事，剪了个 <a href="https://b23.tv/pSwfWz">视频</a> 。</p><p>又长又短的一天，也随之结束了。</p><p><img src="https://vip1.loli.io/2022/02/26/DgYmJuhGzrn5aOe.jpg" alt="图片"><img src="https://vip1.loli.io/2022/02/26/CAWLrKJFtzsN7mh.jpg" alt="图片"></p><p><img src="https://vip2.loli.io/2022/02/26/TcBsHK1JrDVoGYz.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/uPtd6182li7INBs.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/IQgCB6MlAs8Uh4z.jpg" alt="图片"><img src="https://vip2.loli.io/2022/02/26/GdOMoJIBxcTv5wA.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/gqwS2yeujm3TflK.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/1SbGfXFek73CNME.jpg" alt="图片"><img src="https://vip1.loli.io/2022/02/26/IUzVtPNQAyxsDdC.jpg" alt="图片"></p><p><img src="https://vip1.loli.io/2022/02/26/uf1hzNUodeVZaKT.jpg" alt="图片"><img src="https://vip2.loli.io/2022/02/26/peau59QSi6Fdnbs.jpg" alt="图片"></p>]]></content>
       
       
       <categories>
