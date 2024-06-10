@@ -13,6 +13,15 @@ body .tag.post-item-tag{
   background: rgb(255, 185, 0) !important;
 }
 
+/* 多图排版 */
+.post-content p:has(> img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;  will-change: auto;} 
+.post-content p:has(> img:nth-child(3)){column-count:3;  will-change: auto;}
+.post-content p:has(> img:nth-child(4)){column-count:4;  will-change: auto;}
+.post-content p:has(> img:nth-child(5)){column-count:5;  will-change: auto;}
+.post-content p:has(> img:nth-child(6)){column-count:4;  will-change: auto;}
+.post-content p:has(> img:nth-child(2)) img{display:inherit;}
+.post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;}
+
 /* 段落间距 */
 .content p:not(:last-child),
 .content dl:not(:last-child),
@@ -119,14 +128,7 @@ pre[class*=language-]::after {
   background: #F2CA44;
 } */
 
-/* 多图排版 */
-.post-content p:has(> img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;} 
-.post-content p:has(> img:nth-child(3)){column-count:3;}
-.post-content p:has(> img:nth-child(4)){column-count:4;}
-.post-content p:has(> img:nth-child(5)){column-count:5;}
-.post-content p:has(> img:nth-child(6)){column-count:4;}
-.post-content p:has(> img:nth-child(2)) img{display:inherit;}
-.post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;}
+
 
 /* 文章结束后的按钮移动端隐藏 */
 @media screen and (max-width: 770px){
