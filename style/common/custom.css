@@ -135,8 +135,7 @@ pre[class*=language-]::after {
 .post-content p:has(> img:nth-child(4)){column-count:4;}
 .post-content p:has(> img:nth-child(5)){column-count:5;}
 .post-content p:has(> img:nth-child(6)){column-count:4;}
-.post-content p:has(> img:nth-child(2)) img{display:inherit;}
-.post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;}
+
 
 /* 文章结束后的按钮移动端隐藏 */
 @media screen and (max-width: 770px){
