@@ -122,11 +122,19 @@ pre[class*=language-]::after {
 } */
 
 /* 多图排版 */
-.post-content p:has(> img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;} 
+/* .post-content p:has(> img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;} 
 .post-content p:has(> img:nth-child(3)){column-count:3;}
 .post-content p:has(> img:nth-child(4)){column-count:4;}
 .post-content p:has(> img:nth-child(5)){column-count:5;}
-.post-content p:has(> img:nth-child(6)){column-count:6;}
+.post-content p:has(> img:nth-child(6)){column-count:4;}
+.post-content p:has(> img:nth-child(2)) img{display:inherit;}
+.post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;} */
+
+.post-content p:has(> img:nth-child(2)){column-count:2;} 
+.post-content p:has(> img:nth-child(3)){column-count:3;}
+.post-content p:has(> img:nth-child(4)){column-count:4;}
+.post-content p:has(> img:nth-child(5)){column-count:5;}
+.post-content p:has(> img:nth-child(6)){column-count:4;}
 .post-content p:has(> img:nth-child(2)) img{display:inherit;}
 .post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;}
 
@@ -240,9 +248,9 @@ pre[class*=language-]::after {
   display: none;
   }
 
-  /* article > div > section > article> section > p{
+  article > div > section > article> section > p{
     margin-bottom: 2px !important;
-  } */
+  }
 
   .content h1 {
     font-size: 1.14em;
