@@ -147,8 +147,10 @@
       <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;公司每年会有一次体检。近两年确实不比年轻，指标不好得更多了，毛病一大堆。:(&lt;/p&gt;
 &lt;h2 id=&quot;变好&quot;&gt;&lt;a href=&quot;#变好&quot; class=&quot;headerlink&quot; title=&quot;变好&quot;&gt;&lt;/a&gt;变好&lt;/h2&gt;&lt;p&gt;唯一的好消息是，C13 呼气试验转阴。因为去年 C13 呼气试验测出阳性以后，判定为幽门螺杆菌，具有一定传染性。为了不影响家里的大人小孩，专门去医院开方，吃了两周左右的药，就好了。过程的副作用是经常要上洗手间，把毒素排出体外。&lt;/p&gt;
-&lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。&lt;br&gt;2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。&lt;br&gt;3、双眼有近视弧形斑，需要避免过度用眼，特别是晚上关灯以后继续玩手机。&lt;/p&gt;
-&lt;h2 id=&quot;变差&quot;&gt;&lt;a href=&quot;#变差&quot; class=&quot;headerlink&quot; title=&quot;变差&quot;&gt;&lt;/a&gt;变差&lt;/h2&gt;&lt;</description>
+&lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。
+2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。
+3、双眼有近视弧形斑，需要避免过度用眼，特别是晚上关灯以后继续玩手机。&lt;/p&gt;
+&lt;h2 id=&quot;变差&quot;&gt;&lt;a href=&quot;#变差&quot; class=&quot;headerlink&quot; title=&quot;变差&quot;&gt;&lt;/a&gt;变差&lt;/h2&gt;&lt;p&gt;血脂进一</description>
         
       
       
@@ -600,10 +602,14 @@ tree -L 1
       <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/GjJ1hnsCgPWqBNe.jpg&quot; alt=&quot;明朝有封事，数问夜如何&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一首诗&quot;&gt;&lt;a href=&quot;#一首诗&quot; class=&quot;headerlink&quot; title=&quot;一首诗&quot;&gt;&lt;/a&gt;一首诗&lt;/h2&gt;&lt;p&gt;新买的 Boox Poke4S 屏保可以设为诗词，最近在上面看到一首杜甫的诗，挺喜欢的。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;春宿左省&lt;br&gt;花隐掖垣暮，啾啾栖鸟过。&lt;br&gt;星临万户动，月傍九霄多。&lt;br&gt;不寝听金钥，因风想玉珂。&lt;br&gt;明朝有封事，数问夜如何。&lt;/p&gt;
+&lt;p&gt;春宿左省
+花隐掖垣暮，啾啾栖鸟过。
+星临万户动，月傍九霄多。
+不寝听金钥，因风想玉珂。
+明朝有封事，数问夜如何。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;好的诗可以传递情绪。想象一下，自己明天有一场重要的答辩，在紧张的准备之时，看到傍晚落霞余晖，栖鸟飞过，心生忐忑。随着夜晚到来，斗转星移，月色清凉，时睡时醒，迷迷糊糊问自己好几遍现在是晚上几点，为什么这个夜晚格外的长。&lt;/p&gt;
-&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工具&lt;/h2&gt;&lt;p&gt;Raycast 是一款免费的启动器，颜值相比 Alfred 更加现代，与 macOS 系统功能及 app 软件结合较好。所以直接使用默认快捷键 &lt;code&gt;Option&lt;/code&gt; </description>
+&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工具&lt;/h2&gt;&lt;p&gt;Raycast 是一款免费的启动器，颜值相比 Alfred 更加现代，与 macOS 系统功能及 app 软件结合较好。所以直接使用默认快捷键 &lt;code&gt;Option&lt;/code&gt; + &lt;code&gt;Spac</description>
         
       
       
