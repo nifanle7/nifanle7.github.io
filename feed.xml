@@ -555,9 +555,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Daily" scheme="http://www.uncoverman.com/tags/Daily/"/>
-    
     <category term="Car" scheme="http://www.uncoverman.com/tags/Car/"/>
+    
+    <category term="Daily" scheme="http://www.uncoverman.com/tags/Daily/"/>
     
   </entry>
   
