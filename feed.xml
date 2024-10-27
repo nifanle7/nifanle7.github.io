@@ -489,9 +489,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
   </entry>
   
@@ -591,9 +591,9 @@ tree -L 1
     
     <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
   </entry>
   
