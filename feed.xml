@@ -693,11 +693,12 @@ tree -L 1
       
     </item>
     
+    
+    <follow_challenge>
+        <feedId>58829412811444224</feedId>
+        <userId>65390626418321408</userId>
+    </follow_challenge>
+    
   </channel>
-  
-  <follow_challenge>
-      <feedId>58829412811444224</feedId>
-      <userId>65390626418321408</userId>
-  </follow_challenge>
 
 </rss>
