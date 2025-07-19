@@ -34,7 +34,7 @@ body .tag.post-item-tag{
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: 0.9em;
+  margin-bottom: 1.5em;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
