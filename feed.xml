@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2025-07-19T13:33:06.327Z</updated>
+  <updated>2025-07-19T15:46:40.176Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -21,19 +21,18 @@
     <link href="http://www.uncoverman.com/zspace-z4-pro-common-functions.html"/>
     <id>http://www.uncoverman.com/zspace-z4-pro-common-functions.html</id>
     <published>2025-07-18T16:00:00.000Z</published>
-    <updated>2025-07-19T13:33:06.327Z</updated>
+    <updated>2025-07-19T15:46:40.176Z</updated>
     
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/FbWwNLJz7BRKOPC.png&quot; alt=&quot;imgae20250719191941703.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2025 年春节期间，购入了一台 NAS 设备──极空间 Z4 Pro。总结一下使用场景。&lt;/p&gt;
-&lt;p&gt;1、极相册，会把手机里的照片整理到手机主题相册，如宝宝、风光、美食等，定期按主题上传极空间备份。这样 NAS 上的照片都是整理过，不至于太乱，上传可以实现增量上传，整理成本比较低。特别是宝宝相册，一家人可以一起查看、维护，幸福感满满。&lt;/p&gt;
-&lt;p&gt;2、极影视，下载的电影会自动生成海报墙，可以观看。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png&quot; alt=&quot;imgae20250719191941703.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2025 年春节期间，购入了一台 NAS 设备──极空间 Z4 Pro，基本每天都会用到，总结一下使用场景。&lt;/p&gt;
+&lt;p&gt;1、极相册，会把手机里的照片整理到手机主题相册，如宝宝、风光、美食等，&lt;strong&gt;定期按主题上传极空间备份&lt;/strong&gt;。这样 NAS 上的照片都是整理过，不至于太乱，&lt;strong&gt;上传可以实现增量上传&lt;/strong&gt;，整理成本比较低。特别是宝宝相册，一家人可以一起查看、维护，幸福感满满。&lt;/p&gt;
+&lt;p&gt;2、极影视，下载的电影会自动生成&lt;strong&gt;海报墙&lt;/strong&gt;，可以观看。&lt;/p&gt;
 &lt;p&gt;3、极音乐，可以听自己收藏的音乐，放车上或者在家里。现在各大音乐平台可以免费收听的音乐越来越少，大部分一段就没得听，有时还会被下架。&lt;/p&gt;
 &lt;p&gt;4、个人空间，把自己重要的文件除了 iCloud 备份，还会在 NAS 上备份，多个平台随时随地访问，电脑、平板、手机、电纸书、投影仪，比移动硬盘更方便，比云盘容量更大。&lt;/p&gt;
-&lt;p&gt;5、Docker，这个可玩性就比较高了，看大家怎么折腾，个人主要装了 PT 和音乐相关的应用，如 qbittorrent、transmission、IYUU、moviepilot、music tag web。&lt;/p&gt;
-&lt;p&gt;6、远程访问</summary>
+&lt;p&gt;5、Docker，这个可玩性就比较高了，看大家怎么折腾，个人主要装了 PT 和音乐相关的应用，如 qbittorre</summary>
       
     
     
@@ -520,9 +519,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
   </entry>
   
@@ -622,9 +621,9 @@ tree -L 1
     
     <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
   </entry>
   

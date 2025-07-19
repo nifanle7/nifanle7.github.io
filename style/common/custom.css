@@ -34,7 +34,7 @@ body .tag.post-item-tag{
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.9em;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
@@ -153,7 +153,7 @@ pre[class*=language-]::after {
   .content blockquote:not(:last-child),
   .content pre:not(:last-child),
   .content table:not(:last-child) {
-    margin-bottom: 0.6em;
+    margin-bottom: 1.5em;
   }
 
   .content h2, .content h3, .content h4, .content h5, .content h6 {
