@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2024-06-10T05:47:53.425Z</updated>
+  <updated>2025-07-19T13:14:26.396Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的NAS设备极空间Z4Pro常用功能</title>
+    <link href="http://www.uncoverman.com/zspace-z4-pro-common-functions.html"/>
+    <id>http://www.uncoverman.com/zspace-z4-pro-common-functions.html</id>
+    <published>2025-07-18T16:00:00.000Z</published>
+    <updated>2025-07-19T13:14:26.396Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/FbWwNLJz7BRKOPC.png&quot; alt=&quot;imgae20250719191941703.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2025 年春节期间，购入了一台 NAS 设备──极空间 Z4 Pro。总结一下使用场景。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;极相册￼，会把手机里的照片整理到手机主题相册，如宝宝、风光、美食等，定期按主题上传极空间备份。这样 NAS 上的照片都是整理过，不至于太乱，上传可以实现增量上传，整理成本比较低。特别是宝宝相册，一家人可以一起查看、维护，幸福感满满。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;极影视，下载的电影会自动生成海报墙，可以观看。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;极音乐，可以听自己收藏的音乐，放车上或者在家里。现在各大音乐平台可以免费收听的音乐越来越少，大部分一段就没得听，有时还会被下架。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;个人空间，把自己重要的文件除了 iCloud 备份，还会在 NAS 上备份，多个平台随时随地访问，电脑、平板、手机、电纸书、投影仪，比移动硬盘更方便，比云盘容量更大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Docker，这个可玩性就比较高了，看大家怎么折腾，个人主要装了 PT 和音乐相关的应用，如 qbittorrent、transmission、IYUU</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+  </entry>
   
   <entry>
     <title>博客多图自动单行排版</title>
@@ -627,33 +662,6 @@ tree -L 1
     
     
     <category term="Investment" scheme="http://www.uncoverman.com/tags/Investment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Macbook 购买记</title>
-    <link href="http://www.uncoverman.com/buy-14-inch-macbook-pro-2021.html"/>
-    <id>http://www.uncoverman.com/buy-14-inch-macbook-pro-2021.html</id>
-    <published>2022-06-23T16:00:00.000Z</published>
-    <updated>2022-06-24T15:00:30.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/06/24/avDuFgpwIUyZjKA.jpg&quot; alt=&quot;macbook-pro-2021-banner&quot;&gt;&lt;/p&gt;
-&lt;p&gt;我在 2015 年的时候，24 期分期买了一台 2014 年官翻的 Macbook Pro，512G 硬盘，8G 内存。用到现在已经 8 年了，3 年前免费换过一次屏幕，看起来又是全新的。现在除了电池续航缩短到了 2 小时以外，其余一切正常，非常满意。&lt;/p&gt;
-&lt;p&gt;配置上 512G 的硬盘完全没有容量焦虑，不过 8G 内存偶尔会有卡顿。&lt;/p&gt;
-&lt;p&gt;毕竟笔记本已经这么多年，新系统升级已经不支持了，想使用 macOS 上的快捷指令和基于 M1 芯片的 iOS 应用。于是在去年开始就蠢蠢欲动想换电脑。&lt;/p&gt;
-&lt;p&gt;一直在等 M2 版的 Macbook Air，心里对它的预设是更便宜、更轻薄、更美观。可惜价格出来并不美丽，还迟迟未发售。6.18 期间，原本考虑官翻的 2021 版 14 寸 MacBook Pro，512G 硬盘，16G 内存，后来惊奇地发现拼多多上全新价格跟同等配置的 Macbook Air 相近，自带 HDMI 接口开会可以少带个扩展坞，发货还不用等，于是就入手了。&lt;/p&gt;
-&lt;p&gt;原本不大喜欢刘海屏，实际使用发现没有什么影响，而且屏幕边框确实变窄了，真香。😬</summary>
-      
-    
-    
-    
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="Record" scheme="http://www.uncoverman.com/tags/Record/"/>
     
   </entry>
   
