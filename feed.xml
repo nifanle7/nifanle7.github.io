@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2025-07-19T15:46:40.176Z</updated>
+  <updated>2025-07-19T15:50:41.362Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.uncoverman.com/zspace-z4-pro-common-functions.html"/>
     <id>http://www.uncoverman.com/zspace-z4-pro-common-functions.html</id>
     <published>2025-07-18T16:00:00.000Z</published>
-    <updated>2025-07-19T15:46:40.176Z</updated>
+    <updated>2025-07-19T15:50:41.362Z</updated>
     
     
       
@@ -455,9 +455,9 @@ tree -L 1
     
     <category term="Plugin" scheme="http://www.uncoverman.com/tags/Plugin/"/>
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
@@ -519,9 +519,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
-    
     <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
+    
+    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
   </entry>
   
@@ -548,9 +548,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
@@ -619,11 +619,11 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
