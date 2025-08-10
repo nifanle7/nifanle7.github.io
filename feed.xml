@@ -26,13 +26,14 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png&quot; alt=&quot;imgae20250719191941703.png&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png&quot; alt=&quot;imgae20250719191941703.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2025 年春节期间，购入了一台 NAS 设备──极空间 Z4 Pro，基本每天都会用到，总结一下使用场景。&lt;/p&gt;
 &lt;p&gt;1、极相册，会把手机里的照片整理到手机主题相册，如宝宝、风光、美食等，&lt;strong&gt;定期按主题上传极空间备份&lt;/strong&gt;。这样 NAS 上的照片都是整理过，不至于太乱，&lt;strong&gt;上传可以实现增量上传&lt;/strong&gt;，整理成本比较低。特别是宝宝相册，一家人可以一起查看、维护，幸福感满满。&lt;/p&gt;
 &lt;p&gt;2、极影视，下载的电影会自动生成&lt;strong&gt;海报墙&lt;/strong&gt;，可以观看。&lt;/p&gt;
 &lt;p&gt;3、极音乐，可以听自己收藏的音乐，放车上或者在家里。现在各大音乐平台可以免费收听的音乐越来越少，大部分一段就没得听，有时还会被下架。&lt;/p&gt;
 &lt;p&gt;4、个人空间，把自己重要的文件除了 iCloud 备份，还会在 NAS 上备份，多个平台随时随地访问，电脑、平板、手机、电纸书、投影仪，比移动硬盘更方便，比云盘容量更大。&lt;/p&gt;
-&lt;p&gt;5、Docker，这个可玩性就比较高了，看大家怎么折腾，个人主要装了 PT 和音乐相关的应用，如 qbittorre</summary>
+&lt;p&gt;5、Docker，这个可玩性就比较高了，看大家怎么折腾，个人主要装了 PT 和音乐相关的应用，如 qbittorrent、transmission、IYUU、moviepilot、music tag web。&lt;/p&gt;
+&lt;p&gt;6、远程访问，在外面无需公网 IP 就是访问 NAS，这个功能也是我选择极空间的原因之一，</summary>
       
     
     
@@ -56,14 +57,17 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;技术方案来自木木木木木的&lt;a href=&quot;https://immmmm.com/about-images-gird/&quot;&gt;多图排版&lt;/a&gt;，CSS 代码如下，&lt;code&gt;.post-content&lt;/code&gt; 根据博客实际类调整：&lt;/p&gt;
+    <summary type="html">&lt;p&gt;技术方案来自木木木木木的&lt;a href=&quot;https://immmmm.com/about-images-gird/&quot;&gt;多图排版&lt;/a&gt;，CSS 代码如下，&lt;code&gt;.post-content&lt;/code&gt; 根据博客实际类调整：&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;.post-content p:has(&amp;gt; img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}
 .post-content p:has(&amp;gt; img:nth-child(3)){column-count:3;}
 .post-content p:has(&amp;gt; img:nth-child(4)){column-count:4;}
 .post-content p:has(&amp;gt; img:nth-child(5)){column-count:5;}
 .post-content p:has(&amp;gt; img:nth-child(6)){column-count:4;}
 .post-content p:has(&amp;gt; img:nth-child(2)) img{display:inherit;}
-.post-content p:has(&amp;gt; img:nth-child(6</summary>
+.post-content p:has(&amp;gt; img:nth-child(6)) img{margin-bottom:8px;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一行两图效果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01</summary>
       
     
     
@@ -85,7 +89,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg&quot; alt=&quot;software_production_drill_20240411.jpg&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg&quot; alt=&quot;software_production_drill_20240411.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;为什么要做软件项目投产演练？像银行科技系统有成百上千套，比如核心系统、核心中台、信贷系统、信贷中台、信贷额度系统、客户信息管理系统（ECIF）、支付中台、个人手机银行 、企业服务总线（ESB）等。各系统间关联度高，如果一起投产，可能会出现各种各样的异常场景，哪个系统先投产，哪个系统后投产，需要验证什么内容，极端情况下各系统回退版本要怎么应对，因此需要进行投产演练。对于特大型的软件项目，有可能一轮演练还不够，需要第二轮、第三轮甚至第四轮。&lt;/p&gt;
 &lt;p&gt;投产演练主要步骤如下：&lt;/p&gt;
 &lt;ol&gt;
@@ -94,7 +98,8 @@
 &lt;li&gt;实施投产演练方案&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;编制投产演练方案&quot;&gt;&lt;a href=&quot;#编制投产演练方案&quot; class=&quot;headerlink&quot; title=&quot;编制投产演练方案&quot;&gt;&lt;/a&gt;编制投产演练方案&lt;/h2&gt;&lt;p&gt;投产演练方案应该包括演练环境、开始和结束时间、投产步骤和时序、执行人和复核人、回退方案、科技验证和业务验证案例等。&lt;/p&gt;
-&lt;p&gt;此投产演练方案可以由项目经理牵头</summary>
+&lt;p&gt;此投产演练方案可以由项目经理牵头与高度关联系统的研发负责人编制一份初稿，搭建出整体框架，再由其他系统的研发负责人补充完善。&lt;/p&gt;
+&lt;p&gt;投产步骤和时序包含了哪些系统先投产，哪些系统后投产，有无相互依赖关系，大概要花多久时间。比如</summary>
       
     
     
@@ -116,11 +121,12 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;贷款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
+    <summary type="html">&lt;p&gt;贷款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
 &lt;p&gt;那么核销贷款，债务人是不是就不用还了？答案是否定的。&lt;strong&gt;所谓核销，就是账销案存&lt;/strong&gt;。银行账面已经没有这笔贷款了，但追索权还在，依然会进行清收。清收可由银行内部进行也可通过外包进行。那为什么要核销呢？&lt;/p&gt;
 &lt;p&gt;主要的原因在于所得税。&lt;strong&gt;税务局收取所得税不是按照银行向股东们提交的财务报表中的净利润来的，是按税务局自己的一套标准来收所得税&lt;/strong&gt;，简单地说，税务局对净利润的定义和上市公司财务报表中的净利润是有很多地方不一样的，这也是报表中递延所得税的来历。&lt;/p&gt;
 &lt;p&gt;换句话说，核销贷款是税务局认定银行真实损失的标准要求，税务局不认可银行自己提取的减值损失是真实的成本，而是认定这些减值损失变成真实的，才认定成本，可以从净利润中扣除，减少所得税。其实这也正常，&lt;strong&gt;不同的管理要求会对同样的指标有不同的数据口径要求&lt;/strong&gt;，比如上市公司提供财报用于对外公示，编制管报用于内部管理，编制税表给税务部门。&lt;/p&gt;
-&lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 </summary>
+&lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 年金融企业呆账核销管理办法（2017 年版）》。&lt;/p&gt;
+&lt;p&gt;简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核销条件是，未能收回，并且追索 180 天以上，并且追索 6</summary>
       
     
     
@@ -146,7 +152,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Diagrams 插件用于 Obsidian 中 Drawio 绘图，可以画各种架构图、流程图。几年前刚出来的时候，还&lt;a href=&quot;&quot;&gt;奔歌&lt;/a&gt;过，可惜这两年都没什么维护，虽然没有什么新的功能更新，但大体能用。&lt;/p&gt;
 &lt;p&gt;然而，在 Obsidian 15 中，出现了一个致命问题，打开来以后布局混乱，没有办法直接使用。&lt;/p&gt;
 &lt;p&gt;研究了一下解决方案，说来也简单，只要在 &lt;code&gt;.obsidian/plugins/drawio-obsidian/&lt;/code&gt;把 &lt;a href=&quot;main.jshttps://www.alipan.com/s/hE6P36qwkTM&quot;&gt;main.js&lt;/a&gt; 替换一下即可。具体原理详见 &lt;a href=&quot;https://github.com/zapthedingbat/drawio-obsidian/issues/89&quot;&gt;Issues&lt;/a&gt;。&lt;/p&gt;
@@ -172,13 +178,14 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;公司每年会有一次体检。近两年确实不比年轻，指标不好得更多了，毛病一大堆。:(&lt;/p&gt;
 &lt;h2 id=&quot;变好&quot;&gt;&lt;a href=&quot;#变好&quot; class=&quot;headerlink&quot; title=&quot;变好&quot;&gt;&lt;/a&gt;变好&lt;/h2&gt;&lt;p&gt;唯一的好消息是，C13 呼气试验转阴。因为去年 C13 呼气试验测出阳性以后，判定为幽门螺杆菌，具有一定传染性。为了不影响家里的大人小孩，专门去医院开方，吃了两周左右的药，就好了。过程的副作用是经常要上洗手间，把毒素排出体外。&lt;/p&gt;
 &lt;h2 id=&quot;变化不大&quot;&gt;&lt;a href=&quot;#变化不大&quot; class=&quot;headerlink&quot; title=&quot;变化不大&quot;&gt;&lt;/a&gt;变化不大&lt;/h2&gt;&lt;p&gt;1、胆囊息肉大小没怎么变化，保持在 5×5mm，需要持续关注。
 2、肺部结节稍有增加，长径从去年的 2.5mm 变为 3.0mm，需要持续关注。
 3、双眼有近视弧形斑，需要避免过度用眼，特别是晚上关灯以后继续玩手机。&lt;/p&gt;
-&lt;h2 id=&quot;变差&quot;&gt;&lt;a href=&quot;#变差&quot; class=&quot;headerlink&quot; title=&quot;变差&quot;&gt;&lt;/a&gt;变差&lt;/h2&gt;&lt;p&gt;血脂进一</summary>
+&lt;h2 id=&quot;变差&quot;&gt;&lt;a href=&quot;#变差&quot; class=&quot;headerlink&quot; title=&quot;变差&quot;&gt;&lt;/a&gt;变差&lt;/h2&gt;&lt;p&gt;血脂进一步多数指标变差。去年血脂类指标已经开始有好几项超标了，今年超得更多了，还是需要清淡饮食，多运动。&lt;strong&gt;老话讲的好，管住嘴，迈开腿。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;ht</summary>
       
     
     
@@ -200,12 +207,14 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg&quot; alt=&quot;对话&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg&quot; alt=&quot;对话&quot;&gt;&lt;/p&gt;
 &lt;p&gt;在敏捷转型过程中，往往需要与关键人进行关键对话。关键对话的引导好坏，直接影响转型的结果，是敏捷教练的一项重要软技能。&lt;/p&gt;
 &lt;p&gt;那么，如何进行关键对话呢？可以分三个步骤：准备对话、开展对话和结束对话。&lt;/p&gt;
 &lt;h2 id=&quot;准备对话&quot;&gt;&lt;a href=&quot;#准备对话&quot; class=&quot;headerlink&quot; title=&quot;准备对话&quot;&gt;&lt;/a&gt;准备对话&lt;/h2&gt;&lt;p&gt;在准备对话时，教练首先要做的是选择话题。&lt;/p&gt;
 &lt;p&gt;关键对话中往往同时存在多个话题，需要聚焦话题，避免避重就轻，否则难以达到对话目标。&lt;strong&gt;话题分为内容层面、模式层面、关系层面，分别对应着就事论事，就事论行，就事论人，在准备过程中要明确所在的对话层次。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;举个例子，有人多次叫错你的名字，在不同层面处理对话方式不同：①维持在内容层面。有人叫错你的名字，马上纠正，立刻解决问题。②上升到模式层面。表达你的担忧，说他叫错你的名字已经成了一种模式。③ 讨论关系层面。让他知道，你的名字是你身份中很重要的一部分。一位经常与你共事的同事不愿意花点时间学学怎么把你的名字念对，这让你觉得不受尊重。所以，关键对话前我们要确认好本次对话的</summary>
+&lt;p&gt;举个例子，有人多次叫错你的名字，在不同层面处理对话方式不同：①维持在内容层面。有人叫错你的名字，马上纠正，立刻解决问题。②上升到模式层面。表达你的担忧，说他叫错你的名字已经成了一种模式。③ 讨论关系层面。让他知道，你的名字是你身份中很重要的一部分。一位经常与你共事的同事不愿意花点时间学学怎么把你的名字念对，这让你觉得不受尊重。所以，关键对话前我们要确认好本次对话的话题及所在层次。&lt;/p&gt;
+&lt;p&gt;其次要确定对话的目标，需要预想好本次对话预期达到的结果，以及对话的几个选择方案。&lt;/p&gt;
+&lt;h2 id=&quot;开展对话&quot;&gt;&lt;a href=&quot;#开展对话&quot; class=&quot;h</summary>
       
     
     
@@ -229,7 +238,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png&quot; alt=&quot;banner&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png&quot; alt=&quot;banner&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;作为教练，如果你进到团队，团队很多人觉得你要推的实践没啥用，只是增加额外工作，你来团队的话必然会有诸多的阻力，你准备怎么开展你的工作?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -237,7 +246,8 @@
 &lt;h2 id=&quot;与管理层建立连接&quot;&gt;&lt;a href=&quot;#与管理层建立连接&quot; class=&quot;headerlink&quot; title=&quot;与管理层建立连接&quot;&gt;&lt;/a&gt;与管理层建立连接&lt;/h2&gt;&lt;p&gt;教练作为外部人员，无职权影响力，那如何影响团队，关键需要管理层的支持，可以分三步走：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在实践推广之前，教练与管理层进行&lt;strong&gt;专题沟通&lt;/strong&gt;，说明要推行的实践内容以及带来的价值，一方面以汇报的途径建立连接，另一方面听取管理层的反馈，大家对齐一下期望。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;邀请管理层参加相关活动&lt;/strong&gt;，比如启动会、培训、工作坊等，增加管理层的参与感，并让团队</summary>
+&lt;li&gt;&lt;strong&gt;邀请管理层参加相关活动&lt;/strong&gt;，比如启动会、培训、工作坊等，增加管理层的参与感，并让团队看到管理层的关注度。&lt;/li&gt;
+&lt;li&gt;将实践成果及不足通过回顾会议、研发管理平台线上数据、微信群&lt;strong&gt;阶段性报告&lt;/strong&gt;等方式高层进行展示，并获取管理层的进一步反馈。&lt;/li&gt;</summary>
       
     
     
@@ -259,7 +269,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/05/29/xzFhe5tgjScD7fR.png&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/05/29/xzFhe5tgjScD7fR.png&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
 &lt;p&gt;工作中会需要导出 PDF 给其他人，特别是现在大家都用微信协作，PDF 不会像 Word、PPT 一样文字和样式错位。&lt;/p&gt;
 &lt;p&gt;Obsidian 导出 PDF 有 &lt;a href=&quot;https://forum-zh.obsidian.md/t/topic/9844&quot;&gt;多种方案&lt;/a&gt;，我选择默认导出 PDF 的功能，支持双链图片，只是默认样式太丑了。所以专门写一个打印的 CSS 代码片段，满足个性化需求。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;/* 文件名可以命名为 print.css */
@@ -275,7 +285,13 @@
     line-height: 1.8;
     /* 字体 */
     font-family: Avenir next, -apple-system, &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
-    /* </summary>
+    /* 段后间距 */
+    padding-bottom: 3px;
+    }
+    
+    /* callouts行间距 */
+    div.callout-title-inner{
+    </summary>
       
     
     
@@ -297,7 +313,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/04/10/NpolvfPERitBjZ1.png&quot; alt=&quot;night-city-H.16.622945641.png&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/04/10/NpolvfPERitBjZ1.png&quot; alt=&quot;night-city-H.16.622945641.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;好消息，macOS 可以本地生成 AI 图片了！&lt;/p&gt;
 &lt;p&gt;日前，苹果公司发布了 &lt;a href=&quot;https://github.com/apple/ml-stable-diffusion&quot;&gt;Core ML Stable Diffusion 框架&lt;/a&gt;，可以在 macOS 上原生运行 Stable Diffusion，利用 AI 生成图片。目前市面上主流的 AI 图片服务都需要收费，订阅制而且有额度限制，对于轻度使用并不友好。现在可以通过本地运行的方式，免费生成 AI 图片，以后博客文章的 banner 不愁了。😁&lt;/p&gt;
 &lt;p&gt;不过，有两个前提：&lt;/p&gt;
@@ -306,7 +322,8 @@
 &lt;li&gt;macOS Ventura 13.1 以上&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;操作方法&quot;&gt;&lt;a href=&quot;#操作方法&quot; class=&quot;headerlink&quot; title=&quot;操作方法&quot;&gt;&lt;/a&gt;操作方法&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;下载 &lt;a href=&quot;https://github.com/godly-devotion/M</summary>
+&lt;li&gt;下载 &lt;a href=&quot;https://github.com/godly-devotion/MochiDiffusion/releases&quot;&gt;MochiDiffusion&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;到 &lt;a href=&quot;https://huggingface.co/coreml&quot;&gt;Core</summary>
       
     
     
@@ -330,7 +347,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;在 Github 上浏览项目，或者观看一些开发教程时，会看到字符格式的文件夹目录结构，很清晰。方法简单的，使用 &lt;code&gt;tree&lt;/code&gt; 命令就能实现。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;在 Github 上浏览项目，或者观看一些开发教程时，会看到字符格式的文件夹目录结构，很清晰。方法简单的，使用 &lt;code&gt;tree&lt;/code&gt; 命令就能实现。&lt;/p&gt;
 &lt;p&gt;第一步，打开终端，使用 Homebrew 安装 &lt;code&gt;tree&lt;/code&gt;。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;brew install tree
 &lt;/code&gt;&lt;/pre&gt;
@@ -370,12 +387,12 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg&quot; alt=&quot;2022001.jpeg&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg&quot; alt=&quot;2022001.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2022 年结束了，很想总结点什么，蓦然回首，发现要说道的并不多，工作生活要么太细碎，要么有隐私，而且说到底，年份这个概念也只是个人造刻度。转念一想，拧一拧人生发条也未尝不可，不然人会生锈，你说是不？&lt;/p&gt;
 &lt;p&gt;在这一年里，我经历了 1 次为期一周的封控，感染了 1 次新冠。在此期间，我用烤箱做了 4 次烤鸡，烤鸡的技术倒是越来越娴熟，用的是下厨房 &lt;a href=&quot;https://www.xiachufang.com/recipe/106648142/&quot;&gt;完美烤鸡菜谱&lt;/a&gt;，把植物油和蜂蜜是否涂刷、烤制时间长短、铺底萝卜土豆大小、添加调料的不同等进行了尝试，仔细体会其产生的不同结果。话说，&lt;strong&gt;做菜还真是几分耕耘几分收获&lt;/strong&gt;，过程中哪一道工序遗漏或者分量不对，结果立马反映出来，谁都不可能靠运气做出一道又一道好吃的菜。&lt;/p&gt;
 &lt;p&gt;住的房子从去年开始在贝壳找房上挂，经过了 14 个月后卖了出去换新房，过渡阶段租房子住。1 个月内完成了卖房、卖房和租房的动作。关于房屋交易，也有了 3 次经验，想到了几个点记录一下：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;买房时需要注意采光和得房率，现</summary>
+&lt;li&gt;买房时需要注意采光和得房率，现在政府对于开发商房屋的信息披露越来越完善，可以在政府 APP 上搜到开发商的所有备案图纸，也可以看到冬至日模拟日照时长、得房率计算、房屋价格，比如宁波地区可以用看「浙里办 - 看图买房」和「宁波住浙</summary>
       
     
     
@@ -401,7 +418,7 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/DqJNhLXQi5Soxfm.jpg&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/DqJNhLXQi5Soxfm.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;以下为个人常用的工具，并关联了之前写过的文章。既作软件工具的推荐，又作博客文章的索引。&lt;/p&gt;
 &lt;h2 id=&quot;macOS-系统&quot;&gt;&lt;a href=&quot;#macOS-系统&quot; class=&quot;headerlink&quot; title=&quot;macOS 系统&quot;&gt;&lt;/a&gt;macOS 系统&lt;/h2&gt;&lt;p&gt;效率及美化：&lt;/p&gt;
 &lt;ul&gt;
@@ -409,7 +426,9 @@ tree -L 1
 &lt;li&gt;&lt;a href=&quot;https://github.com/dwarvesf/hidden/releases/latest&quot;&gt;Hidden Bar&lt;/a&gt;：隐藏菜单栏的图标。&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.mowglii.com/itsycal/&quot;&gt;Ityscal&lt;/a&gt; ：菜单栏日历。&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/yanue/V2rayU/releases&quot;&gt;VrayU&lt;/a&gt;：自由上网。&lt;/li&gt;
-&lt;li&gt;Quan</summary>
+&lt;li&gt;Quantumult X：M1、M2 芯片可以用 iOS 应用，自由上网。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.ankiweb.net/&quot;&gt;Anki&lt;/a&gt; ：记单词。&lt;/li&gt;
+</summary>
       
     
     
@@ -439,11 +458,11 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;遗忘&quot;&gt;&lt;a href=&quot;#遗忘&quot; class=&quot;headerlink&quot; title=&quot;遗忘&quot;&gt;&lt;/a&gt;遗忘&lt;/h2&gt;&lt;p&gt;朋友家刚休完产假，小宝宝 5 个月大。周末拎了 2 袋尿不湿和 1 袋水果去看望了一下。聊天时，聊到自己小宝宝一天睡几次，每次睡多久，睡眠情况怎么样，虽然才过去 1 年半，发现具体的细节却已有些想不起来了。还是要多拍照、拍视频、写文字记录，不然很容易遗忘。这也是每周会写点东西的原因。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;遗忘&quot;&gt;&lt;a href=&quot;#遗忘&quot; class=&quot;headerlink&quot; title=&quot;遗忘&quot;&gt;&lt;/a&gt;遗忘&lt;/h2&gt;&lt;p&gt;朋友家刚休完产假，小宝宝 5 个月大。周末拎了 2 袋尿不湿和 1 袋水果去看望了一下。聊天时，聊到自己小宝宝一天睡几次，每次睡多久，睡眠情况怎么样，虽然才过去 1 年半，发现具体的细节却已有些想不起来了。还是要多拍照、拍视频、写文字记录，不然很容易遗忘。这也是每周会写点东西的原因。&lt;/p&gt;
 &lt;h2 id=&quot;湊湊火锅&quot;&gt;&lt;a href=&quot;#湊湊火锅&quot; class=&quot;headerlink&quot; title=&quot;湊湊火锅&quot;&gt;&lt;/a&gt;湊湊火锅&lt;/h2&gt;&lt;p&gt;疯投圈最近聊了一期火锅的节目，中国目前火锅市场占有率第一的是海底捞，第二名是湊湊火锅。以前从没听说过第二名，没想到宁波已经开了 4 家分店。本周朋友聚会选了这个品牌，去尝试了一下，印象不错。&lt;/p&gt;
 &lt;p&gt;他们家的花胶鸡锅底是特色，鸡肉很鲜。第一次吃到芝士夹心的鱼豆腐，耳目一新。店里赠送的东西挺多的，有儿童餐、芒果沙冰、鸭血豆腐、冰淇淋。芒果沙冰可以无限续杯，很爽口。鸭血豆腐微辣，鸭血不是以往吃的那种软塌塌的口感，是吃过最好吃的鸭血了。&lt;/p&gt;
 &lt;p&gt;只可惜我后来吃的有点多，消化不良了。😭&lt;/p&gt;
-&lt;h2 id=&quot;汽车蓄电池更换&quot;&gt;&lt;a href=&quot;#汽车蓄电池更换&quot; class=&quot;headerlink</summary>
+&lt;h2 id=&quot;汽车蓄电池更换&quot;&gt;&lt;a href=&quot;#汽车蓄电池更换&quot; class=&quot;headerlink&quot; title=&quot;汽车蓄电池更换&quot;&gt;&lt;/a&gt;汽车蓄电池更换&lt;/h2&gt;&lt;p&gt;这几天车子启动点火有点费力，应该是汽车蓄电池寿命到了。上次保养时 4S 店就告诉我蓄电池还有 20% 的寿命，估计能用 3-</summary>
       
     
     
@@ -471,14 +490,15 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png&quot; alt=&quot;pandoc&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png&quot; alt=&quot;pandoc&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Markdown 格式，只要接受了，就会爱上它。虽然会有标记符号在其中，但是不开预览模式，基本也能障碍阅读。&lt;/p&gt;
 &lt;p&gt;但是对于普通人来说，直接看 md 文件并不友好。这时，我们会考虑，能否把 md 文件导出成为 Word 格式？&lt;/p&gt;
 &lt;p&gt;当然可以。&lt;/p&gt;
 &lt;h2 id=&quot;Pandoc-软件&quot;&gt;&lt;a href=&quot;#Pandoc-软件&quot; class=&quot;headerlink&quot; title=&quot;Pandoc 软件&quot;&gt;&lt;/a&gt;Pandoc 软件&lt;/h2&gt;&lt;p&gt;Pandoc 的出现就是为了解决这个问题。它就是一把「瑞士军刀」，可以实现多种文本格式的相互转换，不仅可以把 md 文件导出为 Word，还可以导出为 PDF、ePub 甚至是 PPT，更多的格式转换可以查阅&lt;a href=&quot;https://www.pandoc.org/index.html&quot;&gt;官网&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;使用方法是下载安装 Pandoc，通过以下的一个命令行就能实现文件的转换。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-shell&quot;&gt;pandoc 文件名.md -s -o 文件名.docx
-</summary>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;Obsidian-集成-Pandoc&quot;&gt;&lt;a href=&quot;#Obsidian-集成-Pandoc&quot; class=&quot;headerlink&quot; title=&quot;O</summary>
       
     
     
@@ -502,7 +522,7 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;佩洛西访台&quot;&gt;&lt;a href=&quot;#佩洛西访台&quot; class=&quot;headerlink&quot; title=&quot;佩洛西访台&quot;&gt;&lt;/a&gt;佩洛西访台&lt;/h2&gt;&lt;p&gt;本周国人最关心的政治事件要属「佩洛西窜访台湾」了。当时有两大悬念：&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;佩洛西访台&quot;&gt;&lt;a href=&quot;#佩洛西访台&quot; class=&quot;headerlink&quot; title=&quot;佩洛西访台&quot;&gt;&lt;/a&gt;佩洛西访台&lt;/h2&gt;&lt;p&gt;本周国人最关心的政治事件要属「佩洛西窜访台湾」了。当时有两大悬念：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;佩洛西会不会在中国强烈反对下，一意孤行窜访台湾。&lt;/li&gt;
 &lt;li&gt;佩洛西如果访台，是否会发生军事冲突，甚至引发战争，毕竟有俄乌冲突的先例。&lt;/li&gt;
@@ -511,7 +531,7 @@ tree -L 1
 &lt;p&gt;当天晚上，民意滔滔。微博甚至做了「战略性熔断」，大陆地区的人那关键的 1-2 小时里刷不出微博，抖音、B 站对佩洛西飞机行程的直播也中断了，避免民情发酵。大家都担心会打仗，个人甚至也有点希望发生一些冲突「以振国威」。&lt;/p&gt;
 &lt;p&gt;所幸，中国大陆还是很克制，并没有发动军事冲突，以军事演习和经济制裁收场。擦枪未走火，一度发绿的股市也回弹了。&lt;/p&gt;
 &lt;p&gt;经过这一次事件，愈发感受到政治人物的自私，为了选举，就不惜挑拨远方两个地区的冲突，甚至引发他们的战争。&lt;strong&gt;对于他们而言，远方的战争都仅仅是手中的筹码，而不是一条条鲜活的生命。&lt;/strong&gt;&lt;/p&gt;
-&lt;h</summary>
+&lt;h2 id=&quot;七夕礼物&quot;&gt;&lt;a href=&quot;#七夕礼物&quot; class=&quot;headerlink&quot; title=&quot;七夕礼物&quot;&gt;&lt;/a&gt;七夕礼物&lt;/h2&gt;&lt;p&gt;这个七夕，收到了媳妇送的礼物，Apple Wa</summary>
       
     
     
@@ -535,12 +555,14 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;乱翻书&quot;&gt;&lt;a href=&quot;#乱翻书&quot; class=&quot;headerlink&quot; title=&quot;乱翻书&quot;&gt;&lt;/a&gt;乱翻书&lt;/h2&gt;&lt;p&gt;本周重读了一下池建强的《 &lt;a href=&quot;https://book.douban.com/subject/25826578/&quot;&gt;MacTalk·人生元编程&lt;/a&gt; 》，很多年前看过，但是还是在重温的过程，发现有些 macOS 的操作技巧想法，跟自己的现 在的用法不谋而合，有些开心。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;乱翻书&quot;&gt;&lt;a href=&quot;#乱翻书&quot; class=&quot;headerlink&quot; title=&quot;乱翻书&quot;&gt;&lt;/a&gt;乱翻书&lt;/h2&gt;&lt;p&gt;本周重读了一下池建强的《 &lt;a href=&quot;https://book.douban.com/subject/25826578/&quot;&gt;MacTalk·人生元编程&lt;/a&gt; 》，很多年前看过，但是还是在重温的过程，发现有些 macOS 的操作技巧想法，跟自己的现 在的用法不谋而合，有些开心。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 Finder 中输入 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 可以显示隐藏文件。想恢复原来的设置，再输入一遍 &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Command&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 即可。最早的时候，我都是在  Terminal 里输入命令行实现的。&lt;/li&gt;
 &lt;li&gt;触发角把左下角设置为「睡眠」，当我们暂时离开电脑时，顺手把鼠标滑到左下角，屏幕就变黑，比用快捷键更轻松。&lt;/li&gt;
 &lt;li&gt;在 Terminal 键入 &lt;code&gt;htop&lt;/code&gt;，可以看到一个更丰富的彩色的 &lt;code&gt;top&lt;/code&gt;，多个 CPU、内存统计、uptime，更详细的进程信息。&lt;/li&gt;
-&lt;li&gt;苹果默认的输入法中有一些小技巧。&lt;</summary>
+&lt;li&gt;苹果默认的输入法中有一些小技巧。&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Option&lt;/code&gt;+&lt;code&gt;,&lt;/code&gt; 可以打出小于等于。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Option&lt;/code&gt;+&lt;code&gt;.&lt;/code&gt; 可以</summary>
       
     
     
@@ -564,7 +586,7 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/E7sbvKFRye3JQDg.png&quot; alt=&quot;刮擦示意图&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/E7sbvKFRye3JQDg.png&quot; alt=&quot;刮擦示意图&quot;&gt;&lt;/p&gt;
 &lt;p&gt;早上开车，向左变道，刮擦到了前方直行车辆的左后方车漆。&lt;/p&gt;
 &lt;p&gt;我全责。&lt;/p&gt;
 &lt;p&gt;损失倒不到，我的车只是塑料挡泥板上有一道划痕，不需要维修，她的车油漆有一些划痕，但没有变形。毛估估，总体维修费用在 800 元以内。&lt;/p&gt;
@@ -577,7 +599,9 @@ tree -L 1
 &lt;li&gt;行车出现小刮擦，不涉及人身伤害，如果大家能对赔偿达成一致，可以直接私了，不用跑理赔中心来来回回的。&lt;/li&gt;
 &lt;li&gt;如果达不成一致，或者理赔额度超过 300 元，小于 2000 元，走交强险。&lt;/li&gt;
 &lt;li&gt;对方的车用交强险修，自己的车自己花钱修，不用到商业险，明年涨幅就不大。&lt;/li&gt;
-&lt;li&gt;定损时需要行驶证、</summary>
+&lt;li&gt;定损时需要行驶证、驾驶证，而且双方都必须开车到场，&lt;strong&gt;即使一方已认全责&lt;/strong&gt;，否则可能白跑一趟。&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
       
     
     
@@ -601,7 +625,7 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/GjJ1hnsCgPWqBNe.jpg&quot; alt=&quot;明朝有封事，数问夜如何&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/GjJ1hnsCgPWqBNe.jpg&quot; alt=&quot;明朝有封事，数问夜如何&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一首诗&quot;&gt;&lt;a href=&quot;#一首诗&quot; class=&quot;headerlink&quot; title=&quot;一首诗&quot;&gt;&lt;/a&gt;一首诗&lt;/h2&gt;&lt;p&gt;新买的 Boox Poke4S 屏保可以设为诗词，最近在上面看到一首杜甫的诗，挺喜欢的。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;春宿左省
@@ -611,7 +635,11 @@ tree -L 1
 明朝有封事，数问夜如何。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;好的诗可以传递情绪。想象一下，自己明天有一场重要的答辩，在紧张的准备之时，看到傍晚落霞余晖，栖鸟飞过，心生忐忑。随着夜晚到来，斗转星移，月色清凉，时睡时醒，迷迷糊糊问自己好几遍现在是晚上几点，为什么这个夜晚格外的长。&lt;/p&gt;
-&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工具&lt;/h2&gt;&lt;p&gt;Raycast 是一款免费的启动器，颜值相比 Alfred 更加现代，与 macOS 系统功能及 app 软件结合较好。所以直接使用默认快捷键 &lt;code&gt;Option&lt;/code&gt; + &lt;code&gt;Spac</summary>
+&lt;h2 id=&quot;一个工具&quot;&gt;&lt;a href=&quot;#一个工具&quot; class=&quot;headerlink&quot; title=&quot;一个工具&quot;&gt;&lt;/a&gt;一个工具&lt;/h2&gt;&lt;p&gt;Raycast 是一款免费的启动器，颜值相比 Alfred 更加现代，与 macOS 系统功能及 app 软件结合较好。所以直接使用默认快捷键 &lt;code&gt;Option&lt;/code&gt; + &lt;code&gt;Space&lt;/code&gt; 替换了 Spotlight。&lt;/p&gt;
+&lt;p&gt;我最喜欢自带的窗口管理功能，使用 Rectangle 的预设快捷键。&lt;/p&gt;
+&lt;p&gt;主要用到的快捷键如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;</summary>
       
     
     
@@ -637,7 +665,7 @@ tree -L 1
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/11/NjMYJR45zBoGeFc.png&quot; alt=&quot;储蓄&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/11/NjMYJR45zBoGeFc.png&quot; alt=&quot;储蓄&quot;&gt;&lt;/p&gt;
 &lt;p&gt;翻书看到一句话：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;所谓储蓄，就是今天牺牲享受，明天享受牺牲。&lt;/p&gt;
