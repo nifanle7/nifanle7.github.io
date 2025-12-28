@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2025-12-28T16:16:58.747Z</updated>
+  <updated>2025-12-28T16:19:06.571Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="http://www.uncoverman.com/2025-summary.html"/>
     <id>http://www.uncoverman.com/2025-summary.html</id>
     <published>2025-12-27T16:00:00.000Z</published>
-    <updated>2025-12-28T16:16:58.747Z</updated>
+    <updated>2025-12-28T16:19:06.571Z</updated>
     
     
       
       
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;这一年，我 35 岁了，记录总结一下。&lt;/p&gt;
 &lt;h2 id=&quot;工作&quot;&gt;&lt;a href=&quot;#工作&quot; class=&quot;headerlink&quot; title=&quot;工作&quot;&gt;&lt;/a&gt;工作&lt;/h2&gt;&lt;p&gt;作为 PMO 完成了上万人月千人团队的特大型金融科技项目上线，加班 1000 多小时，10 月份项目顺利上线，在秋天收获了喜悦的果实。在这个项目里，对整个项目管理、组织管理有了更加深刻的理解，包括个人的文档管理体系、笔记管理体系、GTD 体系有所迭代，感觉自己又成长。&lt;/p&gt;
-&lt;h2 id=&quot;笔记&quot;&gt;&lt;a href=&quot;#笔记&quot; class=&quot;headerlink&quot; title=&quot;笔记&quot;&gt;&lt;/a&gt;笔记&lt;/h2&gt;&lt;p&gt;目前我的笔记工具主力是 Obsidian，主打本地工作笔记、阅读笔记、博客文章。记录模式上，取消了每天一个日志的「Daily Notes」，因为这种笔记模式是把当天所有待办、事件、总结每天一个文档，写起来轻松，但是信息碎片，后续不方便按项目整理抽提。我本身的工作性质是项目制的，现在改成了 P.A.R.A（Project、Area、Resource、Archive），把工作日志按项目按事件写入不同的文件夹下的一个个工作日志文件，文件名是「日期 + 时间」，如「20251226 CIPS 项目需求评审准出笔记」，随着项目结束过程资产也就沉淀下来了。&lt;/p&gt;
-&lt;p&gt;旅游攻略、购物清单等我喜</summary>
+&lt;h2 id=&quot;笔记&quot;&gt;&lt;a href=&quot;#笔记&quot; class=&quot;headerlink&quot; title=&quot;笔记&quot;&gt;&lt;/a&gt;笔记&lt;/h2&gt;&lt;p&gt;目前我的笔记工具主力是 Obsidian，主打本地工作笔记、阅读笔记、博客文章。记录模式上，取消了每天一个日志的「Daily Notes」，因为这种笔记模式是把当天所有待办、事件、总结每天一个文档，写起来轻松，但是信息碎片，后续不方便按项目整理抽提。我本身的工作性质是项目制的，现在&lt;strong&gt;改成了 P.A.R.A&lt;/strong&gt;（Project、Area、Resource、Archive），把工作日志按项目按事件写入不同的文件夹下的一个个工作日志文件，文件名是「日期 + 时间」，如「20251226 CIPS 项目需求评审准出笔记」，随着项目结束过程资产也就沉淀下来了。&lt;/p</summary>
       
     
     
@@ -482,9 +481,9 @@ tree -L 1
     
     <category term="Plugin" scheme="http://www.uncoverman.com/tags/Plugin/"/>
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
@@ -546,9 +545,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
   </entry>
   
@@ -575,9 +574,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
-    
     <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
@@ -646,11 +645,11 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
+    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
     <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
     
-    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
+    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
   </entry>
   
