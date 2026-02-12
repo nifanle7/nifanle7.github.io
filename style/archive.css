@@ -1,3 +1,7 @@
 .archive-page {
   height: 100%;
 }
+
+.archive-list-item {
+  padding-left: 20px;
+}

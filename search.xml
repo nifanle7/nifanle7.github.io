@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>macOS下Rime输入法配置雾凇拼音</title>
+      <link href="//use-rime-ice-on-macOS.html"/>
+      <url>//use-rime-ice-on-macOS.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.see.you/2026/02/12/8dJr/rime-ice.webp" alt="rime-ice"></p><p>在 macOS 下，搜狗输入法由于隐私问题没有使用，自带的输入法在特殊符号等方面体验仍然不佳，Rime 是一个开源免费跨平台的解决方案，在 macOS 下使用鼠须管作为客户端，有高度的自定义性，支持<strong>自定义词库、自定义键盘按键映射、自定义皮肤、根据字频调整候选顺序</strong>。</p><p>然而，默认的鼠须管并不好用，一打开就是各种不知名的繁体，劝退。好在有各种优化方案，比如雾凇拼音，只要微调就能符合个人的使用习惯，非常棒！</p><h2 id="安装鼠须管"><a href="#安装鼠须管" class="headerlink" title="安装鼠须管"></a>安装鼠须管</h2><ol><li>在官网下载安装 <a href="https://github.com/rime/squirrel/releases/">Squirrel</a>。</li><li>在系统输入法中增加鼠须管。</li></ol><h2 id="配置雾凇拼音"><a href="#配置雾凇拼音" class="headerlink" title="配置雾凇拼音"></a>配置雾凇拼音</h2><ol><li>到 <code>~/Library</code> 路径下删除安装时默认生成的 Rime 文件夹，从 Github 上下载雾凇拼音配置，可以用以下命令下载到一个名为<code>Rime</code>的文件夹，也可以手动下载解压。</li></ol><pre><code class="line-numbers language-shell">git clone https://github.com/iDvel/rime-ice.git Rime --depth 1</code></pre><ol start="2"><li>在输入法菜单栏点击「重新部署」。</li></ol><h2 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h2><ol><li>补充 <code>custom_phrase.txt</code>，形成自定义词汇库，比如把我常用的邮箱用缩写映射，常用的软件名词大小写修正。</li><li><code>vfh</code>，可以调出符号，<code>v1</code> 可以调出数字 <code>1</code> 的各种形式（1️⃣、①、壹、Ⅰ），配置写在 <code>symbols_v.yaml</code>,要调整数据可以直接改这个配置文件。</li><li>修改 <code>default.yaml</code> 文件，可以修改按键映射。我为了在 markdown 模式下输入代码片段方便，把以下这行配置注释了。</li></ol><pre><code class="line-numbers language-yaml">'`' : '·'</code></pre><ol start="4"><li><code>squirrel.yaml</code>，可以修改主题、字体，我选择使用了方正屏显雅宋。</li><li>更多技巧可以看官方文档。</li></ol><h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul><li><a href="https://github.com/iDvel/rime-ice">雾凇拼音Github</a></li><li><a href="https://dvel.me/posts/rime-ice/">雾凇拼音配置说明</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>爱情怎么翻译</title>
       <link href="//how-to-translate-love.html"/>
       <url>//how-to-translate-love.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>作家问翻译官，你知道世界上有多少种语言。翻译官答，大概 7000 多种吧。作家说，不，世上有多少人就有多少语言。</p></blockquote><p>周末在家，小红书刷到几篇推荐《爱情怎么翻译》的图文，于是下载，周末沉浸式体验刷剧，放松一下。</p><p>故事是关于一个翻译官和女明星的，爱情浪漫轻喜剧。取景动人，在镜头里能看到加拿大班夫国家公园的雪山、丛林、极光，意大利的街头，还有韩国的星空夜景，美翻了。对话清甜，有顾左右而言他的暧昧拉扯、也有只属于两人的秘密对白，瀑布梗、极光梗各种 callback。构图精致，女主和招财猫同步点头、两位主角面对面在两种光线下的明暗对比。另外，还注意到一个细节，每一集的剧名主题色都不一样，有明黄、浅灰等，象征着这集的情感基调。</p><p>翻了下豆瓣，原来编剧洪氏姐妹在 20 年前还出过《豪杰春香》，那是个人看的第一部韩剧，当时“成春香”和“李梦龙”是年轻时候爱看的纯爱故事，扮演成春香的韩彩英就是我的女神。虽然 MP3 和歌单几度迁移，影片的原声音乐合集 OST 还是保留在了我的歌单曲库里。</p><p>​<img src="https://cdn.sa.net/2026/01/26/5Hh3loc7zpCsKIL.jpg" alt="IMG_1179"></p><p>​<img src="https://cdn.sa.net/2026/01/26/6mU2So7OMWJrDjw.jpg" alt="IMG_1176"></p><p><img src="https://cdn.sa.net/2026/01/26/e7iNUQnPBbqjJZ8.jpg" alt="IMG_1173">​<img src="https://cdn.sa.net/2026/01/26/akZSeL2yCOfJwpm.jpg" alt="IMG_1174"></p><p>​<img src="https://cdn.sa.net/2026/01/26/FEG5fJAvYi2RLnH.jpg" alt="IMG_3120"></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>作家问翻译官，你知道世界上有多少种语言。翻译官答，大概 7000 多种吧。作家说，不，世上有多少人就有多少语言。</p></blockquote><p>周末在家，小红书刷到几篇推荐《爱情怎么翻译》的图文，于是下载，周末沉浸式体验刷剧，放松一下。</p><p>故事是关于一个翻译官和女明星的，爱情浪漫轻喜剧。取景动人，在镜头里能看到加拿大班夫国家公园的雪山、丛林、极光，意大利的街头，还有韩国的星空夜景，美翻了。对话清甜，有顾左右而言他的暧昧拉扯、也有只属于两人的秘密对白，瀑布梗、极光梗各种 callback。构图精致，女主和招财猫同步点头、两位主角面对面在两种光线下的明暗对比。另外，还注意到一个细节，每一集的剧名主题色都不一样，有明黄、浅灰等，象征着这集的情感基调。</p><p>翻了下豆瓣，原来编剧洪氏姐妹在 20 年前还出过《豪杰春香》，那是个人看的第一部韩剧，当时“成春香”和“李梦龙”是年轻时候爱看的纯爱故事，扮演成春香的韩彩英就是我的女神。虽然 MP3 和歌单几度迁移，影片的原声音乐合集 OST 还是保留在了我的歌单曲库里。</p><p>​<img src="https://cdn.sa.net/2026/01/26/5Hh3loc7zpCsKIL.jpg" alt="IMG_1179"></p><p>​<img src="https://cdn.sa.net/2026/01/26/6mU2So7OMWJrDjw.jpg" alt="IMG_1176"></p><p><img src="https://cdn.sa.net/2026/01/28/SaEVHizBt1xpZl5.jpg" alt="IMG_1170.jpg"></p><p><img src="https://cdn.sa.net/2026/01/26/e7iNUQnPBbqjJZ8.jpg" alt="IMG_1173">​<img src="https://cdn.sa.net/2026/01/26/akZSeL2yCOfJwpm.jpg" alt="IMG_1174"></p><p>​<img src="https://cdn.sa.net/2026/01/26/FEG5fJAvYi2RLnH.jpg" alt="IMG_3120"></p>]]></content>
       
       
       <categories>
@@ -423,9 +448,9 @@
             
             <tag> Plugin </tag>
             
-            <tag> Weekly </tag>
-            
             <tag> Tools </tag>
+            
+            <tag> Weekly </tag>
             
         </tags>
       
@@ -477,9 +502,9 @@
       
         <tags>
             
-            <tag> Weekly </tag>
-            
             <tag> Podcast </tag>
+            
+            <tag> Weekly </tag>
             
         </tags>
       
@@ -504,9 +529,9 @@
       
         <tags>
             
-            <tag> Weekly </tag>
-            
             <tag> Tools </tag>
+            
+            <tag> Weekly </tag>
             
         </tags>
       
@@ -558,11 +583,11 @@
       
         <tags>
             
-            <tag> Weekly </tag>
+            <tag> Tools </tag>
             
             <tag> Podcast </tag>
             
-            <tag> Tools </tag>
+            <tag> Weekly </tag>
             
         </tags>
       
@@ -2329,9 +2354,9 @@
       
         <tags>
             
-            <tag> Instapaper </tag>
-            
             <tag> RSS </tag>
+            
+            <tag> Instapaper </tag>
             
         </tags>
       

@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-01-26T05:39:38.356Z</updated>
+  <updated>2026-02-12T05:49:40.503Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -17,13 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>macOS下Rime输入法配置雾凇拼音</title>
+    <link href="http://www.uncoverman.com/use-rime-ice-on-macOS.html"/>
+    <id>http://www.uncoverman.com/use-rime-ice-on-macOS.html</id>
+    <published>2026-02-11T16:00:00.000Z</published>
+    <updated>2026-02-12T05:49:40.503Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.see.you/2026/02/12/8dJr/rime-ice.webp" alt="rime-ice"></p><p>在 macOS 下，搜狗输入法由于隐私问题没有使用，自带的输入法在特殊符号等方面体验仍然不佳，Rime 是一个开源免费跨平台的解决方案，在 macOS 下使用鼠须管作为客户端，有高度的自定义性，支持<strong>自定义词库、自定义键盘按键映射、自定义皮肤、根据字频调整候选顺序</strong>。</p><p>然而，默认的鼠须管并不好用，一打开就是各种不知名的繁体，劝退。好在有各种优化方案，比如雾凇拼音，只要微调就能符合个人的使用习惯，非常棒！</p><h2 id="安装鼠须管"><a href="#安装鼠须管" class="headerlink" title="安装鼠须管"></a>安装鼠须管</h2><ol><li>在官网下载安装 <a href="https://github.com/rime/squirrel/releases/">Squirrel</a>。</li><li>在系统输入法中增加鼠须管。</li></ol><h2 id="配置雾凇拼音"><a href="#配置雾凇拼音" class="headerlink" title="配置雾凇拼音"></a>配置雾凇拼音</h2><ol><li>到 <code>~/Library</code> 路径下删除安装时默认生成的 Rime 文件夹，从 Github 上下载雾凇拼音配置，可以用以下命令下载到一个名为<code>Rime</code>的文件夹，也可以手动下载解压。</li></ol><pre><code class="line-numbers language-shell">git clone https://github.com/iDvel/rime-ice.git Rime --depth 1</code></pre><ol start="2"><li>在输入法菜单栏点击「重新部署」。</li></ol><h2 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h2><ol><li>补充 <code>custom_phrase.txt</code>，形成自定义词汇库，比如把我常用的邮箱用缩写映射，常用的软件名词大小写修正。</li><li><code>vfh</code>，可以调出符号，<code>v1</code> 可以调出数字 <code>1</code> 的各种形式（1️⃣、①、壹、Ⅰ），配置写在 <code>symbols_v.yaml</code>,要调整数据可以直接改这个配置文件。</li><li>修改 <code>default.yaml</code> 文件，可以修改按键映射。我为了在 markdown 模式下输入代码片段方便，把以下这行配置注释了。</li></ol><pre><code class="line-numbers language-yaml">'`' : '·'</code></pre><ol start="4"><li><code>squirrel.yaml</code>，可以修改主题、字体，我选择使用了方正屏显雅宋。</li><li>更多技巧可以看官方文档。</li></ol><h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul><li><a href="https://github.com/iDvel/rime-ice">雾凇拼音Github</a></li><li><a href="https://dvel.me/posts/rime-ice/">雾凇拼音配置说明</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/02/12/8dJr/rime-ice.webp&quot; alt=&quot;rime-ice&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在 macOS 下，搜狗输入法由于隐私问题没有使用，自带的输入法在特殊符号等方面体验仍然不佳，Rime 是一个开源免费跨平台的解决方案，在 macOS 下使用鼠须管作为客户端，有高度的自定义性，支持&lt;strong&gt;自定义词库、自定义键盘按键映射、自定义皮肤、根据字频调整候选顺序&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;然而，默认的鼠须管并不好用，一打开就是各种不知名的繁体，劝退。好在有各种优化方案，比如雾凇拼音，只要微调就能符合个人的使用习惯，非常棒！&lt;/p&gt;
+&lt;h2 id=&quot;安装鼠须管&quot;&gt;&lt;a href=&quot;#安装鼠须管&quot; class=&quot;headerlink&quot; title=&quot;安装鼠须管&quot;&gt;&lt;/a&gt;安装鼠须管&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;在官网下载安装 &lt;a href=&quot;https://github.com/rime/squirrel/releases/&quot;&gt;Squirrel&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;在系统输入法中增加鼠须管。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;配置雾凇拼音&quot;&gt;&lt;a href=&quot;#配置雾凇拼音&quot; class=&quot;headerlink&quot; title=&quot;配置雾凇拼音&quot;&gt;&lt;/a&gt;配置雾凇拼音&lt;/h2&gt;&lt;ol&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技巧" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>爱情怎么翻译</title>
     <link href="http://www.uncoverman.com/how-to-translate-love.html"/>
     <id>http://www.uncoverman.com/how-to-translate-love.html</id>
     <published>2026-01-25T16:00:00.000Z</published>
-    <updated>2026-01-26T05:39:38.356Z</updated>
+    <updated>2026-01-29T10:42:16.634Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>作家问翻译官，你知道世界上有多少种语言。翻译官答，大概 7000 多种吧。作家说，不，世上有多少人就有多少语言。</p></blockquote><p>周末在家，小红书刷到几篇推荐《爱情怎么翻译》的图文，于是下载，周末沉浸式体验刷剧，放松一下。</p><p>故事是关于一个翻译官和女明星的，爱情浪漫轻喜剧。取景动人，在镜头里能看到加拿大班夫国家公园的雪山、丛林、极光，意大利的街头，还有韩国的星空夜景，美翻了。对话清甜，有顾左右而言他的暧昧拉扯、也有只属于两人的秘密对白，瀑布梗、极光梗各种 callback。构图精致，女主和招财猫同步点头、两位主角面对面在两种光线下的明暗对比。另外，还注意到一个细节，每一集的剧名主题色都不一样，有明黄、浅灰等，象征着这集的情感基调。</p><p>翻了下豆瓣，原来编剧洪氏姐妹在 20 年前还出过《豪杰春香》，那是个人看的第一部韩剧，当时“成春香”和“李梦龙”是年轻时候爱看的纯爱故事，扮演成春香的韩彩英就是我的女神。虽然 MP3 和歌单几度迁移，影片的原声音乐合集 OST 还是保留在了我的歌单曲库里。</p><p>​<img src="https://cdn.sa.net/2026/01/26/5Hh3loc7zpCsKIL.jpg" alt="IMG_1179"></p><p>​<img src="https://cdn.sa.net/2026/01/26/6mU2So7OMWJrDjw.jpg" alt="IMG_1176"></p><p><img src="https://cdn.sa.net/2026/01/26/e7iNUQnPBbqjJZ8.jpg" alt="IMG_1173">​<img src="https://cdn.sa.net/2026/01/26/akZSeL2yCOfJwpm.jpg" alt="IMG_1174"></p><p>​<img src="https://cdn.sa.net/2026/01/26/FEG5fJAvYi2RLnH.jpg" alt="IMG_3120"></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>作家问翻译官，你知道世界上有多少种语言。翻译官答，大概 7000 多种吧。作家说，不，世上有多少人就有多少语言。</p></blockquote><p>周末在家，小红书刷到几篇推荐《爱情怎么翻译》的图文，于是下载，周末沉浸式体验刷剧，放松一下。</p><p>故事是关于一个翻译官和女明星的，爱情浪漫轻喜剧。取景动人，在镜头里能看到加拿大班夫国家公园的雪山、丛林、极光，意大利的街头，还有韩国的星空夜景，美翻了。对话清甜，有顾左右而言他的暧昧拉扯、也有只属于两人的秘密对白，瀑布梗、极光梗各种 callback。构图精致，女主和招财猫同步点头、两位主角面对面在两种光线下的明暗对比。另外，还注意到一个细节，每一集的剧名主题色都不一样，有明黄、浅灰等，象征着这集的情感基调。</p><p>翻了下豆瓣，原来编剧洪氏姐妹在 20 年前还出过《豪杰春香》，那是个人看的第一部韩剧，当时“成春香”和“李梦龙”是年轻时候爱看的纯爱故事，扮演成春香的韩彩英就是我的女神。虽然 MP3 和歌单几度迁移，影片的原声音乐合集 OST 还是保留在了我的歌单曲库里。</p><p>​<img src="https://cdn.sa.net/2026/01/26/5Hh3loc7zpCsKIL.jpg" alt="IMG_1179"></p><p>​<img src="https://cdn.sa.net/2026/01/26/6mU2So7OMWJrDjw.jpg" alt="IMG_1176"></p><p><img src="https://cdn.sa.net/2026/01/28/SaEVHizBt1xpZl5.jpg" alt="IMG_1170.jpg"></p><p><img src="https://cdn.sa.net/2026/01/26/e7iNUQnPBbqjJZ8.jpg" alt="IMG_1173">​<img src="https://cdn.sa.net/2026/01/26/akZSeL2yCOfJwpm.jpg" alt="IMG_1174"></p><p>​<img src="https://cdn.sa.net/2026/01/26/FEG5fJAvYi2RLnH.jpg" alt="IMG_3120"></p>]]></content>
     
     
       
@@ -542,9 +574,9 @@ tree -L 1
     
     <category term="Plugin" scheme="http://www.uncoverman.com/tags/Plugin/"/>
     
-    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
-    
     <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
+    
+    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
   </entry>
   
@@ -610,9 +642,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
-    
     <category term="Podcast" scheme="http://www.uncoverman.com/tags/Podcast/"/>
+    
+    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
   </entry>
   
@@ -641,48 +673,9 @@ tree -L 1
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
-    
     <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
     
-  </entry>
-  
-  <entry>
-    <title>记第一次行车刮擦事故处理</title>
-    <link href="http://www.uncoverman.com/the-handling-of-the-first-driving-accident.html"/>
-    <id>http://www.uncoverman.com/the-handling-of-the-first-driving-accident.html</id>
-    <published>2022-07-17T16:00:00.000Z</published>
-    <updated>2022-07-18T05:37:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://vip2.loli.io/2022/07/18/E7sbvKFRye3JQDg.png" alt="刮擦示意图"></p><p>早上开车，向左变道，刮擦到了前方直行车辆的左后方车漆。</p><p>我全责。</p><p>损失倒不到，我的车只是塑料挡泥板上有一道划痕，不需要维修，她的车油漆有一些划痕，但没有变形。毛估估，总体维修费用在 800 元以内。</p><p>由于 3 年来第一次出险，有点不知所措。而且不知道要赔对方多少。</p><p>在对方司机的指导下先打交警电话，再一起开车去理赔中心开《责任认定书》，定损。</p><p>理赔中心有保险公司人员驻点。定损出来需要 800 元，用我的交强险直接赔付，明年我的交强险涨 300 元左右，没有用到商业险，所以没有私了，还是划算的。</p><p>对方司机获得赔付后也很开心，因为正好可以把其他地方的车漆一起维修了。</p><p>要点总结如下：</p><ul><li>行车出现小刮擦，不涉及人身伤害，如果大家能对赔偿达成一致，可以直接私了，不用跑理赔中心来来回回的。</li><li>如果达不成一致，或者理赔额度超过 300 元，小于 2000 元，走交强险。</li><li>对方的车用交强险修，自己的车自己花钱修，不用到商业险，明年涨幅就不大。</li><li>定损时需要行驶证、驾驶证，而且双方都必须开车到场，<strong>即使一方已认全责</strong>，否则可能白跑一趟。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2022/07/18/E7sbvKFRye3JQDg.png&quot; alt=&quot;刮擦示意图&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上开车，向左变道，刮擦到了前方直行车辆的左后方车漆。&lt;/p&gt;
-&lt;p&gt;我全责。&lt;/p&gt;
-&lt;p&gt;损失倒不到，我的车只是塑料挡泥板上有一道划痕，不需要维修，她的车油漆有一些划痕，但没有变形。毛估估，总体维修费用在 800 元以内。&lt;/p&gt;
-&lt;p&gt;由于 3 年来第一次出险，有点不知所措。而且不知道要赔对方多少。&lt;/p&gt;
-&lt;p&gt;在对方司机的指导下先打交警电话，再一起开车去理赔中心开《责任认定书》，定损。&lt;/p&gt;
-&lt;p&gt;理赔中心有保险公司人员驻点。定损出来需要 800 元，用我的交强险直接赔付，明年我的交强险涨 300 元左右，没有用到商业险，所以没有私了，还是划算的。&lt;/p&gt;
-&lt;p&gt;对方司机获得赔付后也很开心，因为正好可以把其他地方的车漆一起维修了。&lt;/p&gt;
-&lt;p&gt;要点总结如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;行车出现小刮擦，不涉及人身伤害，如果大家能对赔偿达成一致，可以直接私了，不用跑理赔中心来来回回的。&lt;/li&gt;
-&lt;li&gt;如果达不成一致，或者理赔额度超过 300 元，小于 2000 元，走交强险。&lt;/li&gt;
-&lt;li&gt;对方的车用交强险修，自己的车自己花钱修，不用到商业险，明年涨幅就不大。&lt;/li&gt;
-&lt;li&gt;定损时需要行驶证、</summary>
-      
-    
-    
-    
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="Car" scheme="http://www.uncoverman.com/tags/Car/"/>
-    
-    <category term="Daily" scheme="http://www.uncoverman.com/tags/Daily/"/>
+    <category term="Weekly" scheme="http://www.uncoverman.com/tags/Weekly/"/>
     
   </entry>
   
