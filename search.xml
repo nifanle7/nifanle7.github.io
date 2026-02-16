@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Obsidian集成Daily Note任务及iCloud、Google日历</title>
+      <link href="//full-calendar-in-obsidian.html"/>
+      <url>//full-calendar-in-obsidian.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>平时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown、图片等，如滴答清单、Superlist，要么就是笔记软件增强任务管理功能。</p><p>我现在也不执着 All in one，所以两者是分开管理，但总归有些许不方便。</p><p>突然发现 Obsidian 的 <a href="https://github.com/obsidian-community/obsidian-full-calendar">Full Calendar</a> 插件，可以集成展示 iCloud、Google 日历，也可以显示 Daily Note 里的事项，这样就把两边的事项都可以在一个地方看了，效果如下，紫色是 Daily Note 指定二级标题下的任务项，可以在 Calendar 页面上点击创建，自动进入当天的 Daily Note。蓝色是自动同步的 iCloud 的事项。</p><p>需要特殊说明的，iCloud 日历只展示日程，不展示待办任务，且都是只读，不过对于个人来说，也够用了。</p><p><img src="https://i.see.you/2026/02/16/Rdo6/imgae20260216151247730.png" alt="imgae20260216151247730.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>macOS下Rime输入法配置雾凇拼音</title>
       <link href="//use-rime-ice-on-macOS.html"/>
       <url>//use-rime-ice-on-macOS.html</url>
