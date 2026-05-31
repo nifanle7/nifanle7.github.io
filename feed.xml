@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Cola</rights>
   <subtitle>捣腾生活，溜达人生</subtitle>
   <title>夜航船夫</title>
-  <updated>2026-05-31T16:06:00.315Z</updated>
+  <updated>2026-05-31T16:08:58.517Z</updated>
   <entry>
     <author>
       <name>Cola</name>
@@ -18,7 +18,7 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     <category term="博客" scheme="http://www.uncoverman.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     <content>
-      <![CDATA[<p><img src="https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png" alt="imgae20260504154734379.png"></p><p>一张图片，可以定格时间，可以让人联想自己的经历，可以传达比文字更丰富的信息，所以一直想要做一个版块，集中展示自己的图片——gallery 画廊功能，<strong>自己做自己的策展人</strong>。</p><p>以前没能力实现，在网上找了几款 Hexo 插件，诸如 <code>hexo-light-gallery</code>、<code>hexo-album-page</code>，不是安装不成功，就是效果跟自己期望的有偏差。所幸现在是 AI 时代，执行比以前要容易，关键看有没有想法。</p><p>我用的 AI 工具是 OpenCode，免费模型，在对应的代码工程下，告诉它自己的需求，它会直接读取目录文件，编写代码，实现想要的功能。最终帮我写了 5 个文件，800+ 行代码。</p><pre><code>gallery.js       //交互控制gallery.scss     //样式控制gallery.pug      //模板控制gallery.yaml     //内容配置gallery/index.md //基础配置</code></pre><p>这个时候才发现，很难一次性把需求描述清楚，只有通过不断迭代，才能得到自己想要的结果：</p><ol><li>响应式布局，自动适配电脑端和移动端的不同宽度的屏幕</li><li>瀑布式展示，解决不同图片不同尺寸的问题</li><li>懒加载，图片刷到了以后再加载，避免性能问题。懒加载时，图片和文字一起实现懒加载</li><li>支持多标签，可以按标签做展览</li><li>每个标签有一个独立的 url，方便分享</li><li>指定部分标签展示，其余隐藏，模拟在展场景</li><li>图片上可以展示图片标题及描述</li><li>图片可以放大</li></ol><p>最后是初步的成果展示，后续希望定期“办展”，比如湖边咖啡馆系列、周末出行系列、小朋友绘本系列等，欢迎各位网上邻居来 <a href="https://www.uncoverman.com/gallery/">看展</a>。</p>]]>
+      <![CDATA[<p><img src="https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png" alt="imgae20260504154734379.png"></p><p>一张图片，可以定格时间，可以让人联想自己的经历，可以传达比文字更丰富的信息，所以一直想要做一个版块，集中展示自己的图片——gallery 画廊功能，<strong>自己做自己的策展人</strong>。</p><p>以前没能力实现，在网上找了几款 Hexo 插件，诸如 <code>hexo-light-gallery</code>、<code>hexo-album-page</code>，不是安装不成功，就是效果跟自己期望的有偏差。所幸现在是 AI 时代，执行比以前要容易，关键看有没有想法。</p><p>我用的 AI 工具是 OpenCode，免费模型，在对应的代码工程下，告诉它自己的需求，它会直接读取目录文件，编写代码，实现想要的功能。最终帮我写了 5 个文件，800+ 行代码。</p><pre><code>gallery.js       //交互控制gallery.scss     //样式控制gallery.pug      //模板控制gallery.yaml     //内容配置gallery/index.md //基础配置</code></pre><p>这个时候才发现，很难一次性把需求描述清楚，只有通过不断迭代，才能得到自己想要的结果：</p><ol><li>响应式布局，自动适配电脑端和移动端的不同宽度的屏幕</li><li>瀑布式展示，解决不同图片不同尺寸的问题</li><li>懒加载，图片刷到了以后再加载，避免性能问题。懒加载时，图片和文字一起实现懒加载</li><li>支持多标签，可以按标签做展览</li><li>每个标签有一个独立的 url，方便分享</li><li>指定部分标签展示，其余隐藏，模拟在展场景</li><li>图片上可以展示图片标题及描述</li><li>图片可以放大</li></ol><p>最后是初步的成果展示，后续希望定期“办展”，比如湖边咖啡馆系列、周末出行系列、小朋友绘本系列等，欢迎各位网上邻居来<a href="https://www.uncoverman.com/gallery/">看展</a>。</p>]]>
     </content>
     <id>http://www.uncoverman.com/ready-to-host-an-online-exhibition.html</id>
     <link href="http://www.uncoverman.com/ready-to-host-an-online-exhibition.html"/>
@@ -39,7 +39,7 @@ gallery/index.md //基础配置
 <li>响应式布局，自动适配电脑端和移动端的不同宽度的屏幕</l]]>
     </summary>
     <title>开一场线上展览</title>
-    <updated>2026-05-31T16:06:00.315Z</updated>
+    <updated>2026-05-31T16:08:58.517Z</updated>
   </entry>
   <entry>
     <author>
