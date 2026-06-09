@@ -10,27 +10,28 @@
   <rights>All rights reserved 2026, Cola</rights>
   <subtitle>捣腾生活，溜达人生</subtitle>
   <title>夜航船夫</title>
-  <updated>2026-06-09T12:01:16.000Z</updated>
+  <updated>2026-06-09T12:04:29.000Z</updated>
   <entry>
     <author>
       <name>Cola</name>
     </author>
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     <id>http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html</id>
     <link href="http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html"/>
     <published>2026-06-08T16:00:00.000Z</published>
     <summary>
-      <![CDATA[<p>我平时用的笔记管理软件是 Obsidian，从 2021 年到现在，已经积累里将近 3000 篇笔记，包括 Daily Note、工作日志、读书笔记、博客文章、网络摘要等。随着现在 AI 的发展，很希望能够充分地利用知识库上下文，输出针对性的结果。</p>
+      <![CDATA[<p><img src="https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg" alt="obsidian-and-opencode.jpg"></p>
+<p>我平时用的笔记管理软件是 Obsidian，从 2021 年到现在，已经积累里将近 3000 篇笔记，包括 Daily Note、工作日志、读书笔记、博客文章、网络摘要等。随着现在 AI 的发展，很希望能够充分地利用知识库上下文，输出针对性的结果。</p>
 <p>最常用的一个场景是，在做项目管理的时候，要生成项目周报、阶段性成果、下阶段工作安排、项目风险、应对措施、项目亮点、项目收益等信息。希望 AI 能够基于我的工作笔记，可以生成针对性内容，而不是去豆包聊天界面，输入一大堆上下文。</p>
 <p>做法如下：</p>
 <p>1、整合笔记，统一笔记里的标签，并统一加入到 MetaData 里的 <code>tags</code> 属性里，方便 AI 读取笔记间的关联。以前的笔记，打标签的位置各不相同，有些在笔记开头吗，有些在 MetaData 里，而且标签比较零散，不体系化。所以给笔记做了一次「打扫整理」。</p>
 <p>2、安装 <a href="https://github.com/polyipseity/obsidian-terminal">Terminal</a> 插件，连接本地的 OpenCode。</p>
-<p>3、为指定主题创建一个 MOC 笔记，如支付项目 MOC，这样就可以列出所有关联笔记。MOC，全称叫 Map of Content，也就是专题知识地图，把所有零散的关联笔记通过双链方式或者 DataView 语法汇总到一个页面。个人比较喜欢使用 DataView 语法，更加自动化。以下是 DateView 语法的示例，将所有标签为 <code>支付项目<]]>
+<p>3、为指定主题创建一个 MOC 笔记，如支付项目 MOC，这样就可以列出所有关联笔记。MOC，全称叫 Map of Content，也]]>
     </summary>
     <title>Obsidian与OpenCode的工作流</title>
-    <updated>2026-06-09T12:01:16.000Z</updated>
+    <updated>2026-06-09T12:04:29.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -57,7 +58,7 @@ gallery/index.md //基础配置
 <li>响应式布局，自动适配电脑端和移动端的不同宽度的屏幕</l]]>
     </summary>
     <title>开一场线上展览</title>
-    <updated>2026-05-31T16:55:12.827Z</updated>
+    <updated>2026-06-04T05:38:48.498Z</updated>
   </entry>
   <entry>
     <author>
@@ -397,8 +398,8 @@ gallery/index.md //基础配置
       <name>Cola</name>
     </author>
     <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     <id>http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html</id>
     <link href="http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html"/>
     <published>2023-04-08T16:00:00.000Z</published>
