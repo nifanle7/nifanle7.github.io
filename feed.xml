@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-06-09T09:12:47.823Z</updated>
+  <updated>2026-06-21T12:16:28.155Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -17,21 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>天台国清寺一日游</title>
+    <link href="http://www.uncoverman.com/guoqing-temple.html"/>
+    <id>http://www.uncoverman.com/guoqing-temple.html</id>
+    <published>2026-06-20T16:00:00.000Z</published>
+    <updated>2026-06-21T12:16:28.155Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;假期下雨，去了趟天台国清寺遛娃兼游览，免费的 5A 级景区，底蕴深厚，且晴雨不论，都可游览。路上借着豆包听了好多故事。&lt;/p&gt;
+&lt;p&gt;景区入口看到的隋塔，又名报恩塔，是隋炀帝下诏建的，六面九级空心楼阁式砖塔，约 60m 高，是浙江省最高的古塔之一。以前内部有木梯，可以登高望远，后来都损毁了。外观上，相比北宋时期建在苏州的虎丘斜塔是八面七层，工艺不一样。 &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg&quot; title=&quot;DSC04207.jpeg&quot; class=&quot;gallery-item&quot;&gt;&lt;img src=&quot;https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg&quot; alt=&quot;DSC04207.jpeg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;沿着人行道在树荫之下径直走，看到寺院门口橙黄古墙上写着四个大字「教观总持」，「教」指理论，「观」指实践，「总持」指全部、持续掌握，是天台宗的核心思想，大意是指佛法要理论实践相结合，不断坚持迭代，融合贯通。「纸上得来终觉浅，绝知此事要躬行」，&lt;strong&gt;看来，知识学习的理念都是相通的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.see.you/2026/06/21/r7aH/IMG_5457.jpeg&quot; title=&quot;IMG_5457.jpeg&quot; class=&quot;gallery-item&quot;&gt;&lt;img src=&quot;https://i.see.you/</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian与OpenCode的工作流</title>
     <link href="http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html"/>
     <id>http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html</id>
     <published>2026-06-08T16:00:00.000Z</published>
-    <updated>2026-06-09T09:12:47.823Z</updated>
+    <updated>2026-06-09T12:04:29.000Z</updated>
     
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;我平时用的笔记管理软件是 Obsidian，从 2021 年到现在，已经积累里将近 3000 篇笔记，包括 Daily Note、工作日志、读书笔记、博客文章、网络摘要等。随着现在 AI 的发展，很希望能够充分地利用知识库上下文，输出针对性的结果。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg&quot; title=&quot;obsidian-and-opencode.jpg&quot; class=&quot;gallery-item&quot;&gt;&lt;img src=&quot;https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg&quot; alt=&quot;obsidian-and-opencode.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我平时用的笔记管理软件是 Obsidian，从 2021 年到现在，已经积累里将近 3000 篇笔记，包括 Daily Note、工作日志、读书笔记、博客文章、网络摘要等。随着现在 AI 的发展，很希望能够充分地利用知识库上下文，输出针对性的结果。&lt;/p&gt;
 &lt;p&gt;最常用的一个场景是，在做项目管理的时候，要生成项目周报、阶段性成果、下阶段工作安排、项目风险、应对措施、项目亮点、项目收益等信息。希望 AI 能够基于我的工作笔记，可以生成针对性内容，而不是去豆包聊天界面，输入一大堆上下文。&lt;/p&gt;
 &lt;p&gt;做法如下：&lt;/p&gt;
 &lt;p&gt;1、整合笔记，统一笔记里的标签，并统一加入到 MetaData 里的 &lt;code&gt;tags&lt;/code&gt; 属性里，方便 AI 读取笔记间的关联。以前的笔记，打标签的位置各不相同，有些在笔记开头吗，有些在 MetaData 里，而且标签比较零散，不体系化。所以给笔记做了一次「打扫整理」。&lt;/p&gt;
-&lt;p&gt;2、安装 &lt;a href=&quot;https://github.com/polyipseity/obsidian-terminal&quot;&gt;Terminal&lt;/a&gt; 插件，连接本地的 OpenCode。&lt;/p&gt;
-&lt;p&gt;3、为指定主题创建一个 MOC 笔记，如支付项目 MOC，这样就可以列出所有关联笔记。MOC，全称叫 Map of Content，也就是专题知识地图，把所有零散的关联笔记通过双链方式或者 DataView 语法汇总到一个页面。个人比较喜欢使用 DataView 语法，更加自动化。以下是 Date</summary>
+&lt;p&gt;2、安装 &lt;a href</summary>
       
     
     
@@ -580,43 +606,6 @@ tree -L 1
     <category term="播客" scheme="http://www.uncoverman.com/tags/%E6%92%AD%E5%AE%A2/"/>
     
     <category term="推书" scheme="http://www.uncoverman.com/tags/%E6%8E%A8%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的工具箱（2022）</title>
-    <link href="http://www.uncoverman.com/tools-2022.html"/>
-    <id>http://www.uncoverman.com/tools-2022.html</id>
-    <published>2022-11-19T16:00:00.000Z</published>
-    <updated>2023-02-24T14:39:32.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://vip2.loli.io/2023/01/01/DqJNhLXQi5Soxfm.jpg&quot; class=&quot;gallery-item&quot;&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/DqJNhLXQi5Soxfm.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以下为个人常用的工具，并关联了之前写过的文章。既作软件工具的推荐，又作博客文章的索引。&lt;/p&gt;
-&lt;h2 id=&quot;macOS-系统&quot;&gt;&lt;a href=&quot;#macOS-系统&quot; class=&quot;headerlink&quot; title=&quot;macOS 系统&quot;&gt;&lt;/a&gt;macOS 系统&lt;/h2&gt;&lt;p&gt;效率及美化：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/e0471aa6672d&quot;&gt;Homebrew&lt;/a&gt; ：通过命令行管理软件，安装和卸载软件都很方便。习惯之后，到 Windows 上都快不适应了。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dwarvesf/hidden/releases/latest&quot;&gt;Hidden Bar&lt;/a&gt;：隐藏菜单栏的图标。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.mowglii.com/itsycal/&quot;&gt;Ityscal&lt;/a&gt; ：菜单栏日历。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/yanue/V2rayU/releases&quot;&gt;VrayU&lt;/a&gt;：自由</summary>
-      
-    
-    
-    
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="iOS" scheme="http://www.uncoverman.com/tags/iOS/"/>
-    
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
-    
-    <category term="Tools" scheme="http://www.uncoverman.com/tags/Tools/"/>
-    
-    <category term="Windows" scheme="http://www.uncoverman.com/tags/Windows/"/>
-    
-    <category term="Eink" scheme="http://www.uncoverman.com/tags/Eink/"/>
     
   </entry>
   
