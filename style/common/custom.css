@@ -203,7 +203,6 @@ pre[class*=language-]::after {
 .post-content p:has(> img:nth-child(2)) img{display:inherit;}
 .post-content p:has(> img:nth-child(6)) img{margin-bottom:8px;}
 
-
 /* 文章结束后的按钮移动端隐藏 */
 @media screen and (max-width: 770px){
 
@@ -227,11 +226,7 @@ pre[class*=language-]::after {
     margin-bottom: 0.6em;
   }
 
-  .content h2, .content h3, .content h4, .content h5, .content h6 {
-    line-height: 2.1;
-  }
-
-  /* 移动端文章段落间距加大，提升可读性 */
+    /* 段落间距 */
   .post-content p:not(:last-child),
   .post-content dl:not(:last-child),
   .post-content ol:not(:last-child),
@@ -240,6 +235,10 @@ pre[class*=language-]::after {
   .post-content pre:not(:last-child),
   .post-content table:not(:last-child) {
     margin-bottom: 1.8em;
+  }
+
+  .content h2, .content h3, .content h4, .content h5, .content h6 {
+    line-height: 2.1;
   }
 
   footer span, footer div{
