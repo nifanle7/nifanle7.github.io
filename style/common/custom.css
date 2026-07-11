@@ -127,7 +127,9 @@ article strong{
 
 /* 文章图片最大高度 */
 .post-page .post-content img {
-  max-height: 1200px;
+  /* max-height: 1200px; */
+  max-width: 600px;
+
 }
 
 /* 涉及tag的代码片段背景 */
