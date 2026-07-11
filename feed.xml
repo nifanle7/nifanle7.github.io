@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-07-11T15:22:59.769Z</updated>
+  <updated>2026-07-11T15:26:52.154Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -21,12 +21,13 @@
     <link href="http://www.uncoverman.com/toast-baking.html"/>
     <id>http://www.uncoverman.com/toast-baking.html</id>
     <published>2026-07-10T23:11:37.000Z</published>
-    <updated>2026-07-11T15:22:59.769Z</updated>
+    <updated>2026-07-11T15:26:52.154Z</updated>
     
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;台风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 &lt;a href=&quot;https://weibo.com/u/1644329413&quot;&gt;zhuyi&lt;/a&gt; 很享受自己做面包，经常在微博上晒面包。由于是第一次，选了小红书上最简易的 &lt;a href=&quot;xhslink.com/o/3mI1y7y47qo&quot;&gt;教程&lt;/a&gt;。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤，简单来说就是 3 步：混合、发酵、烘焙。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;台风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 &lt;a href=&quot;https://weibo.com/u/1644329413&quot;&gt;zhuyi&lt;/a&gt; 很享受自己做面包，经常在微博上晒面包。&lt;/p&gt;
+&lt;p&gt;由于是第一次，选了小红书上最简易的 &lt;a href=&quot;xhslink.com/o/3mI1y7y47qo&quot;&gt;教程&lt;/a&gt;。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤，简单来说就是 3 步：混合、发酵、烘焙。&lt;/p&gt;
 &lt;h2 id=&quot;0-材料准备&quot;&gt;&lt;a href=&quot;#0-材料准备&quot; class=&quot;headerlink&quot; title=&quot;0. 材料准备&quot;&gt;&lt;/a&gt;0. 材料准备&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;高筋面粉 250g&lt;/li&gt;
 &lt;li&gt;鸡蛋 2 个&lt;/li&gt;
@@ -40,7 +41,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;1-混合&quot;&gt;&lt;a href=&quot;#1-混合&quot; class=&quot;headerlink&quot; title=&quot;1. 混合&quot;&gt;&lt;/a&gt;1. 混合&lt;/h2&gt;&lt;p&gt;提前一天，将面粉、鸡蛋、牛奶、糖、盐混合，混合时，牛奶慢慢加，不要太湿，判断标准是再加一点面粉混不进原有面团。&lt;/p&gt;
 &lt;p&gt;注意，糖不能不加，糖是用来喂酵母的，不加的话酵母死了面团发酵不起来。无糖吐司是另外的配方。&lt;/p&gt;
-&lt;p&gt;揉成面团，揉的时候有些粘手，所以没有用手，用了一个大勺子。我是纯手揉，没</summary>
+&lt;p&gt;揉成面团，揉的时候有些粘手，所以没有用手，用了一个大勺子</summary>
       
     
     
@@ -104,9 +105,9 @@
     
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
     
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
-    
     <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     
   </entry>
   
@@ -280,9 +281,9 @@ gallery/index.md //基础配置
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="总结" scheme="http://www.uncoverman.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
     <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+    <category term="总结" scheme="http://www.uncoverman.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -311,9 +312,9 @@ gallery/index.md //基础配置
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
-    
     <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
     
   </entry>
   
@@ -602,9 +603,9 @@ gallery/index.md //基础配置
     <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
-    
     <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    
+    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     
   </entry>
   
