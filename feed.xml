@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-06-22T07:19:18.010Z</updated>
+  <updated>2026-07-11T14:35:16.384Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>吐司面包烘焙</title>
+    <link href="http://www.uncoverman.com/toast-baking.html"/>
+    <id>http://www.uncoverman.com/toast-baking.html</id>
+    <published>2026-07-10T23:11:37.000Z</published>
+    <updated>2026-07-11T14:35:16.384Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;台风天，心血来潮在家做吐司，由于是第一次，选了小红书上最简易的 &lt;a href=&quot;xhslink.com/o/3mI1y7y47qo&quot;&gt;教程&lt;/a&gt;。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤。&lt;/p&gt;
+&lt;p&gt;首秀做出的吐司，味道意外得好，表皮酥脆，内部松软，香味扑鼻，停不下来，家里人吃过的都说好，成就感满满！&lt;/p&gt;
+&lt;h2 id=&quot;材料准备&quot;&gt;&lt;a href=&quot;#材料准备&quot; class=&quot;headerlink&quot; title=&quot;材料准备&quot;&gt;&lt;/a&gt;材料准备&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;高筋面粉 250g&lt;/li&gt;
+&lt;li&gt;鸡蛋 2 个&lt;/li&gt;
+&lt;li&gt;牛奶 150g&lt;/li&gt;
+&lt;li&gt;耐高糖酵母 3g&lt;/li&gt;
+&lt;li&gt;糖 25g&lt;/li&gt;
+&lt;li&gt;盐 3g&lt;/li&gt;
+&lt;li&gt;黄油 25g&lt;/li&gt;
+&lt;li&gt;吐司模具&lt;/li&gt;
+&lt;li&gt;烤箱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;混合&quot;&gt;&lt;a href=&quot;#混合&quot; class=&quot;headerlink&quot; title=&quot;混合&quot;&gt;&lt;/a&gt;混合&lt;/h2&gt;&lt;p&gt;将面粉、鸡蛋、牛奶、糖、盐混合，混合时，牛奶慢慢加，不要太湿，判断标准是再加一点面粉混不进原有面团。&lt;/p&gt;
+&lt;p&gt;注意，糖不能不加，糖是用来喂酵母的，不加的话酵母死了面团发酵不起来。无糖吐司是另外的配方。&lt;/p&gt;
+&lt;p&gt;揉成面团，揉的时候有些粘手，所以没有用手，用了一个大勺子。我是纯手揉，没用厨师机，要揉到表面光滑，揉了 15 分钟以上，然后封上保鲜膜，放进冰箱放一夜。
+&lt;img src=&quot;https://i.see.you/2026/07/11/Qx4d</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="下厨房" scheme="http://www.uncoverman.com/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>天台国清寺一日游</title>
@@ -68,9 +106,9 @@
     
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
     
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
-    
     <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     
   </entry>
   
@@ -244,9 +282,9 @@ gallery/index.md //基础配置
     <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
-    
     <category term="总结" scheme="http://www.uncoverman.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
     
   </entry>
   
@@ -275,9 +313,9 @@ gallery/index.md //基础配置
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
-    
     <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
     
   </entry>
   
@@ -566,9 +604,9 @@ gallery/index.md //基础配置
     <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
-    
     <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    
+    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     
   </entry>
   
@@ -609,37 +647,6 @@ tree -L 1
     
     
     <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2022 年总结——拧一拧人生发条</title>
-    <link href="http://www.uncoverman.com/2022-summary.html"/>
-    <id>http://www.uncoverman.com/2022-summary.html</id>
-    <published>2022-12-31T16:00:00.000Z</published>
-    <updated>2023-01-08T15:13:48.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/01/01/Zhm8GD9pxHA1aCo.jpg&quot; alt=&quot;2022001.jpeg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2022 年结束了，很想总结点什么，蓦然回首，发现要说道的并不多，工作生活要么太细碎，要么有隐私，而且说到底，年份这个概念也只是个人造刻度。转念一想，拧一拧人生发条也未尝不可，不然人会生锈，你说是不？&lt;/p&gt;
-&lt;p&gt;在这一年里，我经历了 1 次为期一周的封控，感染了 1 次新冠。在此期间，我用烤箱做了 4 次烤鸡，烤鸡的技术倒是越来越娴熟，用的是下厨房 &lt;a href=&quot;https://www.xiachufang.com/recipe/106648142/&quot;&gt;完美烤鸡菜谱&lt;/a&gt;，把植物油和蜂蜜是否涂刷、烤制时间长短、铺底萝卜土豆大小、添加调料的不同等进行了尝试，仔细体会其产生的不同结果。话说，&lt;strong&gt;做菜还真是几分耕耘几分收获&lt;/strong&gt;，过程中哪一道工序遗漏或者分量不对，结果立马反映出来，谁都不可能靠运气做出一道又一道好吃的菜。&lt;/p&gt;
-&lt;p&gt;住的房子从去年开始在贝壳找房上挂，经过了 14 个月后卖了出去换新房，过渡阶段租房子住。1 个月内完成了卖房、卖房和租房的动作。关于房屋交易，也有了 3 次经验，想到了几个点记录一下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;买房时需要注意采光和得房率，现在政府对于开发商房屋的信息披露越来越完善，可以在政府 APP 上搜到开发商的所有备案图纸，也可以看到冬至日模拟日照时长、得房率计算、房屋价格，比如宁波地区可以用看「浙里办 - 看图买房」和「宁波住浙摇</summary>
-      
-    
-    
-    
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="Summary" scheme="http://www.uncoverman.com/tags/Summary/"/>
-    
-    <category term="推书" scheme="http://www.uncoverman.com/tags/%E6%8E%A8%E4%B9%A6/"/>
-    
-    <category term="播客" scheme="http://www.uncoverman.com/tags/%E6%92%AD%E5%AE%A2/"/>
     
   </entry>
   
