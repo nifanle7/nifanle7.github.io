@@ -105,9 +105,9 @@
     
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
     
-    <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
-    
     <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    
+    <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
     
   </entry>
   
@@ -146,11 +146,11 @@ gallery/index.md //基础配置
   </entry>
   
   <entry>
-    <title>第一次车上露营</title>
+    <title>车上露营</title>
     <link href="http://www.uncoverman.com/first-time-car-camping.html"/>
     <id>http://www.uncoverman.com/first-time-car-camping.html</id>
     <published>2026-04-13T16:00:00.000Z</published>
-    <updated>2026-04-15T00:37:03.027Z</updated>
+    <updated>2026-07-12T01:02:51.547Z</updated>
     
     
       
@@ -603,9 +603,9 @@ gallery/index.md //基础配置
     <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
-    
     <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
+    
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     
   </entry>
   

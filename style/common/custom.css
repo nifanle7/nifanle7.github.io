@@ -103,6 +103,19 @@ body .tag.post-item-tag{
   line-height: 2;
 }
 
+/* h2标题样式 */
+.post-content h2 {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: #333;
+  margin: 1em 0 1em;
+  padding: 0.2em 0.6em;
+  border-left: 6px solid rgb(255, 191, 0);
+  background: linear-gradient(90deg, rgba(255, 191, 0, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+  line-height: 1.7;
+  position: relative;
+}
+
 
 /* 文章高亮 */
 article strong{
@@ -127,7 +140,7 @@ article strong{
 
 /* 文章图片最大高度 */
 .post-page .post-content img {
-  max-height: 1200px;
+  max-height: 1000px !important;
 }
 
 /* 涉及tag的代码片段背景 */
@@ -329,12 +342,16 @@ pre[class*=language-]::after {
   }
 
   .content h1 {
-    font-size: 1.14em;
+    font-size: 1.5em;
   }
 
   .content h2 {
-    font-size: 1.1em;
+    font-size: 1.15em;
   }
+
+  .content h3 {
+  font-size: 1.1em;
+}
 
   /* .post-content h2{
     text-align: center;
@@ -346,7 +363,7 @@ pre[class*=language-]::after {
 
   } */
 
-  .post-content h3{
+  /* .post-content h3{
     font-size: 1.03em;
     white-space: normal;
     margin-top: 1.7em;
@@ -359,7 +376,7 @@ pre[class*=language-]::after {
     border-left-color: rgb(255, 191, 0);
     padding-right: 15px;
     padding-left: 15px;
-  }
+  } */
 
   .post-content h4, .post-content h5, .post-content h6 {
     font-size: 1em;
