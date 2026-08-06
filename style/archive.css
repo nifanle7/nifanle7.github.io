@@ -1,0 +1,64 @@
+.archive-page {
+  padding: 2rem 1.5rem;
+}
+
+.archive-year-section {
+  margin-bottom: 2.5rem;
+}
+
+.archive-year-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--third-bg-color, #eee);
+}
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-list-item {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  border-bottom: 1px dashed var(--third-bg-color, #eee);
+  transition: background-color 0.2s ease;
+}
+.archive-list-item:hover {
+  background-color: var(--third-bg-color, #f5f5f5);
+}
+
+.archive-date {
+  font-size: 0.85rem;
+  color: var(--second-text-color, #999);
+  min-width: 3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.archive-title-link {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.archive-title-link:hover {
+  color: #3273dc;
+}
+
+.archive-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+@media screen and (max-width: 770px) {
+  .archive-tags {
+    display: none;
+  }
+}
