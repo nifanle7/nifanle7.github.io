@@ -2338,6 +2338,11 @@ body.is-tools .page__title {
   text-align: right;
 }
 
+@media (max-width: 1023px) {
+  .post-nav {
+    display: none;
+  }
+}
 .post-related__title {
   font-family: var(--font-display);
   font-size: 20px;
