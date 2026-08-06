@@ -3213,6 +3213,10 @@ body.is-tools .page__title {
 
 .comments {
   margin-top: 48px;
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  background: var(--c-bg-elev);
+  box-shadow: var(--shadow-sm);
 }
 
 .comments__title {
