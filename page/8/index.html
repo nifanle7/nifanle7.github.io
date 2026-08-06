@@ -1,170 +1,394 @@
-<!DOCTYPE html><html class="appearance-light" lang="cn"><head><meta charset="UTF-8"><title>夜航船夫</title><meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- twitter 卡片 --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="@SisyphusNee"><meta name="twitter:url" content="http://www.uncoverman.com/page/8/index.html"><meta name="twitter:title"><meta name="twitter:image" content="http://www.uncoverman.com/favicon.ico"><!-- End twitter 卡片 -->
-<!-- Google Analytics --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
 
-ga('create', 'UA-93563342-1', 'auto');
-ga('send', 'pageview');</script><!-- End Google Analytics -->
-<!-- Baidu Analytics --><script>var _hmt = _hmt || [];
-(function() {
-var hm = document.createElement("script");
-hm.src = "//hm.baidu.com/hm.js?" + 'cb066a32a61bf1dcd440879ca8a5ce3e';
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hm, s);
-})();</script><!-- End Baidu Analytics --><link rel="icon" href="/media/avatar.jpg"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><link rel="stylesheet" href="/style/common/custom.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/widget-post-list.css"><meta name="generator" content="Hexo 5.4.2">
+<html lang="cn" data-theme="light">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="generator" content="Hexo 5.4.2">
+<title>夜航船夫</title>
+<meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<link rel="canonical" href="http://www.uncoverman.com">
+
+<link rel="icon" href="/media/favicon.ico">
+<meta name="author" content="Cola">
+
+
+<link rel="alternate" type="application/atom+xml" title="夜航船夫" href="/feed.xml">
+
+
+<script>(function(){var d=document.documentElement;d.className+=' js';var D='light';try{var k='sail-theme';var t=localStorage.getItem(k)||D;if(t!=='light'&&t!=='dark'&&t!=='auto'){t=D;localStorage.removeItem(k);}d.setAttribute('data-theme',t);d.setAttribute('data-resolved',t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t);var r=localStorage.getItem('sail-reader');if(r){r=JSON.parse(r);for(var i in r)d.setAttribute('data-reader-'+i,r[i]);}}catch(e){d.setAttribute('data-theme',D);d.setAttribute('data-resolved',D==='dark'?'dark':'light');}})();</script>
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="夜航船夫">
+<meta property="og:title" content="夜航船夫">
+<meta property="og:description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<meta property="og:url" content="http://www.uncoverman.com/">
+
+<meta property="og:image" content="http://www.uncoverman.com/media/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SisyphusNee">
+<meta name="twitter:creator" content="@SisyphusNee">
+<meta name="twitter:title" content="夜航船夫">
+<meta name="twitter:description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<meta name="twitter:image" content="http://www.uncoverman.com/media/og-default.png">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/style/index.css">
+
+
+<style>
+:root{
+  --c-bg: #FFFFFF;
+  --c-bg-elev: #FFFFFF;
+  --c-surface: #F5F7FA;
+  --c-surface-2: #EBEFF4;
+  --c-border: #E8ECF1;
+  --c-border-strong: #D6DCE5;
+  --c-accent: #3A6EA5;
+
+  --art-blue-accent: #3A6EA5;
+  --art-blue-accent-hover: #2F5C8A;
+  --art-blue-soft: rgba(58,110,165,.10);
+  --art-blue-ring: rgba(58,110,165,.38);
+  --art-blue-contrast: #ffffff;
+
+  --art-yellow-accent: #C98A1F;
+  --art-yellow-accent-hover: #B2760F;
+  --art-yellow-soft: rgba(201,138,31,.12);
+  --art-yellow-ring: rgba(201,138,31,.38);
+  --art-yellow-contrast: #ffffff;
+
+  --art-purple-accent: #7C5CBF;
+  --art-purple-accent-hover: #694AA8;
+  --art-purple-soft: rgba(124,92,191,.12);
+  --art-purple-ring: rgba(124,92,191,.38);
+  --art-purple-contrast: #ffffff;
+
+  --art-green-accent: #2E8B6B;
+  --art-green-accent-hover: #257A5C;
+  --art-green-soft: rgba(46,139,107,.12);
+  --art-green-ring: rgba(46,139,107,.38);
+  --art-green-contrast: #ffffff;
+
+  --font-sans: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Source Han Serif SC", "Noto Serif SC", "Songti SC", Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-pingxian: "FZPingXianYaHei-Medium", "方正屏显雅黑", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-body: var(--font-sans);
+  --font-display: var(--font-serif);
+  --font-reading: var(--font-serif);
+  --font-code: var(--font-mono);
+  --font-archive: var(--font-pingxian);
+  --font-size-base: 16px;
+  --line-height-base: 1.75;
+
+  --img-max-h: 70vh;
+
+  --reveal-distance: 12px;
+  --dur: 200ms;
+}
+</style>
+
+
+<link rel="stylesheet" href="/style/custom.css">
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_2266068_otkvzqnxk0g.css">
+
+
+
+<link rel="preconnect" href="https://s.ee" crossorigin>
+<link rel="dns-prefetch" href="https://s.ee">
+  
+<link rel="preconnect" href="https://i.see.you" crossorigin>
+<link rel="dns-prefetch" href="https://i.see.you">
+  
+<link rel="preconnect" href="https://cdn.sa.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.sa.net">
+  
+
+
+
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"夜航船夫","url":"http://www.uncoverman.com","potentialAction":{"@type":"SearchAction","target":"http://www.uncoverman.com/search.xml?q={search_term_string}","query-input":"required name=search_term_string"}}]</script>
+
+
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/feed.xml" title="夜航船夫" type="application/atom+xml">
-</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">夜航船夫</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"></h3><aside class="is-flex-shrink-0 is-hidden-mobile"><h3 class="is-inline-block"><a href="/">首页</a></h3><h3 class="is-inline-block"><a href="/archives">归档</a></h3><h3 class="is-inline-block"><a href="/equipment">好物</a></h3><h3 class="is-inline-block"><a href="/tools">工具</a></h3><h3 class="is-inline-block"><a href="/gallery">摄影</a></h3><h3 class="is-inline-block"><a href="/about">关于</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-block"><a href="/">首页</a></h3><h3 class="is-block"><a href="/archives">归档</a></h3><h3 class="is-block"><a href="/equipment">好物</a></h3><h3 class="is-block"><a href="/tools">工具</a></h3><h3 class="is-block"><a href="/gallery">摄影</a></h3><h3 class="is-block"><a href="/about">关于</a></h3></header><main><article class="post-container is-flex is-justify-content-center section container is-max-widescreen pt-4 px-2"><div class="columns is-variable is-1-tablet is-3-desktop-only is-2-widescreen is-full-width"><section class="column"><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/obsidian-integrate-with-drawio.html"><img class="post-cover-img js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Obsidian"><i class="tag post-item-tag">Obsidian</i></a><a href="/tags/Plugin"><i class="tag post-item-tag">Plugin</i></a><a href="/tags/KMS"><i class="tag post-item-tag">KMS</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/obsidian-integrate-with-drawio.html">Obsidian 集成了 Drawio</a></h2><time class="has-text-grey" datetime="2021-09-03T16:00:00.000Z">2021-09-04</time><p class="is-flex-grow-2 mt-2">
-期盼已久，Obsidian 终于有 Drawio 的集成插件了！
-插件名叫 Diagrams...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/obsidian-integrate-with-drawio.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip2.loli.io/2022/02/26/kXm8oKTLgGYWerj.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/anki-add-pronounce-online.html"><img class="post-cover-img js-img-fadeIn" src="https://vip2.loli.io/2022/02/26/kXm8oKTLgGYWerj.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Anki"><i class="tag post-item-tag">Anki</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/anki-add-pronounce-online.html">Anki添加在线发音</a></h2><time class="has-text-grey" datetime="2021-07-24T16:00:00.000Z">2021-07-25</time><p class="is-flex-grow-2 mt-2">Anki 是一款基于艾宾浩斯曲线的记忆软件，可以自己制作卡片背诵。不过它添加图片、音频比较不方...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/anki-add-pronounce-online.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip1.loli.io/2022/02/26/UTPpQyXgqnkG3wN.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/multi-level-title-style-setting-in-word.html"><img class="post-cover-img js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/UTPpQyXgqnkG3wN.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Word"><i class="tag post-item-tag">Word</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/multi-level-title-style-setting-in-word.html">Word多级标题样式设置</a></h2><time class="has-text-grey" datetime="2021-06-20T16:00:00.000Z">2021-06-21</time><p class="is-flex-grow-2 mt-2">
-用 Word 写论文、方案时，常常需要编辑一级标题、二级标题、三级标题分别按1、1.1、1....</p><a class="button is-default mt-2 has-text-weight-semibold" href="/multi-level-title-style-setting-in-word.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip2.loli.io/2022/02/05/XQd1copTLJ5amnO.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/film-named-cliff-walkers.html"><img class="post-cover-img js-img-fadeIn" src="https://vip2.loli.io/2022/02/05/XQd1copTLJ5amnO.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/%E6%8E%A8%E7%89%87"><i class="tag post-item-tag">推片</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/film-named-cliff-walkers.html">《悬崖之上》还不错</a></h2><time class="has-text-grey" datetime="2021-06-19T16:00:00.000Z">2021-06-20</time><p class="is-flex-grow-2 mt-2">上世纪 30 年代，日本在东北建立了细菌实验室，把国人抓进去各种折磨，后来一位受害人王子阳越狱...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/film-named-cliff-walkers.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/from-sina-weibo-to-day-one-with-ifttt-webhooks-by-python.html"><img class="post-cover-img js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Python"><i class="tag post-item-tag">Python</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/from-sina-weibo-to-day-one-with-ifttt-webhooks-by-python.html">微博 API 失效后 IFTTT 同步微博到 Day One 方法</a></h2><time class="has-text-grey" datetime="2021-06-18T16:00:00.000Z">2021-06-19</time><p class="is-flex-grow-2 mt-2">
-原先一直用 IFTTT 自动同步微博到 Day One，可以把自己日常的事情笔记方便地记录到...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/from-sina-weibo-to-day-one-with-ifttt-webhooks-by-python.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip1.loli.io/2022/02/05/p1hZMksSCc652Gr.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/zhejiang-country-in-beijing.html"><img class="post-cover-img js-img-fadeIn" src="https://vip1.loli.io/2022/02/05/p1hZMksSCc652Gr.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/%E6%8E%A8%E4%B9%A6"><i class="tag post-item-tag">推书</i></a><a href="/tags/Book"><i class="tag post-item-tag">Book</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/zhejiang-country-in-beijing.html">北京的浙江村</a></h2><time class="has-text-grey" datetime="2021-06-12T16:00:00.000Z">2021-06-13</time><p class="is-flex-grow-2 mt-2">端午在家，两天看完了一本关于北京“浙江村”的书，书名为《跨越边界的社区—北京“浙江村”生活史》...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/zhejiang-country-in-beijing.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip1.loli.io/2022/02/26/1OifqaVZe5GQAtn.jpg" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/zoo-sightseeing.html"><img class="post-cover-img js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/1OifqaVZe5GQAtn.jpg" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><header><a href="/tags/%E6%97%85%E8%A1%8C"><i class="tag post-item-tag">旅行</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/zoo-sightseeing.html">游览动物园</a></h2><time class="has-text-grey" datetime="2021-06-05T16:00:00.000Z">2021-06-06</time><p class="is-flex-grow-2 mt-2">挑了个周末，带着我家小的去了趟宁波雅戈尔动物园。说起来，这才是我第二次去动物园。
-第一次还是在...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/zoo-sightseeing.html">更多</a></section></article><article class="post-item-card"><header class="is-relative is-flex"><div class="post-cover-backdrop is-hidden"><img src="https://vip2.loli.io/2022/02/05/oZ4Fy6JlYf3x8bS.png" alt="loading.."></div><a class="post-cover-link has-text-centered skeleton" href="/blog-comes-back.html"><img class="post-cover-img js-img-fadeIn" src="https://vip2.loli.io/2022/02/05/oZ4Fy6JlYf3x8bS.png" alt="loading.." data-backdrop="true"></a></header><section class="content post-card-content p-4 pb-5"><h2 class="mt-4 mb-0 is-family-serif"><a href="/blog-comes-back.html">博客恢复营业</a></h2><time class="has-text-grey" datetime="2021-05-10T16:00:00.000Z">2021-05-11</time><p class="is-flex-grow-2 mt-2">
-前一阵子博客由于手机号的变更没有更新到备案系统，导致系统访问不了了。
-现在再次营业了😄。
-...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/blog-comes-back.html">更多</a></section></article><section class="paginator is-flex is-justify-content-flex-end is-flex-wrap-wrap mt-5"><a class="extend prev" rel="prev" href="/page/7/"><i class="iconfont icon-prev has-text-grey"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><span class="space">&hellip;</span><a class="page-number" href="/page/17/">17</a><a class="extend next" rel="next" href="/page/9/"><i class="iconfont icon-next has-text-grey"></i></a></section></section><aside class="column is-hidden-mobile is-4-tablet is-3-widescreen"><style>.search-widget .search-input {
-    border: none;
-    outline: none;
-    background: transparent;
-    color: var(--second-text-color);
-}
-.search-widget .search-content {
-    position: absolute;
-    left: 0;
-    top: calc(100% - 3px);
-    z-index: 2;
+</head>
+<body class="sail-body is-home">
+  
+  
 
-    width: 100%;
-    height: 0;
-    max-height: 550px;
+  
+  <div class="region region--header"><a class="brand" href="/" rel="home" aria-label="夜航船夫">
+  
+  <span class="brand__name">夜航船夫</span>
+</a>
 
-    overflow: auto;
-    box-sizing: border-box;
+<nav class="nav" id="site-nav" aria-label="菜单">
+  <ul class="nav__list">
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M9.5 20v-6h5v6"/></svg>
+        <span class="nav__label">首页</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/posts/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></svg>
+        <span class="nav__label">文章</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item has-children">
+      
+      
+      <a class="nav__link" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" data-nav-parent>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>
+        <span class="nav__label">专题</span>
+      </a>
+      <div class="nav__dropdown" role="menu">
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/equipment/">好物</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/gallery/">画廊</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/archives/">归档</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
+        
+      </div>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/about/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></svg>
+        <span class="nav__label">关于</span>
+      </a>
+      
+    </li>
+    
+  </ul>
+</nav>
 
-    background: var(--top-bar-bg-color);
-    backdrop-filter: blur(var(--backdropFilter));
-    -webkit-backdrop-filter: blur(var(--backdropFilter));
 
-    border-bottom-left-radius: var(--borderRadius);
-    border-bottom-right-radius: var(--borderRadius);
-    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.08);
-}
+<button class="nav__toggle" type="button" aria-label="打开菜单" aria-controls="nav-drawer" aria-expanded="false">
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+</button>
 
-.search-widget .search-content a:hover h5 {
-    color: #3273dc!important;
-}
-</style><main class="aside-card-container search-widget is-relative"><label for="searchInput"><div class="is-flex px-4" id="searchButton"><i class="iconfont icon--search1 mr-1"></i><input class="search-input is-flex-grow-1" id="searchInput" placeholder="搜索内容.."></div></label><section class="search-content content" id="searchContent"></section></main><script>var searchDatabase = []
-var searchInputEl = document.getElementById('searchInput')
-var searchButtonEl = document.getElementById('searchButton')
-var searchResultEl = document.getElementById('searchContent')
+<button class="search-entry" type="button" aria-label="搜索" data-search-open>
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+  <span class="search-entry__text">搜索</span>
+</button>
 
-searchInputEl.oninput = function (evt) {
-    var searchValue = evt.srcElement.value
-    var haveSearchValue = Boolean(searchValue.trim())
-    if (!haveSearchValue) {
-        searchResultEl.style.height = 0
-        searchResultEl.innerHTML = null
-        return
-    }
 
-    var searchResults = searching(searchValue)
+<button class="theme-toggle" type="button" aria-label="切换深浅色" data-theme-toggle>
+  <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+  <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+</button>
 
-    if (searchResults.length > 0) {
-        renderSearchResults(searchResults)
-    }
-}
+</div>
 
-function renderSearchResults(results) {
-    searchResultEl.innerHTML = null
-    var fragment = document.createDocumentFragment()
 
-    results.forEach(function (item) {
-        var link = document.createElement('a')
-        var title = document.createElement('h5')
-        var content = document.createElement('p')
+  
+  
+<div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="菜单" hidden>
+  <div class="nav-drawer__overlay" data-drawer-close></div>
+  <aside class="nav-drawer__panel" tabindex="-1">
+    <div class="nav-drawer__head">
+      <button class="nav-drawer__close" type="button" data-drawer-close aria-label="关闭菜单">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
 
-        title.className = 'mb-1'
-        title.innerText = item.title
-        content.innerText = item.content
+    <nav class="nav-drawer__nav" aria-label="菜单">
+      <ul class="nav-drawer__list">
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>首页</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/posts/" data-drawer-close>文章</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item has-children">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>专题</a>
+            
+            <button class="nav-drawer__expand" type="button" aria-expanded="true" aria-controls="drawer-sub-2" aria-label="专题 子菜单">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 10l4 4 4-4"/></svg>
+            </button>
+            
+          </div>
+          
+          <ul class="nav-drawer__sub" id="drawer-sub-2">
+            
+              <li><a class="nav-drawer__sublink" href="/equipment/" data-drawer-close>好物</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/gallery/" data-drawer-close>画廊</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/archives/" data-drawer-close>归档</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/about/" data-drawer-close>关于</a>
+            
+          </div>
+          
+        </li>
+        
+      </ul>
+    </nav>
 
-        link.href = window.location.origin + item.link
-        link.appendChild(title)
-        link.appendChild(content)
-        link.className = 'p-4 is-block'
+    
+    <div class="nav-drawer__social">
+      <a class="nav-drawer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="nav-drawer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="nav-drawer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="nav-drawer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </aside>
+</div>
 
-        fragment.appendChild(link)
-    })
 
-    searchResultEl.appendChild(fragment)
-    searchResultEl.style.height = 'auto'
-}
+  
+  <div id="content" class="site-content">
+    
+<div class="home">
+  <header class="home__hero">
+    <div class="home__water" aria-hidden="true">
+      <span class="home__lamplight"></span>
+    </div>
+    <div class="home__avatar-ring">
+      <img class="home__avatar" src="/media/avatar.jpg" alt="夜航船夫" width="120" height="120" loading="eager">
+    </div>
+    <h1 class="home__name">夜航船夫</h1>
+    <p class="home__desc">已过而立之年，家有一个小棉袄。从事过工业互联网、金融科技行业，
+喜欢科技、数码、效率等话题。博客名字的灵感来自张岱的《夜航船》。
+</p>
+    
+    <div class="home__keywords">
+      <span class="home__keyword">个人成长</span><span class="home__keyword">效率</span><span class="home__keyword">工具</span><span class="home__keyword">数码</span><span class="home__keyword">播客</span>
+    </div>
+    
 
-function searching(inputText) {
-    var inputTexts = inputText.split(' ')
-    var searchResults = []
-    inputTexts.forEach(function (searchKey) {
-        var haveSearchValue = Boolean(searchKey.trim())
-        if (!haveSearchValue) return
+    
+    <nav class="home__menu" aria-label="菜单">
+      
+      <a class="home__menu-link" href="/posts/">文章</a>
+      <a class="home__menu-link" href="/equipment/">好物</a>
+      <a class="home__menu-link" href="/gallery/">画廊</a>
+      <a class="home__menu-link" href="/archives/">归档</a>
+      <a class="home__menu-link" href="/tools/">工具</a>
+      <a class="home__menu-link" href="/about/">关于</a>
+    </nav>
+    
 
-        var key = searchKey.toLowerCase()
+    
+    <div class="home__social" aria-label="社交媒体">
+      <a class="home__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="home__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="home__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="home__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </header>
+</div>
 
-        for (var entry of searchDatabase) {
-            var title = entry.getElementsByTagName('title')[0].textContent
-            var link = entry.getElementsByTagName('link')[0].getAttribute('href')
-            var contentWithTags = entry.getElementsByTagName('content')[0].textContent
-            var rawContent = contentWithTags.trim().replace(/<[^>]+>/g, '').toLowerCase()
+  </div>
 
-            var LENGTH = 80
-            var finalContent = ''
-            var contentLength = rawContent.length
-            var searchResultIdx = rawContent.indexOf(key)
+  
+  <footer class="site-footer">
+    <div class="region region--footer">
 
-            var startIdx = searchResultIdx - 20,
-                endIdx = startIdx + LENGTH
+<div class="footer__social">
+  <a class="footer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="footer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="footer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="footer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+</div>
 
-            if (startIdx < 0) {
-                startIdx = 0
-                endIdx = 100
-            }
 
-            endIdx > contentLength && (endIdx = contentLength)
+<div class="footer__copy">
+  © 2021–2026 Cola.
+  <span class="footer__icp">浙ICP备15005499号</span>
+</div>
+<div class="footer__powered">由 Hexo 驱动 · 主题 Sail</div>
+</div>
 
-            finalContent = rawContent.substring(startIdx, endIdx)
+  </footer>
 
-            if (title.indexOf(key) > -1 || searchResultIdx > -1) {
-                searchResults.push({
-                    link: link,
-                    title: title,
-                    content: finalContent
-                })
-            }
-        }
-    })
-    return searchResults
-}
+  
+  
+    <div class="search-panel" id="search-panel" role="dialog" aria-modal="true" aria-label="搜索" hidden>
+  <div class="search-panel__overlay" data-search-close></div>
+  <div class="search-panel__box">
+    <div class="search-panel__head">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input class="search-panel__input" type="search" placeholder="搜索文章…" aria-label="搜索" autocomplete="off">
+      <button class="search-panel__close" type="button" data-search-close aria-label="关闭搜索">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="search-panel__results" aria-live="polite"></div>
+    <p class="search-panel__hint">输入关键词开始搜索</p>
+  </div>
+</div>
 
-searchButtonEl.onclick = function () {
-    if (searchDatabase.length > 0) return;
+  
 
-    fetch(window.location.href + '/search.xml').then(res => res.text()).then(res => {
-        var domparser = new DOMParser
-        var doc = domparser.parseFromString(res, 'application/xml')
-        searchDatabase = doc.getElementsByTagName('search')[0].children
-    })
-}</script><main class="aside-card-container profile-widget"><!-- todo: 使用取色工具动态阴影--><section class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center"><section class="is-flex is-justify-content-center avatar is-clipped skeleton"><!-- debug images "https://api.ixiaowai.cn/gqapi/gqapi.php"--><img class="js-img-fadeIn" src="/media/avatar.jpg" alt="user avatar"></section><h3 class="user-name">夜航船夫</h3><blockquote class="has-text-centered is-relative"><span style="margin-bottom: 5px;">捣腾生活，溜达人生</span></blockquote><address class="has-text-centered has-text-grey"><i class="iconfont icon-location" style="margin-right: 5px;"></i><span class="has-text-grey">Ningbo</span></address></section><section class="sns-container is-flex is-justify-content-center is-align-items-center"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com/SisyphusNee"><i class="iconfont icon-twitter"></i></a><!-- Github--><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/feed.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/uncoverman"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--></section></main><main class="aside-card-container tag-widget"><h3>标签</h3><section><a href="/tags/Summary"><span class="tag post-item-tag" style="margin-bottom: 5px;">Summary</span></a><a href="/tags/%E6%92%AD%E5%AE%A2"><span class="tag post-item-tag" style="margin-bottom: 5px;">播客</span></a><a href="/tags/%E6%8E%A8%E4%B9%A6"><span class="tag post-item-tag" style="margin-bottom: 5px;">推书</span></a><a href="/tags/Health"><span class="tag post-item-tag" style="margin-bottom: 5px;">Health</span></a><a href="/tags/Life"><span class="tag post-item-tag" style="margin-bottom: 5px;">Life</span></a><a href="/tags/iOS"><span class="tag post-item-tag" style="margin-bottom: 5px;">iOS</span></a><a href="/tags/Book"><span class="tag post-item-tag" style="margin-bottom: 5px;">Book</span></a><a href="/tags/IT"><span class="tag post-item-tag" style="margin-bottom: 5px;">IT</span></a><a href="/tags/%E8%81%8C%E5%9C%BA"><span class="tag post-item-tag" style="margin-bottom: 5px;">职场</span></a><a href="/tags/Record"><span class="tag post-item-tag" style="margin-bottom: 5px;">Record</span></a><a href="/tags/Python"><span class="tag post-item-tag" style="margin-bottom: 5px;">Python</span></a><a href="/tags/Markdown"><span class="tag post-item-tag" style="margin-bottom: 5px;">Markdown</span></a><a href="/tags/NAS"><span class="tag post-item-tag" style="margin-bottom: 5px;">NAS</span></a><a href="/tags/%E5%A5%BD%E7%89%A9"><span class="tag post-item-tag" style="margin-bottom: 5px;">好物</span></a><a href="/tags/Obsidian"><span class="tag post-item-tag" style="margin-bottom: 5px;">Obsidian</span></a><a href="/tags/Anki"><span class="tag post-item-tag" style="margin-bottom: 5px;">Anki</span></a><a href="/tags/Plugin"><span class="tag post-item-tag" style="margin-bottom: 5px;">Plugin</span></a><a href="/tags/%E6%8A%80%E6%9C%AF"><span class="tag post-item-tag" style="margin-bottom: 5px;">技术</span></a><a href="/tags/KMS"><span class="tag post-item-tag" style="margin-bottom: 5px;">KMS</span></a><a href="/tags/%E6%80%BB%E7%BB%93"><span class="tag post-item-tag" style="margin-bottom: 5px;">总结</span></a><a href="/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91"><span class="tag post-item-tag" style="margin-bottom: 5px;">工业互联网</span></a><a href="/tags/Instapaper"><span class="tag post-item-tag" style="margin-bottom: 5px;">Instapaper</span></a><a href="/tags/RSS"><span class="tag post-item-tag" style="margin-bottom: 5px;">RSS</span></a><a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="tag post-item-tag" style="margin-bottom: 5px;">工作流</span></a><a href="/tags/AI"><span class="tag post-item-tag" style="margin-bottom: 5px;">AI</span></a><a href="/tags/Word"><span class="tag post-item-tag" style="margin-bottom: 5px;">Word</span></a><a href="/tags/%E6%8A%80%E5%B7%A7"><span class="tag post-item-tag" style="margin-bottom: 5px;">技巧</span></a><a href="/tags/macOS"><span class="tag post-item-tag" style="margin-bottom: 5px;">macOS</span></a><a href="/tags/Investment"><span class="tag post-item-tag" style="margin-bottom: 5px;">Investment</span></a><a href="/tags/Finance"><span class="tag post-item-tag" style="margin-bottom: 5px;">Finance</span></a><a href="/tags/%E6%8E%A8%E7%89%87"><span class="tag post-item-tag" style="margin-bottom: 5px;">推片</span></a><a href="/tags/Blog"><span class="tag post-item-tag" style="margin-bottom: 5px;">Blog</span></a><a href="/tags/FinTech"><span class="tag post-item-tag" style="margin-bottom: 5px;">FinTech</span></a><a href="/tags/PT"><span class="tag post-item-tag" style="margin-bottom: 5px;">PT</span></a><a href="/tags/WordPress"><span class="tag post-item-tag" style="margin-bottom: 5px;">WordPress</span></a><a href="/tags/Exercise"><span class="tag post-item-tag" style="margin-bottom: 5px;">Exercise</span></a><a href="/tags/%E6%95%8F%E6%8D%B7"><span class="tag post-item-tag" style="margin-bottom: 5px;">敏捷</span></a><a href="/tags/%E6%95%8F%E6%8D%B7%E6%95%99%E7%BB%83"><span class="tag post-item-tag" style="margin-bottom: 5px;">敏捷教练</span></a><a href="/tags/Axure"><span class="tag post-item-tag" style="margin-bottom: 5px;">Axure</span></a><a href="/tags/Film"><span class="tag post-item-tag" style="margin-bottom: 5px;">Film</span></a><a href="/tags/Feel"><span class="tag post-item-tag" style="margin-bottom: 5px;">Feel</span></a><a href="/tags/%E6%97%85%E8%A1%8C"><span class="tag post-item-tag" style="margin-bottom: 5px;">旅行</span></a><a href="/tags/%E6%9D%82%E8%AE%B0"><span class="tag post-item-tag" style="margin-bottom: 5px;">杂记</span></a><a href="/tags/Tools"><span class="tag post-item-tag" style="margin-bottom: 5px;">Tools</span></a><a href="/tags/Windows"><span class="tag post-item-tag" style="margin-bottom: 5px;">Windows</span></a><a href="/tags/Eink"><span class="tag post-item-tag" style="margin-bottom: 5px;">Eink</span></a><a href="/tags/APP"><span class="tag post-item-tag" style="margin-bottom: 5px;">APP</span></a><a href="/tags/Weekly"><span class="tag post-item-tag" style="margin-bottom: 5px;">Weekly</span></a><a href="/tags/Podcast"><span class="tag post-item-tag" style="margin-bottom: 5px;">Podcast</span></a><a href="/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF"><span class="tag post-item-tag" style="margin-bottom: 5px;">下厨房</span></a><a href="/tags/ICT"><span class="tag post-item-tag" style="margin-bottom: 5px;">ICT</span></a><a href="/tags/IT%20%E6%8A%80%E6%9C%AF"><span class="tag post-item-tag" style="margin-bottom: 5px;">IT 技术</span></a><a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="tag post-item-tag" style="margin-bottom: 5px;">服务器</span></a><a href="/tags/Law"><span class="tag post-item-tag" style="margin-bottom: 5px;">Law</span></a><a href="/tags/Car"><span class="tag post-item-tag" style="margin-bottom: 5px;">Car</span></a><a href="/tags/%E5%8D%9A%E5%AE%A2"><span class="tag post-item-tag" style="margin-bottom: 5px;">博客</span></a><a href="/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83"><span class="tag post-item-tag" style="margin-bottom: 5px;">周末遛娃</span></a><a href="/tags/Daily"><span class="tag post-item-tag" style="margin-bottom: 5px;">Daily</span></a><a href="/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80"><span class="tag post-item-tag" style="margin-bottom: 5px;">金融科技</span></a><a href="/tags/%E9%93%B6%E8%A1%8C%E8%B5%84%E4%BA%A7"><span class="tag post-item-tag" style="margin-bottom: 5px;">银行资产</span></a><a href="/tags/%E7%94%9F%E6%B4%BB"><span class="tag post-item-tag" style="margin-bottom: 5px;">生活</span></a></section></main><main class="aside-card-container categories-widget category-page"><h3>分类</h3><section><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B9%A6%E5%BD%B1%E9%9F%B3/">书影音</a><span class="category-list-count">20</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%86%E4%BA%AB/">分享</a><span class="category-list-count">34</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">15</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a><span class="category-list-count">42</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a><span class="category-list-count">15</span></li></ul></section></main><main class="aside-card-container recent-widget"><h3>最近</h3><ul><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/obsidian-integrate-with-drawio.html">Obsidian 集成了 Drawio</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-09-03T16:00:00.000Z">2021-09-04</time></section></li><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip2.loli.io/2022/02/26/kXm8oKTLgGYWerj.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/anki-add-pronounce-online.html">Anki添加在线发音</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-07-24T16:00:00.000Z">2021-07-25</time></section></li><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/UTPpQyXgqnkG3wN.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/multi-level-title-style-setting-in-word.html">Word多级标题样式设置</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-06-20T16:00:00.000Z">2021-06-21</time></section></li><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip2.loli.io/2022/02/05/XQd1copTLJ5amnO.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/film-named-cliff-walkers.html">《悬崖之上》还不错</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-06-19T16:00:00.000Z">2021-06-20</time></section></li><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/from-sina-weibo-to-day-one-with-ifttt-webhooks-by-python.html">微博 API 失效后 IFTTT 同步微博到 Day One 方法</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-06-18T16:00:00.000Z">2021-06-19</time></section></li><li class="is-flex"><!-- change to element replace image placeholder--><img class="js-img-fadeIn" src="https://vip1.loli.io/2022/02/05/p1hZMksSCc652Gr.jpg" alt="cover"><!--else--><!--    div.post-img-placeholder--><section class="is-flex-grow-2"><p class="has-text-weight-semibold" style="line-height: 20px; font-size: 14px"><a href="/zhejiang-country-in-beijing.html">北京的浙江村</a></p><time class="has-text-weight-semibold has-text-grey" datetime="2021-06-12T16:00:00.000Z">2021-06-13</time></section></li></ul></main></aside></div></article><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
+  
+  
 
-window.addEventListener('resize', $claudia.throttle(function () {
-    var images = document.querySelectorAll('.js-img-fadeIn')
+  
+  
+<script>window.SAIL={"root":"/","lang":"cn","page":"","theme":{"key":"sail-theme","def":"light","toggle":true},"motion":{"enable":true,"reveal":true,"distance":"12px","respect":true},"perf":{"prefetch":true,"lqip":true,"saveData":true},"nav":{"hideOnScroll":true},"progress":false,"backTop":false,"search":{"path":"/search.xml","limit":20,"hotkey":true},"code":{"copy":true,"foldOver":30,"lang":true},"reader":{"enable":true,"key":"sail-reader"},"comment":"giscus","i18n":{"copy":"复制","copied":"已复制","unfold":"展开","fold":"折叠","empty":"没有找到相关文章","searching":"搜索中…","results":"条结果","searchError":"搜索索引加载失败","loading":"加载中…","noMore":"没有更多了","loadMore":"加载更多","loadFailed":"加载失败，点击重试","fontSize":"字号","lineHeight":"行距","width":"版心","settings":"阅读设置","small":"小","medium":"中","large":"大","narrow":"窄","wide":"宽","reset":"恢复默认","close":"关闭"}};</script>
+<script defer src="/js/core.js"></script>
+<script defer src="/js/nav.js"></script>
+<script defer src="/js/search.js"></script>
+<script defer src="/js/lightbox.js"></script>
 
-    images.forEach($claudia.blurBackdropImg)
-}, 150))</script></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com/SisyphusNee"><i class="iconfont icon-twitter"></i></a><!-- Github--><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/feed.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/uncoverman"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--></section><p><span>Copyright ©</span><a href="/">夜航船夫</a><span> 2015-2026</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><a title="浙ICP备15005499号" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备15005499号</a></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
 
-window.addEventListener('resize', $claudia.throttle(function () {
-    var images = document.querySelectorAll('.js-img-fadeIn')
 
-    images.forEach($claudia.blurBackdropImg)
-}, 150))</script><script type="text/x-mathjax-config">
+<script defer src="/js/code-block.js"></script>
+
+<script defer src="/js/reader-settings.js"></script>
+<script defer src="/js/comments.js"></script>
+
+
+<script defer src="/js/custom.js"></script>
+
+<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ["$","$"], ["\\(","\\)"] ],
@@ -179,4 +403,5 @@ window.addEventListener('resize', $claudia.throttle(function () {
     });
 </script>
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</body></html>
+</body>
+</html>

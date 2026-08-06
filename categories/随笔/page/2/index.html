@@ -1,35 +1,665 @@
-<!DOCTYPE html><html class="appearance-light" lang="cn"><head><meta charset="UTF-8"><title>夜航船夫</title><meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- twitter 卡片 --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="@SisyphusNee"><meta name="twitter:url" content="http://www.uncoverman.com/categories/%E9%9A%8F%E7%AC%94/page/2/index.html"><meta name="twitter:title"><meta name="twitter:image" content="http://www.uncoverman.com/favicon.ico"><!-- End twitter 卡片 -->
-<!-- Google Analytics --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
 
-ga('create', 'UA-93563342-1', 'auto');
-ga('send', 'pageview');</script><!-- End Google Analytics -->
-<!-- Baidu Analytics --><script>var _hmt = _hmt || [];
-(function() {
-var hm = document.createElement("script");
-hm.src = "//hm.baidu.com/hm.js?" + 'cb066a32a61bf1dcd440879ca8a5ce3e';
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hm, s);
-})();</script><!-- End Baidu Analytics --><link rel="icon" href="/media/avatar.jpg"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><link rel="stylesheet" href="/style/common/custom.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/widget-post-list.css"><meta name="generator" content="Hexo 5.4.2">
+<html lang="cn" data-theme="light">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="generator" content="Hexo 5.4.2">
+<title>随笔 | 夜航船夫</title>
+<meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<link rel="canonical" href="http://www.uncoverman.com">
+
+<link rel="icon" href="/media/favicon.ico">
+<meta name="author" content="Cola">
+
+
+<link rel="alternate" type="application/atom+xml" title="夜航船夫" href="/feed.xml">
+
+
+<script>(function(){var d=document.documentElement;d.className+=' js';var D='light';try{var k='sail-theme';var t=localStorage.getItem(k)||D;if(t!=='light'&&t!=='dark'&&t!=='auto'){t=D;localStorage.removeItem(k);}d.setAttribute('data-theme',t);d.setAttribute('data-resolved',t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t);var r=localStorage.getItem('sail-reader');if(r){r=JSON.parse(r);for(var i in r)d.setAttribute('data-reader-'+i,r[i]);}}catch(e){d.setAttribute('data-theme',D);d.setAttribute('data-resolved',D==='dark'?'dark':'light');}})();</script>
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="夜航船夫">
+<meta property="og:title" content="夜航船夫">
+<meta property="og:description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<meta property="og:url" content="http://www.uncoverman.com/">
+
+<meta property="og:image" content="http://www.uncoverman.com/media/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SisyphusNee">
+<meta name="twitter:creator" content="@SisyphusNee">
+<meta name="twitter:title" content="夜航船夫">
+<meta name="twitter:description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<meta name="twitter:image" content="http://www.uncoverman.com/media/og-default.png">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/style/index.css">
+
+
+<style>
+:root{
+  --c-bg: #FFFFFF;
+  --c-bg-elev: #FFFFFF;
+  --c-surface: #F5F7FA;
+  --c-surface-2: #EBEFF4;
+  --c-border: #E8ECF1;
+  --c-border-strong: #D6DCE5;
+  --c-accent: #3A6EA5;
+
+  --art-blue-accent: #3A6EA5;
+  --art-blue-accent-hover: #2F5C8A;
+  --art-blue-soft: rgba(58,110,165,.10);
+  --art-blue-ring: rgba(58,110,165,.38);
+  --art-blue-contrast: #ffffff;
+
+  --art-yellow-accent: #C98A1F;
+  --art-yellow-accent-hover: #B2760F;
+  --art-yellow-soft: rgba(201,138,31,.12);
+  --art-yellow-ring: rgba(201,138,31,.38);
+  --art-yellow-contrast: #ffffff;
+
+  --art-purple-accent: #7C5CBF;
+  --art-purple-accent-hover: #694AA8;
+  --art-purple-soft: rgba(124,92,191,.12);
+  --art-purple-ring: rgba(124,92,191,.38);
+  --art-purple-contrast: #ffffff;
+
+  --art-green-accent: #2E8B6B;
+  --art-green-accent-hover: #257A5C;
+  --art-green-soft: rgba(46,139,107,.12);
+  --art-green-ring: rgba(46,139,107,.38);
+  --art-green-contrast: #ffffff;
+
+  --font-sans: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Source Han Serif SC", "Noto Serif SC", "Songti SC", Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-pingxian: "FZPingXianYaHei-Medium", "方正屏显雅黑", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-body: var(--font-sans);
+  --font-display: var(--font-serif);
+  --font-reading: var(--font-serif);
+  --font-code: var(--font-mono);
+  --font-archive: var(--font-pingxian);
+  --font-size-base: 16px;
+  --line-height-base: 1.75;
+
+  --img-max-h: 70vh;
+
+  --reveal-distance: 12px;
+  --dur: 200ms;
+}
+</style>
+
+
+<link rel="stylesheet" href="/style/custom.css">
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_2266068_otkvzqnxk0g.css">
+
+
+
+<link rel="preconnect" href="https://s.ee" crossorigin>
+<link rel="dns-prefetch" href="https://s.ee">
+  
+<link rel="preconnect" href="https://i.see.you" crossorigin>
+<link rel="dns-prefetch" href="https://i.see.you">
+  
+<link rel="preconnect" href="https://cdn.sa.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.sa.net">
+  
+
+
+
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"夜航船夫","url":"http://www.uncoverman.com","potentialAction":{"@type":"SearchAction","target":"http://www.uncoverman.com/search.xml?q={search_term_string}","query-input":"required name=search_term_string"}}]</script>
+
+
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/feed.xml" title="夜航船夫" type="application/atom+xml">
-</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">夜航船夫</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><span>分类 · 随笔</span></h3><aside class="is-flex-shrink-0 is-hidden-mobile"><h3 class="is-inline-block"><a href="/">首页</a></h3><h3 class="is-inline-block"><a href="/archives">归档</a></h3><h3 class="is-inline-block"><a href="/equipment">好物</a></h3><h3 class="is-inline-block"><a href="/tools">工具</a></h3><h3 class="is-inline-block"><a href="/gallery">摄影</a></h3><h3 class="is-inline-block"><a href="/about">关于</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-block"><a href="/">首页</a></h3><h3 class="is-block"><a href="/archives">归档</a></h3><h3 class="is-block"><a href="/equipment">好物</a></h3><h3 class="is-block"><a href="/tools">工具</a></h3><h3 class="is-block"><a href="/gallery">摄影</a></h3><h3 class="is-block"><a href="/about">关于</a></h3></header><main><article class="post-container is-flex is-justify-content-center section container is-max-widescreen pt-4 px-2"><div class="columns is-variable is-1-tablet is-3-desktop-only is-2-widescreen is-full-width"><section class="column"><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/third-essay-in-the-morning.html">清晨随笔三</a></h2><time class="has-text-grey" datetime="2008-07-27T16:00:00.000Z">2008-07-28</time><p class="is-flex-grow-2 mt-2">我躺在名品街的一条椅子上，吹着清风，记录清晨的一些事情。因为昨天我的信誓旦旦，我必须去兑现我的...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/third-essay-in-the-morning.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/second-essay-in-the-morning.html">清晨随笔二</a></h2><time class="has-text-grey" datetime="2008-07-20T16:00:00.000Z">2008-07-21</time><p class="is-flex-grow-2 mt-2">今天，我有去爬山了。睡觉之前就有所准备，结果连做梦都梦到去山上看日出。这是一种期待吧。不过天不...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/second-essay-in-the-morning.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/first-essay-in-the-morning.html">清晨随笔一</a></h2><time class="has-text-grey" datetime="2008-07-12T16:00:00.000Z">2008-07-13</time><p class="is-flex-grow-2 mt-2">当前方的两头侧一侧是山，另一侧是房屋时，当山上笼罩着乌云，房屋却被阳光普照时，你看到的是希望还...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/first-essay-in-the-morning.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/live-together-and-not-leave.html">不离不弃、相守一生的细微差异</a></h2><time class="has-text-grey" datetime="2008-07-09T16:00:00.000Z">2008-07-10</time><p class="is-flex-grow-2 mt-2">《读者》上有这样一个故事，有一对夫妻，丈夫是孤儿，从小靠捡破烂为生；妻子是个精神病人，平时还好...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/live-together-and-not-leave.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/kong-ming-latern.html">孔明灯</a></h2><time class="has-text-grey" datetime="2008-07-01T16:00:00.000Z">2008-07-02</time><p class="is-flex-grow-2 mt-2">在高考前，不知是谁，不知为了什么，也不知许了什么愿望，悄悄地在夜里放飞了一个又一个孔明灯，黄色...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/kong-ming-latern.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/winter.html">冬天</a></h2><time class="has-text-grey" datetime="2008-02-06T16:00:00.000Z">2008-02-07</time><p class="is-flex-grow-2 mt-2">冬天，雪花缓缓地在空中飞舞，落下。
-白茫茫的世界，除了寒冷，什么也没有。
-小屋，风呼呼地刮，我...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/winter.html">更多</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><header><a href="/tags/Record"><i class="tag post-item-tag">Record</i></a></header><h2 class="mt-4 mb-0 is-family-serif"><a href="/inconclusive-results-not-the-prince-of-princes-the-year-2007-secretly-depressed-warm-man.html">没有结果的结果，不是王子的王子</a></h2><time class="has-text-grey" datetime="2007-07-04T16:00:00.000Z">2007-07-05</time><p class="is-flex-grow-2 mt-2">可能在某些女生的生命里，有着这样的一个男孩子。他不属于爱情，也不是自己的男朋友。可是，在离自己...</p><a class="button is-default mt-2 has-text-weight-semibold" href="/inconclusive-results-not-the-prince-of-princes-the-year-2007-secretly-depressed-warm-man.html">更多</a></section></article><section class="paginator is-flex is-justify-content-flex-end is-flex-wrap-wrap mt-5"><a class="extend prev" rel="prev" href="/categories/%E9%9A%8F%E7%AC%94/"><i class="iconfont icon-prev has-text-grey"></i></a><a class="page-number" href="/categories/%E9%9A%8F%E7%AC%94/">1</a><span class="page-number current">2</span></section></section><aside class="column is-hidden-mobile is-4-tablet is-3-widescreen"><div style="position: sticky; top: 50px;"><main class="aside-card-container categories-widget category-page"><h3>分类</h3><section><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B9%A6%E5%BD%B1%E9%9F%B3/">书影音</a><span class="category-list-count">20</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%86%E4%BA%AB/">分享</a><span class="category-list-count">34</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">15</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a><span class="category-list-count">42</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a><span class="category-list-count">15</span></li></ul></section></main></div></aside></div></article><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
+</head>
+<body class="sail-body">
+  
+  
 
-window.addEventListener('resize', $claudia.throttle(function () {
-    var images = document.querySelectorAll('.js-img-fadeIn')
+  
+  <div class="region region--header"><a class="brand" href="/" rel="home" aria-label="夜航船夫">
+  
+  <span class="brand__name">夜航船夫</span>
+</a>
 
-    images.forEach($claudia.blurBackdropImg)
-}, 150))</script></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com/SisyphusNee"><i class="iconfont icon-twitter"></i></a><!-- Github--><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/feed.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><a title="zhihu" target="_blank" rel="noopener nofollow" href="//zhihu.com/people/uncoverman"><i class="iconfont icon-zhihu"></i></a><!-- 领英--><!-- 脸书--></section><p><span>Copyright ©</span><a href="/">夜航船夫</a><span> 2015-2026</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><a title="浙ICP备15005499号" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备15005499号</a></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script>$claudia.fadeInImage(null, $claudia.blurBackdropImg)
+<nav class="nav" id="site-nav" aria-label="菜单">
+  <ul class="nav__list">
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M9.5 20v-6h5v6"/></svg>
+        <span class="nav__label">首页</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/posts/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></svg>
+        <span class="nav__label">文章</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item has-children">
+      
+      
+      <a class="nav__link" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" data-nav-parent>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>
+        <span class="nav__label">专题</span>
+      </a>
+      <div class="nav__dropdown" role="menu">
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/equipment/">好物</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/gallery/">画廊</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/archives/">归档</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
+        
+      </div>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/about/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></svg>
+        <span class="nav__label">关于</span>
+      </a>
+      
+    </li>
+    
+  </ul>
+</nav>
 
-window.addEventListener('resize', $claudia.throttle(function () {
-    var images = document.querySelectorAll('.js-img-fadeIn')
 
-    images.forEach($claudia.blurBackdropImg)
-}, 150))</script><script type="text/x-mathjax-config">
+<button class="nav__toggle" type="button" aria-label="打开菜单" aria-controls="nav-drawer" aria-expanded="false">
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+</button>
+
+<button class="search-entry" type="button" aria-label="搜索" data-search-open>
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+  <span class="search-entry__text">搜索</span>
+</button>
+
+
+<button class="theme-toggle" type="button" aria-label="切换深浅色" data-theme-toggle>
+  <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+  <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+</button>
+
+</div>
+
+
+  
+  
+<div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="菜单" hidden>
+  <div class="nav-drawer__overlay" data-drawer-close></div>
+  <aside class="nav-drawer__panel" tabindex="-1">
+    <div class="nav-drawer__head">
+      <button class="nav-drawer__close" type="button" data-drawer-close aria-label="关闭菜单">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <nav class="nav-drawer__nav" aria-label="菜单">
+      <ul class="nav-drawer__list">
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>首页</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/posts/" data-drawer-close>文章</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item has-children">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>专题</a>
+            
+            <button class="nav-drawer__expand" type="button" aria-expanded="true" aria-controls="drawer-sub-2" aria-label="专题 子菜单">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 10l4 4 4-4"/></svg>
+            </button>
+            
+          </div>
+          
+          <ul class="nav-drawer__sub" id="drawer-sub-2">
+            
+              <li><a class="nav-drawer__sublink" href="/equipment/" data-drawer-close>好物</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/gallery/" data-drawer-close>画廊</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/archives/" data-drawer-close>归档</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/about/" data-drawer-close>关于</a>
+            
+          </div>
+          
+        </li>
+        
+      </ul>
+    </nav>
+
+    
+    <div class="nav-drawer__social">
+      <a class="nav-drawer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="nav-drawer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="nav-drawer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="nav-drawer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </aside>
+</div>
+
+
+  
+  <div id="content" class="site-content">
+    
+
+  
+  <div class="layout-archives">
+    <div class="layout-archives__main">
+      <header class="archive__header">
+        <h1 class="archive__title">归档</h1>
+        <p class="archive__subtitle"></p>
+        
+      </header>
+      
+
+<div class="post-list post-list--brief post-list--mobile-large">
+  <article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/third-essay-in-the-morning.html">清晨随笔三</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-07-27T16:00:00.000Z">2008-07-28</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">我躺在名品街的一条椅子上，吹着清风，记录清晨的一些事情。因为昨天我的信誓旦旦，我必须去兑现我的诺言。我听到闹钟的时候才四点多，当时真是又累又渴，不愿起来，后来想到现在不起来，早上就再也起不来了，我一咬牙就蹦了起来。诺言是用来兑现的，而不是用…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/second-essay-in-the-morning.html">清晨随笔二</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-07-20T16:00:00.000Z">2008-07-21</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>2 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">今天，我有去爬山了。睡觉之前就有所准备，结果连做梦都梦到去山上看日出。这是一种期待吧。不过天不遂人愿，期待的结果却是清晨的阴天，天空灰蒙蒙的，阴阴抑抑的，肯定是看不到日出了。不过我还是连着跑步二十分钟从家里到达了山的顶峰。在路上，我仍然能看…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/first-essay-in-the-morning.html">清晨随笔一</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-07-12T16:00:00.000Z">2008-07-13</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">当前方的两头侧一侧是山，另一侧是房屋时，当山上笼罩着乌云，房屋却被阳光普照时，你看到的是希望还是乌云，抑或房屋与山交接处乌云下的希望？ 小时候渴望养宠物，比如小狗，而今天在路上看到一只黑黑的小狗在黑黑的石子路边打滚时，依然觉得它可爱，但我却…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/live-together-and-not-leave.html">不离不弃、相守一生的细微差异</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-07-09T16:00:00.000Z">2008-07-10</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">《读者》上有这样一个故事，有一对夫妻，丈夫是孤儿，从小靠捡破烂为生；妻子是个精神病人，平时还好，发起病来就想往外跑。这天，那个丈夫在街上往回拉自己的妻子。妻子往外用力，丈夫往里用力。他们俩没有任何吵架，妻子的脸上可见精神病人常有的疯癫表情，…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/kong-ming-latern.html">孔明灯</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-07-01T16:00:00.000Z">2008-07-02</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">在高考前，不知是谁，不知为了什么，也不知许了什么愿望，悄悄地在夜里放飞了一个又一个孔明灯，黄色的火焰在跳跃，仿佛期待着愿望的实现，是过早地开心吗？随着灯火的越飞越高，火苗越来越小，变淡变绿，那张期待的脸渐渐消失，在高空中湮没，夜空像吞噬生命…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/winter.html">冬天</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2008-02-06T16:00:00.000Z">2008-02-07</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">冬天，雪花缓缓地在空中飞舞，落下。 白茫茫的世界，除了寒冷，什么也没有。 小屋，风呼呼地刮，我蜷缩着。 身旁除了一杯热水，什么也没有。 我把热水捧在怀里，暖暖地，深深地藏在心里。 藏在心里，深深地，暖暖地。 这个冬天，我不是一无所有。 注：…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/inconclusive-results-not-the-prince-of-princes-the-year-2007-secretly-depressed-warm-man.html">没有结果的结果，不是王子的王子</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2007-07-04T16:00:00.000Z">2007-07-05</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Record/">Record</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.2l3.2 2"/></svg>1 分钟阅读</span>
+</div>
+
+    <p class="post-item__excerpt">可能在某些女生的生命里，有着这样的一个男孩子。他不属于爱情，也不是自己的男朋友。可是，在离自己最近的距离内，一定有他的位置。 看见漂亮的东西，会忍不住给他看。听到好听的歌，会忍不住从自己的 MP3 里拷下来给他。看见漂亮的笔记本，也会忍不住…</p>
+  </div>
+</article>
+
+</div>
+
+      
+<nav class="paginator" aria-label="归档 分页">
+  <a class="paginator__link paginator__prev" href="/categories/%E9%9A%8F%E7%AC%94/"><span aria-hidden="true">←</span> 上一页</a>
+  <span class="paginator__current">2 <span class="paginator__sep">/</span> 2</span>
+  
+</nav>
+
+
+    </div>
+    <aside class="layout-archives__side">
+      <div class="region region--sidebar">
+<section class="widget widget--profile">
+  <div class="profile">
+    
+      <img class="profile__avatar" src="/media/avatar.jpg" alt="夜航船夫" loading="lazy" width="84" height="84">
+    
+    <p class="profile__name">夜航船夫</p>
+    <p class="profile__desc">捣腾生活，溜达人生</p>
+    
+    
+    <div class="profile__social">
+      <a class="profile__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="profile__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="profile__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="profile__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="widget widget--recent">
+  <h3 class="widget__title">最近更新</h3>
+  <ul class="recent-list">
+    
+      <li class="recent-list__item">
+        <a class="recent-list__link" href="/xinan-river-tour.html">新安江桨板游玩</a>
+        <time class="recent-list__date" datetime="2026-08-03T16:00:00.000Z">2026-08-04</time>
+      </li>
+    
+      <li class="recent-list__item">
+        <a class="recent-list__link" href="/toast-baking.html">吐司面包烘焙</a>
+        <time class="recent-list__date" datetime="2026-07-10T23:11:37.000Z">2026-07-11</time>
+      </li>
+    
+      <li class="recent-list__item">
+        <a class="recent-list__link" href="/guoqing-temple.html">天台国清寺一日游</a>
+        <time class="recent-list__date" datetime="2026-06-20T16:00:00.000Z">2026-06-21</time>
+      </li>
+    
+      <li class="recent-list__item">
+        <a class="recent-list__link" href="/workflow-of-obsidian-and-opencode.html">Obsidian与OpenCode的工作流</a>
+        <time class="recent-list__date" datetime="2026-06-08T16:00:00.000Z">2026-06-09</time>
+      </li>
+    
+      <li class="recent-list__item">
+        <a class="recent-list__link" href="/ready-to-host-an-online-exhibition.html">开一场线上展览</a>
+        <time class="recent-list__date" datetime="2026-05-03T16:00:00.000Z">2026-05-04</time>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section class="widget widget--categories">
+  <h3 class="widget__title">分类</h3>
+  <ul class="cat-list">
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E4%B9%A6%E5%BD%B1%E9%9F%B3/">书影音</a>
+        <span class="widget__count">20</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E5%88%86%E4%BA%AB/">分享</a>
+        <span class="widget__count">34</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/">分享</a>
+        <span class="widget__count">3</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+        <span class="widget__count">15</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E5%88%86%E4%BA%AB/%E6%8A%80%E6%9C%AF/">技术</a>
+        <span class="widget__count">3</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a>
+        <span class="widget__count">1</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a>
+        <span class="widget__count">42</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E5%88%86%E4%BA%AB/%E8%AE%B0%E5%BD%95/">记录</a>
+        <span class="widget__count">1</span>
+      </li>
+    
+      <li class="cat-list__item">
+        <a class="cat-list__link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+        <span class="widget__count">15</span>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section class="widget widget--tags">
+  <h3 class="widget__title">标签</h3>
+  <div class="tag-cloud">
+    
+      <a class="tag-cloud__item" href="/tags/AI/">AI</a>
+    
+      <a class="tag-cloud__item" href="/tags/APP/">APP</a>
+    
+      <a class="tag-cloud__item" href="/tags/Anki/">Anki</a>
+    
+      <a class="tag-cloud__item" href="/tags/Axure/">Axure</a>
+    
+      <a class="tag-cloud__item" href="/tags/Blog/">Blog</a>
+    
+      <a class="tag-cloud__item" href="/tags/Book/">Book</a>
+    
+      <a class="tag-cloud__item" href="/tags/Car/">Car</a>
+    
+      <a class="tag-cloud__item" href="/tags/Daily/">Daily</a>
+    
+      <a class="tag-cloud__item" href="/tags/Eink/">Eink</a>
+    
+      <a class="tag-cloud__item" href="/tags/Exercise/">Exercise</a>
+    
+      <a class="tag-cloud__item" href="/tags/Feel/">Feel</a>
+    
+      <a class="tag-cloud__item" href="/tags/Film/">Film</a>
+    
+      <a class="tag-cloud__item" href="/tags/FinTech/">FinTech</a>
+    
+      <a class="tag-cloud__item" href="/tags/Finance/">Finance</a>
+    
+      <a class="tag-cloud__item" href="/tags/Health/">Health</a>
+    
+      <a class="tag-cloud__item" href="/tags/ICT/">ICT</a>
+    
+      <a class="tag-cloud__item" href="/tags/IT/">IT</a>
+    
+      <a class="tag-cloud__item" href="/tags/IT-%E6%8A%80%E6%9C%AF/">IT 技术</a>
+    
+      <a class="tag-cloud__item" href="/tags/Instapaper/">Instapaper</a>
+    
+      <a class="tag-cloud__item" href="/tags/Investment/">Investment</a>
+    
+      <a class="tag-cloud__item" href="/tags/KMS/">KMS</a>
+    
+      <a class="tag-cloud__item" href="/tags/Law/">Law</a>
+    
+      <a class="tag-cloud__item" href="/tags/Life/">Life</a>
+    
+      <a class="tag-cloud__item" href="/tags/Markdown/">Markdown</a>
+    
+      <a class="tag-cloud__item" href="/tags/NAS/">NAS</a>
+    
+      <a class="tag-cloud__item" href="/tags/Obsidian/">Obsidian</a>
+    
+      <a class="tag-cloud__item" href="/tags/PT/">PT</a>
+    
+      <a class="tag-cloud__item" href="/tags/Plugin/">Plugin</a>
+    
+      <a class="tag-cloud__item" href="/tags/Podcast/">Podcast</a>
+    
+      <a class="tag-cloud__item" href="/tags/Python/">Python</a>
+    
+  </div>
+</section>
+
+</div>
+
+    </aside>
+  </div>
+
+
+
+  </div>
+
+  
+  <footer class="site-footer">
+    <div class="region region--footer">
+
+<div class="footer__social">
+  <a class="footer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="footer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="footer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="footer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+</div>
+
+
+<div class="footer__copy">
+  © 2021–2026 Cola.
+  <span class="footer__icp">浙ICP备15005499号</span>
+</div>
+<div class="footer__powered">由 Hexo 驱动 · 主题 Sail</div>
+</div>
+
+  </footer>
+
+  
+  
+    <div class="search-panel" id="search-panel" role="dialog" aria-modal="true" aria-label="搜索" hidden>
+  <div class="search-panel__overlay" data-search-close></div>
+  <div class="search-panel__box">
+    <div class="search-panel__head">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input class="search-panel__input" type="search" placeholder="搜索文章…" aria-label="搜索" autocomplete="off">
+      <button class="search-panel__close" type="button" data-search-close aria-label="关闭搜索">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="search-panel__results" aria-live="polite"></div>
+    <p class="search-panel__hint">输入关键词开始搜索</p>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  
+<script>window.SAIL={"root":"/","lang":"cn","page":"","theme":{"key":"sail-theme","def":"light","toggle":true},"motion":{"enable":true,"reveal":true,"distance":"12px","respect":true},"perf":{"prefetch":true,"lqip":true,"saveData":true},"nav":{"hideOnScroll":true},"progress":false,"backTop":false,"search":{"path":"/search.xml","limit":20,"hotkey":true},"code":{"copy":true,"foldOver":30,"lang":true},"reader":{"enable":true,"key":"sail-reader"},"comment":"giscus","i18n":{"copy":"复制","copied":"已复制","unfold":"展开","fold":"折叠","empty":"没有找到相关文章","searching":"搜索中…","results":"条结果","searchError":"搜索索引加载失败","loading":"加载中…","noMore":"没有更多了","loadMore":"加载更多","loadFailed":"加载失败，点击重试","fontSize":"字号","lineHeight":"行距","width":"版心","settings":"阅读设置","small":"小","medium":"中","large":"大","narrow":"窄","wide":"宽","reset":"恢复默认","close":"关闭"}};</script>
+<script defer src="/js/core.js"></script>
+<script defer src="/js/nav.js"></script>
+<script defer src="/js/search.js"></script>
+<script defer src="/js/lightbox.js"></script>
+
+
+
+<script defer src="/js/code-block.js"></script>
+
+<script defer src="/js/reader-settings.js"></script>
+<script defer src="/js/comments.js"></script>
+
+
+<script defer src="/js/custom.js"></script>
+
+<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ["$","$"], ["\\(","\\)"] ],
@@ -44,4 +674,5 @@ window.addEventListener('resize', $claudia.throttle(function () {
     });
 </script>
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</body></html>
+</body>
+</html>
