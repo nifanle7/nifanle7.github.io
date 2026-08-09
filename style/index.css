@@ -329,7 +329,7 @@ body.is-home .region--header {
 
 @media (max-width: 767px) {
   .layout-post, .layout-archive, .layout-archives, .layout-posts,
-.layout-page, .layout-topics, .layout-404, .layout-archives--byyear {
+  .layout-page, .layout-topics, .layout-404, .layout-archives--byyear {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -602,7 +602,7 @@ html.show-mobile-ext-link .ext-link::after {
 
 @media (min-width: 1024px) {
   .post__body img:not(.img-gallery__item img):not(.link-card__thumb img),
-.page__body img:not(.img-gallery__item img):not(.link-card__thumb img) {
+  .page__body img:not(.img-gallery__item img):not(.link-card__thumb img) {
     max-height: var(--img-max-h, 70vh);
     width: auto;
     object-fit: contain;
@@ -1017,11 +1017,11 @@ h2:hover > .heading-anchor, h3:hover > .heading-anchor, h4:hover > .heading-anch
 
 @media (max-width: 767px) {
   .link-card--right:not(.link-card--fixed),
-.link-card--left:not(.link-card--fixed) {
+  .link-card--left:not(.link-card--fixed) {
     flex-direction: column-reverse;
   }
   .link-card--right:not(.link-card--fixed) .link-card__thumb,
-.link-card--left:not(.link-card--fixed) .link-card__thumb {
+  .link-card--left:not(.link-card--fixed) .link-card__thumb {
     width: 100%;
     aspect-ratio: 2/1;
   }
@@ -2240,11 +2240,11 @@ body.is-tools .page__title {
     min-width: 0;
   }
   .post-list--mobile-brief .post-item__excerpt,
-.post-list--mobile-brief .post-meta {
+  .post-list--mobile-brief .post-meta {
     display: block;
   }
   .post-list--mobile-card .post-item,
-.post-list--mobile-large .post-item {
+  .post-list--mobile-large .post-item {
     flex-direction: column;
   }
   .post-list--mobile-card .post-item__thumb {
@@ -2258,18 +2258,18 @@ body.is-tools .page__title {
     margin-bottom: 12px;
   }
   .post-list--mobile-card .post-item__thumb,
-.post-list--mobile-card .post-item__excerpt,
-.post-list--mobile-card .post-meta,
-.post-list--mobile-large .post-item__thumb,
-.post-list--mobile-large .post-item__excerpt {
+  .post-list--mobile-card .post-item__excerpt,
+  .post-list--mobile-card .post-meta,
+  .post-list--mobile-large .post-item__thumb,
+  .post-list--mobile-large .post-item__excerpt {
     display: block;
   }
   .post-list--mobile-minimal .post-item {
     display: block;
   }
   .post-list--mobile-minimal .post-item__thumb,
-.post-list--mobile-minimal .post-item__excerpt,
-.post-list--mobile-minimal .post-meta {
+  .post-list--mobile-minimal .post-item__excerpt,
+  .post-list--mobile-minimal .post-meta {
     display: none;
   }
   .post-related {
@@ -2521,7 +2521,7 @@ body.is-tools .page__title {
 }
 @media (max-width: 1023px) {
   .layout-posts,
-.layout-archives {
+  .layout-archives {
     grid-template-columns: 1fr;
   }
 }
@@ -2543,7 +2543,7 @@ body.is-tools .page__title {
 }
 @media (max-width: 1023px) {
   .layout-posts__side,
-.layout-archives__side {
+  .layout-archives__side {
     display: none;
   }
 }
@@ -4139,45 +4139,45 @@ html {
 }
 @media (prefers-reduced-motion: reduce) {
   .search-entry:active,
-.theme-toggle:active,
-.nav__toggle:active,
-.nav-drawer__close:active,
-.nav-drawer__social-link:active,
-.profile__social-link:active,
-.footer__social-link:active,
-.search-panel__close:active,
-.home__social-link:active,
-.nav__link:active,
-.nav__dropdown-link:active,
-.tag-cloud__item:active,
-.home__menu-link:active,
-.archives__quick-link:active,
-.equipment__nav-link:active,
-.gallery__tag:active,
-.paginator__link:active,
-.post-nav__link:active,
-.reader-panel__reset:active,
-.reader-panel__seg button:active,
-.infinite__btn:active,
-.equip-card__buy:active,
-.search-result:active,
-.recent-list__link:active,
-.cat-list__link:active,
-.archive-year__link:active,
-.breadcrumb__link:active,
-.footer__link:active,
-.back-to-top:active,
-.lightbox__nav:active,
-.lightbox__close:active,
-.code-copy:active,
-.post-item:active,
-.topic-card:active,
-.equip-card:active,
-.gallery__item:active {
+  .theme-toggle:active,
+  .nav__toggle:active,
+  .nav-drawer__close:active,
+  .nav-drawer__social-link:active,
+  .profile__social-link:active,
+  .footer__social-link:active,
+  .search-panel__close:active,
+  .home__social-link:active,
+  .nav__link:active,
+  .nav__dropdown-link:active,
+  .tag-cloud__item:active,
+  .home__menu-link:active,
+  .archives__quick-link:active,
+  .equipment__nav-link:active,
+  .gallery__tag:active,
+  .paginator__link:active,
+  .post-nav__link:active,
+  .reader-panel__reset:active,
+  .reader-panel__seg button:active,
+  .infinite__btn:active,
+  .equip-card__buy:active,
+  .search-result:active,
+  .recent-list__link:active,
+  .cat-list__link:active,
+  .archive-year__link:active,
+  .breadcrumb__link:active,
+  .footer__link:active,
+  .back-to-top:active,
+  .lightbox__nav:active,
+  .lightbox__close:active,
+  .code-copy:active,
+  .post-item:active,
+  .topic-card:active,
+  .equip-card:active,
+  .gallery__item:active {
     transform: none;
   }
   .theme-toggle__sun,
-.theme-toggle__moon {
+  .theme-toggle__moon {
     transition: opacity 0.2s cubic-bezier(0.32, 0.72, 0, 1);
     transform: none !important;
   }

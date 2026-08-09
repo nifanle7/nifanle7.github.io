@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="cn" data-theme="light">
+<html lang="cn" data-theme="auto">
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="generator" content="Hexo 5.4.2">
+<meta name="generator" content="Hexo 5.4.1">
 <title>Obsidian集成Daily Note任务及iCloud、Google日历 | 夜航船夫</title>
 <meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
 <link rel="canonical" href="http://www.uncoverman.com/full-calendar-in-obsidian.html">
@@ -16,7 +16,7 @@
 <link rel="alternate" type="application/atom+xml" title="夜航船夫" href="/feed.xml">
 
 
-<script>(function(){var d=document.documentElement;d.className+=' js';var D='light';try{var k='sail-theme';var t=localStorage.getItem(k)||D;if(t!=='light'&&t!=='dark'&&t!=='auto'){t=D;localStorage.removeItem(k);}d.setAttribute('data-theme',t);d.setAttribute('data-resolved',t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t);var r=localStorage.getItem('sail-reader');if(r){r=JSON.parse(r);for(var i in r)d.setAttribute('data-reader-'+i,r[i]);}}catch(e){d.setAttribute('data-theme',D);d.setAttribute('data-resolved',D==='dark'?'dark':'light');}})();</script>
+<script>(function(){var d=document.documentElement;d.className+=' js';var D='auto';try{var k='sail-theme';var t=localStorage.getItem(k)||D;if(t!=='light'&&t!=='dark'&&t!=='auto'){t=D;localStorage.removeItem(k);}d.setAttribute('data-theme',t);d.setAttribute('data-resolved',t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t);var r=localStorage.getItem('sail-reader');if(r){r=JSON.parse(r);for(var i in r)d.setAttribute('data-reader-'+i,r[i]);}}catch(e){d.setAttribute('data-theme',D);d.setAttribute('data-resolved',D==='dark'?'dark':'light');}})();</script>
 
 
 
@@ -315,7 +315,7 @@
 
 
       <div class="post__body reveal-content post__body--drop-cap">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span class="drop-cap">平</span>时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown 、图片等，如滴答清单、 Superlist，要么就是笔记软件增强任务管理功能。</p>
+        <link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span class="drop-cap">平</span>时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown 、图片等，如滴答清单、 Superlist，要么就是笔记软件增强任务管理功能。</p>
 <p>我现在也不执着 All in one，所以两者是分开管理，但总归有些许不方便。</p>
 <p>突然发现 Obsidian 的 <a href="https://github.com/obsidian-community/obsidian-full-calendar" target="_blank" rel="noopener noreferrer" class="ext-link">Full Calendar</a> 插件，可以集成展示 iCloud 、 Google 日历，也可以显示 Daily Note 里的事项，这样就把两边的事项都可以在一个地方看了，效果如下，紫色是 Daily Note 指定二级标题下的任务项，可以在 Calendar 页面上点击创建，自动进入当天的 Daily Note 。蓝色是自动同步的 iCloud 的事项。</p>
 <p>需要特殊说明的，iCloud 日历只展示日程，不展示待办任务，且都是只读，不过对于个人来说，也够用了。</p>
@@ -482,7 +482,7 @@
 
   
   
-<script>window.SAIL={"root":"/","lang":"cn","page":"post","theme":{"key":"sail-theme","def":"light","toggle":true},"motion":{"enable":true,"reveal":true,"distance":"12px","respect":true},"perf":{"prefetch":true,"lqip":true,"saveData":true},"nav":{"hideOnScroll":true},"progress":true,"backTop":false,"search":{"path":"/search.xml","limit":20,"hotkey":true},"code":{"copy":true,"foldOver":30,"lang":true},"reader":{"enable":true,"key":"sail-reader"},"comment":"giscus","i18n":{"copy":"复制","copied":"已复制","unfold":"展开","fold":"折叠","empty":"没有找到相关文章","searching":"搜索中…","results":"条结果","searchError":"搜索索引加载失败","loading":"加载中…","noMore":"没有更多了","loadMore":"加载更多","loadFailed":"加载失败，点击重试","fontSize":"字号","lineHeight":"行距","width":"版型","settings":"阅读设置","small":"小","medium":"中","large":"大","narrow":"窄","wide":"宽","reset":"恢复默认","close":"关闭"}};</script>
+<script>window.SAIL={"root":"/","lang":"cn","page":"post","theme":{"key":"sail-theme","def":"auto","toggle":true},"motion":{"enable":true,"reveal":true,"distance":"12px","respect":true},"perf":{"prefetch":true,"lqip":true,"saveData":true},"nav":{"hideOnScroll":true},"progress":true,"backTop":false,"search":{"path":"/search.xml","limit":20,"hotkey":true},"code":{"copy":true,"foldOver":30,"lang":true},"reader":{"enable":true,"key":"sail-reader"},"comment":"giscus","i18n":{"copy":"复制","copied":"已复制","unfold":"展开","fold":"折叠","empty":"没有找到相关文章","searching":"搜索中…","results":"条结果","searchError":"搜索索引加载失败","loading":"加载中…","noMore":"没有更多了","loadMore":"加载更多","loadFailed":"加载失败，点击重试","fontSize":"字号","lineHeight":"行距","width":"版型","settings":"阅读设置","small":"小","medium":"中","large":"大","narrow":"窄","wide":"宽","reset":"恢复默认","close":"关闭"}};</script>
 <script defer src="/js/core.js"></script>
 <script defer src="/js/nav.js"></script>
 <script defer src="/js/search.js"></script>
@@ -498,20 +498,5 @@
 
 <script defer src="/js/custom.js"></script>
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
