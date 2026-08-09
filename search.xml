@@ -272,9 +272,9 @@
       
         <tags>
             
-            <tag> 好物 </tag>
-            
             <tag> NAS </tag>
+            
+            <tag> 好物 </tag>
             
         </tags>
       
@@ -505,9 +505,9 @@
       
         <tags>
             
-            <tag> macOS </tag>
-            
             <tag> AI </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -677,9 +677,9 @@
       
         <tags>
             
-            <tag> Podcast </tag>
-            
             <tag> Weekly </tag>
+            
+            <tag> Podcast </tag>
             
         </tags>
       
@@ -760,9 +760,9 @@
             
             <tag> Tools </tag>
             
-            <tag> Podcast </tag>
-            
             <tag> Weekly </tag>
+            
+            <tag> Podcast </tag>
             
         </tags>
       
@@ -1923,8 +1923,6 @@
       
       <categories>
           
-          <category> 分享 </category>
-          
           <category> 技术 </category>
           
       </categories>
@@ -2517,9 +2515,9 @@
       
         <tags>
             
-            <tag> Instapaper </tag>
-            
             <tag> RSS </tag>
+            
+            <tag> Instapaper </tag>
             
         </tags>
       
