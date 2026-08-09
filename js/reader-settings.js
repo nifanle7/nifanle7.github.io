@@ -18,7 +18,7 @@
 
   var SCHEMA = [
     {
-      id: 'font', label: I18N.fontFamily || '字体', def: 'sans',
+      id: 'font', label: I18N.fontFamily || '字体', def: 'serif',
       options: [
         { v: 'serif', t: I18N.serif || '衬线' },
         { v: 'sans', t: I18N.sans || '黑体' }
