@@ -55,7 +55,7 @@
     s.setAttribute('data-strict', '0');
     s.setAttribute('data-reactions-enabled', '1');
     s.setAttribute('data-emit-metadata', '0');
-    s.setAttribute('data-input-position', 'top');
+    s.setAttribute('data-input-position', 'bottom');
     s.setAttribute('data-theme', giscusTheme());
     s.setAttribute('data-loading', 'lazy');
 
