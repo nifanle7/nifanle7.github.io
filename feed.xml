@@ -67,8 +67,8 @@
       <name>Cola</name>
     </author>
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
     <id>http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html</id>
     <link href="http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html"/>
     <published>2026-06-08T16:00:00.000Z</published>
@@ -449,8 +449,8 @@ gallery/index.md //基础配置
       <name>Cola</name>
     </author>
     <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     <id>http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html</id>
     <link href="http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html"/>
     <published>2023-04-08T16:00:00.000Z</published>
