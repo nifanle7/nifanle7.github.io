@@ -17,11 +17,12 @@
   var loaded = false;
 
   // Giscus 自定义主题 CSS（隐藏" N 条评论"计数头部，融入 sail 配色）
-  // 关键：giscus.app 是 HTTPS，若用本站 HTTP 地址会被混合内容拦截而回退内置主题。
-  // 故用站点 HTTPS 域名托管（经 ftpsync 部署到 uncoverman.com，预览/线上均可加载）。
+  // 注意：giscus.app 是 HTTPS，自定义 CSS 也必须是 HTTPS；HTTP 地址会因混合内容被拦截。
+  // 默认使用相对路径 /style/...css，线上 HTTPS 站点可直接加载；本地 HTTP 预览请改用 HTTPS 服务，
+  // 或在 _config.yml 的 comment.giscus.theme_url_light/theme_url_dark 里填线上已部署的 HTTPS URL。
   var giscusThemeUrl = {
-    light: 'https://www.uncoverman.com/style/giscus-custom.css',
-    dark: 'https://www.uncoverman.com/style/giscus-custom-dark.css'
+    light: mount.getAttribute('data-theme-url-light') || '/style/giscus-custom.css',
+    dark: mount.getAttribute('data-theme-url-dark') || '/style/giscus-custom-dark.css'
   };
 
   function giscusTheme() {

@@ -1752,6 +1752,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   background: var(--c-accent-soft);
 }
 
+@media (max-width: 1023px) {
+  .home__menu-link--mobhide {
+    display: none;
+  }
+}
+
 .home__social {
   position: relative;
   z-index: 1;
@@ -3531,7 +3537,7 @@ body.is-tools .page__title {
 .reader-settings-btn {
   position: fixed;
   left: 20px;
-  bottom: 80px;
+  bottom: 24px;
   z-index: 100;
   min-width: 44px;
   min-height: 44px;

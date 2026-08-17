@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html lang="cn" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="generator" content="Hexo 5.4.2">
+<title>重汽车仪表盘设计变迁的启示 | 夜航船夫</title>
+<meta name="description" content="夜航船夫，记录个人成长、效率、工具、数码、播客的私人笔记">
+<link rel="canonical" href="http://www.uncoverman.com/panel-history.html">
+
+<link rel="icon" href="/media/favicon.ico">
+<meta name="author" content="Cola">
+
+
+<link rel="alternate" type="application/atom+xml" title="夜航船夫" href="/feed.xml">
+
+
+<script>(function(){var d=document.documentElement;d.className+=' js';var D='auto';try{var k='sail-theme';var t=localStorage.getItem(k)||D;if(t!=='light'&&t!=='dark'&&t!=='auto'){t=D;localStorage.removeItem(k);}d.setAttribute('data-theme',t);d.setAttribute('data-resolved',t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t);var r=localStorage.getItem('sail-reader');if(r){r=JSON.parse(r);for(var i in r)d.setAttribute('data-reader-'+i,r[i]);}}catch(e){d.setAttribute('data-theme',D);d.setAttribute('data-resolved',D==='dark'?'dark':'light');}})();</script>
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="夜航船夫">
+<meta property="og:title" content="重汽车仪表盘设计变迁的启示">
+<meta property="og:description" content="看回形针制作的 汽车仪表盘如何帮你好好开车？ 视频，可以从汽车仪表的设计变迁得到一些设计的启示。 最早在 1930 年代，仪表盘只有速度表和时间表。由于信息不够丰富，随着汽车的发展，1940-1950 年代，厂家效仿飞机仪表盘的设计，在汽车面板上逐步增加了多个单独的仪表，试图为驾驶者提供更丰富的信息。然而，与">
+<meta property="og:url" content="http://www.uncoverman.com/panel-history.html">
+
+<meta property="og:image" content="https://vip2.loli.io/2022/02/26/W9FKVg1MSk4wZxi.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<meta property="article:published_time" content="2021-03-25T16:00:00.000Z">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SisyphusNee">
+<meta name="twitter:creator" content="@SisyphusNee">
+<meta name="twitter:title" content="重汽车仪表盘设计变迁的启示">
+<meta name="twitter:description" content="看回形针制作的 汽车仪表盘如何帮你好好开车？ 视频，可以从汽车仪表的设计变迁得到一些设计的启示。 最早在 1930 年代，仪表盘只有速度表和时间表。由于信息不够丰富，随着汽车的发展，1940-1950 年代，厂家效仿飞机仪表盘的设计，在汽车面板上逐步增加了多个单独的仪表，试图为驾驶者提供更丰富的信息。然而，与">
+<meta name="twitter:image" content="https://vip2.loli.io/2022/02/26/W9FKVg1MSk4wZxi.png">
+
+
+
+<link rel="preconnect" href="//cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/700.css">
+
+
+<link rel="stylesheet" href="/style/prism.css">
+
+<link rel="stylesheet" href="/style/index.css">
+
+
+<style>
+:root{
+  --c-bg: #FFFFFF;
+  --c-bg-elev: #FFFFFF;
+  --c-surface: #F5F7FA;
+  --c-surface-2: #EBEFF4;
+  --c-border: #E8ECF1;
+  --c-border-strong: #D6DCE5;
+  --c-accent: #3A6EA5;
+
+  --art-blue-accent: #3A6EA5;
+  --art-blue-accent-hover: #2F5C8A;
+  --art-blue-soft: rgba(58,110,165,.10);
+  --art-blue-ring: rgba(58,110,165,.38);
+  --art-blue-contrast: #ffffff;
+
+  --art-yellow-accent: #C98A1F;
+  --art-yellow-accent-hover: #B2760F;
+  --art-yellow-soft: rgba(201,138,31,.12);
+  --art-yellow-ring: rgba(201,138,31,.38);
+  --art-yellow-contrast: #ffffff;
+
+  --art-purple-accent: #7C5CBF;
+  --art-purple-accent-hover: #694AA8;
+  --art-purple-soft: rgba(124,92,191,.12);
+  --art-purple-ring: rgba(124,92,191,.38);
+  --art-purple-contrast: #ffffff;
+
+  --art-green-accent: #2E8B6B;
+  --art-green-accent-hover: #257A5C;
+  --art-green-soft: rgba(46,139,107,.12);
+  --art-green-ring: rgba(46,139,107,.38);
+  --art-green-contrast: #ffffff;
+
+  --font-sans: "Avenir Next", "Helvetica Neue","Helvetica","PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "FZPingXianYaSong", "Source Han Serif SC", "Noto Serif SC", "Songti SC", Georgia, serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-pingxian: "Avenir Next", "Helvetica Neue","Helvetica","FZPingXianYaHei-Medium", "方正屏显雅黑", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-body: var(--font-serif);
+  --font-display: var(--font-serif);
+  --font-reading: var(--font-serif);
+  --font-code: var(--font-mono);
+  --font-archive: var(--font-serif);
+  --font-size-base: 16px;
+  --line-height-base: 1.75;
+
+  --img-max-h: 70vh;
+
+  --reveal-distance: 12px;
+  --dur: 200ms;
+}
+</style>
+
+
+<link rel="stylesheet" href="/style/custom.css">
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_2266068_otkvzqnxk0g.css">
+
+
+
+<link rel="preconnect" href="https://s.ee" crossorigin>
+<link rel="dns-prefetch" href="https://s.ee">
+  
+<link rel="preconnect" href="https://i.see.you" crossorigin>
+<link rel="dns-prefetch" href="https://i.see.you">
+  
+<link rel="preconnect" href="https://cdn.sa.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.sa.net">
+  
+
+
+
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"夜航船夫","url":"http://www.uncoverman.com","potentialAction":{"@type":"SearchAction","target":"http://www.uncoverman.com/search.xml?q={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"https://schema.org","@type":"BlogPosting","headline":"重汽车仪表盘设计变迁的启示","description":"看回形针制作的 汽车仪表盘如何帮你好好开车？   视频，可以从汽车仪表的设计变迁得到一些设计的启示。\n最早在 1930 年代，仪表盘只有速度表和时间表。由于信息不够丰富，随着汽车的发展，1940-1950 年代，厂家效仿飞机仪表盘的设计，在汽车面板上逐步增加了多个单独的仪表，试图为驾驶者提供更丰富的信息。然而","datePublished":"2021-03-25T16:00:00.000Z","dateModified":"2022-02-26T14:26:40.000Z","author":{"@type":"Person","name":"Cola"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://www.uncoverman.com/panel-history.html"},"image":"https://vip2.loli.io/2022/02/26/W9FKVg1MSk4wZxi.png"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"http://www.uncoverman.com/"},{"@type":"ListItem","position":2,"name":"重汽车仪表盘设计变迁的启示","item":"http://www.uncoverman.com/panel-history.html"}]}]</script>
+
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+<body class="sail-body is-post">
+  
+  
+    <div class="reading-progress" aria-hidden="true"><span class="reading-progress__bar"></span></div>
+  
+
+  
+  <div class="region region--header"><a class="brand" href="/" rel="home" aria-label="夜航船夫">
+  
+  <span class="brand__name">夜航船夫</span>
+</a>
+
+<nav class="nav" id="site-nav" aria-label="菜单">
+  <ul class="nav__list">
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M9.5 20v-6h5v6"/></svg>
+        <span class="nav__label">首页</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/posts/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></svg>
+        <span class="nav__label">文章</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="https://memos.uncoverman.com" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 11.5a7.5 7.5 0 0 1-10.8 6.7L4 20l1.8-4.3A7.5 7.5 0 1 1 20 11.5z"/></svg>
+        <span class="nav__label">小记</span>
+      </a>
+      
+    </li>
+    
+    <li class="nav__item has-children">
+      
+      
+      <a class="nav__link" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" data-nav-parent>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>
+        <span class="nav__label">专题</span>
+      </a>
+      <div class="nav__dropdown" role="menu">
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/equipment/">好物</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/gallery/">画廊</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/archives/">归档</a>
+        
+          <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
+        
+      </div>
+      
+    </li>
+    
+    <li class="nav__item">
+      
+      <a class="nav__link" href="/about/">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></svg>
+        <span class="nav__label">关于</span>
+      </a>
+      
+    </li>
+    
+  </ul>
+</nav>
+
+
+<button class="nav__toggle" type="button" aria-label="打开菜单" aria-controls="nav-drawer" aria-expanded="false">
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+  <span class="nav__toggle-bar"></span>
+</button>
+
+<button class="search-entry" type="button" aria-label="搜索" data-search-open>
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+  <span class="search-entry__text">搜索</span>
+</button>
+
+
+<button class="theme-toggle" type="button" aria-label="切换深浅色" data-theme-toggle>
+  <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>
+  <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+</button>
+
+</div>
+
+
+  
+  
+<div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="菜单" hidden>
+  <div class="nav-drawer__overlay" data-drawer-close></div>
+  <aside class="nav-drawer__panel" tabindex="-1">
+    <div class="nav-drawer__head">
+      <button class="nav-drawer__close" type="button" data-drawer-close aria-label="关闭菜单">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <nav class="nav-drawer__nav" aria-label="菜单">
+      <ul class="nav-drawer__list">
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>首页</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/posts/" data-drawer-close>文章</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="https://memos.uncoverman.com" data-drawer-close target="_blank" rel="noopener noreferrer">小记</a>
+            
+          </div>
+          
+        </li>
+        
+        <li class="nav-drawer__item has-children">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/" data-drawer-close>专题</a>
+            
+            <button class="nav-drawer__expand" type="button" aria-expanded="true" aria-controls="drawer-sub-3" aria-label="专题 子菜单">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 10l4 4 4-4"/></svg>
+            </button>
+            
+          </div>
+          
+          <ul class="nav-drawer__sub" id="drawer-sub-3">
+            
+              <li><a class="nav-drawer__sublink" href="/equipment/" data-drawer-close>好物</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/gallery/" data-drawer-close>画廊</a></li>
+            
+              <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-drawer__item">
+          <div class="nav-drawer__row">
+            <a class="nav-drawer__link" href="/about/" data-drawer-close>关于</a>
+            
+          </div>
+          
+        </li>
+        
+      </ul>
+    </nav>
+
+    
+    <div class="nav-drawer__social">
+      <a class="nav-drawer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="nav-drawer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="nav-drawer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="nav-drawer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </aside>
+</div>
+
+
+  
+  <div id="content" class="site-content">
+    
+<div class="layout-post" data-article-theme="blue">
+  <div class="layout-post__main">
+    <article class="post">
+      <header class="post__header">
+        <h1 class="post__title">重汽车仪表盘设计变迁的启示</h1>
+        
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2021-03-25T16:00:00.000Z">2021-03-26</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E5%88%86%E4%BA%AB/">分享</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/Car/">Car</a></span>
+  
+</div>
+
+      </header>
+
+
+      <div class="post__body reveal-content post__body--drop-cap">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span class="drop-cap">看</span>回形针制作的 <a href="https://www.bilibili.com/video/BV1T64y1Q74L" target="_blank" rel="noopener noreferrer" class="ext-link">汽车仪表盘如何帮你好好开车？</a>   视频，可以从汽车仪表的设计变迁得到一些设计的启示。</p>
+<p>最早在 1930 年代，仪表盘只有速度表和时间表。由于信息不够丰富，随着汽车的发展，1940-1950 年代，厂家效仿飞机仪表盘的设计，在汽车面板上逐步增加了多个单独的仪表，试图为驾驶者提供更丰富的信息。然而，与此同时，却同时造成了信息过载，主次不分，驾驶员不知道看哪一个。于是，厂家就把多个仪表盘合并，部分内容以小图标显示，在保持丰富的同时突出重点。</p>
+<div class="img-gallery" style="--gallery-cols:3;--gallery-gap:8px"><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/W9FKVg1MSk4wZxi.png" alt="1930年代仪表盘" loading="eager" fetchpriority="high" decoding="async" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip1.loli.io/2022/02/26/CemTZQFY1s3VBDy.png" alt="1940-1950仪表盘" loading="lazy" decoding="async" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/4hxG8mVQoOt5qiE.png" alt="1970年代仪表盘" loading="lazy" decoding="async" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip1.loli.io/2022/02/26/4TAhLFDpvCBs2Pu.png" alt="2020年代电动车仪表盘" loading="lazy" decoding="async" data-lqip data-sail-done></figure></div>
+
+      </div>
+
+      
+      <footer class="post__copyright">
+        版权声明：CC BY-NC-SA 4.0
+        · © Cola
+      </footer>
+      
+    </article>
+
+    
+    <nav class="post-nav" aria-label="上一篇/下一篇">
+      <a class="post-nav__link post-nav__prev" href="/cpu-configuration.html"><span class="post-nav__dir">上一篇</span><span class="post-nav__title">服务器与家用电脑 CPU 的区别</span></a>
+      <a class="post-nav__link post-nav__next" href="/record-of-finance-common-sense.html"><span class="post-nav__dir">下一篇</span><span class="post-nav__title">《一眼就懂的金融常识全图解》摘要</span></a>
+    </nav>
+    
+
+    
+    <section class="post-related">
+      <h2 class="post-related__title">相关文章</h2>
+      
+
+<div class="post-list post-list--brief">
+  <article class="post-item post-item--brief reveal">
+  <a class="post-item__thumb" href="/xinan-river-tour.html" aria-hidden="true" tabindex="-1"><img src="https://i.see.you/2026/08/04/Nim4/6b27152.png" alt="" loading="lazy" decoding="async"></a>
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/xinan-river-tour.html">新安江桨板游玩</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2026-08-03T16:00:00.000Z">2026-08-04</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E8%AE%B0%E5%BD%95/">记录</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83/">周末遛娃</a></span>
+  
+</div>
+
+    <p class="post-item__excerpt"> 周末遛娃，去了一趟建德，在新安江上划了桨板，参观了新安江水电站和农夫山泉工厂，吃到了特色美食豆腐包、水晶糕，顺路经过桐庐服务区看水族馆和美人鱼。 周六早上出发，周日晚上到家，两天一夜，全程自驾，行程不赶，满足归来，唯一遗憾是没有看到白沙奇…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  <a class="post-item__thumb" href="/toast-baking.html" aria-hidden="true" tabindex="-1"><img src="https://i.see.you/2026/07/11/Qx4d/IMG_5771-20260711220708-qf2ahvk.jpeg" alt="" loading="lazy" decoding="async"></a>
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/toast-baking.html">吐司面包烘焙</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2026-07-10T23:11:37.000Z">2026-07-11</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E8%AE%B0%E5%BD%95/">记录</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/">下厨房</a></span>
+  
+</div>
+
+    <p class="post-item__excerpt">台风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 zhuyi 很享受自己做面包，经常在微博上晒面包。 由于是第一次，选了小红书上最简易的 教程。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤，…</p>
+  </div>
+</article>
+<article class="post-item post-item--brief reveal">
+  <a class="post-item__thumb" href="/guoqing-temple.html" aria-hidden="true" tabindex="-1"><img src="https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg" alt="" loading="lazy" decoding="async"></a>
+  <div class="post-item__main">
+    <h2 class="post-item__title"><a href="/guoqing-temple.html">天台国清寺一日游</a></h2>
+    
+<div class="post-meta">
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><time datetime="2026-06-20T16:00:00.000Z">2026-06-21</time></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5a1.5 1.5 0 0 1 1.5-1.5h3.8l2 2.4h7.7a1.5 1.5 0 0 1 1.5 1.5v8.6a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg><a href="/categories/%E8%AE%B0%E5%BD%95/">记录</a></span>
+  <span class="post-meta__item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.2V4.5a1 1 0 0 1 1-1h6.7a1 1 0 0 1 .7.3l8 8a1 1 0 0 1 0 1.4l-6.7 6.7a1 1 0 0 1-1.4 0l-8-8a1 1 0 0 1-.3-.7z"/><circle cx="8" cy="8" r="1.4"/></svg><a href="/tags/%E6%97%85%E8%A1%8C/">旅行</a></span>
+  
+</div>
+
+    <p class="post-item__excerpt">假期下雨，去了趟天台国清寺遛娃兼游览，免费的 5A 级景区，底蕴深厚，且晴雨不论，都可游览。路上借着豆包听了好多故事。 景区入口看到的隋塔，又名报恩塔，是隋炀帝下诏建的，六面九级空心楼阁式砖塔，约 60m 高，是浙江省最高的古塔之一。以前内…</p>
+  </div>
+</article>
+
+</div>
+
+    </section>
+    
+
+    
+<section class="comments" id="comments" data-comment-provider="giscus">
+  <h2 class="comments__title">评论</h2>
+  
+  <div class="giscus"
+       data-repo="nifanle7/nifanle7.github.io"
+       data-repo-id="R_kgDOGKLSRA"
+       data-category="General"
+       data-category-id="DIC_kwDOGKLSRM4CdPOT"
+       data-mapping="pathname"
+       data-lang="zh-CN"
+       data-theme="light"
+       data-theme-url-light="/style/giscus-custom.css"
+       data-theme-url-dark="/style/giscus-custom-dark.css"
+       crossorigin="anonymous">
+  </div>
+  
+</section>
+
+  </div>
+
+  <aside class="layout-post__side">
+    <div class="region region--sidebar">
+
+<section class="widget widget--profile">
+  <div class="profile">
+    
+      <img class="profile__avatar" src="/media/avatar.jpg" alt="夜航船夫" loading="lazy" width="84" height="84">
+    
+    <p class="profile__name">夜航船夫</p>
+    <p class="profile__desc">捣腾生活，溜达人生</p>
+    
+    
+    <div class="profile__social">
+      <a class="profile__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="profile__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="profile__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="profile__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+    </div>
+    
+  </div>
+</section>
+
+</div>
+
+  </aside>
+</div>
+
+  </div>
+
+  
+  <footer class="site-footer">
+    <div class="region region--footer">
+
+<div class="footer__social">
+  <a class="footer__social-link" href="mailto:hi@uncoverman.com" aria-label="邮箱" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6.5 12 14 22 6.5" stroke-linejoin="round"/></svg></a><a class="footer__social-link" target="_blank" href="https://twitter.com/SisyphusNee" aria-label="Twitter" rel="noopener noopener"><i class="iconfont icon-twitter" aria-hidden="true"></i></a><a class="footer__social-link" target="_blank" href="https://www.zhihu.com/people/uncoverman" aria-label="知乎" rel="noopener noopener"><i class="iconfont icon-zhihu" aria-hidden="true"></i></a><a class="footer__social-link" href="/feed.xml" aria-label="RSS" rel="noopener"><i class="iconfont icon-rss" aria-hidden="true"></i></a>
+</div>
+
+
+<div class="footer__copy">
+  © 2021–2026 Cola.
+  <span class="footer__icp">浙ICP备15005499号</span>
+</div>
+<div class="footer__powered">由 Hexo 驱动 · 主题 Sail</div>
+</div>
+
+  </footer>
+
+  
+  
+    <div class="search-panel" id="search-panel" role="dialog" aria-modal="true" aria-label="搜索" hidden>
+  <div class="search-panel__overlay" data-search-close></div>
+  <div class="search-panel__box">
+    <div class="search-panel__head">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input class="search-panel__input" type="search" placeholder="搜索文章…" aria-label="搜索" autocomplete="off">
+      <button class="search-panel__close" type="button" data-search-close aria-label="关闭搜索">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="search-panel__results" aria-live="polite"></div>
+    <p class="search-panel__hint">输入关键词开始搜索</p>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  
+<script>window.SAIL={"root":"/","lang":"cn","page":"post","theme":{"key":"sail-theme","def":"auto","toggle":true},"motion":{"enable":true,"reveal":true,"distance":"12px","respect":true},"perf":{"prefetch":true,"lqip":true,"saveData":true},"nav":{"hideOnScroll":true},"progress":true,"backTop":false,"search":{"path":"/search.xml","limit":20,"hotkey":true},"code":{"copy":true,"foldOver":30,"lang":true},"reader":{"enable":true,"key":"sail-reader"},"comment":"giscus","i18n":{"copy":"复制","copied":"已复制","unfold":"展开","fold":"折叠","empty":"没有找到相关文章","searching":"搜索中…","results":"条结果","searchError":"搜索索引加载失败","loading":"加载中…","noMore":"没有更多了","loadMore":"加载更多","loadFailed":"加载失败，点击重试","fontSize":"字号","lineHeight":"行距","width":"版型","settings":"阅读设置","small":"小","medium":"中","large":"大","narrow":"窄","wide":"宽","reset":"恢复默认","close":"关闭"}};</script>
+<script defer src="/js/core.js"></script>
+<script defer src="/js/nav.js"></script>
+<script defer src="/js/search.js"></script>
+<script defer src="/js/lightbox.js"></script>
+
+
+<script defer src="/js/prism.js"></script>
+<script defer src="/js/code-block.js"></script>
+<script defer src="/js/toc.js"></script>
+<script defer src="/js/reader-settings.js"></script>
+<script defer src="/js/comments.js"></script>
+
+
+<script defer src="/js/custom.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

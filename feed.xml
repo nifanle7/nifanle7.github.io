@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-08-04T01:26:27.944Z</updated>
+  <updated>2026-08-17T09:35:44.905Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://www.uncoverman.com/my-memos-is-ready.html"/>
+    <id>http://www.uncoverman.com/my-memos-is-ready.html</id>
+    <published>2026-08-16T16:00:00.000Z</published>
+    <updated>2026-08-17T09:35:44.905Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/08/17/R0fq/imgae20260817165319197.png&quot; alt=&quot;memos-demo&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; data-lqip data-sail-done&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;喜&lt;/span&gt;欢用微博、推特、小红书、朋友圈这类产品，它们共同特点都是短文，配图，随时随地。无摩擦写作，很适合随手记。&lt;/p&gt;
+&lt;p&gt;但是这些只言片语散落在各个平台，而且有不同的受众，被不同的公司掌握着数据和曝光，没办法随意流动。&lt;/p&gt;
+&lt;p&gt;于是有了一个设想，能否拥有一个自己的短文平台？支持图文，支持 Mac 、 iOS 、 Windows 等平台，在家里或者外面网络下都能写，其他人能看，数据自己掌握。&lt;/p&gt;
+&lt;p&gt;自托管的 Memos 是一个解。&lt;/p&gt;
+&lt;p&gt;利用 NAS 的 Docker 进行部署，通过「赛博大善人」的 Cloudflare Tunnel 映射 IP 地址，实现内网、外网都能编写和访问，即使没有公网 IP 。链接挂到博客上之后，其他人就可以看到了。&lt;/p&gt;
+&lt;p&gt;顺便用自定义 CSS，隐藏不必要的菜单，加大段间距，优化一下体验。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;/* 隐藏 通知 选项卡 */
+#header-inbox {
+  display: none;
+}
+
+/* 隐藏 个人资料 选项</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="折腾" scheme="http://www.uncoverman.com/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>新安江桨板游玩</title>
@@ -210,9 +246,9 @@ gallery/index.md </summary>
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
-    
     <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
     
   </entry>
   
@@ -321,9 +357,9 @@ gallery/index.md </summary>
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
-    
     <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
     
   </entry>
   
@@ -560,38 +596,6 @@ gallery/index.md </summary>
     
     
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>macOS 本地生成 AI 图片</title>
-    <link href="http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html"/>
-    <id>http://www.uncoverman.com/generate-ai-image-with-stable-diffusion-on-macos.html</id>
-    <published>2023-04-08T16:00:00.000Z</published>
-    <updated>2023-06-02T14:04:04.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/04/10/NpolvfPERitBjZ1.png&quot; alt=&quot;night-city-H.16.622945641.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; data-lqip data-sail-done&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;好&lt;/span&gt;消息，macOS 可以本地生成 AI 图片了！&lt;/p&gt;
-&lt;p&gt;日前，苹果公司发布了 &lt;a href=&quot;https://github.com/apple/ml-stable-diffusion&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;Core ML Stable Diffusion 框架&lt;/a&gt;，可以在 macOS 上原生运行 Stable Diffusion，利用 AI 生成图片。目前市面上主流的 AI 图片服务都需要收费，订阅制而且有额度限制，对于轻度使用并不友好。现在可以通过本地运行的方式，免费生成 AI 图片，以后博客文章的 banner 不愁了。😁&lt;/p&gt;
-&lt;p&gt;不过，有两个前提：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Apple 芯片的 Mac (M1 及后续)&lt;/li&gt;
-&lt;li&gt;macOS Ventura 13.1 以上&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;操作方法&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#操作方法&quot; aria-hidde</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="http://www.uncoverman.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
-    
-    <category term="macOS" scheme="http://www.uncoverman.com/tags/macOS/"/>
     
   </entry>
   
