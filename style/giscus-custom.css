@@ -66,30 +66,74 @@ main {
 /* 评论正文行高 */
 main .gsc-comment { line-height: 1.75; }
 
-/* 隐藏评论计数头部 + reactions 计数徽标 */
-.gsc-header,
-.gsc-reactions-count { display: none !important; }
+/* 评论计数头部：弱化、与 sail 一致（保留「N 条评论」与排序，仅去掉 giscus 署名） */
+main .gsc-header { margin-bottom: 14px; }
+main .gsc-comments-count { color: var(--color-fg-muted); font-size: 14px; }
+main .gsc-comments-order select { border-radius: 999px !important; }
 
-/* 圆角融入 sail（sail 全局 $radius-sm ≈ 6px） */
-main {
-  border-radius: 8px;
-}
+/* ===== 评论卡片化（方案 B）===== */
 main .gsc-comment,
-main .gsc-comment-header,
-main .gsc-reply-box,
-main .gsc-comments-footer {
-  border-radius: 6px !important;
+main .gsc-reply {
+  background: var(--color-canvas-overlay);
+  border: 1px solid var(--color-border-default) !important;
+  border-radius: 12px !important;
+  padding: 14px 16px !important;
+  box-shadow: 0 1px 4px rgba(27,36,51,.05);
+}
+main .gsc-comment { margin-bottom: 12px; }
+
+/* 评论头部：头像 + 作者 + 时间 */
+main .gsc-comment-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-bottom: 8px !important;
+}
+main .gsc-comment-header img {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid var(--color-border-default) !important;
+  flex: none;
+}
+main .gsc-comment-author-name { font-weight: 600 !important; color: var(--color-fg-default) !important; }
+main .gsc-comment-header a { color: var(--color-fg-default) !important; text-decoration: none; }
+main relative-time,
+main .gsc-comment-header relative-time { color: var(--color-fg-muted) !important; font-size: 12px !important; }
+
+/* 评论内容间距 */
+main .gsc-comment-content { padding-top: 4px; }
+
+/* 嵌套回复：左侧引导线，区分主评论与回复 */
+main .gsc-reply {
+  margin-left: 22px !important;
+  padding-left: 14px !important;
+  border-left: 2px solid var(--color-border-default) !important;
 }
 
-/* 输入框柔和化 */
+/* reactions 柔和化为胶囊 */
+main .gsc-reaction-button {
+  border-radius: 999px !important;
+  border-color: var(--color-border-default) !important;
+}
+
+/* 输入框区域卡片化，与评论列表区分 */
+main .gsc-comment-box {
+  border: 1px solid var(--color-border-default) !important;
+  border-radius: 12px !important;
+  padding: 12px !important;
+  background: var(--color-canvas-overlay);
+}
+main .gsc-comment-box-tabs { border-radius: 8px !important; }
 main textarea,
 main .gsc-reply-box {
-  border-color: var(--color-border-default) !important;
   border-radius: 8px !important;
+  border-color: var(--color-border-default) !important;
 }
 
-/* 按钮圆角 */
+/* 按钮圆角统一 */
 main button,
-main .gsc-button {
-  border-radius: 6px !important;
-}
+main .gsc-button { border-radius: 8px !important; }
+
+/* 隐藏 giscus 署名（「由 giscus 提供支持」） */
+.gsc-comments-footer { display: none !important; }
