@@ -1,0 +1,161 @@
+/*!
+ * sail · giscus-custom.css（亮色 · 由 giscus-theme.js 按当前预设自动生成，请勿手改）
+ * 预设变量 → Giscus/Primer 变量名映射，使 iframe 内评论与页面风格统一
+ */
+main {
+  --color-fg-default: #2A2520;
+  --color-fg-muted: #6B6155;
+  --color-fg-subtle: #9A8F80;
+  --color-canvas-default: #FBF9F5;
+  --color-canvas-overlay: #FFFFFF;
+  --color-canvas-inset: #F3EFE8;
+  --color-canvas-subtle: #F3EFE8;
+  --color-border-default: #E4DCD0;
+  --color-border-muted: #E4DCD0;
+  --color-neutral-muted: rgba(138, 106, 69, 0.12);
+  --color-accent-fg: #8A6A45;
+  --color-accent-emphasis: #8A6A45;
+  --color-accent-muted: rgba(138, 106, 69, 0.18);
+  --color-accent-subtle: rgba(138, 106, 69, 0.08);
+  --color-success-fg: #2E8B6B;
+  --color-attention-fg: #C9821F;
+  --color-attention-muted: rgba(201, 130, 31, 0.18);
+  --color-attention-subtle: rgba(201, 130, 31, 0.08);
+  --color-danger-fg: #C0492F;
+  --color-danger-muted: rgba(192, 73, 47, 0.18);
+  --color-danger-subtle: rgba(192, 73, 47, 0.08);
+  --color-btn-text: #2A2520;
+  --color-btn-bg: #FFFFFF;
+  --color-btn-border: #E4DCD0;
+  --color-btn-hover-bg: #F3EFE8;
+  --color-btn-hover-border: #D2C7B8;
+  --color-btn-active-bg: #EAE4DA;
+  --color-btn-active-border: #D2C7B8;
+  --color-btn-selected-bg: #EAE4DA;
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #8A6A45;
+  --color-btn-primary-border: #8A6A45;
+  --color-btn-primary-hover-bg: rgb(121, 93, 61);
+  --color-btn-primary-hover-border: rgb(121, 93, 61);
+  --color-btn-primary-selected-bg: #8A6A45;
+  --color-btn-primary-disabled-text: rgba(255, 255, 255, 0.5);
+  --color-btn-primary-disabled-bg: rgba(138, 106, 69, 0.35);
+  --color-btn-primary-disabled-border: transparent;
+  --color-action-list-item-default-hover-bg: rgba(138, 106, 69, 0.06);
+  --color-segmented-control-bg: #F3EFE8;
+  --color-segmented-control-button-bg: #FFFFFF;
+  --color-segmented-control-button-selected-border: #8A6A45;
+  --color-scale-gray-1: #F3EFE8;
+  --color-scale-blue-1: rgba(138, 106, 69, 0.12);
+
+  /* reactions hover */
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+
+  /* ===== 字体对齐 sail ===== */
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 评论正文行高 */
+main .gsc-comment { line-height: 1.75; }
+
+/* 评论计数头部：弱化、与 sail 一致 */
+main .gsc-header { margin-bottom: 14px; }
+main .gsc-comments-count { color: var(--color-fg-muted); font-size: 14px; }
+main .gsc-comments-order select { border-radius: 999px !important; }
+
+/* ===== 评论卡片化 ===== */
+main .gsc-comment,
+main .gsc-reply {
+  background: var(--color-canvas-overlay) !important;
+  border: 1px solid var(--color-border-default) !important;
+  border-radius: 12px !important;
+  padding: 14px 16px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+main .gsc-comment { margin-bottom: 12px; }
+
+/* 评论头部：头像 + 作者 + 时间 */
+main .gsc-comment-header {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-bottom: 8px !important;
+}
+main .gsc-comment-header img {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid var(--color-border-default) !important;
+  flex: none;
+}
+main .gsc-comment-author-name { font-weight: 600 !important; color: var(--color-fg-default) !important; }
+main .gsc-comment-header a { color: var(--color-fg-default) !important; text-decoration: none; }
+main relative-time,
+main .gsc-comment-header relative-time { color: var(--color-fg-muted) !important; font-size: 12px !important; }
+
+/* 评论内容间距 */
+main .gsc-comment-content { padding-top: 4px; }
+
+/* 嵌套回复：左侧引导线 */
+main .gsc-reply {
+  margin-left: 22px !important;
+  padding-left: 14px !important;
+  border-left: 2px solid var(--color-border-default) !important;
+}
+
+/* reactions 柔和化为胶囊 */
+main .gsc-reaction-button {
+  border-radius: 999px !important;
+  border-color: var(--color-border-default) !important;
+}
+
+/* reaction emoji picker 弹层：强制实底背景与边框。
+   giscus 的表情弹层通过 React portal 挂到 body 下，不在 main 内，
+   因此作用域不能用 main，必须直接针对元素本身，并靠 :root/html/body 变量兜底。 */
+.gsc-reactions-popover,
+.gsc-reactions-popover.color-bg-overlay,
+.color-bg-overlay.gsc-reactions-popover,
+details.gsc-reactions-menu .gsc-reactions-popover,
+body > .gsc-reactions-popover {
+  background-color: var(--color-canvas-overlay) !important;
+  background: var(--color-canvas-overlay) !important;
+  border: 1px solid var(--color-border-default) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,.12) !important;
+}
+.gsc-reactions-popover .border-t {
+  border-color: var(--color-border-muted) !important;
+}
+.gsc-reactions-popover .gsc-emoji-button {
+  border-radius: 6px !important;
+}
+.gsc-reactions-popover .gsc-emoji-button:hover {
+  background-color: var(--color-neutral-muted) !important;
+}
+
+/* 兜底：确保 Primer 的 color-bg-overlay 工具类在 iframe 内读到实底变量 */
+html, body, :root {
+  --color-canvas-overlay: #FFFFFF !important;
+}
+
+/* 输入框区域卡片化 */
+main .gsc-comment-box {
+  border: 1px solid var(--color-border-default) !important;
+  border-radius: 12px !important;
+  padding: 12px !important;
+  background: var(--color-canvas-overlay);
+}
+main .gsc-comment-box-tabs { border-radius: 8px !important; }
+main textarea,
+main .gsc-reply-box {
+  border-radius: 8px !important;
+  border-color: var(--color-border-default) !important;
+}
+
+/* 按钮圆角统一 */
+main button,
+main .gsc-button { border-radius: 8px !important; }
+
+/* 隐藏 giscus 署名（「由 giscus 提供支持」） */
+.gsc-comments-footer { display: none !important; }

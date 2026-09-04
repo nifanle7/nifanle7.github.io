@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>夜航船夫</title>
+  
+  <subtitle>捣腾生活，溜达人生</subtitle>
+  <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
+  
+  <link href="http://www.uncoverman.com/"/>
+  <updated>2026-08-25T06:47:32.978Z</updated>
+  <id>http://www.uncoverman.com/</id>
+  
+  <author>
+    <name>Cola</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Memos 的那年今日和随机笔记</title>
+    <link href="http://www.uncoverman.com/on-this-day-and-random-note-in-memos.html"/>
+    <id>http://www.uncoverman.com/on-this-day-and-random-note-in-memos.html</id>
+    <published>2026-08-24T16:00:00.000Z</published>
+    <updated>2026-08-25T06:47:32.978Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;M&lt;/span&gt;emos 最初定位是一款笔记软件。对于笔记来说，怎么复现曾经有价值的笔记，激活沉淀的知识？在方法层面，除了标签、双链，就是&lt;strong&gt;「那年今日」和「随机笔记」&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;最早用到「那年今日」功能是在 Day One 里自带的，Obsidian 里通过 DataView 也能实现。「随机笔记」则是 Obsidian 自带的，我还在这个 idea 的基础上实现了 &lt;a href=&quot;https://www.uncoverman.com/random-notes-in-obsidian.html&quot;&gt;随机读书笔记&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Memos 同样支持这两项功能。&lt;/p&gt;
+&lt;h2 id=&quot;那年今日&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#那年今日&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#那年今日&quot; class=&quot;headerlink&quot; title=&quot;那年今日&quot;&gt;&lt;/a&gt;那年今日&lt;/h2&gt;&lt;p&gt;Memos 有一个捷径菜单，只要在捷径中加一行语句，就可以实现那年今日功能。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-js&quot;&gt;created_ts.getMonth() == now.getMonth() &amp;amp;&amp;amp; created_ts.getDate() == now.getDate()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;效果如下：
+&lt;figure cl</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="折腾" scheme="http://www.uncoverman.com/tags/%E6%8A%98%E8%85%BE/"/>
+    
+    <category term="Memos" scheme="http://www.uncoverman.com/tags/Memos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memos 小记</title>
+    <link href="http://www.uncoverman.com/my-memos-is-ready.html"/>
+    <id>http://www.uncoverman.com/my-memos-is-ready.html</id>
+    <published>2026-08-16T16:00:00.000Z</published>
+    <updated>2026-08-29T17:15:00.975Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/08/17/R0fq/imgae20260817165319197.png&quot; alt=&quot;memos-demo&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/08/17/R0fq/imgae20260817165319197.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/08/17/R0fq/imgae20260817165319197.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/08/17/R0fq/imgae20260817165319197.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/08/17/R0</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="折腾" scheme="http://www.uncoverman.com/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新安江桨板游玩</title>
+    <link href="http://www.uncoverman.com/xinan-river-tour.html"/>
+    <id>http://www.uncoverman.com/xinan-river-tour.html</id>
+    <published>2026-08-03T16:00:00.000Z</published>
+    <updated>2026-08-04T01:26:27.944Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/08/04/Nim4/6b27152.png&quot; alt=&quot;新安江划桨板.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/08/04/Nim4/6b27152.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/08/04/Nim4/6b27152.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/08/04/Nim4/6b27152.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/08/04/Nim4/6b27152.png 1366w, https://www.uncoverman.com/cdn-cgi/ima</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="周末遛娃" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吐司面包烘焙</title>
+    <link href="http://www.uncoverman.com/toast-baking.html"/>
+    <id>http://www.uncoverman.com/toast-baking.html</id>
+    <published>2026-07-10T23:11:37.000Z</published>
+    <updated>2026-07-11T15:26:52.154Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;台&lt;/span&gt;风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 &lt;a href=&quot;https://weibo.com/u/1644329413&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;zhuyi&lt;/a&gt; 很享受自己做面包，经常在微博上晒面包。&lt;/p&gt;
+&lt;p&gt;由于是第一次，选了小红书上最简易的 &lt;a href=&quot;xhslink.com/o/3mI1y7y47qo&quot;&gt;教程&lt;/a&gt;。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤，简单来说就是 3 步：混合、发酵、烘焙。&lt;/p&gt;
+&lt;h2 id=&quot;0-材料准备&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#0-材料准备&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#0-材料准备&quot; class=&quot;headerlink&quot; title=&quot;0. 材料准备&quot;&gt;&lt;/a&gt;0. 材料准备&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;高筋面粉 250g&lt;/li&gt;
+&lt;li&gt;鸡蛋 2 个&lt;/li&gt;
+&lt;li&gt;牛奶 150g&lt;/li&gt;
+&lt;li&gt;耐高糖酵母 3g&lt;/li&gt;
+&lt;li&gt;糖 25g&lt;/li&gt;
+&lt;li&gt;盐 3g&lt;/li&gt;
+&lt;li&gt;黄油 25g&lt;/li&gt;
+&lt;li&gt;吐司模具&lt;/li&gt;
+&lt;li&gt;烤箱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-混合&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#1-混合&quot; ari</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="下厨房" scheme="http://www.uncoverman.com/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>天台国清寺一日游</title>
+    <link href="http://www.uncoverman.com/guoqing-temple.html"/>
+    <id>http://www.uncoverman.com/guoqing-temple.html</id>
+    <published>2026-06-20T16:00:00.000Z</published>
+    <updated>2026-06-22T07:19:18.010Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;假&lt;/span&gt;期下雨，去了趟天台国清寺遛娃兼游览，免费的 5A 级景区，底蕴深厚，且晴雨不论，都可游览。路上借着豆包听了好多故事。&lt;/p&gt;
+&lt;p&gt;景区入口看到的隋塔，又名报恩塔，是隋炀帝下诏建的，六面九级空心楼阁式砖塔，约 60m 高，是浙江省最高的古塔之一。以前内部有木梯，可以登高望远，后来都损毁了。外观上，相比北宋时期建在苏州的虎丘斜塔是八面七层，工艺不一样。 &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg&quot; alt=&quot;DSC04207.jpeg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=aut</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian与OpenCode的工作流</title>
+    <link href="http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html"/>
+    <id>http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html</id>
+    <published>2026-06-08T16:00:00.000Z</published>
+    <updated>2026-06-09T12:04:29.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg&quot; alt=&quot;obsidian-and-opencode.jpg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/06/09/l7vK/obsidian-and-opencode.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/20</summary>
+      
+    
+    
+    
+    
+    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
+    
+    <category term="工作流" scheme="http://www.uncoverman.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+    <category term="AI" scheme="http://www.uncoverman.com/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开一场线上展览</title>
+    <link href="http://www.uncoverman.com/ready-to-host-an-online-exhibition.html"/>
+    <id>http://www.uncoverman.com/ready-to-host-an-online-exhibition.html</id>
+    <published>2026-05-03T16:00:00.000Z</published>
+    <updated>2026-05-04T12:32:50.318Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png&quot; alt=&quot;imgae20260504154734379.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.y</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="博客" scheme="http://www.uncoverman.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>车上露营</title>
+    <link href="http://www.uncoverman.com/first-time-car-camping.html"/>
+    <id>http://www.uncoverman.com/first-time-car-camping.html</id>
+    <published>2026-04-13T16:00:00.000Z</published>
+    <updated>2026-07-12T01:02:51.547Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;2&lt;/span&gt;025 年下半年换了一辆新能源车，一直想着出去在车上露营一次。这个春天的周末，天气晴好，带娃去宁波奉化太妃湖，看到了蓝色的宁波湾海水，体验了车上露营，总结一下：&lt;/p&gt;
+&lt;h2 id=&quot;1、铺床模式&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#1、铺床模式&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#1、铺床模式&quot; class=&quot;headerlink&quot; title=&quot;1、铺床模式&quot;&gt;&lt;/a&gt;1 、铺床模式&lt;/h2&gt;&lt;p&gt;我采用一、二排成床模式，即把第一排放倒，和第二排连起来铺床，这种方案的好处是前备箱和后备箱还可以放行李，不用把东西挪来挪去。&lt;a href=&quot;https://item.taobao.com/item.htm?id=981557429174&amp;amp;skuId=6104877826220&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;充气床垫&lt;/a&gt; 是淘宝上买的，铺好、充起气大概 8 分钟左右。&lt;strong&gt;露营前自己试铺过一次&lt;/strong&gt;，验证了味道，铺设方式和软硬度，都可以接受，到了真正开始露营时也就得心应手，不至于手忙脚乱。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/04/01/xr3Y/666494ce05c1b9e1b8076c419696941-.jpg&quot; alt=&quot;666494ce05c1</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="生活" scheme="http://www.uncoverman.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian集成Daily Note任务及iCloud、Google日历</title>
+    <link href="http://www.uncoverman.com/full-calendar-in-obsidian.html"/>
+    <id>http://www.uncoverman.com/full-calendar-in-obsidian.html</id>
+    <published>2026-02-15T16:00:00.000Z</published>
+    <updated>2026-02-16T07:38:36.808Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;平&lt;/span&gt;时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown 、图片等，如滴答清单、 Superlist，要么就是笔记软件增强任务管理功能。&lt;/p&gt;
+&lt;p&gt;我现在也不执着 All in one，所以两者是分开管理，但总归有些许不方便。&lt;/p&gt;
+&lt;p&gt;突然发现 Obsidian 的 &lt;a href=&quot;https://github.com/obsidian-community/obsidian-full-calendar&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;Full Calendar&lt;/a&gt; 插件，可以集成展示 iCloud 、 Google 日历，也可以显示 Daily Note 里的事项，这样就把两边的事项都可以在一个地方看了，效果如下，紫色是 Daily Note 指定二级标题下的任务项，可以在 Calendar 页面上点击创建，自动进入当天的 Daily Note 。蓝色是自动同步的 iCloud 的事项。&lt;/p&gt;
+&lt;p&gt;需要特殊说明的，iCloud 日历只展示日程，不展示待办任务，且都是只读，不过对于个人来说，也够用了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/02/16/Rdo6/imgae20260216</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS下Rime输入法配置雾凇拼音</title>
+    <link href="http://www.uncoverman.com/use-rime-ice-on-macOS.html"/>
+    <id>http://www.uncoverman.com/use-rime-ice-on-macOS.html</id>
+    <published>2026-02-11T16:00:00.000Z</published>
+    <updated>2026-02-12T05:49:40.503Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/02/12/8dJr/rime-ice.webp&quot; alt=&quot;rime-ice&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/02/12/8dJr/rime-ice.webp 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/02/12/8dJr/rime-ice.webp 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/02/12/8dJr/rime-ice.webp 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/02/12/8dJr/rime-ice.webp 1366w, https://www.uncoverman.com/cdn</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技巧" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爱情怎么翻译</title>
+    <link href="http://www.uncoverman.com/how-to-translate-love.html"/>
+    <id>http://www.uncoverman.com/how-to-translate-love.html</id>
+    <published>2026-01-25T16:00:00.000Z</published>
+    <updated>2026-02-16T04:38:08.374Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;blockquote&gt;
+&lt;p&gt;作家问翻译官，你知道世界上有多少种语言。翻译官答，大概 7000 多种吧。作家说，不，世上有多少人就有多少语言。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;周末在家，小红书刷到几篇推荐《爱情怎么翻译》的图文，于是下载，周末沉浸式体验刷剧，放松一下。&lt;/p&gt;
+&lt;p&gt;故事是关于一个翻译官和女明星的，爱情浪漫轻喜剧。取景动人，在镜头里能看到加拿大班夫国家公园的雪山、丛林、极光，意大利的街头，还有韩国的星空夜景，美翻了。对话清甜，有顾左右而言他的暧昧拉扯、也有只属于两人的秘密对白，瀑布梗、极光梗各种 callback 。构图精致，女主和招财猫同步点头、两位主角面对面在两种光线下的明暗对比。另外，还注意到一个细节，每一集的剧名主题色都不一样，有明黄、浅灰等，象征着这集的情感基调。&lt;/p&gt;
+&lt;p&gt;翻了下豆瓣，原来编剧洪氏姐妹在 20 年前还出过《豪杰春香》，那是个人看的第一部韩剧，当时“成春香”和“李梦龙”是年轻时候爱看的纯爱故事，扮演成春香的韩彩英就是我的女神。虽然 MP3 和歌单几度迁移，影片的原声音乐合集 OST 还是保留在了我的歌单曲库里。&lt;/p&gt;
+&lt;p&gt;​&lt;img src=&quot;https://i.see.you/2026/02/16/k5Zz/IMG_1179-20260119203637-7x10ks7.png&quot; alt=&quot;IMG_1179&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/wi</summary>
+      
+    
+    
+    
+    <category term="书影音" scheme="http://www.uncoverman.com/categories/%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
+    
+    
+    <category term="推片" scheme="http://www.uncoverman.com/tags/%E6%8E%A8%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025年总结</title>
+    <link href="http://www.uncoverman.com/2025-summary.html"/>
+    <id>http://www.uncoverman.com/2025-summary.html</id>
+    <published>2025-12-27T16:00:00.000Z</published>
+    <updated>2026-08-29T16:41:40.265Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;这&lt;/span&gt;一年，我 35 岁了，记录总结一下。&lt;/p&gt;
+&lt;h2 id=&quot;工作&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#工作&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#工作&quot; class=&quot;headerlink&quot; title=&quot;工作&quot;&gt;&lt;/a&gt;工作&lt;/h2&gt;&lt;p&gt;作为 PMO 完成了上万人月千人团队的特大型金融科技项目上线，加班 1000 多小时，10 月份项目顺利上线，在秋天收获了喜悦的果实。在这个项目里，对整个项目管理、组织管理有了更加深刻的理解，包括个人的文档管理体系、笔记管理体系、 GTD 体系有所迭代，感觉自己又成长。&lt;/p&gt;
+&lt;h2 id=&quot;笔记&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#笔记&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#笔记&quot; class=&quot;headerlink&quot; title=&quot;笔记&quot;&gt;&lt;/a&gt;笔记&lt;/h2&gt;&lt;p&gt;目前我的笔记工具主力是 Obsidian，主打本地工作笔记、阅读笔记、博客文章。记录模式上，取消了每天一个日志的「 Daily Notes 」，因为这种笔记模式是把当天所有待办、事件、总结每天一个文档，写起来轻松，但是信息碎片，后续不方便按项目整理抽提。我本身的工作性质是项目制的，现在改成了 P.A.R.A（Project 、 Area 、 Resource 、 Archive），把工作日志按项目按事件写入不同的文件夹下的一</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Summary" scheme="http://www.uncoverman.com/tags/Summary/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NAS设备使用场景</title>
+    <link href="http://www.uncoverman.com/zspace-z4-pro-common-functions.html"/>
+    <id>http://www.uncoverman.com/zspace-z4-pro-common-functions.html</id>
+    <published>2025-07-19T16:00:00.000Z</published>
+    <updated>2026-08-29T17:14:50.065Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png&quot; alt=&quot;imgae20250719191941703.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://cdn.sa.net/2025/07/19/QRtsITU1kVZfa7g.png 1366w, ht</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客多图自动单行排版</title>
+    <link href="http://www.uncoverman.com/blog-pictures-display-in-one-row.html"/>
+    <id>http://www.uncoverman.com/blog-pictures-display-in-one-row.html</id>
+    <published>2024-06-08T16:00:00.000Z</published>
+    <updated>2024-06-10T05:47:53.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;技&lt;/span&gt;术方案来自木木木木木的&lt;a href=&quot;https://immmmm.com/about-images-gird/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;多图排版&lt;/a&gt;，CSS 代码如下，&lt;code&gt;.post-content&lt;/code&gt; 根据博客实际类调整：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;.post-content p:has(&amp;gt; img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}
+.post-content p:has(&amp;gt; img:nth-child(3)){column-count:3;}
+.post-content p:has(&amp;gt; img:nth-child(4)){column-count:4;}
+.post-content p:has(&amp;gt; img:nth-child(5)){column-count:5;}
+.post-content p:has(&amp;gt; img:nth-child(6)){column-count:4;}
+.post-content p:has(&amp;gt; img:nth-child(2)) img{display:inherit;}
+.post-content p:has(&amp;gt; img:nth-child(6)) img{marg</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Blog" scheme="http://www.uncoverman.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件项目投产演练</title>
+    <link href="http://www.uncoverman.com/software-production-drill.html"/>
+    <id>http://www.uncoverman.com/software-production-drill.html</id>
+    <published>2024-04-10T16:00:00.000Z</published>
+    <updated>2024-04-11T03:39:40.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg&quot; alt=&quot;software_production_drill_20240411.jpg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://cdn.sa.net/2024/04/11/jNtE95z7TrmhCns.j</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="金融科技" scheme="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>贷款核销</title>
+    <link href="http://www.uncoverman.com/bank-assets-charge-off.html"/>
+    <id>http://www.uncoverman.com/bank-assets-charge-off.html</id>
+    <published>2024-03-15T16:00:00.000Z</published>
+    <updated>2024-03-16T09:56:02.346Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;贷&lt;/span&gt;款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
+&lt;p&gt;那么核销贷款，债务人是不是就不用还了？答案是否定的。&lt;strong&gt;所谓核销，就是账销案存&lt;/strong&gt;。银行账面已经没有这笔贷款了，但追索权还在，依然会进行清收。清收可由银行内部进行也可通过外包进行。那为什么要核销呢？&lt;/p&gt;
+&lt;p&gt;主要的原因在于所得税。&lt;strong&gt;税务局收取所得税不是按照银行向股东们提交的财务报表中的净利润来的，是按税务局自己的一套标准来收所得税&lt;/strong&gt;，简单地说，税务局对净利润的定义和上市公司财务报表中的净利润是有很多地方不一样的，这也是报表中递延所得税的来历。&lt;/p&gt;
+&lt;p&gt;换句话说，核销贷款是税务局认定银行真实损失的标准要求，税务局不认可银行自己提取的减值损失是真实的成本，而是认定这些减值损失变成真实的，才认定成本，可以从净利润中扣除，减少所得税。其实这也正常，&lt;strong&gt;不同的管理要求会对同样的指标有不同的数据口径要求&lt;/strong&gt;，比如上市公司提供财报用于对外公示，编制管报用于内部管理，编制税表给税务部门。&lt;/p&gt;
+&lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 年金融企业呆账核销管理办法（2017 年版）》。&lt;/p&gt;
+&lt;p&gt;简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="http://www.uncoverman.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="FinTech" scheme="http://www.uncoverman.com/tags/FinTech/"/>
+    
+    <category term="金融科技" scheme="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/"/>
+    
+    <category term="银行资产" scheme="http://www.uncoverman.com/tags/%E9%93%B6%E8%A1%8C%E8%B5%84%E4%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian Diagrams 插件布局混乱处理方法</title>
+    <link href="http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html"/>
+    <id>http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html</id>
+    <published>2024-02-09T16:00:00.000Z</published>
+    <updated>2024-02-10T15:23:29.685Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 1366w, https</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023与2022年体检报告对比</title>
+    <link href="http://www.uncoverman.com/health-report-2023-vs-2022.html"/>
+    <id>http://www.uncoverman.com/health-report-2023-vs-2022.html</id>
+    <published>2023-08-20T16:00:00.000Z</published>
+    <updated>2023-08-21T14:42:06.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 1</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Health" scheme="http://www.uncoverman.com/tags/Health/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关键对话实践</title>
+    <link href="http://www.uncoverman.com/key-conversation-practice.html"/>
+    <id>http://www.uncoverman.com/key-conversation-practice.html</id>
+    <published>2023-07-01T16:00:00.000Z</published>
+    <updated>2023-07-02T09:14:25.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg&quot; alt=&quot;对话&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 1366w, https://www.unco</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="敏捷" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/"/>
+    
+    <category term="敏捷教练" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7%E6%95%99%E7%BB%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>敏捷教练推广实践遇到阻力怎么办</title>
+    <link href="http://www.uncoverman.com/what-to-do-if-the-agile-coach-promotes-practice-encounters-resistance.html"/>
+    <id>http://www.uncoverman.com/what-to-do-if-the-agile-coach-promotes-practice-encounters-resistance.html</id>
+    <published>2023-06-14T16:00:00.000Z</published>
+    <updated>2023-06-15T03:31:25.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png&quot; alt=&quot;banner&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 1366w, https://www.</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="敏捷" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/"/>
+    
+  </entry>
+  
+</feed>
