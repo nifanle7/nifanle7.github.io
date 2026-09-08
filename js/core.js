@@ -135,6 +135,17 @@
   var HEADER_H = 64;
   var backTopVisible = false, backTopTimer = null;
 
+  // 头部是否吸顶（移动端文章页改为静态定位时不做收起：位移只会留下空白）
+  var headerPinned = true;
+  function syncHeaderPinned() {
+    if (!header) { headerPinned = false; return; }
+    var pos = getComputedStyle(header).position;
+    headerPinned = pos === 'sticky' || pos === 'fixed';
+    if (!headerPinned) header.classList.remove('is-hidden');
+  }
+  syncHeaderPinned();
+  window.addEventListener('resize', syncHeaderPinned, { passive: true });
+
   function showBackTop(show) {
     if (!backTop || show === backTopVisible) return;
     backTopVisible = show;
@@ -151,7 +162,7 @@
   function onScroll() {
     var y = window.scrollY;
 
-    if (header && hideOnScroll) {
+    if (header && headerPinned && hideOnScroll) {
       // 抽屉 / 面板打开时不动头部，避免视觉跳动
       var locked = document.body.style.position === 'fixed';
       if (!locked) {

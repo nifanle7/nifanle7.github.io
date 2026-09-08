@@ -237,6 +237,13 @@ em, i, cite, address, var {
   transform: translateY(-100%);
 }
 
+@media (max-width: 1023px) {
+  body.header-unpinned-mobile .region--header {
+    position: static;
+    transform: none;
+  }
+}
+
 body.is-home .region--header {
   display: none;
 }
