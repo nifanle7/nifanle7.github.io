@@ -254,6 +254,8 @@
         
           <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
         
+          <a class="nav__dropdown-link" role="menuitem" href="/bloggers/">博主</a>
+        
       </div>
       
     </li>
@@ -349,6 +351,8 @@
             
               <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
             
+              <li><a class="nav-drawer__sublink" href="/bloggers/" data-drawer-close>博主</a></li>
+            
           </ul>
           
         </li>
@@ -392,9 +396,9 @@
       </header>
 
 
-      <div class="post__body reveal-content post__body--drop-cap">
+      <div class="post__body reveal-content">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png" alt="imgae20260504154734379.png" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://i.see.you/2026/05/04/Gui5/imgae20260504154734379.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
-<p><span class="drop-cap">一</span>张图片，可以定格时间，可以让人联想自己的经历，可以传达比文字更丰富的信息，所以一直想要做一个版块，集中展示自己的图片——gallery 画廊功能，<strong>自己做自己的策展人</strong>。</p>
+<p>一张图片，可以定格时间，可以让人联想自己的经历，可以传达比文字更丰富的信息，所以一直想要做一个版块，集中展示自己的图片——gallery 画廊功能，<strong>自己做自己的策展人</strong>。</p>
 <p>以前没能力实现，在网上找了几款 Hexo 插件，诸如 <code>hexo-light-gallery</code>、<code>hexo-album-page</code>，不是安装不成功，就是效果跟自己期望的有偏差。所幸现在是 AI 时代，执行比以前要容易，关键看有没有想法。</p>
 <p>我用的 AI 工具是 OpenCode，免费模型，在对应的代码工程下，告诉它自己的需求，它会直接读取目录文件，编写代码，实现想要的功能。最终帮我写了 5 个文件，800+ 行代码。</p>
 <pre><code>gallery.js       //交互控制
@@ -586,9 +590,11 @@ gallery/index.md //基础配置
 <script defer src="/js/lightbox.js"></script>
 
 
+
 <script defer src="/js/prism.js"></script>
 <script defer src="/js/code-block.js"></script>
 <script defer src="/js/toc.js"></script>
+<script defer src="/js/img-gallery.js"></script>
 <script defer src="/js/reader-settings.js"></script>
 <script defer src="/js/comments.js"></script>
 

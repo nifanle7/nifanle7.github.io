@@ -26,14 +26,14 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;M&lt;/span&gt;emos 最初定位是一款笔记软件。对于笔记来说，怎么复现曾经有价值的笔记，激活沉淀的知识？在方法层面，除了标签、双链，就是&lt;strong&gt;「那年今日」和「随机笔记」&lt;/strong&gt;。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Memos 最初定位是一款笔记软件。对于笔记来说，怎么复现曾经有价值的笔记，激活沉淀的知识？在方法层面，除了标签、双链，就是&lt;strong&gt;「那年今日」和「随机笔记」&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;最早用到「那年今日」功能是在 Day One 里自带的，Obsidian 里通过 DataView 也能实现。「随机笔记」则是 Obsidian 自带的，我还在这个 idea 的基础上实现了 &lt;a href=&quot;https://www.uncoverman.com/random-notes-in-obsidian.html&quot;&gt;随机读书笔记&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Memos 同样支持这两项功能。&lt;/p&gt;
 &lt;h2 id=&quot;那年今日&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#那年今日&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#那年今日&quot; class=&quot;headerlink&quot; title=&quot;那年今日&quot;&gt;&lt;/a&gt;那年今日&lt;/h2&gt;&lt;p&gt;Memos 有一个捷径菜单，只要在捷径中加一行语句，就可以实现那年今日功能。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-js&quot;&gt;created_ts.getMonth() == now.getMonth() &amp;amp;&amp;amp; created_ts.getDate() == now.getDate()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;效果如下：
-&lt;figure cl</summary>
+&lt;figure class=&quot;img-figure&quot;&gt;&lt;img src=&quot;htt</summary>
       
     
     
@@ -103,7 +103,7 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;台&lt;/span&gt;风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 &lt;a href=&quot;https://weibo.com/u/1644329413&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;zhuyi&lt;/a&gt; 很享受自己做面包，经常在微博上晒面包。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;台风天，在家闲来无事，心血来潮想做吐司。起心动念，大概是我关注的一位热爱下厨的大佬 &lt;a href=&quot;https://weibo.com/u/1644329413&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;zhuyi&lt;/a&gt; 很享受自己做面包，经常在微博上晒面包。&lt;/p&gt;
 &lt;p&gt;由于是第一次，选了小红书上最简易的 &lt;a href=&quot;xhslink.com/o/3mI1y7y47qo&quot;&gt;教程&lt;/a&gt;。这个教程的好处在于，没有看不懂的术语，也不用 30+ 的步骤，简单来说就是 3 步：混合、发酵、烘焙。&lt;/p&gt;
 &lt;h2 id=&quot;0-材料准备&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#0-材料准备&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#0-材料准备&quot; class=&quot;headerlink&quot; title=&quot;0. 材料准备&quot;&gt;&lt;/a&gt;0. 材料准备&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;高筋面粉 250g&lt;/li&gt;
@@ -116,7 +116,7 @@
 &lt;li&gt;吐司模具&lt;/li&gt;
 &lt;li&gt;烤箱&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;1-混合&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#1-混合&quot; ari</summary>
+&lt;h2 id=&quot;1-混合&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#1-混合&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;</summary>
       
     
     
@@ -138,9 +138,9 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;假&lt;/span&gt;期下雨，去了趟天台国清寺遛娃兼游览，免费的 5A 级景区，底蕴深厚，且晴雨不论，都可游览。路上借着豆包听了好多故事。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;假期下雨，去了趟天台国清寺遛娃兼游览，免费的 5A 级景区，底蕴深厚，且晴雨不论，都可游览。路上借着豆包听了好多故事。&lt;/p&gt;
 &lt;p&gt;景区入口看到的隋塔，又名报恩塔，是隋炀帝下诏建的，六面九级空心楼阁式砖塔，约 60m 高，是浙江省最高的古塔之一。以前内部有木梯，可以登高望远，后来都损毁了。外观上，相比北宋时期建在苏州的虎丘斜塔是八面七层，工艺不一样。 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg&quot; alt=&quot;DSC04207.jpeg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=aut</summary>
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg&quot; alt=&quot;DSC04207.jpeg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/06/21/yWy7/DSC04207.jpeg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/06/21</summary>
       
     
     
@@ -208,9 +208,9 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;2&lt;/span&gt;025 年下半年换了一辆新能源车，一直想着出去在车上露营一次。这个春天的周末，天气晴好，带娃去宁波奉化太妃湖，看到了蓝色的宁波湾海水，体验了车上露营，总结一下：&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;2025 年下半年换了一辆新能源车，一直想着出去在车上露营一次。这个春天的周末，天气晴好，带娃去宁波奉化太妃湖，看到了蓝色的宁波湾海水，体验了车上露营，总结一下：&lt;/p&gt;
 &lt;h2 id=&quot;1、铺床模式&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#1、铺床模式&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#1、铺床模式&quot; class=&quot;headerlink&quot; title=&quot;1、铺床模式&quot;&gt;&lt;/a&gt;1 、铺床模式&lt;/h2&gt;&lt;p&gt;我采用一、二排成床模式，即把第一排放倒，和第二排连起来铺床，这种方案的好处是前备箱和后备箱还可以放行李，不用把东西挪来挪去。&lt;a href=&quot;https://item.taobao.com/item.htm?id=981557429174&amp;amp;skuId=6104877826220&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;充气床垫&lt;/a&gt; 是淘宝上买的，铺好、充起气大概 8 分钟左右。&lt;strong&gt;露营前自己试铺过一次&lt;/strong&gt;，验证了味道，铺设方式和软硬度，都可以接受，到了真正开始露营时也就得心应手，不至于手忙脚乱。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/04/01/xr3Y/666494ce05c1b9e1b8076c419696941-.jpg&quot; alt=&quot;666494ce05c1</summary>
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/04/01/xr3Y/666494ce05c1b9e1b8076c419696941-.jpg&quot; alt=&quot;666494ce05c1b9e1b8076c419696941&quot; loading=&quot;</summary>
       
     
     
@@ -232,11 +232,11 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;平&lt;/span&gt;时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown 、图片等，如滴答清单、 Superlist，要么就是笔记软件增强任务管理功能。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;平时工作时有各种任务，有些适合直接建在任务管理软件里，可以在手机、电脑随时修改和自动提醒；有些适合记在笔记里，可以展开写进展和注意事项。所有现在的任务管理软件一般有两种技术路线，要么是日程管理软件逐步支持更多的备注工作，包括 Markdown 、图片等，如滴答清单、 Superlist，要么就是笔记软件增强任务管理功能。&lt;/p&gt;
 &lt;p&gt;我现在也不执着 All in one，所以两者是分开管理，但总归有些许不方便。&lt;/p&gt;
 &lt;p&gt;突然发现 Obsidian 的 &lt;a href=&quot;https://github.com/obsidian-community/obsidian-full-calendar&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;Full Calendar&lt;/a&gt; 插件，可以集成展示 iCloud 、 Google 日历，也可以显示 Daily Note 里的事项，这样就把两边的事项都可以在一个地方看了，效果如下，紫色是 Daily Note 指定二级标题下的任务项，可以在 Calendar 页面上点击创建，自动进入当天的 Daily Note 。蓝色是自动同步的 iCloud 的事项。&lt;/p&gt;
 &lt;p&gt;需要特殊说明的，iCloud 日历只展示日程，不展示待办任务，且都是只读，不过对于个人来说，也够用了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/02/16/Rdo6/imgae20260216</summary>
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/02/16/Rdo6/imgae20260216151247730.png&quot; alt=&quot;imgae20260</summary>
       
     
     
@@ -310,9 +310,9 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;这&lt;/span&gt;一年，我 35 岁了，记录总结一下。&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;这一年，我 35 岁了，记录总结一下。&lt;/p&gt;
 &lt;h2 id=&quot;工作&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#工作&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#工作&quot; class=&quot;headerlink&quot; title=&quot;工作&quot;&gt;&lt;/a&gt;工作&lt;/h2&gt;&lt;p&gt;作为 PMO 完成了上万人月千人团队的特大型金融科技项目上线，加班 1000 多小时，10 月份项目顺利上线，在秋天收获了喜悦的果实。在这个项目里，对整个项目管理、组织管理有了更加深刻的理解，包括个人的文档管理体系、笔记管理体系、 GTD 体系有所迭代，感觉自己又成长。&lt;/p&gt;
-&lt;h2 id=&quot;笔记&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#笔记&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#笔记&quot; class=&quot;headerlink&quot; title=&quot;笔记&quot;&gt;&lt;/a&gt;笔记&lt;/h2&gt;&lt;p&gt;目前我的笔记工具主力是 Obsidian，主打本地工作笔记、阅读笔记、博客文章。记录模式上，取消了每天一个日志的「 Daily Notes 」，因为这种笔记模式是把当天所有待办、事件、总结每天一个文档，写起来轻松，但是信息碎片，后续不方便按项目整理抽提。我本身的工作性质是项目制的，现在改成了 P.A.R.A（Project 、 Area 、 Resource 、 Archive），把工作日志按项目按事件写入不同的文件夹下的一</summary>
+&lt;h2 id=&quot;笔记&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#笔记&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#笔记&quot; class=&quot;headerlink&quot; title=&quot;笔记&quot;&gt;&lt;/a&gt;笔记&lt;/h2&gt;&lt;p&gt;目前我的笔记工具主力是 Obsidian，主打本地工作笔记、阅读笔记、博客文章。记录模式上，取消了每天一个日志的「 Daily Notes 」，因为这种笔记模式是把当天所有待办、事件、总结每天一个文档，写起来轻松，但是信息碎片，后续不方便按项目整理抽提。我本身的工作性质是项目制的，现在改成了 P.A.R.A（Project 、 Area 、 Resource 、 Archive），把工作日志按项目按事件写入不同的文件夹下的一个个工作日志文件，文件名是「日期 + 时间」，如「 2025</summary>
       
     
     
@@ -360,14 +360,16 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;技&lt;/span&gt;术方案来自木木木木木的&lt;a href=&quot;https://immmmm.com/about-images-gird/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;多图排版&lt;/a&gt;，CSS 代码如下，&lt;code&gt;.post-content&lt;/code&gt; 根据博客实际类调整：&lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;技术方案来自木木木木木的&lt;a href=&quot;https://immmmm.com/about-images-gird/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;多图排版&lt;/a&gt;，CSS 代码如下，&lt;code&gt;.post-content&lt;/code&gt; 根据博客实际类调整：&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;line-numbers language-css&quot;&gt;.post-content p:has(&amp;gt; img:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}
 .post-content p:has(&amp;gt; img:nth-child(3)){column-count:3;}
 .post-content p:has(&amp;gt; img:nth-child(4)){column-count:4;}
 .post-content p:has(&amp;gt; img:nth-child(5)){column-count:5;}
 .post-content p:has(&amp;gt; img:nth-child(6)){column-count:4;}
 .post-content p:has(&amp;gt; img:nth-child(2)) img{display:inherit;}
-.post-content p:has(&amp;gt; img:nth-child(6)) img{marg</summary>
+.post-content p:has(&amp;gt; img:nth-child(6)) img{margin-bottom:8px;}
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
       
     
     
@@ -411,12 +413,12 @@
     
       
       
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;span class=&quot;drop-cap&quot;&gt;贷&lt;/span&gt;款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;贷款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
 &lt;p&gt;那么核销贷款，债务人是不是就不用还了？答案是否定的。&lt;strong&gt;所谓核销，就是账销案存&lt;/strong&gt;。银行账面已经没有这笔贷款了，但追索权还在，依然会进行清收。清收可由银行内部进行也可通过外包进行。那为什么要核销呢？&lt;/p&gt;
 &lt;p&gt;主要的原因在于所得税。&lt;strong&gt;税务局收取所得税不是按照银行向股东们提交的财务报表中的净利润来的，是按税务局自己的一套标准来收所得税&lt;/strong&gt;，简单地说，税务局对净利润的定义和上市公司财务报表中的净利润是有很多地方不一样的，这也是报表中递延所得税的来历。&lt;/p&gt;
 &lt;p&gt;换句话说，核销贷款是税务局认定银行真实损失的标准要求，税务局不认可银行自己提取的减值损失是真实的成本，而是认定这些减值损失变成真实的，才认定成本，可以从净利润中扣除，减少所得税。其实这也正常，&lt;strong&gt;不同的管理要求会对同样的指标有不同的数据口径要求&lt;/strong&gt;，比如上市公司提供财报用于对外公示，编制管报用于内部管理，编制税表给税务部门。&lt;/p&gt;
 &lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 年金融企业呆账核销管理办法（2017 年版）》。&lt;/p&gt;
-&lt;p&gt;简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核</summary>
+&lt;p&gt;简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核销条件是，未能收回，并且追索 180 天以上，并且追索 6 </summary>
       
     
     

@@ -254,6 +254,8 @@
         
           <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
         
+          <a class="nav__dropdown-link" role="menuitem" href="/bloggers/">博主</a>
+        
       </div>
       
     </li>
@@ -349,6 +351,8 @@
             
               <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
             
+              <li><a class="nav-drawer__sublink" href="/bloggers/" data-drawer-close>博主</a></li>
+            
           </ul>
           
         </li>
@@ -392,9 +396,9 @@
       </header>
 
 
-      <div class="post__body reveal-content post__body--drop-cap">
+      <div class="post__body reveal-content">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png" alt="Obsdian_Random_Note" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/mevRw6cqEuskd8U.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
-<p><span class="drop-cap">现</span>在阅读，以多看和微信读书为主，在阅读过程中会做笔记。已经把这些笔记都变为 Markdown 文件统一用 Obsidian 管理起来，希望可以把其中标记出需要复习的内容，每天随机生成，便于复习巩固。</p>
+<p>现在阅读，以多看和微信读书为主，在阅读过程中会做笔记。已经把这些笔记都变为 Markdown 文件统一用 Obsidian 管理起来，希望可以把其中标记出需要复习的内容，每天随机生成，便于复习巩固。</p>
 <p>Roam Research 有一个插件叫 Roam42，可以随机生成指定标签的笔记到新的笔记中，以便于复习。之前在推特上看 <a href="https://twitter.com/Tisoga" target="_blank" rel="noopener noreferrer" class="ext-link">@Jiayuan</a> 就是用这种方式管理笔记的，非常羡慕这个功能。</p>
 <p>后来经过摸索，发现 Dataview 可以在 Obsidian 中使用 JS 实现所有自己想要的效果，包括随机生成笔记复习这件事。我写了一个代码片段，可以随机生成 3 个带指定标签的读书笔记段落。</p>
 <p><img src="https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/OhAmcsWZYEGywxp.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
@@ -615,9 +619,11 @@ Promise.all(arr).then(values =&gt; {
 <script defer src="/js/lightbox.js"></script>
 
 
+
 <script defer src="/js/prism.js"></script>
 <script defer src="/js/code-block.js"></script>
 <script defer src="/js/toc.js"></script>
+<script defer src="/js/img-gallery.js"></script>
 <script defer src="/js/reader-settings.js"></script>
 <script defer src="/js/comments.js"></script>
 

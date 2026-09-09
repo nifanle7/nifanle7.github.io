@@ -254,6 +254,8 @@
         
           <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
         
+          <a class="nav__dropdown-link" role="menuitem" href="/bloggers/">博主</a>
+        
       </div>
       
     </li>
@@ -349,6 +351,8 @@
             
               <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
             
+              <li><a class="nav-drawer__sublink" href="/bloggers/" data-drawer-close>博主</a></li>
+            
           </ul>
           
         </li>
@@ -392,9 +396,9 @@
       </header>
 
 
-      <div class="post__body reveal-content post__body--drop-cap">
+      <div class="post__body reveal-content">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png" alt="pandoc" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/SRM6DPk2I4s1vwt.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
-<p><span class="drop-cap">M</span>arkdown 格式，只要接受了，就会爱上它。虽然会有标记符号在其中，但是不开预览模式，基本也能障碍阅读。</p>
+<p>Markdown 格式，只要接受了，就会爱上它。虽然会有标记符号在其中，但是不开预览模式，基本也能障碍阅读。</p>
 <p>但是对于普通人来说，直接看 md 文件并不友好。这时，我们会考虑，能否把 md 文件导出成为 Word 格式？</p>
 <p>当然可以。</p>
 <h2 id="Pandoc-软件"><a class="heading-anchor" href="#Pandoc-软件" aria-hidden="true" tabindex="-1">#</a><a href="#Pandoc-软件" class="headerlink" title="Pandoc 软件"></a>Pandoc 软件</h2><p>Pandoc 的出现就是为了解决这个问题。它就是一把「瑞士军刀」，可以实现多种文本格式的相互转换，不仅可以把 md 文件导出为 Word，还可以导出为 PDF 、 ePub 甚至是 PPT，更多的格式转换可以查阅<a href="https://www.pandoc.org/index.html" target="_blank" rel="noopener noreferrer" class="ext-link">官网</a>。</p>
@@ -406,7 +410,7 @@
 <p>1 、安装 <a href="https://www.pandoc.org/installing.html" target="_blank" rel="noopener noreferrer" class="ext-link">Pandoc</a> 软件。
 2、安装 Obsidian 的 Pandoc 插件。
 3、在 Obsidian 的 Pandoc 插件设置中配置 Pandoc path，即 Pandoc 程序的路径。Pandoc path 可以通过命令行工具获取。比如 <code>/opt/homebrew/bin/pandoc</code> 或者 <code>C:\Pragram Files\Pandoc\pandoc.exe</code>。</p>
-<div class="img-gallery" style="--gallery-cols:2;--gallery-gap:8px"><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png" alt="image20220809131122.png" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png" alt="image20220809130810.png" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure></div><p>4、完成配置之后，打开需要导出的文档，通过 <code>Command</code>+<code>P</code>（Windows 上是 <code>Ctrl</code>+<code>P</code>）调出命令面板，选择导出格式。</p>
+<div class="img-gallery" style="--gallery-cols:2;--gallery-gap:8px;--gallery-item-w:calc((100% - 1 * 8px) / 2)"><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png" alt="image20220809131122.png" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/JjxDYoGy2zaFVIb.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png" alt="image20220809130810.png" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/K19763ctYDrbgN4.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure></div><p>4、完成配置之后，打开需要导出的文档，通过 <code>Command</code>+<code>P</code>（Windows 上是 <code>Ctrl</code>+<code>P</code>）调出命令面板，选择导出格式。</p>
 <p><img src="https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png" alt="image20220809130958.png" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/08/14/D1CgFNOkp4EhAVM.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
 
       </div>
@@ -584,9 +588,11 @@
 <script defer src="/js/lightbox.js"></script>
 
 
+
 <script defer src="/js/prism.js"></script>
 <script defer src="/js/code-block.js"></script>
 <script defer src="/js/toc.js"></script>
+<script defer src="/js/img-gallery.js"></script>
 <script defer src="/js/reader-settings.js"></script>
 <script defer src="/js/comments.js"></script>
 

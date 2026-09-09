@@ -254,6 +254,8 @@
         
           <a class="nav__dropdown-link" role="menuitem" href="/tools/">工具</a>
         
+          <a class="nav__dropdown-link" role="menuitem" href="/bloggers/">博主</a>
+        
       </div>
       
     </li>
@@ -349,6 +351,8 @@
             
               <li><a class="nav-drawer__sublink" href="/tools/" data-drawer-close>工具</a></li>
             
+              <li><a class="nav-drawer__sublink" href="/bloggers/" data-drawer-close>博主</a></li>
+            
           </ul>
           
         </li>
@@ -392,9 +396,9 @@
       </header>
 
 
-      <div class="post__body reveal-content post__body--drop-cap">
+      <div class="post__body reveal-content">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg" alt="weibo_ifttt_dayone" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/aXGwBt1ZUydYMrc.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p>
-<p><span class="drop-cap">原</span>先一直用 IFTTT 自动同步微博到 Day One，可以把自己日常的事情笔记方便地记录到日记中。不过 2020 年开始，微博不开放这个 API 接口了。</p>
+<p>原先一直用 IFTTT 自动同步微博到 Day One，可以把自己日常的事情笔记方便地记录到日记中。不过 2020 年开始，微博不开放这个 API 接口了。</p>
 <p>失效之后，一直没管它。最近心血来潮，到在网上搜索一番，找到了方法——<a href="http://qizongwu.com/index.php/2021/02/04/python-ifttt-webhooks-crontab-%E5%AE%9A%E6%97%B6%E6%8A%93%E5%8F%96%E5%BE%AE%E5%8D%9A%E5%88%B0-day-one/" target="_blank" rel="noopener noreferrer" class="ext-link">Python + IFTTT Webhooks + Crontab 定时抓取微博到 Day One</a>。</p>
 <p>分三步：</p>
 <ul>
@@ -412,7 +416,7 @@
 <pre><code class="line-numbers language-python">python weibo.py
 </code></pre>
 <h2 id="2、用-IFTTT-发送-Day-One"><a class="heading-anchor" href="#2、用-IFTTT-发送-Day-One" aria-hidden="true" tabindex="-1">#</a><a href="#2、用-IFTTT-发送-Day-One" class="headerlink" title="2、用 IFTTT  发送 Day One"></a>2 、用 IFTTT  发送 Day One</h2><h3 id="IFTTT-网站设置"><a class="heading-anchor" href="#IFTTT-网站设置" aria-hidden="true" tabindex="-1">#</a><a href="#IFTTT-网站设置" class="headerlink" title="IFTTT 网站设置"></a>IFTTT 网站设置</h3><p>在 IFTTT 网站上设置一个动作：如果接收到一个 Web 请求，就创建一篇日记。</p>
-<div class="img-gallery" style="--gallery-cols:3;--gallery-gap:8px"><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg" alt="image-20210619162620755" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg" alt="image-20210619162200131" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png" alt="image-20210619162104426" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure></div><h3 id="本地-Python-脚本"><a class="heading-anchor" href="#本地-Python-脚本" aria-hidden="true" tabindex="-1">#</a><a href="#本地-Python-脚本" class="headerlink" title="本地 Python 脚本"></a>本地 Python 脚本</h3><p>然后在本地的<code>weibo-crawler</code>文件夹下创建一个<code>ifttt.py</code>的文件，将以下内容复制进去，注意<code>path</code>、<code>event_name</code>、<code>key</code>根据自己情况修改。</p>
+<div class="img-gallery" style="--gallery-cols:3;--gallery-gap:8px;--gallery-item-w:calc((100% - 2 * 8px) / 3)"><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg" alt="image-20210619162620755" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/mIlYzNnDRyeAVUx.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg" alt="image-20210619162200131" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/aF1plyALQh2witk.jpg 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure><figure class="img-gallery__item"><img src="https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png" alt="image-20210619162104426" loading="lazy" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://vip2.loli.io/2022/02/26/Z4qwWUxD7vydlEu.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></figure></div><h3 id="本地-Python-脚本"><a class="heading-anchor" href="#本地-Python-脚本" aria-hidden="true" tabindex="-1">#</a><a href="#本地-Python-脚本" class="headerlink" title="本地 Python 脚本"></a>本地 Python 脚本</h3><p>然后在本地的<code>weibo-crawler</code>文件夹下创建一个<code>ifttt.py</code>的文件，将以下内容复制进去，注意<code>path</code>、<code>event_name</code>、<code>key</code>根据自己情况修改。</p>
 <ul>
 <li><code>path</code>为本地 CSV 路径。</li>
 <li><code>event_name</code>为自己在 IFTTT 上创建的触发器名称。</li>
@@ -655,9 +659,11 @@ if __name__ == '__main__':
 <script defer src="/js/lightbox.js"></script>
 
 
+
 <script defer src="/js/prism.js"></script>
 <script defer src="/js/code-block.js"></script>
 <script defer src="/js/toc.js"></script>
+<script defer src="/js/img-gallery.js"></script>
 <script defer src="/js/reader-settings.js"></script>
 <script defer src="/js/comments.js"></script>
 

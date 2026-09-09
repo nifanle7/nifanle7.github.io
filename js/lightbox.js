@@ -8,12 +8,13 @@
   var Sail = window.Sail || {};
   var I18N = (window.SAIL || {}).i18n || {};
 
-  // 参与灯箱的图片：正文图（排除被链接包裹的）与画廊图
+  // 参与灯箱的图片：正文图（排除被链接包裹的）、画廊图与小记附件图
   var SELECTOR = [
     '.post__body img:not(.no-zoom)',
     '.page__body img:not(.no-zoom)',
     '.img-gallery__item img',
-    '.gallery__img'
+    '.gallery__img',
+    '.memos-list__media-item img'
   ].join(',');
 
   var imgs = Array.prototype.filter.call(document.querySelectorAll(SELECTOR), function (img) {
@@ -73,7 +74,7 @@
   }
 
   function groupOf(img) {
-    var scope = img.closest('.img-gallery, .gallery__grid, .post__body, .page__body');
+    var scope = img.closest('.img-gallery, .gallery__grid, .post__body, .page__body, .memos-list__media');
     if (!scope) return [img];
     var list = Array.prototype.filter.call(scope.querySelectorAll(SELECTOR), function (n) {
       return imgs.indexOf(n) !== -1 && !isHidden(n);
