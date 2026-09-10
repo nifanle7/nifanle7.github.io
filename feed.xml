@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-08-25T06:47:32.978Z</updated>
+  <updated>2026-09-10T09:37:14.011Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>上海看展</title>
+    <link href="http://www.uncoverman.com/exhibition-hopping-in-shanghai.html"/>
+    <id>http://www.uncoverman.com/exhibition-hopping-in-shanghai.html</id>
+    <published>2026-09-09T16:00:00.000Z</published>
+    <updated>2026-09-10T09:37:14.011Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;周末，带着小朋友，去了趟上海看展。秋高气爽，凉凉的凤吹着很舒服。&lt;/p&gt;
+&lt;h2 id=&quot;停车&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#停车&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#停车&quot; class=&quot;headerlink&quot; title=&quot;停车&quot;&gt;&lt;/a&gt;停车&lt;/h2&gt;&lt;p&gt;这是第一次自驾去上海。&lt;/p&gt;
+&lt;p&gt;听说上海交规严，没打转向灯或者压线都会罚款，而且上海停车费贵，市区 10 元/小时都算少的，一天玩下来停车费 + 罚款，比路费都高。于是提前做了攻略，车子开到 &lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E5%81%9C%E8%BD%A6%E6%8D%A2%E4%B9%98&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;P+R 停车场&lt;/a&gt;，换乘地铁出行，一天停车费只要 10 块钱。&lt;/p&gt;
+&lt;p&gt;P+R 停车场位置，下载「上海停车 APP 」查看，还可以实时空位。&lt;strong&gt;停完之后，换乘地铁，需要用 APP 付公共交通费，这样停车才有优惠。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;看展&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#看展&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#看展&quot; class=&quot;headerlink&quot; title=&quot;看展&quot;&gt;&lt;/a&gt;看展&lt;/h2&gt;&lt;p&gt;下地</summary>
+      
+    
+    
+    
+    <category term="出行" scheme="http://www.uncoverman.com/categories/%E5%87%BA%E8%A1%8C/"/>
+    
+    
+    <category term="周末遛娃" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83/"/>
+    
+    <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>Memos 的那年今日和随机笔记</title>
@@ -344,9 +372,9 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
-    
     <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
     
   </entry>
   
@@ -499,28 +527,6 @@
     <category term="敏捷" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/"/>
     
     <category term="敏捷教练" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7%E6%95%99%E7%BB%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>敏捷教练推广实践遇到阻力怎么办</title>
-    <link href="http://www.uncoverman.com/what-to-do-if-the-agile-coach-promotes-practice-encounters-resistance.html"/>
-    <id>http://www.uncoverman.com/what-to-do-if-the-agile-coach-promotes-practice-encounters-resistance.html</id>
-    <published>2023-06-14T16:00:00.000Z</published>
-    <updated>2023-06-15T03:31:25.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png&quot; alt=&quot;banner&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/06/15/Pr4J7xz91dGjvDU.png 1366w, https://www.</summary>
-      
-    
-    
-    
-    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="敏捷" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/"/>
     
   </entry>
   
