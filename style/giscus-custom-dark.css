@@ -139,18 +139,71 @@ html, body, :root {
   --color-canvas-overlay: #1C1813 !important;
 }
 
-/* 输入框区域卡片化 */
+/* ===== 评论框：通栏结构 + 统一 12px 内边距，消除嵌套边框错位 ===== */
 main .gsc-comment-box {
+  padding: 0 !important;
   border: 1px solid var(--color-border-default) !important;
   border-radius: 12px !important;
-  padding: 12px !important;
   background: var(--color-canvas-overlay);
+  overflow: hidden;
 }
-main .gsc-comment-box-tabs { border-radius: 8px !important; }
-main textarea,
-main .gsc-reply-box {
+
+/* 标签栏：通栏条带，仅保留一条底部分隔线，顶部圆角由父级 overflow 裁切 */
+main .gsc-comment-box-tabs {
+  margin: 0 !important;
+  padding: 6px 8px !important;
+  border-bottom: 1px solid var(--color-border-muted) !important;
+  border-radius: 0 !important;
+  background: var(--color-canvas-inset);
+}
+
+/* 正文区：统一 12px 内边距，覆盖 giscus 默认 m-2，与标签栏/底部对齐 */
+main .gsc-comment-box-main {
+  margin: 0 !important;
+  padding: 12px 12px 0 !important;
+}
+
+/* 输入区：单一填充面板，去掉内部第二层边框；textarea 与 M↓ 工具条圆角正确拼接 */
+main .gsc-comment-box-write {
   border-radius: 8px !important;
-  border-color: var(--color-border-default) !important;
+  background: var(--color-canvas-inset);
+}
+main .gsc-comment-box-write:focus-within {
+  box-shadow: 0 0 0 2px var(--color-accent-muted) !important;
+}
+main .gsc-comment-box-textarea {
+  border: 0 !important;
+  border-radius: 8px 8px 0 0 !important;
+  background: transparent !important;
+  padding: 10px 12px !important;
+  line-height: 1.75;
+}
+main .gsc-comment-box-textarea-extras {
+  border: 0 !important;
+  border-radius: 0 0 8px 8px !important;
+  background: transparent !important;
+}
+
+/* 预览区：去掉双层边框，与输入区同宽同距 */
+main .gsc-comment-box-preview {
+  margin: 0 !important;
+  padding: 12px !important;
+  border-bottom: 0 !important;
+  background: var(--color-canvas-inset);
+  border-radius: 8px !important;
+}
+
+/* 底部操作区（退出登录/评论按钮）：统一 12px 内边距 */
+main .gsc-comment-box-bottom {
+  margin: 0 !important;
+  padding: 8px 12px 12px !important;
+}
+
+/* 评论内联回复框：仅保留一条分隔线 */
+main .gsc-reply-box {
+  border-top: 1px solid var(--color-border-muted) !important;
+  border-radius: 0 0 12px 12px !important;
+  background: var(--color-canvas-inset);
 }
 
 /* 按钮圆角统一 */

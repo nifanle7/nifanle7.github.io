@@ -13,6 +13,9 @@
   var article = document.querySelector('.post__body, .page__body');
   if (!R.enable || !article) return;
 
+  // 博友专题页无正文可读，不显示阅读设置悬浮按钮
+  if (document.querySelector('.layout-page.bloggers')) return;
+
   var KEY = R.key || 'sail-reader';
   var doc = document.documentElement;
 

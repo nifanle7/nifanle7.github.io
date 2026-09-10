@@ -52,22 +52,28 @@
     card.querySelector('.blogger-card__stage').appendChild(frame);
   }
 
+  function collapseCard(c) {
+    c.classList.remove('is-expanded', 'is-live', 'is-loading');
+    var f = c.querySelector('.blogger-card__preview');
+    if (f) f.parentNode.removeChild(f);
+  }
+
   cards.forEach(function (card) {
     if (!card.getAttribute('data-src')) return;
 
     var play = card.querySelector('.blogger-card__play');
     var closeBtn = card.querySelector('.blogger-card__close');
 
-    function collapse() {
-      card.classList.remove('is-expanded', 'is-live', 'is-loading');
-      var f = card.querySelector('.blogger-card__preview');
-      if (f) f.parentNode.removeChild(f);
-    }
-
     if (play) {
       play.addEventListener('click', function (e) {
         e.preventDefault();
         e.stopPropagation();
+
+        // 点开一张时，其余已展开的自动合上
+        cards.forEach(function (other) {
+          if (other !== card && other.classList.contains('is-expanded')) collapseCard(other);
+        });
+
         card.classList.add('is-expanded');
         loadPreview(card);
 
@@ -84,7 +90,7 @@
       closeBtn.addEventListener('click', function (e) {
         e.preventDefault();
         e.stopPropagation();
-        collapse();
+        collapseCard(card);
       });
     }
   });

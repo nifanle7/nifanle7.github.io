@@ -376,13 +376,13 @@
   
   <div id="content" class="site-content">
     
-<!-- DEBUG data=[bloggers|bloggers-live|gallery|equipment|linkcards] blive-type=undefined live-keys=21 -->
+<!-- DEBUG data=[equipment|linkcards|gallery|bloggers-live|bloggers] blive-type=undefined live-keys=30 -->
 <div class="layout-page bloggers">
   <h1 class="page__title">博主</h1>
 
   
   <div class="bloggers__intro">
-    <p>这里收录的是一批有设计感的独立博客——它们不一定更新频繁，但每一处留白、每一个字号，都写着博主的精心设计。 点 preview可以看到站点的实时预览。</p>
+    <p>这里收录的是一批独立博客——它们不一定更新频繁，但独具个人的品味和思考。 点 preview可以看到站点的实时预览。</p>
   </div>
   
 
@@ -403,71 +403,127 @@
 
   <div class="bloggers__grid" data-bloggers-grid>
     
-    <article class="blogger-card has-shot" data-tags="中文,极简,设计" data-search="避风塘 limboy before.town 天气好极了，钱几乎没有。极简到近乎克制的页面，文章与留白一样干净。" data-src="https://before.town/limboy" style="--blogger-accent:#8fa3ff">
+    <article class="blogger-card has-shot" data-tags="中文,随笔,设计" data-search="another dayu dayu（大宇） anotherdayu.com another dayu，摄影、读书、游戏与折腾笔记，把散落在各平台的自己收拢到一处。" data-src="https://anotherdayu.com" style="--blogger-accent:#9d8df1">
       <div class="blogger-card__stage">
         
-        <img class="blogger-card__shot" src="/media/bloggers/before.town-limboy.png" alt="避风塘 封面" loading="lazy" decoding="async"
-             >
+        <img class="blogger-card__shot" src="https://anotherdayu.com/static/og-image.png" alt="Another Dayu 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/anotherdayu.com.png'" >
         
         <div class="blogger-card__veil" aria-hidden="true">
           
-          <p class="blogger-card__about">天气好极了，钱几乎没有。</p>
+          <p class="blogger-card__about">Hi！ 我是 Dayu（大宇），网络上的我是碎片化的，有多少个平台，就有多少个我。 在 Twitter / Telegram 闲逛的我，在 Instagram 摄影的我，在 Steam 游戏的我，在 NeoDB 找书的我，在 GitHub 折腾的我。 这个博客，是最接近于我的，「另一...</p>
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">A</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Another Dayu</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
-        <span class="blogger-card__host">before.town/limboy</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 避风塘" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 避风塘"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+        <span class="blogger-card__host">anotherdayu.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Another Dayu" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Another Dayu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
       </div>
 
       <div class="blogger-card__body">
         <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://before.town/limboy" target="_blank" rel="noopener noreferrer">避风塘</a>
-          <a class="blogger-card__rss blogger-card__rss--inline" href="https://before.town/limboy/rss.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 避风塘"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+          <a class="blogger-card__link" href="https://anotherdayu.com" target="_blank" rel="noopener noreferrer">Another Dayu</a>
+          
         </h2>
-        <span class="blogger-card__who">limboy</span>
-        <p class="blogger-card__desc">天气好极了，钱几乎没有。极简到近乎克制的页面，文章与留白一样干净。</p>
+        <span class="blogger-card__who">Dayu（大宇）</span>
+        <p class="blogger-card__desc">Another Dayu，摄影、读书、游戏与折腾笔记，把散落在各平台的自己收拢到一处。</p>
         
         <div class="blogger-card__tags">
-          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">极简</span><span class="blogger-card__tag">设计</span>
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">设计</span>
         </div>
         
       </div>
     </article>
     
-    <article class="blogger-card has-shot" data-tags="中文,前端,工程" data-search="airing · ursb.me airing ursb.me developer & blogger @ singapore。前端工程师的技术笔记，版式利落、配图讲究。" data-src="https://ursb.me" style="--blogger-accent:#ffb37d">
+    <article class="blogger-card has-shot" data-tags="中文,工程,随笔" data-search="jack's space jack veryjack.com jack's space —— 一个写技术与生活的博客。从 ai 玩具、在线工具到成都生活随笔，行文轻松、配图实在。" data-src="https://veryjack.com" style="--blogger-accent:#f4a261">
       <div class="blogger-card__stage">
         
-        <img class="blogger-card__shot" src="/media/bloggers/ursb.me.png" alt="Airing · ursb.me 封面" loading="lazy" decoding="async"
-             >
+        <img class="blogger-card__shot" src="https://veryjack.com/wp-content/uploads/2024/01/main_cover.jpg" alt="Jack's Space 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/veryjack.com.png'" >
         
         <div class="blogger-card__veil" aria-hidden="true">
-          <span class="blogger-card__veil-title">Airing</span>
-          <p class="blogger-card__about">Airing</p>
+          
+          <p class="blogger-card__about">Everything happens for the best</p>
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">V</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Jack's Space</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
-        <span class="blogger-card__host">ursb.me</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 Airing · ursb.me" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 Airing · ursb.me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+        <span class="blogger-card__host">veryjack.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Jack's Space" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Jack's Space"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
       </div>
 
       <div class="blogger-card__body">
         <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://ursb.me" target="_blank" rel="noopener noreferrer">Airing · ursb.me</a>
-          <a class="blogger-card__rss blogger-card__rss--inline" href="https://ursb.me/blog/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Airing · ursb.me"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+          <a class="blogger-card__link" href="https://veryjack.com" target="_blank" rel="noopener noreferrer">Jack's Space</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://veryjack.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Jack's Space"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
         </h2>
-        <span class="blogger-card__who">Airing</span>
-        <p class="blogger-card__desc">Developer & Blogger @ Singapore。前端工程师的技术笔记，版式利落、配图讲究。</p>
+        <span class="blogger-card__who">Jack</span>
+        <p class="blogger-card__desc">Jack's Space —— 一个写技术与生活的博客。从 AI 玩具、在线工具到成都生活随笔，行文轻松、配图实在。</p>
         
         <div class="blogger-card__tags">
-          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">前端</span><span class="blogger-card__tag">工程</span>
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">随笔</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,工程,随笔" data-search="yihong0618's blog yihong0618 yihong0618.github.io people die, but long live github —— 用 github issues 与 actions 写作的开源博客，记录技术、跑步与生活的各种存档，随意转载、无需署名。" data-src="https://yihong0618.github.io/gitblog/" style="--blogger-accent:#6cc6c0">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="https://blog.yihong0618.me/default-og.jpg" alt="yihong0618's Blog 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/yihong0618.github.io-gitblog.png'" >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          <span class="blogger-card__veil-title">yihong0618</span>
+          <p class="blogger-card__about">People Die, but Long Live GitHub</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">Y</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · yihong0618's Blog</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">yihong0618.github.io/gitblog</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 yihong0618's Blog" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 yihong0618's Blog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://yihong0618.github.io/gitblog/" target="_blank" rel="noopener noreferrer">yihong0618's Blog</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 yihong0618's Blog"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">yihong0618</span>
+        <p class="blogger-card__desc">People Die, but Long Live GitHub —— 用 GitHub Issues 与 Actions 写作的开源博客，记录技术、跑步与生活的各种存档，随意转载、无需署名。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">随笔</span>
         </div>
         
       </div>
@@ -485,7 +541,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">I</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Innei</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">innei.in</span>
@@ -520,7 +583,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">L</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Randy's Blog</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">lutaonan.com</span>
@@ -543,41 +613,6 @@
       </div>
     </article>
     
-    <article class="blogger-card has-shot" data-tags="英文,极简,随笔" data-search="brr brr brr.fyi 对美国南极科考基础设施的观察，夹杂南极支援人员的日常随笔，聚焦 mcmurdo 站的生活切片。" data-src="https://brr.fyi" style="--blogger-accent:#7fd0e8">
-      <div class="blogger-card__stage">
-        
-        <img class="blogger-card__shot" src="/media/bloggers/brr.fyi.png" alt="brr 封面" loading="lazy" decoding="async"
-             >
-        
-        <div class="blogger-card__veil" aria-hidden="true">
-          
-          <p class="blogger-card__about">Observations on US Antarctic infrastructure. Anecdotes from daily life for USAP support staff. Focused on McMurdo Station and Amundsen-Scott South Pole Station.</p>
-        </div>
-        
-        
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
-        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
-        
-        <span class="blogger-card__host">brr.fyi</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 brr" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 brr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
-      </div>
-
-      <div class="blogger-card__body">
-        <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://brr.fyi" target="_blank" rel="noopener noreferrer">brr</a>
-          <a class="blogger-card__rss blogger-card__rss--inline" href="https://brr.fyi/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 brr"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
-        </h2>
-        <span class="blogger-card__who">brr</span>
-        <p class="blogger-card__desc">对美国南极科考基础设施的观察，夹杂南极支援人员的日常随笔，聚焦 McMurdo 站的生活切片。</p>
-        
-        <div class="blogger-card__tags">
-          <span class="blogger-card__tag">英文</span><span class="blogger-card__tag">极简</span><span class="blogger-card__tag">随笔</span>
-        </div>
-        
-      </div>
-    </article>
-    
     <article class="blogger-card has-shot" data-tags="英文,前端,工程" data-search="geekplux geekplux geekplux.com software engineer crafting tools for a lazier life. 把「偷懒」做成工程的软件工程师，永远在探索。" data-src="https://geekplux.com" style="--blogger-accent:#ff9d5c">
       <div class="blogger-card__stage">
         
@@ -590,7 +625,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">G</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · GeekPlux</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">geekplux.com</span>
@@ -613,6 +655,90 @@
       </div>
     </article>
     
+    <article class="blogger-card has-shot" data-tags="中文,极简,设计" data-search="避风塘 limboy before.town 天气好极了，钱几乎没有。极简到近乎克制的页面，文章与留白一样干净。" data-src="https://before.town/limboy" style="--blogger-accent:#8fa3ff">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/before.town-limboy.png" alt="避风塘 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">天气好极了，钱几乎没有。</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 避风塘</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">before.town/limboy</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 避风塘" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 避风塘"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://before.town/limboy" target="_blank" rel="noopener noreferrer">避风塘</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://before.town/limboy/rss.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 避风塘"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">limboy</span>
+        <p class="blogger-card__desc">天气好极了，钱几乎没有。极简到近乎克制的页面，文章与留白一样干净。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">极简</span><span class="blogger-card__tag">设计</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,前端,工程" data-search="airing · ursb.me airing ursb.me developer & blogger @ singapore。前端工程师的技术笔记，版式利落、配图讲究。" data-src="https://ursb.me" style="--blogger-accent:#ffb37d">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/ursb.me.png" alt="Airing · ursb.me 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          <span class="blogger-card__veil-title">Airing</span>
+          <p class="blogger-card__about">Airing</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">U</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Airing · ursb.me</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">ursb.me</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Airing · ursb.me" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Airing · ursb.me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://ursb.me" target="_blank" rel="noopener noreferrer">Airing · ursb.me</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://ursb.me/blog/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Airing · ursb.me"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">Airing</span>
+        <p class="blogger-card__desc">Developer & Blogger @ Singapore。前端工程师的技术笔记，版式利落、配图讲究。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">前端</span><span class="blogger-card__tag">工程</span>
+        </div>
+        
+      </div>
+    </article>
+    
     <article class="blogger-card has-shot" data-tags="中文,随笔,极简" data-search="拾月的博客 拾月 skyue.com pc 互联网遗民。慢节奏的产品与技术随笔，带着一点旧时代的从容。" data-src="https://www.skyue.com" style="--blogger-accent:#c6a0f6">
       <div class="blogger-card__stage">
         
@@ -625,7 +751,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">S</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 拾月的博客</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">www.skyue.com</span>
@@ -660,7 +793,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">Y</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 谢益辉</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">yihui.org</span>
@@ -695,7 +835,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 张洪 Heo</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">blog.zhheo.com</span>
@@ -730,7 +877,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">I</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 木木木木木</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">immmmm.com</span>
@@ -765,7 +919,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 木遥的窗子</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">blog.farmostwood.net</span>
@@ -800,7 +961,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">K</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 空白 Koobai</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">koobai.com</span>
@@ -835,7 +1003,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">R</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 螺莉莉的数据中心</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">roriri.one</span>
@@ -858,7 +1033,7 @@
       </div>
     </article>
     
-    <article class="blogger-card has-shot" data-tags="中文,工程,前端" data-search="运维咖啡吧 ops-coffee blog.ops-coffee.cn 运维咖啡吧——享受技术带来的乐趣，体验生活给予的感动，专注 linux 与运维实战。" data-src="https://blog.ops-coffee.cn" style="--blogger-accent:#5cc8a8">
+    <article class="blogger-card has-shot" data-tags="中文,工程,前端" data-search="运维咖啡吧 ops-coffee blog.ops-coffee.cn 房车自驾出行，享受技术带来的乐趣，体验生活给予的感动。" data-src="https://blog.ops-coffee.cn" style="--blogger-accent:#5cc8a8">
       <div class="blogger-card__stage">
         
         <img class="blogger-card__shot" src="/media/bloggers/blog.ops-coffee.cn.png" alt="运维咖啡吧 封面" loading="lazy" decoding="async"
@@ -866,11 +1041,18 @@
         
         <div class="blogger-card__veil" aria-hidden="true">
           
-          <p class="blogger-card__about">运维咖啡吧 - 享受技术带来的乐趣，体验生活给予的感动</p>
+          <p class="blogger-card__about">享受技术带来的乐趣，体验生活给予的感动</p>
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 运维咖啡吧</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">blog.ops-coffee.cn</span>
@@ -884,7 +1066,7 @@
           <a class="blogger-card__rss blogger-card__rss--inline" href="https://blog.ops-coffee.com/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 运维咖啡吧"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
         </h2>
         <span class="blogger-card__who">ops-coffee</span>
-        <p class="blogger-card__desc">运维咖啡吧——享受技术带来的乐趣，体验生活给予的感动，专注 Linux 与运维实战。</p>
+        <p class="blogger-card__desc">房车自驾出行，享受技术带来的乐趣，体验生活给予的感动。</p>
         
         <div class="blogger-card__tags">
           <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">前端</span>
@@ -905,7 +1087,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">P</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · pseudoyu</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">www.pseudoyu.com</span>
@@ -928,111 +1117,6 @@
       </div>
     </article>
     
-    <article class="blogger-card has-shot" data-tags="中文,工程,随笔" data-search="jack's space jack veryjack.com jack's space —— 一个写技术与生活的博客。从 ai 玩具、在线工具到成都生活随笔，行文轻松、配图实在。" data-src="https://veryjack.com" style="--blogger-accent:#f4a261">
-      <div class="blogger-card__stage">
-        
-        <img class="blogger-card__shot" src="https://veryjack.com/wp-content/uploads/2024/01/main_cover.jpg" alt="Jack's Space 封面" loading="lazy" decoding="async"
-              onerror="this.onerror=null;this.src='/media/bloggers/veryjack.com.png'" >
-        
-        <div class="blogger-card__veil" aria-hidden="true">
-          
-          <p class="blogger-card__about">Everything happens for the best</p>
-        </div>
-        
-        
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
-        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
-        
-        <span class="blogger-card__host">veryjack.com</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 Jack's Space" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 Jack's Space"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
-      </div>
-
-      <div class="blogger-card__body">
-        <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://veryjack.com" target="_blank" rel="noopener noreferrer">Jack's Space</a>
-          <a class="blogger-card__rss blogger-card__rss--inline" href="https://veryjack.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Jack's Space"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
-        </h2>
-        <span class="blogger-card__who">Jack</span>
-        <p class="blogger-card__desc">Jack's Space —— 一个写技术与生活的博客。从 AI 玩具、在线工具到成都生活随笔，行文轻松、配图实在。</p>
-        
-        <div class="blogger-card__tags">
-          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">随笔</span>
-        </div>
-        
-      </div>
-    </article>
-    
-    <article class="blogger-card has-shot" data-tags="中文,随笔,设计" data-search="another dayu dayu（大宇） anotherdayu.com another dayu —— 大宇的「另一个我」。摄影、读书、游戏与折腾笔记，把散落在各平台的自己收拢到一处。" data-src="https://anotherdayu.com" style="--blogger-accent:#9d8df1">
-      <div class="blogger-card__stage">
-        
-        <img class="blogger-card__shot" src="https://anotherdayu.com/static/og-image.png" alt="Another Dayu 封面" loading="lazy" decoding="async"
-              onerror="this.onerror=null;this.src='/media/bloggers/anotherdayu.com.png'" >
-        
-        <div class="blogger-card__veil" aria-hidden="true">
-          
-          <p class="blogger-card__about">Hi！ 我是 Dayu（大宇），网络上的我是碎片化的，有多少个平台，就有多少个我。 在 Twitter / Telegram 闲逛的我，在 Instagram 摄影的我，在 Steam 游戏的我，在 NeoDB 找书的我，在 GitHub 折腾的我。 这个博客，是最接近于我的，「另一...</p>
-        </div>
-        
-        
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
-        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
-        
-        <span class="blogger-card__host">anotherdayu.com</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 Another Dayu" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 Another Dayu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
-      </div>
-
-      <div class="blogger-card__body">
-        <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://anotherdayu.com" target="_blank" rel="noopener noreferrer">Another Dayu</a>
-          
-        </h2>
-        <span class="blogger-card__who">Dayu（大宇）</span>
-        <p class="blogger-card__desc">Another Dayu —— 大宇的「另一个我」。摄影、读书、游戏与折腾笔记，把散落在各平台的自己收拢到一处。</p>
-        
-        <div class="blogger-card__tags">
-          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">设计</span>
-        </div>
-        
-      </div>
-    </article>
-    
-    <article class="blogger-card has-shot" data-tags="中文,工程,随笔" data-search="yihong0618's blog yihong0618 yihong0618.github.io people die, but long live github —— 用 github issues 与 actions 写作的开源博客，记录技术、跑步与生活的各种存档，随意转载、无需署名。" data-src="https://yihong0618.github.io/gitblog/" style="--blogger-accent:#6cc6c0">
-      <div class="blogger-card__stage">
-        
-        <img class="blogger-card__shot" src="https://blog.yihong0618.me/default-og.jpg" alt="yihong0618's Blog 封面" loading="lazy" decoding="async"
-              onerror="this.onerror=null;this.src='/media/bloggers/yihong0618.github.io-gitblog.png'" >
-        
-        <div class="blogger-card__veil" aria-hidden="true">
-          <span class="blogger-card__veil-title">yihong0618</span>
-          <p class="blogger-card__about">People Die, but Long Live GitHub</p>
-        </div>
-        
-        
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
-        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
-        
-        <span class="blogger-card__host">yihong0618.github.io/gitblog</span>
-        <button class="blogger-card__close" type="button" aria-label="收起预览 yihong0618's Blog" hidden>&times;</button>
-        <button class="blogger-card__play" type="button" aria-label="预览 yihong0618's Blog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
-      </div>
-
-      <div class="blogger-card__body">
-        <h2 class="blogger-card__name">
-          <a class="blogger-card__link" href="https://yihong0618.github.io/gitblog/" target="_blank" rel="noopener noreferrer">yihong0618's Blog</a>
-          <a class="blogger-card__rss blogger-card__rss--inline" href="https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 yihong0618's Blog"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
-        </h2>
-        <span class="blogger-card__who">yihong0618</span>
-        <p class="blogger-card__desc">People Die, but Long Live GitHub —— 用 GitHub Issues 与 Actions 写作的开源博客，记录技术、跑步与生活的各种存档，随意转载、无需署名。</p>
-        
-        <div class="blogger-card__tags">
-          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">随笔</span>
-        </div>
-        
-      </div>
-    </article>
-    
     <article class="blogger-card has-shot" data-tags="中文,随笔,工程" data-search="三杯过后 xiaowen.z xiaowenz.com 以吾之秩序，丈量二进制的世界。一个写了近 20 年的博客，工作、思考、商业专栏与播客，最近突然开始有趣起来了。" data-src="https://xiaowenz.com/" style="--blogger-accent:#d98cc0">
       <div class="blogger-card__stage">
         
@@ -1045,7 +1129,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">X</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 三杯过后</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">xiaowenz.com</span>
@@ -1080,7 +1171,14 @@
         </div>
         
         
-        <span class="blogger-card__spinner" aria-hidden="true"></span>
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">F</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 最好金龟换酒</span>
+        </span>
         <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
         
         <span class="blogger-card__host">fz0512.com</span>
@@ -1103,6 +1201,426 @@
       </div>
     </article>
     
+    <article class="blogger-card has-shot" data-tags="中文,工程,极简" data-search="云风的 blog 云风（cloudwu） blog.codingnow.com 游戏引擎、桌游设计与 lua/c 编程的扎实笔记，也写育儿与跑步。技术随笔的标杆。" data-src="https://blog.codingnow.com" style="--blogger-accent:#ff8c69">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/blog.codingnow.com.png" alt="云风的 BLOG 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">游戏引擎、桌游设计与 Lua/C 编程的扎实笔记，也写育儿与跑步。技术随笔的标杆。</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 云风的 BLOG</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">blog.codingnow.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 云风的 BLOG" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 云风的 BLOG"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://blog.codingnow.com" target="_blank" rel="noopener noreferrer">云风的 BLOG</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://blog.codingnow.com/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 云风的 BLOG"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">云风（cloudwu）</span>
+        <p class="blogger-card__desc">游戏引擎、桌游设计与 Lua/C 编程的扎实笔记，也写育儿与跑步。技术随笔的标杆。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">极简</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,工程,前端" data-search="李辉 / grey li 李辉（grey li） greyli.com 编程与写作爱好者的在线记事本。flask 之书作者，长期践行开源与教学。" data-src="https://greyli.com" style="--blogger-accent:#7ec8d3">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="https://greyli.com/wp-content/uploads/2020/07/avatar.jpg" alt="李辉 / Grey Li 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/greyli.com.png'" >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">Hello，我是李辉（Grey Li），一个 Web 开发者和写作爱好者。</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">G</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 李辉 / Grey Li</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">greyli.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 李辉 / Grey Li" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 李辉 / Grey Li"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://greyli.com" target="_blank" rel="noopener noreferrer">李辉 / Grey Li</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://greyli.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 李辉 / Grey Li"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">李辉（Grey Li）</span>
+        <p class="blogger-card__desc">编程与写作爱好者的在线记事本。Flask 之书作者，长期践行开源与教学。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">前端</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔,工程" data-search="0x01 byte 江宏 1byte.io 江宏的个人博客。写自己的经历与对各种感兴趣话题的思考，理性而克制。" data-src="https://1byte.io/" style="--blogger-accent:#9ad0a0">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/1byte.io.png" alt="0x01 byte 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">Hello. 我是江宏。这是我的个人博客。 我通常会写一些我自己的经历以及对感兴趣的各种话题的想法。 你可以： 对我了解更多 订阅 RSS 关注我以下平台的账号：</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">1</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 0x01 byte</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">1byte.io</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 0x01 byte" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 0x01 byte"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://1byte.io/" target="_blank" rel="noopener noreferrer">0x01 byte</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://1byte.io/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 0x01 byte"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">江宏</span>
+        <p class="blogger-card__desc">江宏的个人博客。写自己的经历与对各种感兴趣话题的思考，理性而克制。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">工程</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,工程,随笔" data-search="itimothy itimothy xiaozhou.net 技术控与随笔交织。aws 认证、c++ 学习笔记与年终总结，行文轻松有料。" data-src="https://xiaozhou.net" style="--blogger-accent:#c6a0f6">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/xiaozhou.net.png" alt="iTimothy 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">Timothy的技术博客,记录技术以及生活点滴</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">X</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · iTimothy</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">xiaozhou.net</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 iTimothy" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 iTimothy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://xiaozhou.net" target="_blank" rel="noopener noreferrer">iTimothy</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://xiaozhou.net/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 iTimothy"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">iTimothy</span>
+        <p class="blogger-card__desc">技术控与随笔交织。AWS 认证、C++ 学习笔记与年终总结，行文轻松有料。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">随笔</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,工程,AI" data-search="random thoughts joway blog.joway.io joway 的技术、产品与投资随笔。ai coding、go 重思与旅行纪行，视野开阔。" data-src="https://blog.joway.io" style="--blogger-accent:#8ab4f8">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="https://blog.joway.io/logo.png" alt="Random Thoughts 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/blog.joway.io.png'" >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">100% human native.</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">B</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Random Thoughts</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">blog.joway.io</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Random Thoughts" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Random Thoughts"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://blog.joway.io" target="_blank" rel="noopener noreferrer">Random Thoughts</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://blog.joway.io/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Random Thoughts"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">Joway</span>
+        <p class="blogger-card__desc">Joway 的技术、产品与投资随笔。AI Coding、Go 重思与旅行纪行，视野开阔。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">工程</span><span class="blogger-card__tag">AI</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔,极简" data-search="kaix.in kaix kaix.in 咖啡馆主理人的思想切片。关于阅读、语言与生活的短章，冷静而绵长。" data-src="https://kaix.in" style="--blogger-accent:#e0b86c">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/kaix.in.png" alt="KAIX.IN 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">写作作为一种思考</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">K</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · KAIX.IN</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">kaix.in</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 KAIX.IN" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 KAIX.IN"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://kaix.in" target="_blank" rel="noopener noreferrer">KAIX.IN</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://kaix.in/feed/" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 KAIX.IN"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">kaix</span>
+        <p class="blogger-card__desc">咖啡馆主理人的思想切片。关于阅读、语言与生活的短章，冷静而绵长。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">极简</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔,工程" data-search="panda home oldpanda old-panda.com oldpanda 的随便聊聊。湾区生活、读书与建站折腾（astro/cloudflare），谈笑风生。" data-src="https://old-panda.com" style="--blogger-accent:#ff8fa3">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/old-panda.com.png" alt="Panda Home 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">Rediscory the beauty of typography</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">O</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Panda Home</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">old-panda.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Panda Home" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Panda Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://old-panda.com" target="_blank" rel="noopener noreferrer">Panda Home</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://old-panda.com/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Panda Home"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">OldPanda</span>
+        <p class="blogger-card__desc">OldPanda 的随便聊聊。湾区生活、读书与建站折腾（Astro/Cloudflare），谈笑风生。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">工程</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔" data-search="生活不在别处 evan kuact.com 记录飘过新加坡、哥本哈根的日子，以及工作、家庭与自我的随笔，带着异国生活的烟火气。" data-src="https://www.kuact.com/" style="--blogger-accent:#e8a87c">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/kuact.com.png" alt="生活不在别处 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">记录飘过新加坡、哥本哈根的日子，以及工作、家庭与自我的随笔，带着异国生活的烟火气。</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">K</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 生活不在别处</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">www.kuact.com</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 生活不在别处" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 生活不在别处"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://www.kuact.com/" target="_blank" rel="noopener noreferrer">生活不在别处</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://www.kuact.com/index.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 生活不在别处"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">EVAN</span>
+        <p class="blogger-card__desc">记录飘过新加坡、哥本哈根的日子，以及工作、家庭与自我的随笔，带着异国生活的烟火气。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔,工程" data-search="无忧岛 renial renial.github.io 读书、跑步、写代码。记录个人生活感悟、技术思考与游戏体验，安静而自洽。" data-src="https://renial.github.io" style="--blogger-accent:#9ecbe0">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="/media/bloggers/renial.github.io.png" alt="无忧岛 封面" loading="lazy" decoding="async"
+             >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">读书 跑步 写代码</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">R</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · 无忧岛</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">renial.github.io</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 无忧岛" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 无忧岛"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://renial.github.io" target="_blank" rel="noopener noreferrer">无忧岛</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://renial.github.io/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 无忧岛"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">reniaL</span>
+        <p class="blogger-card__desc">读书、跑步、写代码。记录个人生活感悟、技术思考与游戏体验，安静而自洽。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span><span class="blogger-card__tag">工程</span>
+        </div>
+        
+      </div>
+    </article>
+    
+    <article class="blogger-card has-shot" data-tags="中文,随笔" data-search="zenmind's blog 山边远志 zenmind.club 山边远志。关于阅读、音乐、生活与思考的个人博客，写得随性也真诚。" data-src="https://zenmind.club/" style="--blogger-accent:#a8b8e8">
+      <div class="blogger-card__stage">
+        
+        <img class="blogger-card__shot" src="https://static.gridea.dev/154b64c7-fb61-47da-b981-110e9b2b59b2/j-P7s9ccf.png" alt="Zenmind's Blog 封面" loading="lazy" decoding="async"
+              onerror="this.onerror=null;this.src='/media/bloggers/zenmind.club.png'" >
+        
+        <div class="blogger-card__veil" aria-hidden="true">
+          
+          <p class="blogger-card__about">你好，我是山边远志，欢迎来到我的博客。</p>
+        </div>
+        
+        
+        <span class="blogger-card__loading" aria-hidden="true">
+          <span class="blogger-card__loading-disc">
+            <svg class="blogger-card__monogram" viewBox="0 0 100 100" aria-hidden="true">
+              <text class="blogger-card__mono-letter" x="50" y="52" text-anchor="middle" dominant-baseline="central">Z</text>
+            </svg>
+          </span>
+          <span class="blogger-card__loading-text">正在载入 · Zenmind's Blog</span>
+        </span>
+        <span class="blogger-card__badge blogger-card__badge--live">live preview</span>
+        
+        <span class="blogger-card__host">zenmind.club</span>
+        <button class="blogger-card__close" type="button" aria-label="收起预览 Zenmind's Blog" hidden>&times;</button>
+        <button class="blogger-card__play" type="button" aria-label="预览 Zenmind's Blog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l16 9-16 9z" fill="currentColor"/></svg>preview</button>
+      </div>
+
+      <div class="blogger-card__body">
+        <h2 class="blogger-card__name">
+          <a class="blogger-card__link" href="https://zenmind.club/" target="_blank" rel="noopener noreferrer">Zenmind's Blog</a>
+          <a class="blogger-card__rss blogger-card__rss--inline" href="https://zenmind.club/atom" target="_blank" rel="noopener noreferrer" aria-label="RSS 订阅 Zenmind's Blog"><svg class="blogger-card__rss-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+        </h2>
+        <span class="blogger-card__who">山边远志</span>
+        <p class="blogger-card__desc">山边远志。关于阅读、音乐、生活与思考的个人博客，写得随性也真诚。</p>
+        
+        <div class="blogger-card__tags">
+          <span class="blogger-card__tag">中文</span><span class="blogger-card__tag">随笔</span>
+        </div>
+        
+      </div>
+    </article>
+    
   </div>
 
   <p class="bloggers__empty" data-bloggers-empty hidden>没有匹配的博客，换个关键词或标签试试。</p>
@@ -1111,6 +1629,31 @@
   
   <div class="bloggers__extra page__body"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"></div>
   
+
+  
+<section class="comments" id="comments" data-comment-provider="giscus">
+  <h2 class="comments__title">评论</h2>
+  
+  <div class="giscus-wrapper">
+    <div class="giscus__state" data-giscus-state aria-live="polite">
+      <span class="giscus__state-text">评论加载中…</span>
+    </div>
+    <div class="giscus"
+         data-repo="nifanle7/nifanle7.github.io"
+         data-repo-id="R_kgDOGKLSRA"
+         data-category="General"
+         data-category-id="DIC_kwDOGKLSRM4CdPOT"
+         data-mapping="pathname"
+         data-lang="zh-CN"
+         data-theme="light"
+         data-theme-url-light="/style/giscus-custom.css"
+         data-theme-url-dark="/style/giscus-custom-dark.css"
+         crossorigin="anonymous">
+    </div>
+  </div>
+  
+</section>
+
 </div>
 
   </div>
