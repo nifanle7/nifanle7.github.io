@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-09-11T14:16:37.451Z</updated>
+  <updated>2026-09-11T14:21:40.360Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://www.uncoverman.com/icloud-nosync.html"/>
     <id>http://www.uncoverman.com/icloud-nosync.html</id>
     <published>2026-09-10T16:00:00.000Z</published>
-    <updated>2026-09-11T14:16:37.451Z</updated>
+    <updated>2026-09-11T14:21:40.360Z</updated>
     
     
       
       
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;我会把常用的文件全部放到 iCloud，文件、照片都可以上云，用起来方便，同步实现备份功能。&lt;/p&gt;
-&lt;p&gt;但是，有些非用户自己产生的资料，我只想留在电脑本地，不想频繁同步，浪费流量，没有必要，有时候还会产生大量的冲突副本空文件，现象就是文件名后面带 &lt;code&gt;2&lt;/code&gt;的那种。比如 Hexo 静态博客的 Markdown 文件我想同步，但是构建用的 &lt;code&gt;node_modules&lt;/code&gt; 文件夹，希望 iCloud 排除在外，不同步。&lt;/p&gt;
+&lt;p&gt;但是，有些非用户产生的资料，只想留在电脑本地，不想频繁同步，浪费流量，没有必要，有时候还会产生大量的冲突副本空文件，现象就是文件名后面带 &lt;code&gt;2&lt;/code&gt; 的那种。比如 Hexo 静态博客的 Markdown 文件我想同步，但是构建用的 &lt;code&gt;node_modules&lt;/code&gt; 文件夹，希望 iCloud 排除在外，不同步。&lt;/p&gt;
 &lt;p&gt;偶然间发现，iCloud 有 &lt;code&gt;.nosync&lt;/code&gt; 机制，可以排除同步列表。&lt;/p&gt;
 &lt;p&gt;只要文件夹名以 &lt;code&gt;.nosync&lt;/code&gt; 结尾，iCloud 云盘不会把这个项目上传到 iCloud 云端，也不会同步到其他苹果设备；文件只保存在当前 Mac 本地。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png&quot; alt=&quot;icloud-no-sync.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 480w, https://www.uncov</summary>
+&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png&quot; alt=&quot;icloud-no-sync.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 480w, https://www.uncover</summary>
       
     
     

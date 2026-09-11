@@ -8,7 +8,7 @@
       <link href="//icloud-nosync.html"/>
       <url>//icloud-nosync.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我会把常用的文件全部放到 iCloud，文件、照片都可以上云，用起来方便，同步实现备份功能。</p><p>但是，有些非用户自己产生的资料，我只想留在电脑本地，不想频繁同步，浪费流量，没有必要，有时候还会产生大量的冲突副本空文件，现象就是文件名后面带 <code>2</code>的那种。比如 Hexo 静态博客的 Markdown 文件我想同步，但是构建用的 <code>node_modules</code> 文件夹，希望 iCloud 排除在外，不同步。</p><p>偶然间发现，iCloud 有 <code>.nosync</code> 机制，可以排除同步列表。</p><p>只要文件夹名以 <code>.nosync</code> 结尾，iCloud 云盘不会把这个项目上传到 iCloud 云端，也不会同步到其他苹果设备；文件只保存在当前 Mac 本地。</p><p><img src="https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png" alt="icloud-no-sync.png" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p><p>以 <code>node_modules</code> 为例说明方法如下：</p><ol><li>把原本目录改名：<code>node_modules</code> → <code>node_modules.nosync</code>，不再同步。</li><li>创建软链接，名为 <code>node_modules</code>，指向 <code>node_modules.nosync</code>，这样不影响本地终端命令的使用。</li></ol><pre><code class="line-numbers language-shell">mv node_modules node_modules.nosyncln -s node_modules.nosync node_modules</code></pre><p>最终效果，代码/IDE 仍然识别 <code>node_modules</code>，但真实目录是<code>.nosync</code>，不会上传 iCloud，解决大量小文件疯狂占用 iCloud 存储空间、CPU 高负载的痛点。</p><p>如果不想自己动手，可以让 AI Agent 干。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我会把常用的文件全部放到 iCloud，文件、照片都可以上云，用起来方便，同步实现备份功能。</p><p>但是，有些非用户产生的资料，只想留在电脑本地，不想频繁同步，浪费流量，没有必要，有时候还会产生大量的冲突副本空文件，现象就是文件名后面带 <code>2</code> 的那种。比如 Hexo 静态博客的 Markdown 文件我想同步，但是构建用的 <code>node_modules</code> 文件夹，希望 iCloud 排除在外，不同步。</p><p>偶然间发现，iCloud 有 <code>.nosync</code> 机制，可以排除同步列表。</p><p>只要文件夹名以 <code>.nosync</code> 结尾，iCloud 云盘不会把这个项目上传到 iCloud 云端，也不会同步到其他苹果设备；文件只保存在当前 Mac 本地。</p><p><img src="https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png" alt="icloud-no-sync.png" loading="eager" fetchpriority="high" decoding="async" srcset="https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1366w, https://www.uncoverman.com/cdn-cgi/image/width=1600,fit=scale-down,format=auto/https://i.see.you/2026/09/11/Mzm0/icloud-no-sync.png 1600w" sizes="(max-width: 768px) 92vw, 768px" data-lqip data-sail-done></p><p>以 <code>node_modules</code> 为例说明方法如下：</p><ol><li>把原本目录改名：<code>node_modules</code> → <code>node_modules.nosync</code>，不再同步。</li><li>创建软链接，名为 <code>node_modules</code>，指向 <code>node_modules.nosync</code>，这样不影响本地终端命令的使用。</li></ol><pre><code class="line-numbers language-shell">mv node_modules node_modules.nosyncln -s node_modules.nosync node_modules</code></pre><p>最终效果，代码/IDE 仍然识别 <code>node_modules</code>，但真实目录是<code>.nosync</code>，不会上传 iCloud，解决大量小文件疯狂占用 iCloud 存储空间、CPU 高负载的痛点。</p><p>如果不想自己动手，可以让 AI Agent 干。</p>]]></content>
       
       
       <categories>
@@ -793,9 +793,9 @@
       
         <tags>
             
-            <tag> Podcast </tag>
-            
             <tag> Weekly </tag>
+            
+            <tag> Podcast </tag>
             
         </tags>
       
@@ -876,9 +876,9 @@
             
             <tag> Tools </tag>
             
-            <tag> Podcast </tag>
-            
             <tag> Weekly </tag>
+            
+            <tag> Podcast </tag>
             
         </tags>
       
@@ -2633,9 +2633,9 @@
       
         <tags>
             
-            <tag> Instapaper </tag>
-            
             <tag> RSS </tag>
+            
+            <tag> Instapaper </tag>
             
         </tags>
       
@@ -2754,7 +2754,7 @@
       
         <tags>
             
-            <tag> Life </tag>
+            <tag> 推书 </tag>
             
         </tags>
       
