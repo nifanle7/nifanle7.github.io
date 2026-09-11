@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-09-10T09:37:14.011Z</updated>
+  <updated>2026-09-11T09:38:20.444Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>iCloud忽略同步指定文件夹</title>
+    <link href="http://www.uncoverman.com/icloud-nosync.html"/>
+    <id>http://www.uncoverman.com/icloud-nosync.html</id>
+    <published>2026-09-10T16:00:00.000Z</published>
+    <updated>2026-09-11T09:38:20.444Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://i.see.you/2026/09/11/mKz2/icloud-no-sync.png&quot; alt=&quot;icloud-nosync.png&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://i.see.you/2026/09/11/mKz2/icloud-no-sync.png 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://i.see.you/2026/09/11/mKz2/icloud-no-sync.png 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://i.see.you/2026/09/11/mKz2/icloud-no-sync.png 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://i.see.you/2026/09/11/mKz2/icloud-no-sync.png 136</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="教程" scheme="http://www.uncoverman.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>上海看展</title>
     <link href="http://www.uncoverman.com/exhibition-hopping-in-shanghai.html"/>
     <id>http://www.uncoverman.com/exhibition-hopping-in-shanghai.html</id>
     <published>2026-09-09T16:00:00.000Z</published>
-    <updated>2026-09-10T09:37:14.011Z</updated>
+    <updated>2026-09-11T02:56:52.301Z</updated>
     
     
       
@@ -38,7 +60,9 @@
     <category term="出行" scheme="http://www.uncoverman.com/categories/%E5%87%BA%E8%A1%8C/"/>
     
     
-    <category term="周末遛娃" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83/"/>
+    <category term="亲子漫游" scheme="http://www.uncoverman.com/tags/%E4%BA%B2%E5%AD%90%E6%BC%AB%E6%B8%B8/"/>
+    
+    <category term="周末去哪" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E5%8E%BB%E5%93%AA/"/>
     
     <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
     
@@ -104,7 +128,7 @@
     <link href="http://www.uncoverman.com/xinan-river-tour.html"/>
     <id>http://www.uncoverman.com/xinan-river-tour.html</id>
     <published>2026-08-03T16:00:00.000Z</published>
-    <updated>2026-08-04T01:26:27.944Z</updated>
+    <updated>2026-09-11T02:58:03.580Z</updated>
     
     
       
@@ -114,10 +138,14 @@
     
     
     
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="出行" scheme="http://www.uncoverman.com/categories/%E5%87%BA%E8%A1%8C/"/>
     
     
-    <category term="周末遛娃" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E9%81%9B%E5%A8%83/"/>
+    <category term="亲子漫游" scheme="http://www.uncoverman.com/tags/%E4%BA%B2%E5%AD%90%E6%BC%AB%E6%B8%B8/"/>
+    
+    <category term="周末去哪" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E5%8E%BB%E5%93%AA/"/>
+    
+    <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   
@@ -161,7 +189,7 @@
     <link href="http://www.uncoverman.com/guoqing-temple.html"/>
     <id>http://www.uncoverman.com/guoqing-temple.html</id>
     <published>2026-06-20T16:00:00.000Z</published>
-    <updated>2026-06-22T07:19:18.010Z</updated>
+    <updated>2026-09-11T02:57:56.938Z</updated>
     
     
       
@@ -173,8 +201,12 @@
     
     
     
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="出行" scheme="http://www.uncoverman.com/categories/%E5%87%BA%E8%A1%8C/"/>
     
+    
+    <category term="亲子漫游" scheme="http://www.uncoverman.com/tags/%E4%BA%B2%E5%AD%90%E6%BC%AB%E6%B8%B8/"/>
+    
+    <category term="周末去哪" scheme="http://www.uncoverman.com/tags/%E5%91%A8%E6%9C%AB%E5%8E%BB%E5%93%AA/"/>
     
     <category term="旅行" scheme="http://www.uncoverman.com/tags/%E6%97%85%E8%A1%8C/"/>
     
@@ -372,9 +404,9 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
-    
     <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
+    
+    <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
     
   </entry>
   
@@ -503,30 +535,6 @@
     
     
     <category term="Health" scheme="http://www.uncoverman.com/tags/Health/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关键对话实践</title>
-    <link href="http://www.uncoverman.com/key-conversation-practice.html"/>
-    <id>http://www.uncoverman.com/key-conversation-practice.html</id>
-    <published>2023-07-01T16:00:00.000Z</published>
-    <updated>2023-07-02T09:14:25.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg&quot; alt=&quot;对话&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/07/02/zbHI9teZyTFNDwY.jpg 1366w, https://www.unco</summary>
-      
-    
-    
-    
-    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="敏捷" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7/"/>
-    
-    <category term="敏捷教练" scheme="http://www.uncoverman.com/tags/%E6%95%8F%E6%8D%B7%E6%95%99%E7%BB%83/"/>
     
   </entry>
   
