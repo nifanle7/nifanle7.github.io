@@ -3774,7 +3774,7 @@ body.is-tools .page__title {
 
 .gallery__grid {
   column-count: 4;
-  column-gap: 16px;
+  column-gap: 8px;
   min-height: 120px;
 }
 
@@ -3791,12 +3791,12 @@ body.is-tools .page__title {
 @media (max-width: 767px) {
   .gallery__grid {
     column-count: 2;
-    column-gap: 12px;
+    column-gap: 6px;
   }
 }
 .gallery__item {
   break-inside: avoid;
-  margin: 0 0 16px;
+  margin: 0 0 8px;
   border-radius: 10px;
   overflow: hidden;
   background: var(--c-surface);
