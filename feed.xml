@@ -97,9 +97,9 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="折腾" scheme="http://www.uncoverman.com/tags/%E6%8A%98%E8%85%BE/"/>
-    
     <category term="Memos" scheme="http://www.uncoverman.com/tags/Memos/"/>
+    
+    <category term="折腾" scheme="http://www.uncoverman.com/tags/%E6%8A%98%E8%85%BE/"/>
     
   </entry>
   
@@ -308,9 +308,9 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
+    
+    <category term="技术" scheme="http://www.uncoverman.com/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
