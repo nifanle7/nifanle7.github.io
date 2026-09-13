@@ -22,6 +22,7 @@
 
     var wrap = document.createElement('div');
     wrap.className = 'code-block';
+    if (C.trafficLights) wrap.classList.add('has-lights');
     block.parentNode.insertBefore(wrap, block);
     wrap.appendChild(block);
 

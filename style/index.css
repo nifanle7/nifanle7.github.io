@@ -19,6 +19,8 @@
   --c-success: #2E8B6B;
   --c-warning: #C9821F;
   --c-danger: #C0492F;
+  --hl-mark-bg: rgba(255, 212, 0, 0.16);
+  --hl-mark-line: #C99A12;
   --shadow-sm: 0 1px 2px rgba(20,30,50,.05), 0 1px 3px rgba(20,30,50,.07);
   --shadow-md: 0 6px 20px rgba(20,30,50,.08);
   --shadow-lg: 0 16px 48px rgba(20,30,50,.12);
@@ -49,6 +51,8 @@
     --c-success: #4FB28C;
     --c-warning: #D99A3A;
     --c-danger: #E06A4F;
+    --hl-mark-bg: rgba(255, 212, 0, 0.30);
+    --hl-mark-line: #FFD400;
     --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
     --shadow-md: 0 8px 24px rgba(0,0,0,.45);
     --shadow-lg: 0 18px 50px rgba(0,0,0,.55);
@@ -78,6 +82,8 @@
   --c-success: #4FB28C;
   --c-warning: #D99A3A;
   --c-danger: #E06A4F;
+  --hl-mark-bg: rgba(255, 212, 0, 0.30);
+  --hl-mark-line: #FFD400;
   --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
   --shadow-md: 0 8px 24px rgba(0,0,0,.45);
   --shadow-lg: 0 18px 50px rgba(0,0,0,.55);
@@ -546,10 +552,10 @@ html.show-mobile-ext-link .ext-link::after {
 
 @media (max-width: 767px) {
   .post__body h2 {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
   }
   .post__body h3 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
   .post__body h4 {
     font-size: 1rem;
@@ -644,6 +650,15 @@ html.show-mobile-ext-link .ext-link::after {
   border: none;
   padding: 0;
   font-size: 1em;
+}
+
+.post__body strong, .post__body b,
+.page__body strong, .page__body b {
+  font-weight: normal;
+  background: var(--hl-mark-bg);
+  border-bottom: 1.5px solid var(--hl-mark-line);
+  padding: 0 0.1em;
+  border-radius: 2px;
 }
 
 .post__body table {
@@ -1769,7 +1784,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   overflow: hidden;
   margin-top: 6px;
   font-size: 13px;
-  color: var(--c-text-muted);
+  color: var(--c-text);
   line-height: 1.65;
 }
 
@@ -2184,7 +2199,7 @@ section.widget--recent-memos .link-card--left .link-card__thumb {
   overflow: hidden;
   margin-top: 10px;
   font-size: 14px;
-  color: var(--c-text-muted);
+  color: var(--c-text);
   line-height: 1.7;
 }
 
@@ -2906,7 +2921,7 @@ body.is-tools .page__title {
 }
 @media (max-width: 767px) {
   .post__title {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 .post__copyright {
@@ -4307,11 +4322,49 @@ body.is-tools .page__title {
   position: relative;
 }
 
+.code-block.has-lights {
+  background: var(--c-bg-elev);
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.code-block.has-lights pre,
+.code-block.has-lights pre[class*=language-] {
+  margin: 0;
+  padding: 36px 18px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.code-block.has-lights figure.highlight {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.code-block.has-lights::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff5f56;
+  box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+  z-index: 2;
+  pointer-events: none;
+}
+
 .code-copy {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 2;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
   height: 28px;
   padding: 0 10px;
   font-size: 12px;
@@ -4335,8 +4388,8 @@ body.is-tools .page__title {
 
 .code-lang {
   position: absolute;
-  top: 10px;
-  right: 12px;
+  top: 12px;
+  right: 14px;
   z-index: 1;
   font-family: var(--font-code);
   font-size: 11px;
@@ -5434,19 +5487,17 @@ body.is-tools .page__title {
 
 .post__body a:not(.heading-anchor):not(.link-card):not(.toc__top):not(:has(img)),
 .page__body a:not(.heading-anchor):not(.link-card):not(:has(img)) {
-  color: var(--c-accent);
-  text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-size: 0% 1.5px;
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  transition: background-size 200ms cubic-bezier(0.32, 0.72, 0, 1), color 200ms cubic-bezier(0.32, 0.72, 0, 1);
+  color: var(--c-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--c-text);
+  transition: text-decoration-thickness 200ms cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 .post__body a:not(.heading-anchor):not(.link-card):not(.toc__top):not(:has(img)):hover,
 .page__body a:not(.heading-anchor):not(.link-card):not(:has(img)):hover {
-  color: var(--c-accent-hover);
-  background-size: 100% 1.5px;
+  text-decoration-thickness: 2px;
 }
 
 .post__body h3, .page__body h3 {
