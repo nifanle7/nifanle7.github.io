@@ -270,8 +270,58 @@ body.is-home .region--header {
   font-family: var(--font-display);
   font-size: 18px;
   letter-spacing: 0.02em;
+  color: var(--c-text);
 }
 
+.region--header .nav__toggle-bar {
+  background: var(--c-text);
+}
+.region--header .search-entry,
+.region--header .search-entry:hover,
+.region--header .theme-toggle,
+.region--header .theme-toggle:hover {
+  color: var(--c-text);
+}
+
+:root[data-resolved=dark] .region--header .brand__name {
+  color: var(--c-text);
+}
+:root[data-resolved=dark] .region--header .nav__toggle-bar {
+  background: var(--c-text);
+}
+:root[data-resolved=dark] .region--header .search-entry {
+  color: var(--c-text-muted);
+}
+:root[data-resolved=dark] .region--header .search-entry:hover {
+  color: var(--c-text);
+}
+:root[data-resolved=dark] .region--header .theme-toggle {
+  color: var(--c-text-muted);
+}
+:root[data-resolved=dark] .region--header .theme-toggle:hover {
+  color: var(--c-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-resolved]) .region--header .brand__name {
+    color: var(--c-text);
+  }
+  :root:not([data-resolved]) .region--header .nav__toggle-bar {
+    background: var(--c-text);
+  }
+  :root:not([data-resolved]) .region--header .search-entry {
+    color: var(--c-text-muted);
+  }
+  :root:not([data-resolved]) .region--header .search-entry:hover {
+    color: var(--c-text);
+  }
+  :root:not([data-resolved]) .region--header .theme-toggle {
+    color: var(--c-text-muted);
+  }
+  :root:not([data-resolved]) .region--header .theme-toggle:hover {
+    color: var(--c-text);
+  }
+}
 .nav {
   flex: 1 1 auto;
   display: flex;
@@ -844,7 +894,7 @@ details.callout > .callout__body {
 }
 
 .img-gallery {
-  --gallery-h: 300px;
+  --gallery-h: 360px;
   display: flex;
   gap: var(--gallery-gap, 8px);
   align-items: stretch;
@@ -893,12 +943,12 @@ details.callout > .callout__body {
 
 @media (max-width: 1023px) {
   .img-gallery {
-    --gallery-h: 260px;
+    --gallery-h: 300px;
   }
 }
 @media (max-width: 767px) {
   .img-gallery {
-    --gallery-h: 200px;
+    --gallery-h: 240px;
   }
   .img-gallery__item {
     flex-basis: max(var(--gallery-item-w, 48%), 48%);
@@ -2716,8 +2766,10 @@ body.is-tools .page__title {
 }
 
 .post-list--brief .post-item__thumb {
+  position: relative;
   width: 200px;
   flex-shrink: 0;
+  min-height: 112px;
   border-radius: 6px;
   overflow: hidden;
   background: var(--c-surface);
@@ -2725,6 +2777,8 @@ body.is-tools .page__title {
 }
 
 .post-list--brief .post-item__thumb img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;

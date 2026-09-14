@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-09-12T01:46:12.206Z</updated>
+  <updated>2026-09-14T07:49:40.821Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Apple Watch Setup</title>
+    <link href="http://www.uncoverman.com/apple-watch-setup.html"/>
+    <id>http://www.uncoverman.com/apple-watch-setup.html</id>
+    <published>2026-09-13T16:00:00.000Z</published>
+    <updated>2026-09-14T07:49:40.821Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;现在有一只 Apple Watch SE 3 (GPS)，星光色，配的米兰尼斯表带，44 寸手腕大小刚好，主要用于健康追踪。目前戴了 9 个月，分享一下 Apple Watch 的 Setup 。&lt;/p&gt;
+&lt;h2 id=&quot;表盘&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;#表盘&quot; aria-hidden=&quot;true&quot; tabindex=&quot;-1&quot;&gt;#&lt;/a&gt;&lt;a href=&quot;#表盘&quot; class=&quot;headerlink&quot; title=&quot;表盘&quot;&gt;&lt;/a&gt;表盘&lt;/h2&gt;&lt;p&gt;表盘我选用的是模块化表盘，表盘上有更多菜单入口可以设置，实用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;体能训练：外出跑步、骑行、徒步会打开记录。在手机上能看到轨迹和运动参数，这个是核心诉求。&lt;/li&gt;
+&lt;li&gt;健身圆环：每天瞄一眼是否达标。&lt;/li&gt;
+&lt;li&gt;睡眠：每天睡醒了会看一下睡眠评分，记录睡眠质量，心里有个数。正如 GeekPlux 在 &lt;a href=&quot;https://www.xiaoyuzhoufm.com/episode/69e57e7f1d989496e70427ad&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;播客&lt;/a&gt; 里提到的——「不带表睡觉，甚至会觉得这个觉白睡了。」&lt;/li&gt;
+&lt;li&gt;语言备忘录：有时候小朋友会喜欢拿去录一些声音，所以放表盘上。&lt;/li&gt;
+&lt;li&gt;电量：提醒及时充电，以防忘了充电。以前一开始用的时候，不习惯充电频率，一两天后就没电自动关机了。现在的习惯是每天洗澡前摘下来充电，睡觉前</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="装备" scheme="http://www.uncoverman.com/tags/%E8%A3%85%E5%A4%87/"/>
+    
+  </entry>
   
   <entry>
     <title>iCloud忽略同步指定文件夹</title>
@@ -517,28 +546,6 @@
     
     
     <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2023与2022年体检报告对比</title>
-    <link href="http://www.uncoverman.com/health-report-2023-vs-2022.html"/>
-    <id>http://www.uncoverman.com/health-report-2023-vs-2022.html</id>
-    <published>2023-08-20T16:00:00.000Z</published>
-    <updated>2023-08-21T14:42:06.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg&quot; alt=&quot;image20230821150039.jpeg&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip2.loli.io/2023/08/21/ENjxrZR6DJ5hfTe.jpg 1</summary>
-      
-    
-    
-    
-    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="Health" scheme="http://www.uncoverman.com/tags/Health/"/>
     
   </entry>
   

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Apple Watch Setup</title>
+      <link href="//apple-watch-setup.html"/>
+      <url>//apple-watch-setup.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>现在有一只 Apple Watch SE 3 (GPS)，星光色，配的米兰尼斯表带，44 寸手腕大小刚好，主要用于健康追踪。目前戴了 9 个月，分享一下 Apple Watch 的 Setup 。</p><h2 id="表盘"><a class="heading-anchor" href="#表盘" aria-hidden="true" tabindex="-1">#</a><a href="#表盘" class="headerlink" title="表盘"></a>表盘</h2><p>表盘我选用的是模块化表盘，表盘上有更多菜单入口可以设置，实用。</p><ul><li>体能训练：外出跑步、骑行、徒步会打开记录。在手机上能看到轨迹和运动参数，这个是核心诉求。</li><li>健身圆环：每天瞄一眼是否达标。</li><li>睡眠：每天睡醒了会看一下睡眠评分，记录睡眠质量，心里有个数。正如 GeekPlux 在 <a href="https://www.xiaoyuzhoufm.com/episode/69e57e7f1d989496e70427ad" target="_blank" rel="noopener noreferrer" class="ext-link">播客</a> 里提到的——「不带表睡觉，甚至会觉得这个觉白睡了。」</li><li>语言备忘录：有时候小朋友会喜欢拿去录一些声音，所以放表盘上。</li><li>电量：提醒及时充电，以防忘了充电。以前一开始用的时候，不习惯充电频率，一两天后就没电自动关机了。现在的习惯是每天洗澡前摘下来充电，睡觉前带上监测睡眠。</li></ul><h2 id="设置"><a class="heading-anchor" href="#设置" aria-hidden="true" tabindex="-1">#</a><a href="#设置" class="headerlink" title="设置"></a>设置</h2><ul><li>抬腕显示打开，手一抬表面会亮。</li><li>睡眠模式打开，当到晚上睡觉时间段，抬腕不会自动亮屏，这样陪娃睡觉，娃不会因为表不小心亮了去玩表。</li><li>短信通知会在手表上开启，在验证码登录时，不用拿起手机。</li><li>微信通知不会在手表上开启，不想因为有了新设备，反而被工作消息更加随时随地打扰，有手机通知就够了。</li></ul><h2 id="其他"><a class="heading-anchor" href="#其他" aria-hidden="true" tabindex="-1">#</a><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul><li>虽然 Apple Watch 号称防水，但是我的第一只表，在用了 2 年之后第一次游泳，就进水损坏了，心疼，还是媳妇送的生日礼物，带蜂窝的。所以现在日常洗手会带着，不会刻意摘掉，但是洗澡、游泳都会取下。</li><li>关于选购建议，以终为始，看自己买 Apple Watch 主要是为了什么，明确到底是为了日常运动、穿衣装饰还是专业训练。我个人平时主要跑跑步，没有马拉松、越野跑的需求，表盘主打个黑色，边框粗细也看出来，考虑性价比就选 SE 。出门跑步就会背一个腰包，把手机带上拍照、听歌、付钱，更有安全感，所以没买蜂窝版。喜欢米兰尼斯表带的质感，平时工作会搭配衬衫，咬牙下单不后悔。表体颜色为了搭配表带，选了星光色，跟贵 2k 的钛色看起来差不多。</li></ul><p>EOF</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 装备 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>iCloud忽略同步指定文件夹</title>
       <link href="//icloud-nosync.html"/>
       <url>//icloud-nosync.html</url>
