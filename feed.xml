@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-09-14T07:49:40.821Z</updated>
+  <updated>2026-09-16T09:04:47.027Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>读书笔记管理体系</title>
+    <link href="http://www.uncoverman.com/weread-notes-management.html"/>
+    <id>http://www.uncoverman.com/weread-notes-management.html</id>
+    <published>2026-09-15T16:00:00.000Z</published>
+    <updated>2026-09-16T09:04:47.027Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;平时主要使用微信读书，看书过程中会进行划线和评论。完成后，习惯性导出笔记整理，不定期重看。否则，过不了多久，看书过程中产生的灵感、看到的金句在脑海里都会丢失，有时候甚至为了找一本书里写过的一句话，费老鼻子劲，有点像找房间里的东西，你知道它在，但就是找不到，难受。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;笔记不能只是静态归档，要做动态闪回&lt;/strong&gt;，才能发挥它的最大价值。&lt;/p&gt;
+&lt;p&gt;我的方案是，通过 &lt;a href=&quot;https://community.obsidian.md/plugins/obsidian-weread-plugin&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;Weread&lt;/a&gt; 插件同步至 Obsidian 的文件夹，整理笔记格式，补充修改 metadata 标签、评分、评价等信息，对于要回看的笔记段落会加上 Quote 标签，并移动至在归档文件夹，避免 Weread 插件下次同步时，把整理完成的笔记覆盖了。&lt;strong&gt;对于特别喜欢的语句，会抄录到手帐中。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Weread 插件是一个微信读书笔记的同步插件，由 &lt;a href=&quot;https://x.com/hank_zhao&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;ext-link&quot;&gt;@hank_zhao&lt;/a&gt; 开发。按插件说明填上 API，就可以同步了。同步有两种模式，一种是白名单模式，想要同步哪本书就同步哪本书，一种是黑名单模式</summary>
+      
+    
+    
+    
+    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
+    
+    <category term="Plugin" scheme="http://www.uncoverman.com/tags/Plugin/"/>
+    
+  </entry>
   
   <entry>
     <title>Apple Watch Setup</title>
@@ -250,7 +277,7 @@
     <link href="http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html"/>
     <id>http://www.uncoverman.com/workflow-of-obsidian-and-opencode.html</id>
     <published>2026-06-08T16:00:00.000Z</published>
-    <updated>2026-06-09T12:04:29.000Z</updated>
+    <updated>2026-09-16T08:15:30.629Z</updated>
     
     
       
@@ -320,7 +347,7 @@
     <link href="http://www.uncoverman.com/full-calendar-in-obsidian.html"/>
     <id>http://www.uncoverman.com/full-calendar-in-obsidian.html</id>
     <published>2026-02-15T16:00:00.000Z</published>
-    <updated>2026-02-16T07:38:36.808Z</updated>
+    <updated>2026-09-16T08:14:27.188Z</updated>
     
     
       
@@ -437,9 +464,9 @@
     <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
-    
     <category term="NAS" scheme="http://www.uncoverman.com/tags/NAS/"/>
+    
+    <category term="好物" scheme="http://www.uncoverman.com/tags/%E5%A5%BD%E7%89%A9/"/>
     
   </entry>
   
@@ -524,28 +551,6 @@
     <category term="金融科技" scheme="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/"/>
     
     <category term="银行资产" scheme="http://www.uncoverman.com/tags/%E9%93%B6%E8%A1%8C%E8%B5%84%E4%BA%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Obsidian Diagrams 插件布局混乱处理方法</title>
-    <link href="http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html"/>
-    <id>http://www.uncoverman.com/the-solution-of-diagrams(drawio)-obsidian-plugin-layout-mess.html</id>
-    <published>2024-02-09T16:00:00.000Z</published>
-    <updated>2024-02-10T15:23:29.685Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg&quot; alt=&quot;drawio plugin&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; srcset=&quot;https://www.uncoverman.com/cdn-cgi/image/width=480,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 480w, https://www.uncoverman.com/cdn-cgi/image/width=768,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 768w, https://www.uncoverman.com/cdn-cgi/image/width=1024,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 1024w, https://www.uncoverman.com/cdn-cgi/image/width=1366,fit=scale-down,format=auto/https://vip1.loli.io/2022/02/26/JEDVW8STgqibYKu.jpg 1366w, https</summary>
-      
-    
-    
-    
-    <category term="分享" scheme="http://www.uncoverman.com/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="Obsidian" scheme="http://www.uncoverman.com/tags/Obsidian/"/>
     
   </entry>
   

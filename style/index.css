@@ -894,7 +894,7 @@ details.callout > .callout__body {
 }
 
 .img-gallery {
-  --gallery-h: 360px;
+  --gallery-h: 420px;
   display: flex;
   gap: var(--gallery-gap, 8px);
   align-items: stretch;
@@ -909,7 +909,7 @@ details.callout > .callout__body {
 }
 
 .img-gallery__item {
-  flex: 0 0 var(--gallery-item-w, 45%);
+  flex: 0 0 auto;
   scroll-snap-align: start;
   min-width: 0;
   margin: 0;
@@ -922,9 +922,9 @@ details.callout > .callout__body {
 .img-gallery__item img {
   display: block;
   margin: 0;
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
+  max-width: none;
   -webkit-user-drag: none;
   user-select: none;
 }
@@ -943,15 +943,12 @@ details.callout > .callout__body {
 
 @media (max-width: 1023px) {
   .img-gallery {
-    --gallery-h: 300px;
+    --gallery-h: 350px;
   }
 }
 @media (max-width: 767px) {
   .img-gallery {
-    --gallery-h: 240px;
-  }
-  .img-gallery__item {
-    flex-basis: max(var(--gallery-item-w, 48%), 48%);
+    --gallery-h: 280px;
   }
 }
 html.js img[data-lqip] {
@@ -5543,15 +5540,15 @@ body.is-tools .page__title {
 .page__body a:not(.heading-anchor):not(.link-card):not(:has(img)) {
   color: var(--c-text);
   text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-  text-decoration-color: var(--c-text);
-  transition: text-decoration-thickness 200ms cubic-bezier(0.32, 0.72, 0, 1);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--hl-mark-line);
+  transition: text-decoration-color 200ms cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 .post__body a:not(.heading-anchor):not(.link-card):not(.toc__top):not(:has(img)):hover,
 .page__body a:not(.heading-anchor):not(.link-card):not(:has(img)):hover {
-  text-decoration-thickness: 2px;
+  text-decoration-color: var(--c-accent);
 }
 
 .post__body h3, .page__body h3 {
