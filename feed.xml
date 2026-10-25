@@ -6,7 +6,7 @@
   <link href="http://www.uncoverman.com/feed.xml" rel="self"/>
   
   <link href="http://www.uncoverman.com/"/>
-  <updated>2026-09-17T01:33:02.475Z</updated>
+  <updated>2026-10-25T11:44:47.674Z</updated>
   <id>http://www.uncoverman.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>国庆出行感受</title>
+    <link href="http://www.uncoverman.com/national-day-trip.html"/>
+    <id>http://www.uncoverman.com/national-day-trip.html</id>
+    <published>2026-10-24T16:00:00.000Z</published>
+    <updated>2026-10-25T11:44:47.674Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;国庆假期，带家人自驾去了一趟山东烟台、青岛，四大一小，主要是看海景，听演唱会。分享一下感受：&lt;/p&gt;
+&lt;p&gt;1 、高速：担心路上会堵车，9.30 请假一天，早上 8 点出发，江浙沪一路自驾到山东烟台，1060 公里。除了长江大桥堵了一段，其他路段畅通。过程中多休息了一会，卡时间凌晨下高速，成功省下高速费。  &lt;/p&gt;
+&lt;p&gt;2 、补能：第一次电车长途自驾，补能规划使用车机自带的。基本上每 3 小时休息、上洗手间、吃饭、充电，这个时候车子偶尔会遇到排队充电情况。电量 30% 上下考虑充电，服务区基本上 50 公里一个，如果遇到排队进服务区情况就去下一个，整体容错空间较多，对出行效率影响不大。  &lt;/p&gt;
+&lt;p&gt;3 、智驾：高速上 99% 是用的智驾，&lt;strong&gt;白天会关闭小蓝灯，避免被人插队&lt;/strong&gt;。智驾减速不够平稳，会出现急刹情况，对车上乘客体验不够好，也没有安全感。如果与前车距离越来越近，且前车亮刹车灯，旁边又没有合适的变道空间，当预判要减速，会通过降低智驾限速来减速。&lt;/p&gt;
+&lt;p&gt;4 、酒与早餐店：国庆酒店价格基本翻 1-2 倍。老人不愿意住得贵，选了性价比高没带早餐的酒店。&lt;strong&gt;早餐有出门找过，花的时间有点多。如果可以，找之前可以先看看外卖软件。&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;5 、烟台的海：对它首次有直观感受，是在虹口 1920 广场。特别喜欢这里，文创街区旁边就是滨海广场，望出去看到蓝色大海，特别舒适。在这里中午野餐完，沿着海走了一段。&lt;/p&gt;
+&lt;div class=&quot;img-gallery&quot; style=&quot;--gallery-co</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="http://www.uncoverman.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="出行" scheme="http://www.uncoverman.com/tags/%E5%87%BA%E8%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>读书笔记管理体系</title>
@@ -520,37 +548,6 @@
     
     
     <category term="金融科技" scheme="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>贷款核销</title>
-    <link href="http://www.uncoverman.com/bank-assets-charge-off.html"/>
-    <id>http://www.uncoverman.com/bank-assets-charge-off.html</id>
-    <published>2024-03-15T16:00:00.000Z</published>
-    <updated>2024-03-16T09:56:02.346Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;贷款核销，是指银行在认为贷款无法收回时（通常是逾期 6 个月以上），会进行核销，在债务人宣布破产时也会发生核销。 &lt;/p&gt;
-&lt;p&gt;那么核销贷款，债务人是不是就不用还了？答案是否定的。&lt;strong&gt;所谓核销，就是账销案存&lt;/strong&gt;。银行账面已经没有这笔贷款了，但追索权还在，依然会进行清收。清收可由银行内部进行也可通过外包进行。那为什么要核销呢？&lt;/p&gt;
-&lt;p&gt;主要的原因在于所得税。&lt;strong&gt;税务局收取所得税不是按照银行向股东们提交的财务报表中的净利润来的，是按税务局自己的一套标准来收所得税&lt;/strong&gt;，简单地说，税务局对净利润的定义和上市公司财务报表中的净利润是有很多地方不一样的，这也是报表中递延所得税的来历。&lt;/p&gt;
-&lt;p&gt;换句话说，核销贷款是税务局认定银行真实损失的标准要求，税务局不认可银行自己提取的减值损失是真实的成本，而是认定这些减值损失变成真实的，才认定成本，可以从净利润中扣除，减少所得税。其实这也正常，&lt;strong&gt;不同的管理要求会对同样的指标有不同的数据口径要求&lt;/strong&gt;，比如上市公司提供财报用于对外公示，编制管报用于内部管理，编制税表给税务部门。&lt;/p&gt;
-&lt;p&gt;为了防止国家税收流失，财政部有严格的银行呆账核销规定，经过很多次修改，由最初只认定企业破产，或者债务人死亡为核销条件，后来根据银行真实情况，逐步放开，目前实行的是 2017 年金融企业呆账核销管理办法（2017 年版）》。&lt;/p&gt;
-&lt;p&gt;简单地说，要满足一些真实的条件，并提供证据，才能核销。现在最容易满足的贷款核销条件是，未能收回，并且追索 180 天以上，并且追索 6 </summary>
-      
-    
-    
-    
-    <category term="笔记" scheme="http://www.uncoverman.com/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="FinTech" scheme="http://www.uncoverman.com/tags/FinTech/"/>
-    
-    <category term="金融科技" scheme="http://www.uncoverman.com/tags/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80/"/>
-    
-    <category term="银行资产" scheme="http://www.uncoverman.com/tags/%E9%93%B6%E8%A1%8C%E8%B5%84%E4%BA%A7/"/>
     
   </entry>
   
