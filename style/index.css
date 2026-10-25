@@ -670,6 +670,14 @@ html.show-mobile-ext-link .ext-link::after {
     display: block;
   }
 }
+@media (min-width: 1024px) {
+  .post__body img.img--wide:not(.img-gallery__item img):not(.link-card__thumb img),
+  .page__body img.img--wide:not(.img-gallery__item img):not(.link-card__thumb img) {
+    width: 100%;
+    max-height: none;
+    height: auto;
+  }
+}
 .post__body code, .page__body code, p code, li code {
   font-family: var(--font-code);
   font-size: 0.88em;
@@ -1882,6 +1890,14 @@ section.widget--recent-memos .link-card--left .link-card__thumb {
   width: 72px;
   aspect-ratio: auto;
   border-radius: 0;
+}
+
+section.widget--recent-memos .link-card__title {
+  font-size: 0.875rem;
+}
+
+section.widget--recent-memos .link-card__desc {
+  font-size: 0.78rem;
 }
 
 .footer__social-link {
