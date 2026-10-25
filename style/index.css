@@ -58,7 +58,7 @@
     --shadow-lg: 0 18px 50px rgba(0,0,0,.55);
     --water-top: #15293B;
     --water-bottom: #081320;
-    --header-bg: rgba(12,17,25,.78);
+    --header-bg: var(--c-bg);
     --c-equip-cover: #10161F;
   }
 }
@@ -89,7 +89,7 @@
   --shadow-lg: 0 18px 50px rgba(0,0,0,.55);
   --water-top: #15293B;
   --water-bottom: #081320;
-  --header-bg: rgba(12,17,25,.78);
+  --header-bg: var(--c-bg);
   --c-equip-cover: #10161F;
 }
 
@@ -664,7 +664,7 @@ html.show-mobile-ext-link .ext-link::after {
 @media (min-width: 1024px) {
   .post__body img:not(.img-gallery__item img):not(.link-card__thumb img),
   .page__body img:not(.img-gallery__item img):not(.link-card__thumb img) {
-    max-height: var(--img-max-h, 70vh);
+    max-height: var(--img-max-h, 800px);
     width: auto;
     object-fit: contain;
     display: block;
