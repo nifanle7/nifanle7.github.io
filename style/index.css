@@ -948,7 +948,7 @@ details.callout > .callout__body {
 }
 @media (max-width: 767px) {
   .img-gallery {
-    --gallery-h: 280px;
+    --gallery-h: 240px;
   }
 }
 html.js img[data-lqip] {
