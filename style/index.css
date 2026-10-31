@@ -1109,6 +1109,7 @@ h2:hover > .heading-anchor, h3:hover > .heading-anchor, h4:hover > .heading-anch
 .link-card--left .link-card__thumb {
   width: 160px;
   align-self: stretch;
+  max-height: 140px;
   aspect-ratio: auto;
   border-radius: 0;
 }
@@ -5558,13 +5559,13 @@ body.is-tools .page__title {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1.5px;
-  text-decoration-color: var(--hl-mark-line);
+  text-decoration-color: var(--c-accent);
   transition: text-decoration-color 200ms cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 .post__body a:not(.heading-anchor):not(.link-card):not(.toc__top):not(:has(img)):hover,
 .page__body a:not(.heading-anchor):not(.link-card):not(:has(img)):hover {
-  text-decoration-color: var(--c-accent);
+  text-decoration-color: var(--c-accent-hover);
 }
 
 .post__body h3, .page__body h3 {
