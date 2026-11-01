@@ -5,13 +5,13 @@
  * 触屏本身可滑动，无需处理；滚动吸附与容器样式见 style/base/_typography.scss。
  */
 
-/* 单张图片（独占一行）：
- * 纯 CSS 无法读取图片固有比例；`width:auto` 会让图片停在 srcset 选中的固有宽度（如 768px），
- * 窄于正文（约 836px）时两侧留白，与文章宽度不一致。
- * 因此加载时按 naturalWidth/naturalHeight 判断，横图加 .img--wide：
- *   横图 → .img--wide（CSS: width:100%、取消高度上限，撑满正文宽度）
- *   竖图 → 不打标，沿用基础 CSS 的 max-height 限高 + 居中（保持原有观感）
- * 仅处理「独占一行」的图片：带图注的 <figure class="img-figure">，或仅含一张图的 <p>。
+/* 单张图片（独占一行）：统一撑满正文宽度，使图片左右边缘与文字版面一致，
+ * 避免「窄图两侧留白 / 横竖图宽度参差」的问题。
+ * 纯 CSS 无法读取图片固有比例，故加载时由 JS 判定：只要图片是「独占一行」的
+ * （带图注的 <figure class="img-figure">，或仅含单张图的 <p>），即加 .img--wide
+ * （CSS: width:100%、取消高度上限）。横图、竖图均如此——竖图会相应变高，以整图
+ * 完整展示，从而保持宽度一致。
+ * 仅处理「独占一行」的图片；行内小图、画廊、链接卡缩略图均不参与，维持原有尺寸。
  * 懒加载图在 load 时才拿到尺寸，此刻恰好首次绘制，打标不会造成可见跳动。
  */
 (function () {
@@ -40,10 +40,8 @@
   function tag(img) {
     if (!img.naturalWidth || !img.naturalHeight) return;
     if (!isSolo(img)) return;
-    // 仅横图撑满；够大才处理，避免把小图拉伸放大导致模糊
-    if (img.naturalWidth >= img.naturalHeight && img.naturalWidth >= body.clientWidth) {
-      img.classList.add('img--wide');
-    }
+    // 独占一行的单图统一撑满正文宽度（横图竖图皆然），与文字版面左右对齐
+    img.classList.add('img--wide');
   }
 
   var imgs = body.querySelectorAll('img');
