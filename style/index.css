@@ -2272,6 +2272,14 @@ section.widget--recent-memos .link-card__desc {
   overflow: visible;
 }
 
+.memos-list__para {
+  display: block;
+}
+
+.memos-list__para + .memos-list__para {
+  margin-top: 6px;
+}
+
 .memos-list__date {
   display: block;
   margin-top: 4px;
@@ -3883,6 +3891,7 @@ body.is-tools .page__title {
   }
 }
 .gallery__item {
+  position: relative;
   break-inside: avoid;
   margin: 0 0 8px;
   border-radius: 10px;
@@ -3938,38 +3947,67 @@ body.is-tools .page__title {
   opacity: 1;
 }
 
-.gallery__overlay {
-  position: absolute;
-  inset: auto 0 0 0;
-  z-index: 2;
+.gallery__caption {
   display: flex;
   flex-direction: column;
   gap: 2px;
+}
+
+.gallery__title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.gallery__desc {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.gallery--caption-below .gallery__caption {
+  padding: 10px 12px 12px;
+  background: var(--c-surface);
+}
+.gallery--caption-below .gallery__title {
+  color: var(--c-text);
+}
+.gallery--caption-below .gallery__desc {
+  color: var(--c-text-muted);
+}
+
+.gallery--caption-overlay .gallery__caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  z-index: 2;
   padding: 34px 12px 10px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.12) 62%, transparent 100%);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.35s cubic-bezier(0.32, 0.72, 0, 1);
 }
-
-.gallery__item.is-loaded .gallery__overlay {
+.gallery--caption-overlay .gallery__item.is-loaded .gallery__caption {
   opacity: 1;
 }
-
-.gallery__title {
+.gallery--caption-overlay .gallery__title {
   color: #fff;
-  font-size: 15px;
-  font-weight: 600;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
-.gallery__desc {
+.gallery--caption-overlay .gallery__desc {
   color: rgba(255, 255, 255, 0.88);
-  font-size: 13px;
-  line-height: 1.4;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 767px) {
+  .gallery--caption-below .gallery__caption {
+    padding: 8px 9px 10px;
+  }
+  .gallery--caption-below .gallery__title {
+    font-size: 13px;
+  }
+  .gallery--caption-below .gallery__desc {
+    font-size: 11px;
+  }
+}
 .gallery__empty {
   text-align: center;
   color: var(--c-text-faint);
